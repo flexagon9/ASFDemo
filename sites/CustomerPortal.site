@@ -22,6 +22,7 @@
     <redirectToCustomDomain>false</redirectToCustomDomain>
     <referrerPolicyOriginWhenCrossOrigin>true</referrerPolicyOriginWhenCrossOrigin>
     <selfRegPage>CommunitiesSelfReg</selfRegPage>
+    <serverIsDown>SNA_CustomerPortal1_sf_default_cdn_dUuTM</serverIsDown>
     <siteAdmin>admin@flexagon.com</siteAdmin>
     <siteGuestRecordDefaultOwner>admin@flexagon.com</siteGuestRecordDefaultOwner>
     <siteType>ChatterNetwork</siteType>
