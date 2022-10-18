@@ -1,4 +1,5 @@
 public with sharing class LIFXController {
+    //test comment
 
     private static final Dreamhouse_Settings__c settings = Dreamhouse_Settings__c.getOrgDefaults();
 
@@ -9,9 +10,9 @@ public with sharing class LIFXController {
         req.setMethod('GET');    
         req.setHeader('Authorization', 'Bearer ' + settings.LIFX_TOKEN__C);
         req.setEndpoint(settings.LIFX_URL__C + '/all');
-		try {
+        try {
             HTTPResponse res = http.send(req);
-			return res.getBody();        	
+            return res.getBody();           
         } catch(Exception ex){
             return '{"error": "' + ex.getMessage() + '"}';
         }
@@ -35,10 +36,10 @@ public with sharing class LIFXController {
         req.setHeader('Authorization', 'Bearer ' + settings.LIFX_TOKEN__C);
         req.setHeader('Content-Type', 'application/json');
         req.setBody(state);
-		try {
-		 System.debug('lightId='+lightId);
+        try {
+         System.debug('lightId='+lightId);
             HTTPResponse res = http.send(req);
-			return res.getBody();        	
+            return res.getBody();           
         } catch(Exception ex){
             return '{"error": "' + ex.getMessage() + '"}';
         }
