@@ -1,6 +1,4 @@
 public with sharing class LIFXController {
-    //test comment
-
     private static final Dreamhouse_Settings__c settings = Dreamhouse_Settings__c.getOrgDefaults();
 
     @AuraEnabled
