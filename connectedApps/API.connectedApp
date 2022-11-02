@@ -6,6 +6,7 @@
         <callbackUrl>https://.</callbackUrl>
         <consumerKey>3MVG92DxHaawSd0luAabE5ir8xuzYeTqIAGZKD326cOumo8CwTKi7NeUGKsSge5xu171GhaueI6fUCqJZB0K2</consumerKey>
         <isAdminApproved>false</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
         <isConsumerSecretOptional>false</isConsumerSecretOptional>
         <isIntrospectAllTokens>false</isIntrospectAllTokens>
         <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>

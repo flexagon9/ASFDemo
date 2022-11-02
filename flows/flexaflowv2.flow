@@ -74,6 +74,7 @@
         <picklistField>Type</picklistField>
         <picklistObject>Case</picklistObject>
     </dynamicChoiceSets>
+    <environments>Default</environments>
     <formulas>
         <name>User_First_Name_Formula</name>
         <dataType>String</dataType>
