@@ -503,7 +503,7 @@
     </fields>
     <listViews>
         <fullName>AllOpportunities</fullName>
-        <filterScope>ScopingRule</filterScope>
+        <filterScope>Everything</filterScope>
         <label>All Opportunities</label>
     </listViews>
     <listViews>
