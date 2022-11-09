@@ -9,6 +9,7 @@
         <value>Accounts</value>
     </caseValues>
     <fields>
+        <help><!-- test change --></help>
         <label><!-- sample date --></label>
         <name>sample_date__c</name>
     </fields>

@@ -158,6 +158,7 @@
     <fields>
         <fullName>sample_date__c</fullName>
         <externalId>false</externalId>
+        <inlineHelpText>test change</inlineHelpText>
         <label>sample date</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
