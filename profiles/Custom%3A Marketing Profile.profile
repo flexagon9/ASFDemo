@@ -840,6 +840,10 @@
       <apexClass>dummy1</apexClass>
       <enabled>false</enabled>
    </classAccesses>
+   <classAccesses>
+      <apexClass>ChangePasswordControllerTest</apexClass>
+      <enabled>false</enabled>
+   </classAccesses>
    <custom>true</custom>
    <fieldPermissions>
       <editable>true</editable>
