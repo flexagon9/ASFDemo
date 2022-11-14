@@ -244,6 +244,7 @@
       <trackTrending>false</trackTrending>
       <type>Picklist</type>
       <valueSet>
+         <restricted>true</restricted>
          <valueSetDefinition>
             <sorted>false</sorted>
             <value>
@@ -252,14 +253,15 @@
                <label>Monthly</label>
             </value>
             <value>
-               <fullName>Quarterly</fullName>
-               <default>false</default>
-               <label>Quarterly</label>
-            </value>
-            <value>
                <fullName>Yearly</fullName>
                <default>false</default>
                <label>Yearly</label>
+            </value>
+            <value>
+               <fullName>Quarterly</fullName>
+               <default>false</default>
+               <isActive>false</isActive>
+               <label>Quarterly</label>
             </value>
          </valueSetDefinition>
       </valueSet>

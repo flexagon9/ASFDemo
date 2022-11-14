@@ -239,6 +239,7 @@
    </fields>
    <fields>
       <fullName>Active__c</fullName>
+      <description>test description</description>
       <externalId>false</externalId>
       <label>Active</label>
       <required>false</required>
@@ -505,6 +506,9 @@
    <fields>
       <fullName>YearStarted</fullName>
       <trackFeedHistory>false</trackFeedHistory>
+   </fields>
+   <fields>
+      <fullName>ChannelProgramLevelName</fullName>
    </fields>
    <listViews>
       <fullName>AllAccounts</fullName>
