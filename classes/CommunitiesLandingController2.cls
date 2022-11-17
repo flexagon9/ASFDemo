@@ -1,5 +1,5 @@
 /**
- * An apex page controller that takes the user to the right start page based on credentials or lack thereof.
+ * An apex page controller that takes the user to the right start page based on credentials or lack thereof. C
  */
 public with sharing class CommunitiesLandingController2 {
     
