@@ -186,11 +186,6 @@
       <filterScope>Mine</filterScope>
       <label>My Consumption Schedules</label>
    </listViews>
-   <listViews>
-      <fullName>My_ConsumptionSchedules</fullName>
-      <filterScope>Mine</filterScope>
-      <label>My Consumption Schedules</label>
-   </listViews>
    <searchLayouts/>
    <sharingModel>Read</sharingModel>
 </CustomObject>
