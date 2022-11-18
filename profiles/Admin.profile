@@ -3153,11 +3153,6 @@
       <field>Task.WhoId</field>
       <readable>true</readable>
    </fieldPermissions>
-   <fieldPermissions>
-      <editable>true</editable>
-      <field>dependency__c.field_dependent__c</field>
-      <readable>true</readable>
-   </fieldPermissions>
    <flowAccesses>
       <enabled>false</enabled>
       <flow>Advertise_New_Property</flow>
