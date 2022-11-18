@@ -733,14 +733,6 @@
       <enabled>false</enabled>
    </classAccesses>
    <classAccesses>
-      <apexClass>TestDemo46</apexClass>
-      <enabled>true</enabled>
-   </classAccesses>
-   <classAccesses>
-      <apexClass>TestDemo47</apexClass>
-      <enabled>false</enabled>
-   </classAccesses>
-   <classAccesses>
       <apexClass>TestDemo48</apexClass>
       <enabled>false</enabled>
    </classAccesses>
@@ -782,10 +774,6 @@
    </classAccesses>
    <classAccesses>
       <apexClass>TestDemo57</apexClass>
-      <enabled>false</enabled>
-   </classAccesses>
-   <classAccesses>
-      <apexClass>TestDemo58</apexClass>
       <enabled>false</enabled>
    </classAccesses>
    <classAccesses>

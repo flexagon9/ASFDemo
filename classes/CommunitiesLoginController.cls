@@ -1,5 +1,5 @@
 /**
- * An apex page controller that exposes the site login functionality. More tests
+ * An apex page controller that exposes the site login functionality. Test for demo
  */
 global with sharing class CommunitiesLoginController {
 
