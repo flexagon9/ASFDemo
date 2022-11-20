@@ -805,10 +805,6 @@
       <enabled>true</enabled>
    </classAccesses>
    <classAccesses>
-      <apexClass>TestDemoClass494</apexClass>
-      <enabled>true</enabled>
-   </classAccesses>
-   <classAccesses>
       <apexClass>TestDemoPageController</apexClass>
       <enabled>false</enabled>
    </classAccesses>
@@ -3452,9 +3448,6 @@
    </layoutAssignments>
    <layoutAssignments>
       <layout>Waypoint__c-Waypoint Layout</layout>
-   </layoutAssignments>
-   <layoutAssignments>
-      <layout>dependency__c-dependency Layout</layout>
    </layoutAssignments>
    <objectPermissions>
       <allowCreate>true</allowCreate>
