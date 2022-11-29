@@ -306,6 +306,7 @@
     <fields>
         <fullName>Details__c</fullName>
         <externalId>false</externalId>
+        <inlineHelpText>test</inlineHelpText>
         <label>Details</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
