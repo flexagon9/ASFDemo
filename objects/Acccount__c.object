@@ -181,6 +181,11 @@
                     <default>false</default>
                     <label>CCCC</label>
                 </value>
+                <value>
+                    <fullName>1111</fullName>
+                    <default>false</default>
+                    <label>1111</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
