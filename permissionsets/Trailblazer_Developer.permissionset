@@ -3,6 +3,11 @@
     <description>Permission Set generated for access to custom object Waypoint for the Trailblazer app.</description>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Acccount__c.Test__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Acccount__c.sample_date__c</field>
         <readable>false</readable>
     </fieldPermissions>
