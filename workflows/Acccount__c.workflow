@@ -5,10 +5,6 @@
         <description>EmailRama</description>
         <protected>false</protected>
         <recipients>
-            <recipient>bhagabatbhuyan@flexagon.com</recipient>
-            <type>user</type>
-        </recipients>
-        <recipients>
             <recipient>rama.rimmalapudi@flexagon.com</recipient>
             <type>user</type>
         </recipients>
