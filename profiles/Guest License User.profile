@@ -3237,6 +3237,9 @@
         <layout>AccountBrand-Account Brand Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>AccountRelationship-Account RelationshipLayout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Address__c-Address Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -3717,6 +3720,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-AccountBrand</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-AccountRelationship</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
