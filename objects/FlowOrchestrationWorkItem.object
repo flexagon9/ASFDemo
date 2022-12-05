@@ -71,7 +71,6 @@
         <type>Default</type>
     </actionOverrides>
     <enableFeeds>false</enableFeeds>
-    <externalSharingModel>ReadWrite</externalSharingModel>
     <listViews>
         <fullName>ALL_Open_Work_Items</fullName>
         <filterScope>Everything</filterScope>
