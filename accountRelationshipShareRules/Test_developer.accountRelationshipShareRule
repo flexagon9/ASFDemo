@@ -2,7 +2,7 @@
 <AccountRelationshipShareRule xmlns="http://soap.sforce.com/2006/04/metadata">
     <accessLevel>Read</accessLevel>
     <accountToCriteriaField>Acccount__c.OwnerId</accountToCriteriaField>
-    <description>This is test data.</description>
+    <description>.</description>
     <entityType>Acccount__c</entityType>
     <masterLabel>Test_sample_relationship_sharingrule</masterLabel>
     <type>System Integrator</type>
