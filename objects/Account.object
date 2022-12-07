@@ -444,7 +444,7 @@
     </fields>
     <fields>
         <fullName>SampleExternalId__c</fullName>
-        <externalId>false</externalId>
+        <externalId>true</externalId>
         <label>SampleExternalId</label>
         <length>255</length>
         <required>false</required>
