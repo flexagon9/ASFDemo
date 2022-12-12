@@ -99,6 +99,10 @@
                 <behavior>Edit</behavior>
                 <field>SubDetail__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>field_for_profiel__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

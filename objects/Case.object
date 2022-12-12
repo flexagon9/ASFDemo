@@ -658,6 +658,18 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>field_for_profiel__c</fullName>
+        <externalId>false</externalId>
+        <label>field for profiel</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>tutorial_01__c</fullName>
         <externalId>false</externalId>
         <label>tutorial 01</label>

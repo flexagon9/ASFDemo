@@ -1601,6 +1601,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Case.field_for_profiel__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Case.tutorial_01__c</field>
         <readable>true</readable>
     </fieldPermissions>

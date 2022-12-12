@@ -795,6 +795,11 @@
             <field>SubDetail__c</field>
             <table>Account.Contacts.Cases</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>field_for_profiel__c</field>
+            <table>Account.Contacts.Cases</table>
+        </columns>
         <masterLabel>Cases</masterLabel>
     </sections>
 </ReportType>
