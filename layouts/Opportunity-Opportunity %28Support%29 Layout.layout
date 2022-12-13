@@ -29,6 +29,10 @@
                 <behavior>Edit</behavior>
                 <field>NextStep</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>FD_Sequence__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
