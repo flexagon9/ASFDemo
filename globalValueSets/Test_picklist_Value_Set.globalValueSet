@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>abc</fullName>
+        <default>false</default>
+        <label>abc</label>
+    </customValue>
+    <customValue>
+        <fullName>pqr</fullName>
+        <default>false</default>
+        <label>pqr</label>
+    </customValue>
+    <customValue>
+        <fullName>xyz</fullName>
+        <default>false</default>
+        <label>xyz</label>
+    </customValue>
+    <masterLabel>Test_picklist_Value_Set</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
