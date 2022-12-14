@@ -11,6 +11,17 @@
         <senderType>CurrentUser</senderType>
         <template>unfiled$public/SalesNewCustomerEmail</template>
     </alerts>
+    <alerts>
+        <fullName>new_sample_email_alert_for_flow</fullName>
+        <description>new sample email alert for flow</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>bhagabatbhuyan@flexagon.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/CommunityChgEmailVerOldTemplate</template>
+    </alerts>
     <fieldUpdates>
         <fullName>AccountNotificationAction</fullName>
         <field>OwnerId</field>
