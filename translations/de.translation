@@ -62,6 +62,10 @@
     </flowDefinitions>
     <flowDefinitions>
         <flows/>
+        <fullName>Flow_With_Email_Alert</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
         <fullName>Opportunity_Status_Change</fullName>
     </flowDefinitions>
     <flowDefinitions>
