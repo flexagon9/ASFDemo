@@ -3799,6 +3799,7 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>true</default>
+        <personAccountDefault>true</personAccountDefault>
         <recordType>Case.HR</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
