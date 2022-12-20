@@ -453,16 +453,6 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Sample_Ext_ID__c</fullName>
-        <externalId>true</externalId>
-        <label>Sample Ext ID</label>
-        <length>255</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>ShippingAddress</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -574,6 +564,18 @@
         <columns>CORE.USERS.ALIAS</columns>
         <filterScope>Everything</filterScope>
         <label>All Accounts</label>
+    </listViews>
+    <listViews>
+        <fullName>BB</fullName>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>ACCOUNT.SITE</columns>
+        <columns>SampleExternalId__c</columns>
+        <columns>ACCOUNT.ADDRESS1_STATE</columns>
+        <columns>ACCOUNT.PHONE1</columns>
+        <columns>ACCOUNT.TYPE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Mine</filterScope>
+        <label>BB</label>
     </listViews>
     <listViews>
         <fullName>MyAccounts</fullName>

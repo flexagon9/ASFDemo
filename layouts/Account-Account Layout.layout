@@ -47,10 +47,6 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Sample_Ext_ID__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>SampleExternalId__c</field>
             </layoutItems>
         </layoutColumns>
