@@ -272,6 +272,15 @@
         <label>Custom Fields</label>
     </fieldSets>
     <fields>
+        <fullName>Flex_deploy_Auto_number__c</fullName>
+        <displayFormat>FD - {0000}</displayFormat>
+        <externalId>false</externalId>
+        <label>Flex deploy Auto number</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
         <fullName>agf__Additional_Details__c</fullName>
         <deprecated>false</deprecated>
         <externalId>false</externalId>

@@ -10390,6 +10390,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>agf__ADM_Work__c.Flex_deploy_Auto_number__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>agf__ADM_Work__c.agf__Additional_Details__c</field>
         <readable>false</readable>
     </fieldPermissions>
