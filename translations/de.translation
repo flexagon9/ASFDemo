@@ -426,17 +426,9 @@
                     <name>Contact_Details_Script</name>
                 </fields>
                 <fields>
-                    <inputParameters>
-                        <name>required</name>
-                        <value/>
-                    </inputParameters>
                     <name>Email_Input</name>
                 </fields>
                 <fields>
-                    <inputParameters>
-                        <name>required</name>
-                        <value/>
-                    </inputParameters>
                     <name>Phone_Input</name>
                 </fields>
                 <name>Confirm_Contact_Details_Screen</name>
