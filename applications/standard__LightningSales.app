@@ -40,6 +40,8 @@
     <tabs>standard-Case</tabs>
     <tabs>standard-Forecasting3</tabs>
     <tabs>Target_Object_for_Flexideploy__c</tabs>
+    <tabs>Sample1__c</tabs>
+    <tabs>Sample2__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningSales_UtilityBar</utilityBar>
 </CustomApplication>

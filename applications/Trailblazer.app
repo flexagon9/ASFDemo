@@ -11,4 +11,6 @@
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
     <tabs>Target_Object_for_Flexideploy__c</tabs>
+    <tabs>Sample1__c</tabs>
+    <tabs>Sample2__c</tabs>
 </CustomApplication>
