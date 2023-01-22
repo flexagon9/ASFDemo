@@ -13,4 +13,6 @@
     <tabs>Target_Object_for_Flexideploy__c</tabs>
     <tabs>Sample1__c</tabs>
     <tabs>Sample2__c</tabs>
+    <tabs>Bank_Branch__c</tabs>
+    <tabs>Customer__c</tabs>
 </CustomApplication>
