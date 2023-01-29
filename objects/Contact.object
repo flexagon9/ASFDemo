@@ -513,6 +513,13 @@
     </fields>
     <listViews>
         <fullName>AllContacts</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>CONTACT.TITLE</columns>
+        <columns>CONTACT.PHONE1</columns>
+        <columns>CONTACT.EMAIL</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>ExternalID_Con__c</columns>
         <filterScope>Everything</filterScope>
         <label>All Contacts</label>
     </listViews>
@@ -537,6 +544,17 @@
             <value>THIS_MONTH</value>
         </filters>
         <label>Birthdays This Month</label>
+    </listViews>
+    <listViews>
+        <fullName>CONEXT</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>CONTACT.PHONE1</columns>
+        <columns>CONTACT.EMAIL</columns>
+        <columns>CONTACT.TITLE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Mine</filterScope>
+        <label>CONEXT</label>
     </listViews>
     <listViews>
         <fullName>MyContacts</fullName>

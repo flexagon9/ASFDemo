@@ -29,10 +29,6 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>sample_parent_piuck_list__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>SampleExternalId__c</field>
             </layoutItems>
             <layoutItems>
