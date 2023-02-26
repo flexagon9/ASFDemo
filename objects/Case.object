@@ -265,6 +265,37 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Category__c</fullName>
+        <externalId>false</externalId>
+        <label>Category</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Country</fullName>
+                    <default>false</default>
+                    <label>Country</label>
+                </value>
+                <value>
+                    <fullName>State</fullName>
+                    <default>false</default>
+                    <label>State</label>
+                </value>
+                <value>
+                    <fullName>City</fullName>
+                    <default>false</default>
+                    <label>City</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>ClosedDate</fullName>
         <trackTrending>false</trackTrending>
     </fields>
@@ -617,6 +648,80 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>Sub_Category__c</fullName>
+        <externalId>false</externalId>
+        <label>Sub-Category</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Category__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>India</fullName>
+                    <default>false</default>
+                    <label>India</label>
+                </value>
+                <value>
+                    <fullName>Srilanka</fullName>
+                    <default>false</default>
+                    <label>Srilanka</label>
+                </value>
+                <value>
+                    <fullName>Odisha</fullName>
+                    <default>false</default>
+                    <label>Odisha</label>
+                </value>
+                <value>
+                    <fullName>Karnataka</fullName>
+                    <default>false</default>
+                    <label>Karnataka</label>
+                </value>
+                <value>
+                    <fullName>Bhubaneswar</fullName>
+                    <default>false</default>
+                    <label>Bhubaneswar</label>
+                </value>
+                <value>
+                    <fullName>Bangalore</fullName>
+                    <default>false</default>
+                    <label>Bangalore</label>
+                </value>
+                <value>
+                    <fullName>US</fullName>
+                    <default>false</default>
+                    <label>US</label>
+                </value>
+                <value>
+                    <fullName>Maharastra</fullName>
+                    <default>false</default>
+                    <label>Maharastra</label>
+                </value>
+                <value>
+                    <fullName>Mumbai</fullName>
+                    <default>false</default>
+                    <label>Mumbai</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Country</controllingFieldValue>
+                <valueName>India</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>State</controllingFieldValue>
+                <valueName>Maharastra</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>City</controllingFieldValue>
+                <valueName>Mumbai</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Subject</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
@@ -746,6 +851,21 @@
         <active>true</active>
         <businessProcess>Finance</businessProcess>
         <label>FINANCE</label>
+        <picklistValues>
+            <picklist>Category__c</picklist>
+            <values>
+                <fullName>City</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Country</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>State</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
         <picklistValues>
             <picklist>Details__c</picklist>
             <values>
@@ -903,6 +1023,45 @@
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Sub_Category__c</picklist>
+            <values>
+                <fullName>Bangalore</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bhubaneswar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>India</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Karnataka</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maharastra</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mumbai</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Odisha</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Srilanka</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Type</picklist>
             <values>
                 <fullName>Electrical</fullName>
@@ -931,6 +1090,21 @@
         <active>true</active>
         <businessProcess>HR</businessProcess>
         <label>HR</label>
+        <picklistValues>
+            <picklist>Category__c</picklist>
+            <values>
+                <fullName>City</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Country</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>State</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
         <picklistValues>
             <picklist>Details__c</picklist>
             <values>
@@ -1088,6 +1262,45 @@
             </values>
             <values>
                 <fullName>b13</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Sub_Category__c</picklist>
+            <values>
+                <fullName>Bangalore</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bhubaneswar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>India</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Karnataka</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maharastra</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mumbai</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Odisha</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Srilanka</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

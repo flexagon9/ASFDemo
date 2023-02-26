@@ -199,6 +199,14 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>OpportunityController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>OpportunityControllerTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>PostPriceChangeToSlack</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -3000,6 +3008,16 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Accessory__c.Accessory_ID__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Accessory__c.Accessory_Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Account.AccountNumber</field>
         <readable>true</readable>
@@ -3028,6 +3046,11 @@
         <editable>false</editable>
         <field>Account.CleanStatus</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Country__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -3158,6 +3181,11 @@
         <editable>true</editable>
         <field>Account.Site</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.State__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -3671,6 +3699,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Case.Category__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Case.ClosedDate</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -3752,6 +3785,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Case.SubDetail__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.Sub_Category__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -5258,6 +5296,11 @@
         <editable>true</editable>
         <field>Product2.StockKeepingUnit</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Project_Metadata_Sample__mdt.Project_Type__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -13226,6 +13269,10 @@
     </flowAccesses>
     <flowAccesses>
         <enabled>false</enabled>
+        <flow>Sample_PB</flow>
+    </flowAccesses>
+    <flowAccesses>
+        <enabled>false</enabled>
         <flow>flexaflowv2</flow>
     </flowAccesses>
     <flowAccesses>
@@ -13238,6 +13285,17 @@
     <layoutAssignments>
         <layout>Acccount__c-Acc Layout</layout>
         <recordType>Acccount__c.Record_type_1</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Accessory__c-Accessory Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Accessory__c-Accessory Layout</layout>
+        <recordType>Accessory__c.Non_Prime</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Accessory__c-Accessory Layout</layout>
+        <recordType>Accessory__c.Prime</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Account-Account %28Marketing%29 Layout</layout>
@@ -13473,6 +13531,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>ProductConsumptionSchedule-Product Consumption Schedule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Project_Metadata_Sample__mdt-Project Metadata Sample Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Property__c-Property Layout</layout>
@@ -15176,6 +15237,16 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
+        <recordType>Accessory__c.Non_Prime</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Accessory__c.Prime</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
         <recordType>Account.CleanDataService</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
@@ -15369,6 +15440,10 @@
         <recordType>agf__Release_Signoff_Infrastructure__c.agf__Splits_Migrations</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
+    <tabVisibilities>
+        <tab>Accessory__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>Bank_Branch__c</tab>
         <visibility>DefaultOn</visibility>
