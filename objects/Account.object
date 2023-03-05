@@ -274,6 +274,35 @@
         <fullName>ChannelProgramName</fullName>
     </fields>
     <fields>
+        <fullName>City__c</fullName>
+        <externalId>false</externalId>
+        <label>City</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>MUMBAI</fullName>
+                    <default>false</default>
+                    <label>MUMBAI</label>
+                </value>
+                <value>
+                    <fullName>HYD</fullName>
+                    <default>false</default>
+                    <label>HYD</label>
+                </value>
+                <value>
+                    <fullName>CHE</fullName>
+                    <default>false</default>
+                    <label>CHE</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>CleanStatus</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -441,6 +470,104 @@
     <fields>
         <fullName>Phone</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Picklist1__c</fullName>
+        <externalId>false</externalId>
+        <label>Picklist1</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>A</fullName>
+                    <default>false</default>
+                    <label>A</label>
+                </value>
+                <value>
+                    <fullName>B</fullName>
+                    <default>false</default>
+                    <label>B</label>
+                </value>
+                <value>
+                    <fullName>C</fullName>
+                    <default>false</default>
+                    <label>C</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Picklist2__c</fullName>
+        <externalId>false</externalId>
+        <label>Picklist2</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Picklist1__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>4</label>
+                </value>
+                <value>
+                    <fullName>5</fullName>
+                    <default>false</default>
+                    <label>5</label>
+                </value>
+                <value>
+                    <fullName>6</fullName>
+                    <default>false</default>
+                    <label>6</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>A</controllingFieldValue>
+                <valueName>6</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>A</controllingFieldValue>
+                <valueName>3</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>B</controllingFieldValue>
+                <valueName>4</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>B</controllingFieldValue>
+                <valueName>5</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>C</controllingFieldValue>
+                <valueName>1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>C</controllingFieldValue>
+                <valueName>2</valueName>
+            </valueSettings>
+        </valueSet>
     </fields>
     <fields>
         <fullName>Rating</fullName>
@@ -740,6 +867,21 @@
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>City__c</picklist>
+            <values>
+                <fullName>CHE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HYD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MUMBAI</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Country__c</picklist>
             <values>
                 <fullName>INDIA</fullName>
@@ -916,6 +1058,48 @@
             </values>
             <values>
                 <fullName>Subsidiary</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Picklist1__c</picklist>
+            <values>
+                <fullName>A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>C</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Picklist2__c</picklist>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -1062,6 +1246,21 @@
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>City__c</picklist>
+            <values>
+                <fullName>CHE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HYD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MUMBAI</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Country__c</picklist>
             <values>
                 <fullName>INDIA</fullName>
@@ -1231,6 +1430,48 @@
             <values>
                 <fullName>Public</fullName>
                 <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Picklist1__c</picklist>
+            <values>
+                <fullName>A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>C</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Picklist2__c</picklist>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6</fullName>
+                <default>false</default>
             </values>
         </picklistValues>
         <picklistValues>
@@ -1376,6 +1617,21 @@
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>City__c</picklist>
+            <values>
+                <fullName>CHE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HYD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MUMBAI</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Country__c</picklist>
             <values>
                 <fullName>INDIA</fullName>
@@ -1552,6 +1808,48 @@
             </values>
             <values>
                 <fullName>Subsidiary</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Picklist1__c</picklist>
+            <values>
+                <fullName>A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>C</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Picklist2__c</picklist>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -1690,6 +1988,21 @@
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>City__c</picklist>
+            <values>
+                <fullName>CHE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HYD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MUMBAI</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Country__c</picklist>
             <values>
                 <fullName>INDIA</fullName>
@@ -1866,6 +2179,48 @@
             </values>
             <values>
                 <fullName>Subsidiary</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Picklist1__c</picklist>
+            <values>
+                <fullName>A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>C</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Picklist2__c</picklist>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
