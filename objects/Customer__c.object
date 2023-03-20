@@ -190,6 +190,12 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Customers</pluralLabel>
+    <profileSearchLayouts>
+        <fields>NAME</fields>
+        <fields>Email__c</fields>
+        <fields>Phone_No__c</fields>
+        <profileName>Flex User</profileName>
+    </profileSearchLayouts>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
