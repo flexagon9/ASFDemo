@@ -21,8 +21,4 @@
         <tab>standard-Document</tab>
         <visibility>Visible</visibility>
     </tabSettings>
-    <tabSettings>
-        <tab>standard-Solution</tab>
-        <visibility>Visible</visibility>
-    </tabSettings>
 </PermissionSet>
