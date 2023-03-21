@@ -192,6 +192,12 @@
     <pluralLabel>Customers</pluralLabel>
     <profileSearchLayouts>
         <fields>NAME</fields>
+        <fields>CREATEDBY_USER</fields>
+        <fields>CREATED_DATE</fields>
+        <profileName>FlexDeploy Manager</profileName>
+    </profileSearchLayouts>
+    <profileSearchLayouts>
+        <fields>NAME</fields>
         <fields>Email__c</fields>
         <fields>Phone_No__c</fields>
         <profileName>Flex User</profileName>
