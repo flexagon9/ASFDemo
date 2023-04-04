@@ -3,4 +3,8 @@
     <hasActivationRequired>true</hasActivationRequired>
     <label>FLEX Internal</label>
     <license>Identity</license>
+    <tabSettings>
+        <tab>standard-Dashboard</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
 </PermissionSet>
