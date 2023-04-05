@@ -14,10 +14,6 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <tabSettings>
-        <tab>Customer__c</tab>
-        <visibility>Visible</visibility>
-    </tabSettings>
-    <tabSettings>
         <tab>standard-Document</tab>
         <visibility>Visible</visibility>
     </tabSettings>
