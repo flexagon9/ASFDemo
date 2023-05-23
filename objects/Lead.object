@@ -317,6 +317,13 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>FD_ExternalId__c</fullName>
+        <displayFormat>FD-{0000}</displayFormat>
+        <externalId>true</externalId>
+        <label>FD_ExternalId</label>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
         <fullName>FD_UCID__c</fullName>
         <description>FD&apos;s unique ID for a given person&apos;s record in their source data</description>
         <externalId>false</externalId>
@@ -393,11 +400,6 @@
     <fields>
         <fullName>OwnerId</fullName>
         <trackFeedHistory>true</trackFeedHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>PartnerAccountId</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
         <type>Lookup</type>
     </fields>
     <fields>

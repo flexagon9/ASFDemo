@@ -14,15 +14,4 @@
         </criteriaItems>
         <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
     </sharingCriteriaRules>
-    <sharingOwnerRules>
-        <fullName>Opp_Sharing_LLC</fullName>
-        <accessLevel>Edit</accessLevel>
-        <label>Opp Sharing LLC</label>
-        <sharedTo>
-            <allInternalUsers></allInternalUsers>
-        </sharedTo>
-        <sharedFrom>
-            <allInternalUsers></allInternalUsers>
-        </sharedFrom>
-    </sharingOwnerRules>
 </SharingRules>

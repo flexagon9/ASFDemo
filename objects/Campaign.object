@@ -170,10 +170,6 @@
         <fullName>BudgetedCost</fullName>
     </fields>
     <fields>
-        <fullName>CampaignImageId</fullName>
-        <type>Lookup</type>
-    </fields>
-    <fields>
         <fullName>CampaignMemberRecordTypeId</fullName>
         <type>Lookup</type>
     </fields>
@@ -188,6 +184,13 @@
     </fields>
     <fields>
         <fullName>ExpectedRevenue</fullName>
+    </fields>
+    <fields>
+        <fullName>FD_ExternalId__c</fullName>
+        <displayFormat>FD-{0000}</displayFormat>
+        <externalId>true</externalId>
+        <label>FD_ExternalId</label>
+        <type>AutoNumber</type>
     </fields>
     <fields>
         <fullName>HierarchyActualCost</fullName>

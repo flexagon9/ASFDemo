@@ -9,10 +9,6 @@
         <name>agf__Custom_Fields</name>
     </fieldSets>
     <fields>
-        <label><!-- Flex deploy Auto number --></label>
-        <name>Flex_deploy_Auto_number__c</name>
-    </fields>
-    <fields>
         <label><!-- Additional Details --></label>
         <name>agf__Additional_Details__c</name>
     </fields>

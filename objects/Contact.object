@@ -373,6 +373,13 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>FD_ExternalId__c</fullName>
+        <displayFormat>FD-{0000}</displayFormat>
+        <externalId>true</externalId>
+        <label>FD_ExternalId</label>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
         <fullName>FD_Version__c</fullName>
         <description>test</description>
         <externalId>false</externalId>
@@ -512,30 +519,6 @@
         <unique>false</unique>
     </fields>
     <listViews>
-        <fullName>AllContacts</fullName>
-        <columns>FULL_NAME</columns>
-        <columns>ACCOUNT.NAME</columns>
-        <columns>CONTACT.TITLE</columns>
-        <columns>CONTACT.PHONE1</columns>
-        <columns>CONTACT.EMAIL</columns>
-        <columns>CORE.USERS.ALIAS</columns>
-        <columns>ExternalID_Con__c</columns>
-        <filterScope>Everything</filterScope>
-        <label>All Contacts</label>
-    </listViews>
-    <listViews>
-        <fullName>BB</fullName>
-        <columns>FULL_NAME</columns>
-        <columns>ACCOUNT.NAME</columns>
-        <columns>sample_ext_id_contact__c</columns>
-        <columns>CONTACT.PHONE1</columns>
-        <columns>CONTACT.EMAIL</columns>
-        <columns>CONTACT.TITLE</columns>
-        <columns>CORE.USERS.ALIAS</columns>
-        <filterScope>Mine</filterScope>
-        <label>BB</label>
-    </listViews>
-    <listViews>
         <fullName>BirthdaysThisMonth</fullName>
         <filterScope>Everything</filterScope>
         <filters>
@@ -546,18 +529,14 @@
         <label>Birthdays This Month</label>
     </listViews>
     <listViews>
-        <fullName>CONEXT</fullName>
+        <fullName>MyContacts</fullName>
+        <columns>FD_ExternalId__c</columns>
         <columns>FULL_NAME</columns>
         <columns>ACCOUNT.NAME</columns>
+        <columns>CONTACT.TITLE</columns>
         <columns>CONTACT.PHONE1</columns>
         <columns>CONTACT.EMAIL</columns>
-        <columns>CONTACT.TITLE</columns>
         <columns>CORE.USERS.ALIAS</columns>
-        <filterScope>Mine</filterScope>
-        <label>CONEXT</label>
-    </listViews>
-    <listViews>
-        <fullName>MyContacts</fullName>
         <filterScope>Mine</filterScope>
         <label>My Contacts</label>
     </listViews>
@@ -603,7 +582,6 @@
         <searchResultsAdditionalFields>CONTACT.PHONE1</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CONTACT.EMAIL</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>CONTACT.ADDRESS2_STREET</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

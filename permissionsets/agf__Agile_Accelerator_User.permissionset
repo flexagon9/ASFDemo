@@ -2043,31 +2043,6 @@
     <description>A standard user permission set for the Agile Accelerator app</description>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Acccount__c.ExternalID_Acc__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Acccount__c.Test__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Acccount__c.sample_date__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Accessory__c.Accessory_ID__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Accessory__c.Accessory_Type__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Account.AccountNumber</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -2139,6 +2114,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.ExternalIdExternalId__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.FD_ExternalId__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2284,6 +2264,16 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.sample_Cust_Field__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Address__c.Custom_Field_Testing__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Address__c.Test_Custom_Field1__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2573,6 +2563,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Broker__c.custom_Field__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>BusinessBrand.OrgId</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -2603,11 +2598,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Campaign.CampaignImageId</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Campaign.Description</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -2624,6 +2614,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Campaign.ExpectedRevenue</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Campaign.FD_ExternalId__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2788,11 +2783,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Case.Details__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Case.EngineeringReqNumber__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -2828,6 +2818,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Case.Product__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Case.Property__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -2839,16 +2834,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Case.SLAViolation__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Case.Sample_field__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Case.SubDetail__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2883,7 +2868,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Case.Tutorial_sample__c</field>
+        <field>Case.Test_sample_custom_field__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2895,16 +2880,6 @@
         <editable>true</editable>
         <field>Case.agf__ADM_Work__c</field>
         <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Case.field_for_profiel__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Case.tutorial_01__c</field>
-        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -3019,6 +2994,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.ExternalID_Con__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.FD_ExternalId__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3548,11 +3528,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Event.IsVisibleInSelfService</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Event.Location</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -3579,16 +3554,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Favorite__c.User__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>FlexObject__c.FlexId__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>FlexObject__c.FlexObjectExtId__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3634,6 +3599,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Individual.DeathDate</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Individual.FD_ExternalId__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3758,6 +3728,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Lead.FD_ExternalId__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Lead.FD_UCID__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -3814,11 +3789,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Lead.NumberofLocations__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Lead.PartnerAccountId</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4003,6 +3973,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Opportunity.FD_ExternalId__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Opportunity.FD_Sequence__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -4029,11 +4004,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.OrderNumber__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Opportunity.PartnerAccountId</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4233,71 +4203,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>PartnerFundAllocation.Description</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>PartnerFundClaim.Description</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>PartnerFundClaim.Status</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>PartnerFundRequest.Activity</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>PartnerFundRequest.AllocationId</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>PartnerFundRequest.Amount</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>PartnerFundRequest.BudgetId</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>PartnerFundRequest.CampaignId</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>PartnerFundRequest.Description</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>PartnerFundRequest.DesiredOutcome</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>PartnerFundRequest.Status</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>PartnerMarketingBudget.Description</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>PartnerMarketingBudget.ParentMdfBudgetId</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>PartyConsent.DoubleConsentCaptureDate</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -4309,6 +4214,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>PartyConsent.EffectiveTo</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Pricebook2.FD_ExternalId__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4478,7 +4388,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Sample1__c.Sample_text1__c</field>
+        <field>Sample1__c.Sample_Text1__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4548,11 +4458,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Task.IsVisibleInSelfService</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Task.Type</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -4569,6 +4474,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>User.ExternalID_User__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>User.FD_ExternalId__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4634,6 +4544,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>User.agf__Work_User_Interface__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Waypoint__c.Test_Custom_Field__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -9592,11 +9507,6 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>agf__ADM_Work__c.Flex_deploy_Auto_number__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>true</editable>
         <field>agf__ADM_Work__c.agf__Additional_Details__c</field>
         <readable>true</readable>
@@ -12275,6 +12185,551 @@
         <editable>true</editable>
         <field>agf__eRelease_Request__c.agf__eRelease_Status__c</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Async_Operation_Result__c.sf_devops__Error_Details__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Async_Operation_Result__c.sf_devops__In_Terminal_State__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Async_Operation_Result__c.sf_devops__Message__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Async_Operation_Result__c.sf_devops__Remote_Commands__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Back_Sync__c.sf_devops__End_Revision_Counter__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Back_Sync__c.sf_devops__Operation_Result__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Branch__c.sf_devops__Ignore_Rules__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Change_Bundle_Install__c.sf_devops__Deployment_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Change_Bundle_Install__c.sf_devops__Deployment_Result__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Change_Bundle_Install__c.sf_devops__Merge_Reference__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Change_Bundle_Install__c.sf_devops__Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Change_Submission__c.sf_devops__Comment__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Change_Submission__c.sf_devops__Creation_Result__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Change_Submission__c.sf_devops__Inspection_Result__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Change_Submission__c.sf_devops__Modified_Remote_Changes__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Change_Submission__c.sf_devops__Open_Beta_Migrated__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Change_Submission__c.sf_devops__Prior_Remote_Reference__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Change_Submission__c.sf_devops__Remote_Reference__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Change_Submission__c.sf_devops__Removed_Remote_Changes__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Change_Submission__c.sf_devops__Submitted_By_Name__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Change_Submission__c.sf_devops__Submitted_By__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Deploy_Component__c.sf_devops__File_Path__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Deploy_Component__c.sf_devops__Force_Ignored__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Deployment_Result__c.sf_devops__Check_Deploy_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Deployment_Result__c.sf_devops__Check_Deploy_Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Deployment_Result__c.sf_devops__Check_Deploy__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Deployment_Result__c.sf_devops__Completion_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Deployment_Result__c.sf_devops__Deployment_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Deployment_Result__c.sf_devops__Full_Deploy__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Deployment_Result__c.sf_devops__Number_Tests_Completed__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Deployment_Result__c.sf_devops__Run_Tests__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Deployment_Result__c.sf_devops__Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Deployment_Result__c.sf_devops__Test_Level__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Environment__c.sf_devops__Can_Track_Changes__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Environment__c.sf_devops__Expired__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Environment__c.sf_devops__Last_Revision_Counter__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Environment__c.sf_devops__Named_Credential__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Environment__c.sf_devops__Operation_Result__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Environment__c.sf_devops__Refresh_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Environment__c.sf_devops__Refresh_Source__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Environment__c.sf_devops__Replaces__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Environment__c.sf_devops__Test_Environment__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Hidden_Remote_Change__c.sf_devops__Hidden_by_Force_Ignore__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Merge_Result__c.sf_devops__Merge_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Merge_Result__c.sf_devops__Previous_Remote_Reference__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Merge_Result__c.sf_devops__Remote_Reference__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Object_Activity__c.sf_devops__Change_Submission__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Object_Activity__c.sf_devops__Environment__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Object_Activity__c.sf_devops__Hidden__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Object_Activity__c.sf_devops__Message__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Object_Activity__c.sf_devops__Operation_Result__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Object_Activity__c.sf_devops__Parent_Activity__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Object_Activity__c.sf_devops__Pipeline__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Object_Activity__c.sf_devops__Target_Pipeline_Stage__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Object_Activity__c.sf_devops__Work_Item__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Pipeline_Stage__c.sf_devops__Branch_Name__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Pipeline_Stage__c.sf_devops__Branch_Remote_Reference__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Pipeline_Stage__c.sf_devops__Environment__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Pipeline_Stage__c.sf_devops__Next_Stage__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Pipeline_Stage__c.sf_devops__Operation_Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Pipeline_Stage__c.sf_devops__Prerelease__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Pipeline_Stage__c.sf_devops__Promote_Review_Remote_Reference__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Pipeline_Stage__c.sf_devops__Swap_Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Pipeline_Stage__c.sf_devops__Versioned__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Pipeline__c.sf_devops__Activated__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Project__c.sf_devops__Description__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Project__c.sf_devops__Hidden__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Project__c.sf_devops__Package_Directories__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Remote_Change__c.sf_devops__Change_Submission__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Remote_Change__c.sf_devops__Source_Component__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Repository__c.sf_devops__GitHub_Owner__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Repository__c.sf_devops__GitHub_Repo__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Repository__c.sf_devops__Last_Event__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Repository__c.sf_devops__Polling_Interval__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Source_Member_Reference__c.sf_devops__Is_Delete__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Source_Member_Reference__c.sf_devops__Is_New__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Submit_Component__c.sf_devops__Empty__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Submit_Component__c.sf_devops__File_Path__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Submit_Component__c.sf_devops__Source_Remote_Change__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Vcs_Event__c.sf_devops__Handled__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Vcs_Event__c.sf_devops__Operation_Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Vcs_Event__c.sf_devops__Payload__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Vcs_Event__c.sf_devops__Source_Branch__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Vcs_Event__c.sf_devops__Target_Pipeline_Stage__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Vcs_Event__c.sf_devops__Target_Work_Item__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Work_Item_Promote__c.sf_devops__Completion_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Work_Item_Promote__c.sf_devops__Deployment_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Work_Item_Promote__c.sf_devops__Deployment_Result__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Work_Item_Promote__c.sf_devops__Rebase_Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Work_Item_Promote__c.sf_devops__Remote_Reference__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Work_Item_Promote__c.sf_devops__Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Work_Item__c.sf_devops__Assigned_To__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Work_Item__c.sf_devops__Branch_Name__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Work_Item__c.sf_devops__Branch_Parent_Remote_Reference__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Work_Item__c.sf_devops__Branch_Remote_Reference__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Work_Item__c.sf_devops__Branch__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Work_Item__c.sf_devops__Change_Bundle__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Work_Item__c.sf_devops__Concluded__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Work_Item__c.sf_devops__Description__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Work_Item__c.sf_devops__Development_Approved_By__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Work_Item__c.sf_devops__Development_Approved__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Work_Item__c.sf_devops__Development_Environment__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Work_Item__c.sf_devops__Environment__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Work_Item__c.sf_devops__Operation_Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Work_Item__c.sf_devops__Promoted_From_Environment__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Work_Item__c.sf_devops__Promoted__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Work_Item__c.sf_devops__Rebase_Remote_Reference__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Work_Item__c.sf_devops__Review_Remote_Reference__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Work_Item__c.sf_devops__State__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Agile Accelerator User</label>

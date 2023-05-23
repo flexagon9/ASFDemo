@@ -31,7 +31,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>FD_Sequence__c</field>
+                <field>FD_ExternalId__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>

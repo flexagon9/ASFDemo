@@ -2,6 +2,10 @@
 <Bot xmlns="http://soap.sforce.com/2006/04/metadata">
     <botMlDomain>
         <label>Dummy Bot</label>
+        <mlIntents>
+            <developerName>Welcome</developerName>
+            <label>Welcome</label>
+        </mlIntents>
         <name>Dummy_Bot</name>
     </botMlDomain>
     <botVersions>
@@ -33,6 +37,8 @@
             </botSteps>
             <developerName>Welcome</developerName>
             <label>Welcome</label>
+            <mlIntent>Welcome</mlIntent>
+            <mlIntentTrainingEnabled>true</mlIntentTrainingEnabled>
             <showInFooterMenu>false</showInFooterMenu>
         </botDialogs>
         <botDialogs>

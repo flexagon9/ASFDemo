@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
-    <excludeButtons>RequestUseSfdc</excludeButtons>
-    <excludeButtons>Submit</excludeButtons>
+    <emailDefault>false</emailDefault>
+    <headers>PersonalTagging</headers>
+    <headers>PublicTagging</headers>
     <layoutSections>
         <customLabel>false</customLabel>
         <detailHeading>false</detailHeading>
@@ -55,6 +56,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>ExternalID_Con__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>FD_ExternalId__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -158,12 +163,9 @@
         <style>OneColumn</style>
     </layoutSections>
     <layoutSections>
-        <customLabel>true</customLabel>
-        <detailHeading>true</detailHeading>
+        <customLabel>false</customLabel>
+        <detailHeading>false</detailHeading>
         <editHeading>false</editHeading>
-        <label>Custom Links</label>
-        <layoutColumns/>
-        <layoutColumns/>
         <layoutColumns/>
         <style>CustomLinks</style>
     </layoutSections>
@@ -238,6 +240,15 @@
         <relatedList>RelatedActivityList</relatedList>
     </relatedLists>
     <relatedLists>
+        <fields>TASK.SUBJECT</fields>
+        <fields>TASK.WHAT_NAME</fields>
+        <fields>ACTIVITY.TASK</fields>
+        <fields>TASK.DUE_DATE</fields>
+        <fields>CORE.USERS.FULL_NAME</fields>
+        <fields>TASK.LAST_UPDATE</fields>
+        <relatedList>RelatedHistoryList</relatedList>
+    </relatedLists>
+    <relatedLists>
         <fields>CASES.CASE_NUMBER</fields>
         <fields>CASES.SUBJECT</fields>
         <fields>CASES.PRIORITY</fields>
@@ -267,15 +278,10 @@
         <relatedList>RelatedEmailStatusList</relatedList>
     </relatedLists>
     <relatedObjects>AccountId</relatedObjects>
-    <showEmailCheckbox>false</showEmailCheckbox>
+    <runAssignmentRulesDefault>false</runAssignmentRulesDefault>
+    <showEmailCheckbox>true</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>
     <showInteractionLogPanel>false</showInteractionLogPanel>
-    <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
+    <showRunAssignmentRulesCheckbox>true</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
-    <summaryLayout>
-        <masterLabel>00h46000001gHsn</masterLabel>
-        <sizeX>4</sizeX>
-        <sizeY>0</sizeY>
-        <summaryLayoutStyle>Default</summaryLayoutStyle>
-    </summaryLayout>
 </Layout>
