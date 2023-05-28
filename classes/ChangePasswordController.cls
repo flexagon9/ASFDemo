@@ -1,6 +1,6 @@
 // 2-16-23 Demo
 /**
-* An apex page controller that exposes the change password functionality.tt
+ * An apex page controller that exposes the change password functionality.
  */
 public with sharing class ChangePasswordController {
     public String oldPassword {get; set;}
