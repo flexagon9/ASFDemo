@@ -36,6 +36,7 @@
                 <type>Navigation</type>
             </botSteps>
             <developerName>Welcome</developerName>
+            <isPlaceholderDialog>false</isPlaceholderDialog>
             <label>Welcome</label>
             <mlIntent>Welcome</mlIntent>
             <mlIntentTrainingEnabled>true</mlIntentTrainingEnabled>
@@ -47,6 +48,7 @@
                 <type>Wait</type>
             </botSteps>
             <developerName>Main_Menu</developerName>
+            <isPlaceholderDialog>false</isPlaceholderDialog>
             <label>Main Menu</label>
             <showInFooterMenu>false</showInFooterMenu>
         </botDialogs>
@@ -59,6 +61,7 @@
                 <type>SystemMessage</type>
             </botSteps>
             <developerName>Transfer_To_Agent</developerName>
+            <isPlaceholderDialog>false</isPlaceholderDialog>
             <label>Transfer To Agent</label>
             <showInFooterMenu>false</showInFooterMenu>
         </botDialogs>
@@ -76,6 +79,7 @@
                 <type>Wait</type>
             </botSteps>
             <developerName>End_Chat</developerName>
+            <isPlaceholderDialog>false</isPlaceholderDialog>
             <label>End Chat</label>
             <showInFooterMenu>false</showInFooterMenu>
         </botDialogs>
@@ -93,6 +97,7 @@
                 <type>Wait</type>
             </botSteps>
             <developerName>Confused</developerName>
+            <isPlaceholderDialog>false</isPlaceholderDialog>
             <label>Confused</label>
             <showInFooterMenu>false</showInFooterMenu>
         </botDialogs>
@@ -110,6 +115,7 @@
                 <type>Wait</type>
             </botSteps>
             <developerName>No_Agent_Available</developerName>
+            <isPlaceholderDialog>false</isPlaceholderDialog>
             <label>No Agent</label>
             <showInFooterMenu>false</showInFooterMenu>
         </botDialogs>
@@ -130,6 +136,7 @@
                 <type>SystemMessage</type>
             </botSteps>
             <developerName>Error_Handling</developerName>
+            <isPlaceholderDialog>false</isPlaceholderDialog>
             <label>Error Handler</label>
             <showInFooterMenu>false</showInFooterMenu>
         </botDialogs>
@@ -142,6 +149,9 @@
             <type>TransferFailed</type>
         </conversationSystemDialogs>
         <entryDialog>Welcome</entryDialog>
+        <intentDisambiguationEnabled>false</intentDisambiguationEnabled>
+        <intentV3Enabled>false</intentV3Enabled>
+        <knowledgeFallbackEnabled>false</knowledgeFallbackEnabled>
         <mainMenuDialog>Main_Menu</mainMenuDialog>
         <nlpProviders>
             <language>en_US</language>
@@ -172,4 +182,5 @@
     <label>Dummy Bot</label>
     <logPrivateConversationData>false</logPrivateConversationData>
     <richContentEnabled>false</richContentEnabled>
+    <sessionTimeout>480</sessionTimeout>
 </Bot>
