@@ -323,13 +323,8 @@
     <validationRules>
         <fullName>sf_devops__Prior_Remote_Reference_External_Only</fullName>
         <active>true</active>
-        <errorConditionFormula>AND(
-     OR(
-         ISNEW(), ISCHANGED(sf_devops__Inspection_Result__c), ISCHANGED(sf_devops__Prior_Remote_Reference__c)
-     ),
-     ISBLANK( sf_devops__Inspection_Result__c )   &lt;&gt; ISBLANK(sf_devops__Prior_Remote_Reference__c )
-    )</errorConditionFormula>
-        <errorMessage>Prior Remote Reference can only be set on change submissions that require inspection.</errorMessage>
+        <errorConditionFormula>FALSE</errorConditionFormula>
+        <errorMessage>Deprecated</errorMessage>
     </validationRules>
     <validationRules>
         <fullName>sf_devops__Work_Item_and_Repository_Same_Project</fullName>

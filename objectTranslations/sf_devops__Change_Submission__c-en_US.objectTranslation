@@ -58,7 +58,7 @@
         <relationshipLabel><!-- Change Submissions --></relationshipLabel>
     </fields>
     <validationRules>
-        <errorMessage><!-- Prior Remote Reference can only be set on change submissions that require inspection. --></errorMessage>
+        <errorMessage><!-- Deprecated --></errorMessage>
         <name>sf_devops__Prior_Remote_Reference_External_Only</name>
     </validationRules>
     <validationRules>

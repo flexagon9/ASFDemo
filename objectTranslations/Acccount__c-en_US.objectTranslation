@@ -8,6 +8,11 @@
         <plural>true</plural>
         <value>Accounts</value>
     </caseValues>
+    <fields>
+        <help><!-- Test Help Text --></help>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+    </fields>
     <layouts>
         <layout>Acc Layout</layout>
         <sections>

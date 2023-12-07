@@ -1,18 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <customApplications>
+        <description xsi:nil="true"/>
         <label><!-- Agile Accelerator --></label>
         <name>Agile_Accelerator</name>
     </customApplications>
     <customApplications>
+        <description xsi:nil="true"/>
         <label><!-- Agile Accelerator --></label>
         <name>Agile_Accelerator_LEX</name>
     </customApplications>
     <customApplications>
+        <description xsi:nil="true"/>
         <label><!-- DreamHouse --></label>
         <name>DreamHouse</name>
     </customApplications>
     <customApplications>
+        <description xsi:nil="true"/>
+        <label><!-- FlexDeploy (SFDC) --></label>
+        <name>FlexDeploy_SFDC</name>
+    </customApplications>
+    <customApplications>
+        <description xsi:nil="true"/>
         <label><!-- Trailblazer --></label>
         <name>Trailblazer</name>
     </customApplications>
@@ -445,6 +454,66 @@
         <name>sf_devops__activityCheckDeployWorkItemInit</name>
     </customLabels>
     <customLabels>
+        <label><!-- Display text for work item combine activity complete source. --></label>
+        <name>sf_devops__activityCombineSourceComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item combine activity failed source. --></label>
+        <name>sf_devops__activityCombineSourceFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item combine activity init source. --></label>
+        <name>sf_devops__activityCombineSourceInit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item combine activity complete stage. --></label>
+        <name>sf_devops__activityCombineStageCompletePlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item combine activity complete stage. --></label>
+        <name>sf_devops__activityCombineStageCompleteSingular</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item combine activity failed stage. --></label>
+        <name>sf_devops__activityCombineStageFailedPlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item combine activity failed stage. --></label>
+        <name>sf_devops__activityCombineStageFailedSingular</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item combine activity init stage. --></label>
+        <name>sf_devops__activityCombineStageInitPlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item combine activity init stage. --></label>
+        <name>sf_devops__activityCombineStageInitSingular</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item combine activity complete survivor. --></label>
+        <name>sf_devops__activityCombineSurvivorCompletePlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item combine activity complete survivor. --></label>
+        <name>sf_devops__activityCombineSurvivorCompleteSingular</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item combine activity failed survivor. --></label>
+        <name>sf_devops__activityCombineSurvivorFailedPlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item combine activity failed survivor. --></label>
+        <name>sf_devops__activityCombineSurvivorFailedSingular</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item combine activity init survivor. --></label>
+        <name>sf_devops__activityCombineSurvivorInitPlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item combine activity init survivor. --></label>
+        <name>sf_devops__activityCombineSurvivorInitSingular</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Summary for the commit event. --></label>
         <name>sf_devops__activityCommit</name>
     </customLabels>
@@ -615,6 +684,38 @@
     <customLabels>
         <label><!-- Display text for work item getting a check deploy init activity type. --></label>
         <name>sf_devops__activityTypeCheckDeployWorkItemInit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item combine activity complete type source. --></label>
+        <name>sf_devops__activityTypeCombineSourceComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item combine activity init type source. --></label>
+        <name>sf_devops__activityTypeCombineSourceInit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item combine activity complete type stage. --></label>
+        <name>sf_devops__activityTypeCombineStageComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item combine activity failed type stage. --></label>
+        <name>sf_devops__activityTypeCombineStageFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item combine activity init type stage. --></label>
+        <name>sf_devops__activityTypeCombineStageInit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item combine activity complete type survivor. --></label>
+        <name>sf_devops__activityTypeCombineSurvivorComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item combine activity failed type survivor. --></label>
+        <name>sf_devops__activityTypeCombineSurvivorFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Display text for work item combine activity init type survivor. --></label>
+        <name>sf_devops__activityTypeCombineSurvivorInit</name>
     </customLabels>
     <customLabels>
         <label><!-- Display text for work item commit activity type. --></label>
@@ -1001,6 +1102,10 @@
         <name>sf_devops__cannotAbortPostSwapSync</name>
     </customLabels>
     <customLabels>
+        <label><!-- Used when we could not find any change bundles nor work items to full deploy --></label>
+        <name>sf_devops__cannotFullDeploy</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Message for the Create Review disabled popover. --></label>
         <name>sf_devops__cantCreateReviewMessage</name>
     </customLabels>
@@ -1101,6 +1206,130 @@
         <name>sf_devops__closedStateLabel</name>
     </customLabels>
     <customLabels>
+        <label><!-- Connector to use in work items list --></label>
+        <name>sf_devops__combineBadgeEndConnector</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Text for link to Combine Work Item documentation --></label>
+        <name>sf_devops__combineBadgePopoverLink</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Text for the popover content in Combine Badge in plural --></label>
+        <name>sf_devops__combineBadgePopoverTextPlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Text for the popover content in Combine Badge in singular --></label>
+        <name>sf_devops__combineBadgePopoverTextSingular</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message when combine operation fails due to a work item being externally merged. --></label>
+        <name>sf_devops__combineExExternallyMerged</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message when combine operation fails due to an invalid rebase. --></label>
+        <name>sf_devops__combineExInvalidRebase</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message when combine operation fails due to a work item missing a rebase branch. --></label>
+        <name>sf_devops__combineExMissingRbBranch</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message when combine operation fails due to invalid user permissions. --></label>
+        <name>sf_devops__combineExUserPermPromo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message when combine operation fails due to work items already being concluded. --></label>
+        <name>sf_devops__combineExWIConcluded</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message when combine operation fails due to a work item from the wrong stage. --></label>
+        <name>sf_devops__combineExWisDiffStage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Title for Combination Validation exceptions --></label>
+        <name>sf_devops__combineExceptionTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for failed combine pipeline activity --></label>
+        <name>sf_devops__combinePipelineFailedHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for success combine pipeline activity --></label>
+        <name>sf_devops__combinePipelineSuccessHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message when combine operation is going on. --></label>
+        <name>sf_devops__combineSourceInProgress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for failed combine survivor --></label>
+        <name>sf_devops__combineSurvivorFailedHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for success combine survivor with multiple sources --></label>
+        <name>sf_devops__combineSurvivorSuccessHeaderPlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for success combine survivor with one source --></label>
+        <name>sf_devops__combineSurvivorSuccessHeaderSingular</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for cancel button in combine work items dialog --></label>
+        <name>sf_devops__combineWorkItemsCancelButton</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Description for combine into survivor option. --></label>
+        <name>sf_devops__combineWorkItemsCombineOptionDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Description for combine into survivor option. --></label>
+        <name>sf_devops__combineWorkItemsCombineOptionDescriptionForConflicts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Title for combine into survivor option. --></label>
+        <name>sf_devops__combineWorkItemsCombineOptionTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label for continue button in combine work items dialog. --></label>
+        <name>sf_devops__combineWorkItemsContinueButton</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Link to redirect to combine work items documentation. --></label>
+        <name>sf_devops__combineWorkItemsLearnMoreLink</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Title for options section. --></label>
+        <name>sf_devops__combineWorkItemsOptionsTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Description for promote dependent option. --></label>
+        <name>sf_devops__combineWorkItemsPromoteDependentOptionDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Title for promote dependent option. --></label>
+        <name>sf_devops__combineWorkItemsPromoteDependentOptionTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Description for promote selected option in plural. --></label>
+        <name>sf_devops__combineWorkItemsPromoteSelectedOptionDescriptionPlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Description for promote selected option in singular. --></label>
+        <name>sf_devops__combineWorkItemsPromoteSelectedOptionDescriptionSingular</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Title for promote selected option in plural. --></label>
+        <name>sf_devops__combineWorkItemsPromoteSelectedOptionTitlePlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Title for promote selected option in singular. --></label>
+        <name>sf_devops__combineWorkItemsPromoteSelectedOptionTitleSingular</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Default label for the combined state. --></label>
+        <name>sf_devops__combinedStateLabel</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Application UI text for &quot;Comment&quot;. --></label>
         <name>sf_devops__comment</name>
     </customLabels>
@@ -1145,6 +1374,10 @@
         <name>sf_devops__committing</name>
     </customLabels>
     <customLabels>
+        <label><!-- Error if a concluded work item is promoted --></label>
+        <name>sf_devops__concludedPromotionNotAllowedError</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Confirm quick deploy dialog accept button label --></label>
         <name>sf_devops__confirmQuickDeployDialogAcceptButton</name>
     </customLabels>
@@ -1155,6 +1388,30 @@
     <customLabels>
         <label><!-- Confirm quick deploy dialog title --></label>
         <name>sf_devops__confirmQuickDeployDialogHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Description for the conflicts table section when there are rebase errors. --></label>
+        <name>sf_devops__conflictsTableDescriptionForPromotionBlocked</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Description for the conflicts table section when there are overlap components. --></label>
+        <name>sf_devops__conflictsTableDescriptionForSharedComponents</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Name of the first column of the conflicts table. --></label>
+        <name>sf_devops__conflictsTableFirstColumn</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Name of the second column of the conflicts table. --></label>
+        <name>sf_devops__conflictsTableSecondColumn</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The title for the conflicts table section when there are rebase errors. --></label>
+        <name>sf_devops__conflictsTableTitleForPromotionBlocked</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The title for the conflicts table section when there are overlap components. --></label>
+        <name>sf_devops__conflictsTableTitleForSharedComponents</name>
     </customLabels>
     <customLabels>
         <label><!-- Application UI text for Connect button click details. --></label>
@@ -1749,8 +2006,32 @@
         <name>sf_devops__includeTooltip</name>
     </customLabels>
     <customLabels>
+        <label><!-- Work item status for more than 2 work items getting incorporated. --></label>
+        <name>sf_devops__incorporatingMultiInProgress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Work item status for 1 work item getting incorporated. --></label>
+        <name>sf_devops__incorporatingOneInProgress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Work item status for 2 work items getting incorporated. --></label>
+        <name>sf_devops__incorporatingTwoInProgress</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Error if an initial versioned promotion is attempted on a released work item --></label>
         <name>sf_devops__initialVersionedPromotionNotAllowedError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UI text for the details of the &quot;insufficient permissions&quot; error. --></label>
+        <name>sf_devops__insufficientPermissionsErrorDetail</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UI text for the suggestion of the &quot;insufficient permissions&quot; error. --></label>
+        <name>sf_devops__insufficientPermissionsErrorSuggestion</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UI text for the title of the &quot;insufficient permissions&quot; error. --></label>
+        <name>sf_devops__insufficientPermissionsErrorTitle</name>
     </customLabels>
     <customLabels>
         <label><!-- Default name used when we create the integration stage. --></label>
@@ -1917,6 +2198,10 @@
         <name>sf_devops__missingChangeRequestForWorkItem</name>
     </customLabels>
     <customLabels>
+        <label><!-- Used when we could not find any change submission to reinspect --></label>
+        <name>sf_devops__missingCommitsToInspect</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Used when we could not find the env associated with a work item --></label>
         <name>sf_devops__missingEnvironmentForWorkItem</name>
     </customLabels>
@@ -2049,6 +2334,10 @@
         <name>sf_devops__newProjectDescription</name>
     </customLabels>
     <customLabels>
+        <label><!-- Aria-Description text for &quot;New Project&quot; dialog. --></label>
+        <name>sf_devops__newProjectDialogDescription</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Error message when we have a duplicate project name --></label>
         <name>sf_devops__newProjectDuplicateProjectNameError</name>
     </customLabels>
@@ -2077,12 +2366,16 @@
         <name>sf_devops__newProjectRepoDetailsLinkTitle</name>
     </customLabels>
     <customLabels>
-        <label><!-- Placeholder about the new repo URL. --></label>
+        <label><!-- Help about the new repo URL. --></label>
         <name>sf_devops__newProjectRepoHelp</name>
     </customLabels>
     <customLabels>
         <label><!-- Field label for repository name. --></label>
         <name>sf_devops__newProjectRepoName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- placeholder text for repository name. --></label>
+        <name>sf_devops__newProjectRepoNameHelp</name>
     </customLabels>
     <customLabels>
         <label><!-- Field label for repository name. --></label>
@@ -2127,6 +2420,10 @@
     <customLabels>
         <label><!-- Application UI text for &quot;New Work Item&quot;. --></label>
         <name>sf_devops__newWorkItem</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Aria-Description text for &quot;New Work Item&quot; dialog. --></label>
+        <name>sf_devops__newWorkItemDialogDescription</name>
     </customLabels>
     <customLabels>
         <label><!-- default next button in the wizard --></label>
@@ -2441,6 +2738,26 @@
         <name>sf_devops__potentialConflictDescription</name>
     </customLabels>
     <customLabels>
+        <label><!-- Close button dialog text --></label>
+        <name>sf_devops__prePromotionSynchClose</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Title when we have pre promotion synch. --></label>
+        <name>sf_devops__prePromotionSynchTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- text explaining we have pre promotion synch. --></label>
+        <name>sf_devops__prePromotionSynchWhatHappened</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- pre promotion synch what happened header --></label>
+        <name>sf_devops__prePromotionSynchWhatHappenedHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Options when we have pre promotion synch. --></label>
+        <name>sf_devops__prePromotionSynchWhatToDo</name>
+    </customLabels>
+    <customLabels>
         <label><!-- default previous button in the wizard --></label>
         <name>sf_devops__previousButton</name>
     </customLabels>
@@ -2549,6 +2866,10 @@
         <name>sf_devops__promotionBlocked</name>
     </customLabels>
     <customLabels>
+        <label><!-- The title for the combine WIs dialog when there are rebase errors. --></label>
+        <name>sf_devops__promotionBlockedTitle</name>
+    </customLabels>
+    <customLabels>
         <label><!-- View change request text for a blocked CR. --></label>
         <name>sf_devops__promotionBlockedViewChangeRequest</name>
     </customLabels>
@@ -2621,12 +2942,28 @@
         <name>sf_devops__rebaseErrorBanner</name>
     </customLabels>
     <customLabels>
+        <label><!-- Banner when we have a rebase error and external merge. --></label>
+        <name>sf_devops__rebaseErrorBannerExternal</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Issue when there is a rebase error and external merge --></label>
+        <name>sf_devops__rebaseErrorIssueExternal</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Issues when there are many rebase errors --></label>
         <name>sf_devops__rebaseErrorIssuePlural</name>
     </customLabels>
     <customLabels>
         <label><!-- Issue when there is one rebase error --></label>
         <name>sf_devops__rebaseErrorIssueSingular</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Suggestion to promote whole stage when dependency issues. --></label>
+        <name>sf_devops__rebaseErrorSuggestion</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Suggestion to complete promotion when dependency issues. --></label>
+        <name>sf_devops__rebaseErrorSuggestionExternal</name>
     </customLabels>
     <customLabels>
         <label><!-- Suggestion to promote whole stage when dependency issues. --></label>
@@ -2741,6 +3078,14 @@
         <name>sf_devops__restInvalidTestLevel</name>
     </customLabels>
     <customLabels>
+        <label><!-- Error when we failed to process an event --></label>
+        <name>sf_devops__restSyncError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error when there are more events in REST API --></label>
+        <name>sf_devops__restSyncNotComplete</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Menu label for retryng commits on a work item --></label>
         <name>sf_devops__retryCommitsMenuLabel</name>
     </customLabels>
@@ -2791,6 +3136,10 @@
     <customLabels>
         <label><!-- Application UI text for &quot;Select...&quot; --></label>
         <name>sf_devops__selectPlaceholder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Aria-Description text for &quot;Session Error&quot; dialog. --></label>
+        <name>sf_devops__sessionErrorDialogDescription</name>
     </customLabels>
     <customLabels>
         <label><!-- Error Title for the Session Error Dialog --></label>
@@ -2849,12 +3198,20 @@
         <name>sf_devops__sessionErrorDialogUnknownContent</name>
     </customLabels>
     <customLabels>
+        <label><!-- Restrictive session settings that do not allow us to reach Heroku --></label>
+        <name>sf_devops__sessionSettingError</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Application UI text for &quot;Settings&quot;. --></label>
         <name>sf_devops__settings</name>
     </customLabels>
     <customLabels>
         <label><!-- Error message for when the SFDX package directory is not found --></label>
         <name>sf_devops__sfdxPkgDirNotFound</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- The title for the combine WIs dialog when there are overlap components. --></label>
+        <name>sf_devops__sharedComponentsDetectedTitle</name>
     </customLabels>
     <customLabels>
         <label><!-- Menu Item to shift a stage to the left --></label>
@@ -3393,6 +3750,10 @@
         <name>sf_devops__viewCommit</name>
     </customLabels>
     <customLabels>
+        <label><!-- Stage menu to see last deployment --></label>
+        <name>sf_devops__viewDeploymentStatus</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Message for directing the user to View Details during promotion failure. --></label>
         <name>sf_devops__viewDetailsText</name>
     </customLabels>
@@ -3407,6 +3768,10 @@
     <customLabels>
         <label><!-- View diff content when we cannot compute the work items --></label>
         <name>sf_devops__viewDiffContentUnknown</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Aria-Description text for &quot;View Diff&quot; dialog. --></label>
+        <name>sf_devops__viewDiffDialogDescription</name>
     </customLabels>
     <customLabels>
         <label><!-- Title of view diff dialog for many work items --></label>
@@ -3449,6 +3814,14 @@
         <name>sf_devops__whatIsThePotentialConflict</name>
     </customLabels>
     <customLabels>
+        <label><!-- Message when work item combination failed --></label>
+        <name>sf_devops__wiCombinationFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message for succesful combination of work items --></label>
+        <name>sf_devops__wiCombinationSuccessful</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Application UI text for &quot;Each selected file is now excluded for this commit&quot;. --></label>
         <name>sf_devops__willBeExcluded</name>
     </customLabels>
@@ -3463,6 +3836,10 @@
     <customLabels>
         <label><!-- Label when a work item has been bundled --></label>
         <name>sf_devops__workItemBundledIn</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;WorkItem Combined With&quot;. --></label>
+        <name>sf_devops__workItemCombinedWith</name>
     </customLabels>
     <customLabels>
         <label><!-- App UI text when the dialog is opened from a Work Item. --></label>
@@ -3571,6 +3948,10 @@
     <customTabs>
         <label><!-- Dashboard --></label>
         <name>Dashboard</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Configure Package XML --></label>
+        <name>FlexDeploy</name>
     </customTabs>
     <customTabs>
         <label><!-- Settings --></label>
@@ -3759,6 +4140,15 @@
         <sections>
             <label><!-- Conversation Definition Session Metrics --></label>
             <name>Conversation Definition Session Metrics</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Projects with Packages with Package Files --></description>
+        <label><!-- Projects with Packages with Package Files --></label>
+        <name>Projects_with_Packages_with_Package_Files</name>
+        <sections>
+            <label><!-- Projects --></label>
+            <name>Projects</name>
         </sections>
     </reportTypes>
     <reportTypes>

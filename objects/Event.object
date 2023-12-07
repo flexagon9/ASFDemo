@@ -220,6 +220,7 @@
     </fields>
     <fields>
         <fullName>Subject</fullName>
+        <description>added description</description>
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
     </fields>

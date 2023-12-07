@@ -197,7 +197,7 @@
         <description>Stores the last time Remote_Reference__c has been updated in the Branch__c.</description>
         <externalId>false</externalId>
         <label>Remote Reference Date</label>
-        <required>false</required>
+        <required>true</required>
         <trackTrending>false</trackTrending>
         <type>DateTime</type>
     </fields>

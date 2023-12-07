@@ -28,9 +28,23 @@
         <relationshipLabel><!-- Work Items --></relationshipLabel>
     </fields>
     <fields>
+        <label><!-- Combine Status --></label>
+        <name>sf_devops__Combine_Status__c</name>
+        <relationshipLabel><!-- Combine Work Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Combined With --></label>
+        <name>sf_devops__Combined_With__c</name>
+        <relationshipLabel><!-- Combined Work Items --></relationshipLabel>
+    </fields>
+    <fields>
         <help><!-- Managed by the DevOps Center, this field indicates that a Work Item has finished being used for active development or promotion. --></help>
         <label><!-- Concluded --></label>
         <name>sf_devops__Concluded__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cross Environment Combination --></label>
+        <name>sf_devops__Cross_Environment_Combination__c</name>
     </fields>
     <fields>
         <label><!-- Description --></label>
@@ -118,7 +132,27 @@
         <name>sf_devops__Change_Bundle_Project</name>
     </validationRules>
     <validationRules>
-        <errorMessage><!-- Possible values for Concluded_c are : CLOSED, NEVERED, or empty. --></errorMessage>
+        <errorMessage><!-- A Work Item cannot be Combined if it is in a bundle. --></errorMessage>
+        <name>sf_devops__Combined_Bundled</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A Work Item cannot be Combined if it does not reference the work item it is combined into. --></errorMessage>
+        <name>sf_devops__Combined_Not_Combined_With</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A Work Item cannot be Combined if it has never been promoted. --></errorMessage>
+        <name>sf_devops__Combined_Not_Promoted</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A Work Item cannot have Combined_With set if it is not in the Combined state. --></errorMessage>
+        <name>sf_devops__Combined_With_Not_Combined</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A Work Item cannot have Combined_With set to a work item that did not perform the Combine operation. --></errorMessage>
+        <name>sf_devops__Combined_With_Not_Survivor</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Possible values for Concluded_c are : CLOSED, NEVERED, COMBINED, or empty. --></errorMessage>
         <name>sf_devops__Concluded_values</name>
     </validationRules>
     <validationRules>

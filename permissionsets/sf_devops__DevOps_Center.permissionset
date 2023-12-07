@@ -51,6 +51,11 @@
     <description>Provides the data access and permissions needed to manage customizations for DevOps Center work items. Includes access to work environments. Typically applied to team members who work on DevOps Center projects.</description>
     <fieldPermissions>
         <editable>true</editable>
+        <field>User.sf_devops__GitHub_Primary_Email_Address__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>sf_devops__Async_Operation_Result__c.sf_devops__Dependent_Records__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -90,11 +95,6 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>sf_devops__Branch__c.sf_devops__Remote_Reference_Date__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>false</editable>
         <field>sf_devops__Change_Bundle_Install__c.sf_devops__Deployment_Result__c</field>
         <readable>true</readable>
@@ -117,11 +117,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>sf_devops__Change_Submission__c.sf_devops__Inspection_Result__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>sf_devops__Change_Submission__c.sf_devops__Prior_Remote_Reference__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -450,8 +445,23 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Work_Item__c.sf_devops__Combine_Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Work_Item__c.sf_devops__Combined_With__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>sf_devops__Work_Item__c.sf_devops__Concluded__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Work_Item__c.sf_devops__Cross_Environment_Combination__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

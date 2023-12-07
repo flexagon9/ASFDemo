@@ -233,6 +233,34 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>sf_devops__Combine_Status__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The AOR referencing the most recent attempt to combine other work items with this work item.</description>
+        <externalId>false</externalId>
+        <label>Combine Status</label>
+        <referenceTo>sf_devops__Async_Operation_Result__c</referenceTo>
+        <relationshipLabel>Combine Work Items</relationshipLabel>
+        <relationshipName>Combine_Work_Items</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Combined_With__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The work item that this work item has been combined into.</description>
+        <externalId>false</externalId>
+        <label>Combined With</label>
+        <referenceTo>sf_devops__Work_Item__c</referenceTo>
+        <relationshipLabel>Combined Work Items</relationshipLabel>
+        <relationshipName>Combined_Work_Items</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>sf_devops__Concluded__c</fullName>
         <deprecated>false</deprecated>
         <description>Has this Work Item transitioned to a conclusive state?</description>
@@ -244,6 +272,16 @@
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sf_devops__Cross_Environment_Combination__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>If true, this work item is the survivor of a combination operation where metadata came from multiple development environments.  This needs to be treated differently during a back sync.</description>
+        <externalId>false</externalId>
+        <label>Cross Environment Combination</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>sf_devops__Description__c</fullName>
@@ -407,9 +445,9 @@
   sf_devops__Concluded__c = &quot;CLOSED&quot;, &quot;CLOSED&quot;,
 IF(
   sf_devops__Concluded__c = &quot;NEVERED&quot;, &quot;NEVERED&quot;,
-IF(
-
-
+  IF(
+    sf_devops__Concluded__c = &quot;COMBINED&quot;, &quot;COMBINED&quot;,
+  IF(
     sf_devops__Promoted__c, &quot;PROMOTED&quot;,
     IF(
       sf_devops__Development_Approved__c, &quot;APPROVED&quot;,
@@ -417,6 +455,7 @@ IF(
         NOT(ISBLANK(sf_devops__Review_Remote_Reference__c)), &quot;IN_REVIEW&quot;,
         IF(
           NOT(ISBLANK(sf_devops__Branch__r.sf_devops__Name__c)), &quot;IN_PROGRESS&quot;, &quot;NEW&quot;
+          )
         )
       )
     )
@@ -525,16 +564,73 @@ sf_devops__Project__c &lt;&gt; sf_devops__Change_Bundle__r.sf_devops__Project__c
         <errorMessage>A Work Item must belong to the same project as its Change Bundle.</errorMessage>
     </validationRules>
     <validationRules>
+        <fullName>sf_devops__Combined_Bundled</fullName>
+        <active>true</active>
+        <description>Verifies that a Combined work item cannot be part of a bundle</description>
+        <errorConditionFormula>AND(
+    OR (ISCHANGED(sf_devops__Concluded__c), ISCHANGED(sf_devops__Change_Bundle__c) ),
+    sf_devops__Concluded__c = &quot;COMBINED&quot;,
+    NOT(ISBLANK(sf_devops__Change_Bundle__c))
+ )</errorConditionFormula>
+        <errorMessage>A Work Item cannot be Combined if it is in a bundle.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>sf_devops__Combined_Not_Combined_With</fullName>
+        <active>true</active>
+        <description>Verifies that a Combined work item must have Combined_With also set</description>
+        <errorConditionFormula>AND(
+    OR (ISCHANGED(sf_devops__Concluded__c), ISCHANGED(sf_devops__Combined_With__c) ),
+    sf_devops__Concluded__c = &quot;COMBINED&quot;,
+    ISBLANK(sf_devops__Combined_With__c)
+ )</errorConditionFormula>
+        <errorMessage>A Work Item cannot be Combined if it does not reference the work item it is combined into.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>sf_devops__Combined_Not_Promoted</fullName>
+        <active>true</active>
+        <description>Verifies that a Combined work item must have been promoted</description>
+        <errorConditionFormula>AND(
+    OR (ISCHANGED(sf_devops__Concluded__c), ISCHANGED(sf_devops__Promoted__c) ),
+    sf_devops__Concluded__c = &quot;COMBINED&quot;,
+    NOT(sf_devops__Promoted__c)
+ )</errorConditionFormula>
+        <errorMessage>A Work Item cannot be Combined if it has never been promoted.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>sf_devops__Combined_With_Not_Combined</fullName>
+        <active>true</active>
+        <description>Verifies that if Combined_With is set, the work item must be in the combined state</description>
+        <errorConditionFormula>AND(
+    OR (ISCHANGED(sf_devops__Concluded__c), ISCHANGED(sf_devops__Combined_With__c) ),
+    OR(ISBLANK(sf_devops__Concluded__c), NOT(sf_devops__Concluded__c = &quot;COMBINED&quot;)),
+    NOT(ISBLANK(sf_devops__Combined_With__c))
+ )</errorConditionFormula>
+        <errorMessage>A Work Item cannot have Combined_With set if it is not in the Combined state.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>sf_devops__Combined_With_Not_Survivor</fullName>
+        <active>true</active>
+        <description>Verifies that if Combined_With is set it references a work item that completed the Combine operation</description>
+        <errorConditionFormula>AND(
+    ISCHANGED(sf_devops__Combined_With__c),
+    OR(
+      ISBLANK(sf_devops__Combined_With__r.sf_devops__Combine_Status__c), 
+      NOT(ISPICKVAL(sf_devops__Combined_With__r.sf_devops__Combine_Status__r.sf_devops__Status__c, &quot;Completed&quot;))
+    )
+ )</errorConditionFormula>
+        <errorMessage>A Work Item cannot have Combined_With set to a work item that did not perform the Combine operation.</errorMessage>
+    </validationRules>
+    <validationRules>
         <fullName>sf_devops__Concluded_values</fullName>
         <active>true</active>
         <description>Verifies that Concluded_c is assigned with a possible value.</description>
-        <errorConditionFormula>NOT(OR( sf_devops__Concluded__c = &quot;CLOSED&quot;, sf_devops__Concluded__c = &quot;NEVERED&quot;, ISBLANK(sf_devops__Concluded__c)))</errorConditionFormula>
-        <errorMessage>Possible values for Concluded_c are : CLOSED, NEVERED, or empty.</errorMessage>
+        <errorConditionFormula>NOT(OR( sf_devops__Concluded__c = &quot;CLOSED&quot;, sf_devops__Concluded__c = &quot;NEVERED&quot;, sf_devops__Concluded__c = &quot;COMBINED&quot;, ISBLANK(sf_devops__Concluded__c)))</errorConditionFormula>
+        <errorMessage>Possible values for Concluded_c are : CLOSED, NEVERED, COMBINED, or empty.</errorMessage>
     </validationRules>
     <validationRules>
         <fullName>sf_devops__Disable_Concluded</fullName>
         <active>true</active>
-        <description>A Work Item cannot have its Concluded__c field changed after being set to NEVER or CLOSED.</description>
+        <description>A Work Item cannot have its Concluded__c field changed after being set to NEVER, COMBINED or CLOSED.</description>
         <errorConditionFormula>AND(ISCHANGED(sf_devops__Concluded__c),NOT(ISBLANK(PRIORVALUE(sf_devops__Concluded__c))))</errorConditionFormula>
         <errorMessage>A Work Item cannot have its Concluded__c field changed once set.</errorMessage>
     </validationRules>
