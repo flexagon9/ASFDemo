@@ -21,6 +21,12 @@
                 <identifier>c_metadataResult</identifier>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>metadataListLWC</componentName>
+                <identifier>c_metadataListLWC</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>region3</name>
         <type>Region</type>
     </flexiPageRegions>

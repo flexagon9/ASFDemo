@@ -15,13 +15,27 @@ public with sharing class MetadataListController {
         return userNames;
     }
 
+    public class MetadataResult {
+        @AuraEnabled public String Section;
+        @AuraEnabled public String Action;
+        @AuraEnabled public String ModifiedBy;
+        @AuraEnabled public DateTime CreatedDate;
+
+        public MetadataResult(String section, String action, String modifiedBy, DateTime createdDate) {
+            this.Section = section;
+            this.Action = action;
+            this.ModifiedBy = modifiedBy;
+            this.CreatedDate = createdDate;
+        }
+    }
+
     @AuraEnabled(cacheable=true)
-    public static List<SetupAuditTrail> getMetadataList(String timeRange, String selectedUser) {
+    public static List<MetadataResult> getMetadataList(String timeRange, String selectedUser) {
         String soqlQuery;
 
         // Construct the SOQL query based on selected time range
         if (timeRange.equals('All Time')) {
-            soqlQuery = 'SELECT Section, Action, CreatedBy.Name, CreatedDate FROM SetupAuditTrail';
+            soqlQuery = 'SELECT Section, Action, CreatedBy.Name, CreatedDate FROM SetupAuditTrail ORDER BY CreatedDate DESC';
         } else {
             soqlQuery = 'SELECT Section, Action, CreatedBy.Name, CreatedDate FROM SetupAuditTrail WHERE CreatedDate >= ';
             if (timeRange.equals('Last 1 Day')) {
@@ -40,15 +54,25 @@ public with sharing class MetadataListController {
         }
 
         // Add conditions for the selected user if provided
-        /*
         if (selectedUser != null) {
-            soqlQuery += ' AND CreatedBy.Name = \'' + selectedUser + '\'';
+            soqlQuery += ' AND CreatedBy.Name = \'' + selectedUser + '\'' + 'ORDER BY CreatedDate DESC';
         }
-        */
 
         try {
             List<SetupAuditTrail> results = Database.query(soqlQuery);
-            return results;
+
+            List<MetadataResult> formattedResults = new List<MetadataResult>();
+            for (SetupAuditTrail record : results)
+            {
+                formattedResults.add(new MetadataResult(
+                    record.Section,
+                    record.Action,
+                    record.CreatedBy.Name,
+                    record.CreatedDate
+                ));
+            }
+
+            return formattedResults;
         } catch (Exception e) {
             // Log detailed information about the exception
             System.debug('Exception Message: ' + e.getMessage());
