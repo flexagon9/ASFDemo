@@ -34,9 +34,21 @@ public with sharing class MetadataListController {
         String soqlQuery;
 
         // Construct the SOQL query based on selected time range
-        if (timeRange.equals('All Time')) {
-            soqlQuery = 'SELECT Section, Action, CreatedBy.Name, CreatedDate FROM SetupAuditTrail ORDER BY CreatedDate DESC';
-        } else {
+        if (timeRange.equals('All Time'))
+        {
+            soqlQuery = 'SELECT Section, Action, CreatedBy.Name, CreatedDate FROM SetupAuditTrail';
+            
+            // If All Time is selected, and a specific user is selected
+            if (selectedUser != null) {
+                soqlQuery += ' WHERE CreatedBy.Name = \'' + selectedUser + '\'' + 'ORDER BY CreatedDate DESC';
+            }
+            else if(selectedUser == null)
+            {
+                soqlQuery += ' ORDER BY CreatedDate DESC';
+            }
+        }
+        else
+        {
             soqlQuery = 'SELECT Section, Action, CreatedBy.Name, CreatedDate FROM SetupAuditTrail WHERE CreatedDate >= ';
             if (timeRange.equals('Last 1 Day')) {
                 soqlQuery += 'LAST_N_DAYS:1';
@@ -51,11 +63,11 @@ public with sharing class MetadataListController {
             } else if (timeRange.equals('Last 1 Year')) {
                 soqlQuery += 'LAST_N_YEARS:1';
             }
-        }
 
-        // Add conditions for the selected user if provided
-        if (selectedUser != null) {
-            soqlQuery += ' AND CreatedBy.Name = \'' + selectedUser + '\'' + 'ORDER BY CreatedDate DESC';
+            // Add conditions for the selected user if provided
+            if (selectedUser != null) {
+                soqlQuery += ' AND CreatedBy.Name = \'' + selectedUser + '\'' + 'ORDER BY CreatedDate DESC';
+            }
         }
 
         try {
