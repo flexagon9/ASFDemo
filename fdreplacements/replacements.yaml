@@ -14,8 +14,32 @@
 #      - env:
 #        value: 
 ---
+fileName: '*.xml'
+replacements: 
+  - stringToReplace:  '<apiVersion>58.0</apiVersion>'
+    replaceWithString: '<apiVersion>50.0</apiVersion>'
+    replaceWhenEnv: [DEV,QA,PROD]
+---
+fileName: 'package.xml'
+replacements: 
+  - stringToReplace:  '<apiVersion>58.0</apiVersion>'
+    replaceWithRandomCSVFile: /tmp/test.csv
+    replaceWhenEnv: [DEV,QA,PROD]
+---
 fileName:  Opportunity.object
 replacements: 
   - stringToReplace:  http://www.fedex.com
     replaceWithString: http://www.test.fedex.com
     replaceWhenEnv: [DEV,QA]
+---
+replacements: 
+  - stringToReplace: '@flexagon.com'
+    replaceWithString:  '@flexagon.com.flexagon9'
+    replaceWhenEnv: 
+      - env: FDSF_ACCOUNT_CODE
+        value: FLEXAGON9
+  - stringToReplace: '@flexagon.com'
+    replaceWithString:  '@flexagon.com.flexagon8'
+    replaceWhenEnv: 
+      - env: FDSF_ACCOUNT_CODE
+        value: FLEXAGON8
