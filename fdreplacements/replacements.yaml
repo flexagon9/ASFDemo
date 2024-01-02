@@ -26,12 +26,6 @@ replacements:
     replaceWithRandomCSVFile: /tmp/test.csv
     replaceWhenEnv: [DEV,QA,PROD]
 ---
-fileName: 'package.xml'
-replacements: 
-  - stringToReplace:  "<version>58.0</version>"
-    replaceWithString: "<version>56.0</version>"
-    replaceWhenEnv: [DEV,QA,PROD]
----
 fileName:  Opportunity.object
 replacements: 
   - stringToReplace:  http://www.fedex.com
