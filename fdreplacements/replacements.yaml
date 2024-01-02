@@ -23,7 +23,7 @@ replacements:
 fileName: 'package.xml'
 replacements: 
   - stringToReplace:  '<version>58.0</version>'
-    replaceWithRandomCSVFile: /tmp/test.csv!Versions
+    replaceWithRandomCSVFile: /tmp/test.csv!Version
     replaceWhenEnv: [DEV,QA,PROD]
 ---
 fileName:  Opportunity.object
