@@ -22,7 +22,7 @@ replacements:
 ---
 fileName: 'package.xml'
 replacements: 
-  - stringToReplace:  '<apiVersion>58.0</apiVersion>'
+  - stringToReplace:  '<version>58.0</version>'
     replaceWithRandomCSVFile: /tmp/test.csv
     replaceWhenEnv: [DEV,QA,PROD]
 ---
