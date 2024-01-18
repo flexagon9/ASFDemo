@@ -334,6 +334,10 @@
         <name>sf_devops__abortSwapDialogContent</name>
     </customLabels>
     <customLabels>
+        <label><!-- Aria-description text for the Abort Failed Sync confirmation Dialog. --></label>
+        <name>sf_devops__abortSwapDialogModalDescription</name>
+    </customLabels>
+    <customLabels>
         <label><!-- OK Button for the abort failed sync confirmation --></label>
         <name>sf_devops__abortSwapDialogOkButton</name>
     </customLabels>
@@ -594,6 +598,42 @@
         <name>sf_devops__activityRecreateChangeRequest</name>
     </customLabels>
     <customLabels>
+        <label><!-- Validate only deploy for 1 work item completed from the bundling stage. --></label>
+        <name>sf_devops__activitySoupCheckDeployComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Validate only deploy for multiple work items completed from the bundling stage. --></label>
+        <name>sf_devops__activitySoupCheckDeployCompletePlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Validate only deploy for 1 work item failed from the bundling stage. --></label>
+        <name>sf_devops__activitySoupCheckDeployFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Validate only deploy for multiple work items failed from the bundling stage. --></label>
+        <name>sf_devops__activitySoupCheckDeployFailedPlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Validate only deploy for 1 work item initiated from the bundling stage. --></label>
+        <name>sf_devops__activitySoupCheckDeployInit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Validate only deploy for multiple work items initiated from the bundling stage. --></label>
+        <name>sf_devops__activitySoupCheckDeployInitPlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Validate only deploy completed for a work item from the bundling stage. --></label>
+        <name>sf_devops__activitySoupCheckDeployWorkItemComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Validate only deploy failed for a work item from the bundling stage. --></label>
+        <name>sf_devops__activitySoupCheckDeployWorkItemFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Validate only deploy started for a work item from the bundling stage. --></label>
+        <name>sf_devops__activitySoupCheckDeployWorkItemInit</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Summary for a stage getting a soup promote. --></label>
         <name>sf_devops__activitySoupPromoteStageComplete</name>
     </customLabels>
@@ -616,6 +656,42 @@
     <customLabels>
         <label><!-- Summary for a stage getting a soup promote (plural). --></label>
         <name>sf_devops__activitySoupPromoteStageInitPlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quick deploy for 1 work item completed from the bundling stage. --></label>
+        <name>sf_devops__activitySoupQuickDeployComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quick deploy for multiple work items completed from the bundling stage. --></label>
+        <name>sf_devops__activitySoupQuickDeployCompletePlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quick deploy for 1 work item failed from the bundling stage. --></label>
+        <name>sf_devops__activitySoupQuickDeployFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quick deploy for multiple work items failed from the bundling stage. --></label>
+        <name>sf_devops__activitySoupQuickDeployFailedPlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quick deploy for 1 work item initiated from the bundling stage. --></label>
+        <name>sf_devops__activitySoupQuickDeployInit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quick deploy for multiple work items initiated from the bundling stage. --></label>
+        <name>sf_devops__activitySoupQuickDeployInitPlural</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quick deploy completed for a work item from the bundling stage. --></label>
+        <name>sf_devops__activitySoupQuickDeployWorkItemComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quick deploy failed for a work item from the bundling stage. --></label>
+        <name>sf_devops__activitySoupQuickDeployWorkItemFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Quick deploy started for a work item from the bundling stage. --></label>
+        <name>sf_devops__activitySoupQuickDeployWorkItemInit</name>
     </customLabels>
     <customLabels>
         <label><!-- Display text for stage environment getting swapped activity type. --></label>
@@ -1386,6 +1462,10 @@
         <name>sf_devops__confirmQuickDeployDialogContent</name>
     </customLabels>
     <customLabels>
+        <label><!-- Aria-description text for the Quick Deploy confirmation Dialog. --></label>
+        <name>sf_devops__confirmQuickDeployDialogDescription</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Confirm quick deploy dialog title --></label>
         <name>sf_devops__confirmQuickDeployDialogHeader</name>
     </customLabels>
@@ -1528,6 +1608,10 @@
     <customLabels>
         <label><!-- Content for the Dev Env out of sync connection --></label>
         <name>sf_devops__devEnvOutOfSyncDialogContent2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Aria-description text for &quot;Has operation in progress Dialog&quot;. --></label>
+        <name>sf_devops__devEnvOutOfSyncDialogDescription</name>
     </customLabels>
     <customLabels>
         <label><!-- Confirmation button for the Dev Env out of sync connection --></label>
@@ -1754,6 +1838,10 @@
         <name>sf_devops__expireEnvironmentHeader</name>
     </customLabels>
     <customLabels>
+        <label><!-- Aria-description text for &quot;Expire environment Dialog&quot;. --></label>
+        <name>sf_devops__expireEnvironmentModalDescription</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Application UI text for &quot;Explanatory text for promotions dialog adhoc case&quot;. --></label>
         <name>sf_devops__explanatoryTextAdhoc</name>
     </customLabels>
@@ -1930,6 +2018,10 @@
         <name>sf_devops__general</name>
     </customLabels>
     <customLabels>
+        <label><!-- Aria-description text for the &quot;Generic Error Dialog&quot;. --></label>
+        <name>sf_devops__genericErrorDialogDescription</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Common sentence of help text during a promotion failure. --></label>
         <name>sf_devops__genericMergeHelpText</name>
     </customLabels>
@@ -1944,6 +2036,10 @@
     <customLabels>
         <label><!-- Application UI text for &quot;Help&quot;. --></label>
         <name>sf_devops__help</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Home&quot;. --></label>
+        <name>sf_devops__home</name>
     </customLabels>
     <customLabels>
         <label><!-- Capitalized &quot;ID&quot;, for general UI usage. --></label>
@@ -2160,6 +2256,22 @@
     <customLabels>
         <label><!-- Suggestion for a potential merge conflict. --></label>
         <name>sf_devops__mergeConflictSuggestion</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Suggestion for a potential merge conflict. --></label>
+        <name>sf_devops__mergeConflictSuggestion1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Suggestion for a potential merge conflict. --></label>
+        <name>sf_devops__mergeConflictSuggestion2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Suggestion for a potential merge conflict. --></label>
+        <name>sf_devops__mergeConflictSuggestion3</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Suggestion for a potential merge conflict. --></label>
+        <name>sf_devops__mergeConflictSuggestion4</name>
     </customLabels>
     <customLabels>
         <label><!-- Title of the merged externally popover --></label>
@@ -2486,6 +2598,10 @@
         <name>sf_devops__noPipelineDefined</name>
     </customLabels>
     <customLabels>
+        <label><!-- Aria-description text for the No Pipeline Dialog. --></label>
+        <name>sf_devops__noPipelineModalDescription</name>
+    </customLabels>
+    <customLabels>
         <label><!-- DevOps Center preference not enabled body --></label>
         <name>sf_devops__noPreferenceBody</name>
     </customLabels>
@@ -2540,6 +2656,10 @@
     <customLabels>
         <label><!-- Application UI text for Not a Collaborator Dialog second line of Content. --></label>
         <name>sf_devops__notACollaboratorContent2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Aria-description text for Not a Collaborator Dialog. --></label>
+        <name>sf_devops__notACollaboratorModalDescription</name>
     </customLabels>
     <customLabels>
         <label><!-- Header for not a collaborator dialog. --></label>
@@ -2624,6 +2744,10 @@
     <customLabels>
         <label><!-- Header for blocking operation dialog --></label>
         <name>sf_devops__operationInProgress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Aria-description text for &quot;Has Operation In Progress Dialog&quot;. --></label>
+        <name>sf_devops__operationInProgressModalDescription</name>
     </customLabels>
     <customLabels>
         <label><!-- Error if an operation is performed on an environment and its not allowed --></label>
@@ -2818,6 +2942,10 @@
         <name>sf_devops__promoteBundles</name>
     </customLabels>
     <customLabels>
+        <label><!-- Aria-description text for the Promote Conflicts Dialog. --></label>
+        <name>sf_devops__promoteConflictsModalDescription</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Header for the Promotion Options dialog. --></label>
         <name>sf_devops__promoteOptionsTitle</name>
     </customLabels>
@@ -2914,6 +3042,10 @@
         <name>sf_devops__quickDeployInProgress</name>
     </customLabels>
     <customLabels>
+        <label><!-- Error if attempted a quick deploy on non versioned stages --></label>
+        <name>sf_devops__quickDeployNotAllowedError</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Application UI text for &quot;quick deploy operations&quot;. --></label>
         <name>sf_devops__quickDeployStalled</name>
     </customLabels>
@@ -2946,8 +3078,16 @@
         <name>sf_devops__rebaseErrorBannerExternal</name>
     </customLabels>
     <customLabels>
+        <label><!-- Banner when we have a rebase error and cant offer combine. --></label>
+        <name>sf_devops__rebaseErrorBannerNoExternalMerge</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Issue when there is a rebase error and external merge --></label>
         <name>sf_devops__rebaseErrorIssueExternal</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Issue when there is a rebase error and no external merge --></label>
+        <name>sf_devops__rebaseErrorIssueNoExternalMerge</name>
     </customLabels>
     <customLabels>
         <label><!-- Issues when there are many rebase errors --></label>
@@ -2968,6 +3108,10 @@
     <customLabels>
         <label><!-- Suggestion to promote whole stage when dependency issues. --></label>
         <name>sf_devops__rebaseErrorSuggestionFullStage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Suggestion to complete promotion when dependency issues. --></label>
+        <name>sf_devops__rebaseErrorSuggestionNoExternalMerge</name>
     </customLabels>
     <customLabels>
         <label><!-- Suggestion when there are many potentials --></label>
@@ -3032,6 +3176,10 @@
     <customLabels>
         <label><!-- Application UI text for &quot;Remove Work Environment?&quot;. --></label>
         <name>sf_devops__removeWorkEnvironmentHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Aria-description text for &quot;Remove Work Environment Dialog&quot;. --></label>
+        <name>sf_devops__removeWorkEnvironmentModalDescription</name>
     </customLabels>
     <customLabels>
         <label><!-- Error when a repository already exists on the VCS. --></label>
@@ -3406,6 +3554,10 @@
         <name>sf_devops__swapEnvironmentAgreement</name>
     </customLabels>
     <customLabels>
+        <label><!-- Text for the first step of swap environment: aggreement --></label>
+        <name>sf_devops__swapEnvironmentAgreementStep</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Wizard next button to contine --></label>
         <name>sf_devops__swapEnvironmentContinue</name>
     </customLabels>
@@ -3436,6 +3588,10 @@
     <customLabels>
         <label><!-- Wizard next button to login --></label>
         <name>sf_devops__swapEnvironmentLogin</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Text for the last step of swap environment: new environment --></label>
+        <name>sf_devops__swapEnvironmentNewEnvironmentStep</name>
     </customLabels>
     <customLabels>
         <label><!-- Wizard warning we need source tracking --></label>
@@ -3506,6 +3662,10 @@
         <name>sf_devops__synchronizingInProgress</name>
     </customLabels>
     <customLabels>
+        <label><!-- TestLevel is not needed for a quick deployments. --></label>
+        <name>sf_devops__testLevelNotNeeded</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Test Options header. --></label>
         <name>sf_devops__testOptions</name>
     </customLabels>
@@ -3540,6 +3700,10 @@
     <customLabels>
         <label><!-- Application UI text for &quot;Unable to back sync dialog header&quot;. --></label>
         <name>sf_devops__unableToBackSyncHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Aria-description text for &quot;Unable to Back Sync Dialog&quot;. --></label>
+        <name>sf_devops__unableToBackSyncModalDescription</name>
     </customLabels>
     <customLabels>
         <label><!-- Application UI text for &quot;Unable to connect dialog header&quot;. --></label>
@@ -3602,6 +3766,14 @@
         <name>sf_devops__unmergeableStageComputingDetail</name>
     </customLabels>
     <customLabels>
+        <label><!-- Conflict dialog detail for computing stage. --></label>
+        <name>sf_devops__unmergeableStageComputingDetail1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Conflict dialog detail for computing stage. --></label>
+        <name>sf_devops__unmergeableStageComputingDetail2</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Conflict dialog suggestion for computing stage. --></label>
         <name>sf_devops__unmergeableStageComputingSuggestion</name>
     </customLabels>
@@ -3614,12 +3786,28 @@
         <name>sf_devops__unmergeableStageSuggestion</name>
     </customLabels>
     <customLabels>
+        <label><!-- Conflict dialog suggestion for unmergeable work items. --></label>
+        <name>sf_devops__unmergeableStageSuggestionLink</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Conflict dialog suggestion for unmergeable work items when there is no link. --></label>
         <name>sf_devops__unmergeableStageSuggestionNolink</name>
     </customLabels>
     <customLabels>
+        <label><!-- Conflict dialog suggestion for unmergeable work items. --></label>
+        <name>sf_devops__unmergeableStageSuggestionPost</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Conflict dialog suggestion for unmergeable work items. --></label>
+        <name>sf_devops__unmergeableStageSuggestionPre</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Conflict dialog detail when mergability is being computed. --></label>
         <name>sf_devops__unmergeableWorkItemComputingDetail</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Conflict dialog detail when mergability is being computed. --></label>
+        <name>sf_devops__unmergeableWorkItemComputingDetailExtra</name>
     </customLabels>
     <customLabels>
         <label><!-- Conflict dialog suggestion when mergability is being computed. --></label>
@@ -3632,6 +3820,10 @@
     <customLabels>
         <label><!-- Conflict dialog suggestion for unmergeable work items. --></label>
         <name>sf_devops__unmergeableWorkItemSuggestion</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Conflict dialog suggestion for unmergeable work items. --></label>
+        <name>sf_devops__unmergeableWorkItemSuggestionExtra</name>
     </customLabels>
     <customLabels>
         <label><!-- Message when a Rest versioned promotion request indicates the change bundle name --></label>
@@ -3724,6 +3916,10 @@
     <customLabels>
         <label><!-- Toast displayed after we do the GitHub OAuth --></label>
         <name>sf_devops__vcsLoginToast</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Aria-description text for &quot;VCS Sync Error Dialog&quot;. --></label>
+        <name>sf_devops__vcsSyncErrorModalDescription</name>
     </customLabels>
     <customLabels>
         <label><!-- Application UI text for &quot;Version&quot; --></label>
@@ -3860,6 +4056,18 @@
     <customLabels>
         <label><!-- Work item Never dialog content --></label>
         <name>sf_devops__workItemNeverDialogContent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Work item Never dialog content --></label>
+        <name>sf_devops__workItemNeverDialogContent1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Work item Never dialog content --></label>
+        <name>sf_devops__workItemNeverDialogContent2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Aria-description text for the Work Item Never Dialog. --></label>
+        <name>sf_devops__workItemNeverDialogDescription</name>
     </customLabels>
     <customLabels>
         <label><!-- Work item Never dialog title --></label>
