@@ -144,6 +144,7 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
     <deprecated>false</deprecated>
+    <description>test</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -167,6 +168,7 @@
     <fields>
         <fullName>Test_Custom_Field1__c</fullName>
         <businessStatus>Active</businessStatus>
+        <description>test change for field</description>
         <externalId>false</externalId>
         <inlineHelpText>Testing custom field</inlineHelpText>
         <label>Test_Custom_Field1</label>
