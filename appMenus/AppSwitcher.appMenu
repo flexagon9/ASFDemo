@@ -136,4 +136,8 @@
         <name>Flow_Control</name>
         <type>ConnectedApp</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>SF_Connected_App</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
 </AppMenu>
