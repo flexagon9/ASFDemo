@@ -41,11 +41,6 @@
         <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
-        <application>standard__Commerce</application>
-        <default>false</default>
-        <visible>true</visible>
-    </applicationVisibilities>
-    <applicationVisibilities>
         <application>standard__Community</application>
         <default>false</default>
         <visible>false</visible>
@@ -54,6 +49,11 @@
         <application>standard__Content</application>
         <default>false</default>
         <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__FlowsApp</application>
+        <default>false</default>
+        <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__LightningInstrumentation</application>
@@ -11556,6 +11556,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>MessagingSession.EndUserLanguage</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>MessagingSession.LeadId</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -11842,6 +11847,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>OrderItem.ServiceDate</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>OrderItem.SubscriptionTerm</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -21583,6 +21593,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-DandBCompany</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-DataMaskPolicy</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>

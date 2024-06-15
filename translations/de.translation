@@ -1,27 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Translations xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
     <customApplications>
-        <description xsi:nil="true"/>
         <label><!-- Agile Accelerator --></label>
         <name>Agile_Accelerator</name>
     </customApplications>
     <customApplications>
-        <description xsi:nil="true"/>
         <label><!-- Agile Accelerator --></label>
         <name>Agile_Accelerator_LEX</name>
     </customApplications>
     <customApplications>
-        <description xsi:nil="true"/>
         <label><!-- DreamHouse --></label>
         <name>DreamHouse</name>
     </customApplications>
     <customApplications>
-        <description xsi:nil="true"/>
         <label><!-- FlexDeploy (SFDC) --></label>
         <name>FlexDeploy_SFDC</name>
     </customApplications>
     <customApplications>
-        <description xsi:nil="true"/>
         <label><!-- Trailblazer --></label>
         <name>Trailblazer</name>
     </customApplications>

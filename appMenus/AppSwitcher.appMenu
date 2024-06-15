@@ -77,10 +77,6 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>standard__Commerce</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
         <name>Dataloader_Bulk</name>
         <type>ConnectedApp</type>
     </appMenuItems>
@@ -139,5 +135,9 @@
     <appMenuItems>
         <name>SF_Connected_App</name>
         <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>standard__FlowsApp</name>
+        <type>CustomApplication</type>
     </appMenuItems>
 </AppMenu>
