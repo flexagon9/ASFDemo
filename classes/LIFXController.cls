@@ -1,8 +1,6 @@
 public with sharing class LIFXController {
 
     private static final Dreamhouse_Settings__c settings = Dreamhouse_Settings__c.getOrgDefaults();
-    // added comment
-
 
     @AuraEnabled
     public static String getLights() {
