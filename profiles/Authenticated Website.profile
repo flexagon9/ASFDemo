@@ -21937,10 +21937,6 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-DataMaskPolicy</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>standard-DataUseLegalBasis</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
