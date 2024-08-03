@@ -4109,8 +4109,12 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__DevOpsPkgPostInstallScriptTest</apexClass>
-        <enabled>true</enabled>
+        <apexClass>sf_devops__DevOpsPkgPostInstallScriptFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__DevOpsPkgPostInstallScriptUTest</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__DevOps_Match</apexClass>
