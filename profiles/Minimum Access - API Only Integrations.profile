@@ -20458,6 +20458,9 @@
         <enabled>false</enabled>
         <flow>Sample_PB</flow>
     </flowAccesses>
+    <layoutAssignments>
+        <layout>Summary__c-Summary Layout</layout>
+    </layoutAssignments>
     <pageAccesses>
         <apexPage>DemoPage</apexPage>
         <enabled>false</enabled>

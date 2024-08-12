@@ -20590,6 +20590,9 @@
         <layout>Seller-Seller Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Summary__c-Summary Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Test_sample__c-Test_sample Layout</layout>
     </layoutAssignments>
     <pageAccesses>
