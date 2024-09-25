@@ -2433,6 +2433,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>agf__ADM_WorkDeepCloneInterfaceTests</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>agf__ADM_WorkDeepCloneRedirectController</apexClass>
         <enabled>true</enabled>
     </classAccesses>

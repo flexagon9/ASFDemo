@@ -421,6 +421,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>agf__ADM_CreateTeamController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>agf__ADM_DebugLogger</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -1613,6 +1617,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>agf__ADM_WorkDeepCloneInterfaceTests</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>agf__ADM_WorkDeepCloneRedirectController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -2052,6 +2060,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Case.agf__ADM_Work__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>User.agf__Initials__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3326,6 +3339,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>agf__ADM_Scrum_Team__c.agf__Prefer_Board_Column_Auto_Update__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>agf__ADM_Scrum_Team__c.agf__Product_Area__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -3437,6 +3455,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>agf__ADM_Scrum_Team__c.agf__Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>agf__ADM_Scrum_Team__c.agf__Velocity_Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4027,6 +4050,56 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>agf__ADM_Work_History__c.agf__Work__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>agf__ADM_Work_Manager_User_Preferences__c.agf__Columns__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>agf__ADM_Work_Manager_User_Preferences__c.agf__Filters__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>agf__ADM_Work_Manager_User_Preferences__c.agf__Reorder_Field__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>agf__ADM_Work_Manager_User_Preferences__c.agf__Show_Velocity_Line__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>agf__ADM_Work_Manager_User_Preferences__c.agf__Sort_Column__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>agf__ADM_Work_Manager_User_Preferences__c.agf__Sort_Direction__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>agf__ADM_Work_Manager_User_Preferences__c.agf__Sort_Field__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>agf__ADM_Work_Manager_User_Preferences__c.agf__User__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>agf__ADM_Work_Manager_User_Preferences__c.agf__Velocity_Line_Limit__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>agf__ADM_Work_Manager_User_Preferences__c.agf__Visible_Columns__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -6030,6 +6103,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>agf__ADM_Work_History__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>agf__ADM_Work_Manager_User_Preferences__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
