@@ -4,8 +4,8 @@
     <div id="lightning" />
 
     <script>
-        $Lightning.use("c:ADM_DeepCloneApplication", function() {
-          $Lightning.createComponent("c:ADM_DeepCloneComponent",
+        $Lightning.use("agf:ADM_DeepCloneApplication", function() {
+          $Lightning.createComponent("agf:ADM_DeepCloneComponent",
           { recordId : '{!URLENCODE(recordId)}', workId : '{!URLENCODE(recordId)}'},
           "lightning",
           function(cmp) {
