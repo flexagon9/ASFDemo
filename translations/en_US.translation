@@ -4273,7 +4273,7 @@
         <name>FD</name>
     </customPageWebLinks>
     <customTabs>
-        <label><!-- Kanban Board(Deprecated) --></label>
+        <label><!-- Kanban Board --></label>
         <name>ADM_Kanban_Board</name>
     </customTabs>
     <customTabs>
@@ -4329,7 +4329,7 @@
         <name>Work_Manager</name>
     </customTabs>
     <customTabs>
-        <label><!-- Kanban Board --></label>
+        <label><!-- Kanban Board (New) --></label>
         <name>admBoardKanban</name>
     </customTabs>
     <flowDefinitions>
