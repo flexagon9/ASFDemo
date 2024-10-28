@@ -337,7 +337,7 @@
         <deprecated>false</deprecated>
         <description>The environment that this work item is running in.</description>
         <externalId>false</externalId>
-        <label>Environment</label>
+        <label>Connected Environment</label>
         <referenceTo>sf_devops__Environment__c</referenceTo>
         <relationshipLabel>Work Items</relationshipLabel>
         <relationshipName>Work_Items</relationshipName>
@@ -464,7 +464,7 @@ IF(
 )</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <inlineHelpText>The current state of this Work Item record.</inlineHelpText>
-        <label>State</label>
+        <label>Status</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>
@@ -482,10 +482,34 @@ IF(
         <type>Text</type>
         <unique>false</unique>
     </fields>
+    <fields>
+        <fullName>sf_devops__Synch_State__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>A reference to our synchronization state with the VCS</description>
+        <externalId>false</externalId>
+        <label>Synch State</label>
+        <referenceTo>sf_devops__Vcs_Synch_State__c</referenceTo>
+        <relationshipLabel>Work Items</relationshipLabel>
+        <relationshipName>Work_Items</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
     <label>Work Item</label>
+    <listViews>
+        <fullName>sf_devops__all</fullName>
+        <columns>NAME</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>sf_devops__Subject__c</columns>
+        <columns>sf_devops__State__c</columns>
+        <columns>sf_devops__Assigned_To__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <nameField>
         <displayFormat>WI-{000000}</displayFormat>
-        <label>Work Item Name</label>
+        <label>Work Item Number</label>
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Work Items</pluralLabel>
@@ -776,4 +800,24 @@ OR( NOT (  sf_devops__Promoted__c  ) , NOT ( ISBLANK (  sf_devops__Change_Bundle
         <errorMessage>Deprecated</errorMessage>
     </validationRules>
     <visibility>Public</visibility>
+    <webLinks>
+        <fullName>sf_devops__Devops_Center</fullName>
+        <availability>online</availability>
+        <description>View this work item in the DevOps Center</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>View in DevOps Center</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>{!$Site.BaseUrl}/sf_devops/DevOpsCenter.app?projectId={!sf_devops__Work_Item__c.sf_devops__ProjectId__c}&amp;workItemId={!sf_devops__Work_Item__c.Id}</url>
+    </webLinks>
 </CustomObject>

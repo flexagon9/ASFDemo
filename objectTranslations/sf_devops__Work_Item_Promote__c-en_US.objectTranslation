@@ -24,6 +24,10 @@
         <relationshipLabel><!-- Work Item Promotes --></relationshipLabel>
     </fields>
     <fields>
+        <label><!-- Rebase Limit --></label>
+        <name>sf_devops__Rebase_Limit__c</name>
+    </fields>
+    <fields>
         <label><!-- Rebase Status --></label>
         <name>sf_devops__Rebase_Status__c</name>
         <relationshipLabel><!-- Work Item Promote Rebases --></relationshipLabel>

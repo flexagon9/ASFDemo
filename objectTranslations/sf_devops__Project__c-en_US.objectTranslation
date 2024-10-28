@@ -5,7 +5,7 @@
         <name>sf_devops__Description__c</name>
     </fields>
     <fields>
-        <label><!-- Hidden --></label>
+        <label><!-- Hide --></label>
         <name>sf_devops__Hidden__c</name>
     </fields>
     <fields>
@@ -25,4 +25,8 @@
         <errorMessage><!-- Projects require a unique name. --></errorMessage>
         <name>sf_devops__Unique_Name</name>
     </validationRules>
+    <webLinks>
+        <label><!-- Devops_Center --></label>
+        <name>sf_devops__Devops_Center</name>
+    </webLinks>
 </CustomObjectTranslation>

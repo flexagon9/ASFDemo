@@ -172,7 +172,7 @@
         <deprecated>false</deprecated>
         <description>If true, this project will not show up in the project list view.  This only affects if it is displayed in the list view.</description>
         <externalId>false</externalId>
-        <label>Hidden</label>
+        <label>Hide</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
     </fields>
@@ -202,6 +202,14 @@
         <type>Lookup</type>
     </fields>
     <label>Project</label>
+    <listViews>
+        <fullName>sf_devops__All</fullName>
+        <columns>NAME</columns>
+        <columns>sf_devops__Description__c</columns>
+        <columns>sf_devops__Hidden__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <nameField>
         <label>Project Name</label>
         <type>Text</type>
@@ -236,4 +244,24 @@
         <errorMessage>Projects require a unique name.</errorMessage>
     </validationRules>
     <visibility>Public</visibility>
+    <webLinks>
+        <fullName>sf_devops__Devops_Center</fullName>
+        <availability>online</availability>
+        <description>View this project in the DevOps Center</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>View in DevOps Center</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>{!$Site.BaseUrl}/sf_devops/DevOpsCenter.app?projectId={!sf_devops__Project__c.Id}</url>
+    </webLinks>
 </CustomObject>

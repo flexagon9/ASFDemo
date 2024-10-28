@@ -192,6 +192,17 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>sf_devops__Recompute_Visible_Changes__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>.forceignore needs to be applied to visible changes.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>.forceignore needs to be applied to visible changes.</inlineHelpText>
+        <label>Recompute Visible Changes</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>sf_devops__Remote_Reference_Date__c</fullName>
         <deprecated>false</deprecated>
         <description>Stores the last time Remote_Reference__c has been updated in the Branch__c.</description>

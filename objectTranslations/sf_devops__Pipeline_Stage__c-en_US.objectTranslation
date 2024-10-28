@@ -48,6 +48,11 @@
         <relationshipLabel><!-- Pipeline Stage Swaps --></relationshipLabel>
     </fields>
     <fields>
+        <label><!-- Synch State --></label>
+        <name>sf_devops__Synch_State__c</name>
+        <relationshipLabel><!-- Pipeline Stages --></relationshipLabel>
+    </fields>
+    <fields>
         <label><!-- Versioned --></label>
         <name>sf_devops__Versioned__c</name>
     </fields>

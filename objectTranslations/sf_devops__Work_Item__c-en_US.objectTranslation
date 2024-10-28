@@ -65,7 +65,7 @@
         <name>sf_devops__Development_Environment__c</name>
     </fields>
     <fields>
-        <label><!-- Environment --></label>
+        <label><!-- Connected Environment --></label>
         <name>sf_devops__Environment__c</name>
         <relationshipLabel><!-- Work Items --></relationshipLabel>
     </fields>
@@ -104,12 +104,17 @@
     </fields>
     <fields>
         <help><!-- The current state of this Work Item record. --></help>
-        <label><!-- State --></label>
+        <label><!-- Status --></label>
         <name>sf_devops__State__c</name>
     </fields>
     <fields>
         <label><!-- Subject --></label>
         <name>sf_devops__Subject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Synch State --></label>
+        <name>sf_devops__Synch_State__c</name>
+        <relationshipLabel><!-- Work Items --></relationshipLabel>
     </fields>
     <validationRules>
         <errorMessage><!-- A Work_Item can not have Development_Approved_By set if it is not Development_Approved. --></errorMessage>
@@ -211,4 +216,8 @@
         <errorMessage><!-- Deprecated --></errorMessage>
         <name>sf_devops__Review_Without_Remote_Reference</name>
     </validationRules>
+    <webLinks>
+        <label><!-- Devops_Center --></label>
+        <name>sf_devops__Devops_Center</name>
+    </webLinks>
 </CustomObjectTranslation>

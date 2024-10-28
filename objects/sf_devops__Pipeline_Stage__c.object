@@ -287,6 +287,20 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>sf_devops__Synch_State__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>A reference to our synchronization state with the VCS</description>
+        <externalId>false</externalId>
+        <label>Synch State</label>
+        <referenceTo>sf_devops__Vcs_Synch_State__c</referenceTo>
+        <relationshipLabel>Pipeline Stages</relationshipLabel>
+        <relationshipName>Pipeline_Stages</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>sf_devops__Versioned__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>

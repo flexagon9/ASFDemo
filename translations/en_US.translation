@@ -1261,6 +1261,14 @@
         <name>sf_devops__beginWork</name>
     </customLabels>
     <customLabels>
+        <label><!-- Bitbucket Beta banner text. --></label>
+        <name>sf_devops__bitbucketBetaDesc</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Link title for the Bitbucket beta banner. --></label>
+        <name>sf_devops__bitbucketBetaLinkText</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Application UI text for &quot;Branch&quot;. --></label>
         <name>sf_devops__branch</name>
     </customLabels>
@@ -1453,6 +1461,10 @@
         <name>sf_devops__combineExceptionTitle</name>
     </customLabels>
     <customLabels>
+        <label><!-- Text when we have a failed combination --></label>
+        <name>sf_devops__combineFailed</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Application UI text for failed combine pipeline activity --></label>
         <name>sf_devops__combinePipelineFailedHeader</name>
     </customLabels>
@@ -1637,8 +1649,32 @@
         <name>sf_devops__connectEnvironmentTitle</name>
     </customLabels>
     <customLabels>
+        <label><!-- Application UI text for &quot;Connect&quot;. --></label>
+        <name>sf_devops__connectQuickAction</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Application UI text for &quot;Add Release Environment&quot;. --></label>
         <name>sf_devops__connectReleaseTarget</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Title for the connect repository dialog. --></label>
+        <name>sf_devops__connectRepository</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Reference to Beta capability of Bitbucket. --></label>
+        <name>sf_devops__connectRepositoryBitbucketBeta</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error when a repository already exists on the VCS. --></label>
+        <name>sf_devops__connectRepositoryDuplicatedMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Description for the repository inputs. --></label>
+        <name>sf_devops__connectRepositoryHelp</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Text for Toast popup after a repository is connected successfully. --></label>
+        <name>sf_devops__connectRepositorySuccessMessage</name>
     </customLabels>
     <customLabels>
         <label><!-- Remedy to conact support --></label>
@@ -1755,6 +1791,11 @@
     <customLabels>
         <label><!-- Global header text for &quot;DevOps Center&quot;. --></label>
         <name>sf_devops__devOpsCenterGlobalHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Global header text for &quot;View in Lightning Experience
+    &quot;. --></label>
+        <name>sf_devops__devOpsCenterGlobalHeaderActionMenu</name>
     </customLabels>
     <customLabels>
         <label><!-- Application UI text for &quot;Development Environments&quot;. --></label>
@@ -2181,6 +2222,10 @@
         <name>sf_devops__ignoredFilesContent2</name>
     </customLabels>
     <customLabels>
+        <label><!-- Aria-description text for the Ignored Files Dialog. --></label>
+        <name>sf_devops__ignoredFilesDialogDescription</name>
+    </customLabels>
+    <customLabels>
         <label><!-- App UI text for link to Ignored Files Dialog plural --></label>
         <name>sf_devops__ignoredFilesLinkPlural</name>
     </customLabels>
@@ -2241,6 +2286,10 @@
         <name>sf_devops__incorporatingTwoInProgress</name>
     </customLabels>
     <customLabels>
+        <label><!-- Application UI text for &quot;Information&quot;. --></label>
+        <name>sf_devops__information</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Error if an initial versioned promotion is attempted on a released work item --></label>
         <name>sf_devops__initialVersionedPromotionNotAllowedError</name>
     </customLabels>
@@ -2299,6 +2348,18 @@
     <customLabels>
         <label><!-- Application UI text for an invalid remote response. --></label>
         <name>sf_devops__invalidRemoteResponse</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- When the CMT references a class that does not support the correct interface --></label>
+        <name>sf_devops__invalidServiceProviderClass</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for an invalid vcs id. --></label>
+        <name>sf_devops__invalidVcsId</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DML Error when a Vcs__c references an unknown service provider --></label>
+        <name>sf_devops__invalidVcsServiceProvider</name>
     </customLabels>
     <customLabels>
         <label><!-- Application UI text for an invalid work item id. --></label>
@@ -2521,6 +2582,10 @@
         <name>sf_devops__multiStagePromotionNotAllowedError</name>
     </customLabels>
     <customLabels>
+        <label><!-- Error when there are multiple CMTs for the given name and type --></label>
+        <name>sf_devops__multipleServiceProvider</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Application UI text for &quot;Name&quot;. --></label>
         <name>sf_devops__name</name>
     </customLabels>
@@ -2647,6 +2712,10 @@
     <customLabels>
         <label><!-- Title for the new project dialog --></label>
         <name>sf_devops__newProjectTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Field label for the help text in the connect repository dialog. --></label>
+        <name>sf_devops__newRepositoryUrl</name>
     </customLabels>
     <customLabels>
         <label><!-- Name when a stage is added to the pipeline. --></label>
@@ -2861,8 +2930,16 @@
         <name>sf_devops__openEnvironment</name>
     </customLabels>
     <customLabels>
+        <label><!-- Open in Lightning Experience --></label>
+        <name>sf_devops__openInLightning</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Tooltip on review buttons. --></label>
         <name>sf_devops__openOrg</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Open Work Item in Lightning Experience --></label>
+        <name>sf_devops__openWIInLightning</name>
     </customLabels>
     <customLabels>
         <label><!-- Application UI text for &quot;Operation&quot;. --></label>
@@ -2959,6 +3036,14 @@
     <customLabels>
         <label><!-- When there is more then one stage but no start. --></label>
         <name>sf_devops__pipelineCycleNotAllowed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Not activated.&quot;. --></label>
+        <name>sf_devops__pipelineNotActivated</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- &quot;Environments needs setup column value in the project list view. --></label>
+        <name>sf_devops__pipelineNotDefined</name>
     </customLabels>
     <customLabels>
         <label><!-- When there are no stages on an active pipeline. --></label>
@@ -3071,6 +3156,10 @@
     <customLabels>
         <label><!-- Aria-description text for the Promote Conflicts Dialog. --></label>
         <name>sf_devops__promoteConflictsModalDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Aria-description text for the Promote Options Dialog. --></label>
+        <name>sf_devops__promoteOptionsModalDescription</name>
     </customLabels>
     <customLabels>
         <label><!-- Header for the Promotion Options dialog. --></label>
@@ -3877,6 +3966,22 @@
         <name>sf_devops__unknownRepositoryRemedy</name>
     </customLabels>
     <customLabels>
+        <label><!-- Error when there is no CMT for the given name and type --></label>
+        <name>sf_devops__unknownServiceProvider</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error when the CMT references an unknown class --></label>
+        <name>sf_devops__unknownServiceProviderClass</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Used when we could not load a Service Provider from the given Vcs --></label>
+        <name>sf_devops__unknownServiceProviderError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Used when we could not load a Service Provider from the given Vcs --></label>
+        <name>sf_devops__unknownServiceProviderRemedy</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Used when we get an error that could not figure out the VCS provider --></label>
         <name>sf_devops__unknownVcsProvider</name>
     </customLabels>
@@ -3985,12 +4090,28 @@
         <name>sf_devops__validateOnlySuccessfulCreatedOn</name>
     </customLabels>
     <customLabels>
+        <label><!-- UI text for Validating --></label>
+        <name>sf_devops__validating</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Hover text for pre-approval warning icon --></label>
+        <name>sf_devops__validationError</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Message in the validation popover. --></label>
         <name>sf_devops__validationErrorMessage</name>
     </customLabels>
     <customLabels>
         <label><!-- Title in the validation popover. --></label>
         <name>sf_devops__validationErrorTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Title for the pre-approval popover --></label>
+        <name>sf_devops__validationStatusTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pre-approval popover body when unexpected error occurs while validating --></label>
+        <name>sf_devops__validationUnexpectedErrorMessage</name>
     </customLabels>
     <customLabels>
         <label><!-- Title for the details dialog of the vcs banner. --></label>
@@ -4021,6 +4142,10 @@
         <name>sf_devops__vcsLoginButton</name>
     </customLabels>
     <customLabels>
+        <label><!-- Content on the VCS login dialog. --></label>
+        <name>sf_devops__vcsLoginContent</name>
+    </customLabels>
+    <customLabels>
         <label><!-- First paragraph of content on the VCS login dialog. --></label>
         <name>sf_devops__vcsLoginContent1</name>
     </customLabels>
@@ -4037,11 +4162,15 @@
         <name>sf_devops__vcsLoginContent4</name>
     </customLabels>
     <customLabels>
+        <label><!-- Aria-description text for the VCS loging Dialog. --></label>
+        <name>sf_devops__vcsLoginDialogDescription</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Title used on the VCS login dialog --></label>
         <name>sf_devops__vcsLoginTitle</name>
     </customLabels>
     <customLabels>
-        <label><!-- Toast displayed after we do the GitHub OAuth --></label>
+        <label><!-- Toast displayed after we do the VCS OAuth --></label>
         <name>sf_devops__vcsLoginToast</name>
     </customLabels>
     <customLabels>

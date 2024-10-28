@@ -25,6 +25,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__PreApprovalController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__ProjectController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -46,9 +50,18 @@
     </classAccesses>
     <customMetadataTypeAccesses>
         <enabled>true</enabled>
+        <name>sf_devops__Service_Provider__mdt</name>
+    </customMetadataTypeAccesses>
+    <customMetadataTypeAccesses>
+        <enabled>true</enabled>
         <name>sf_devops__Version__mdt</name>
     </customMetadataTypeAccesses>
     <description>Provides the data access and permissions needed to manage customizations for DevOps Center work items. Includes access to work environments. Typically applied to team members who work on DevOps Center projects.</description>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>User.sf_devops__Bitbucket_Primary_Email_Address__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>User.sf_devops__GitHub_Primary_Email_Address__c</field>
@@ -92,6 +105,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>sf_devops__Branch__c.sf_devops__Ignore_Rules__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>sf_devops__Branch__c.sf_devops__Recompute_Visible_Changes__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -315,6 +333,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>sf_devops__Pipeline_Stage__c.sf_devops__Synch_State__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>sf_devops__Pipeline_Stage__c.sf_devops__Versioned__c</field>
         <readable>true</readable>
@@ -351,6 +374,21 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>sf_devops__Repository__c.sf_devops__Bitbucket_Project_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Repository__c.sf_devops__Bitbucket_Repo_UUID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Repository__c.sf_devops__Bitbucket_Workspace_UUID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>sf_devops__Repository__c.sf_devops__GitHub_Owner__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -361,12 +399,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>sf_devops__Repository__c.sf_devops__Last_Event__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>sf_devops__Repository__c.sf_devops__Polling_Interval__c</field>
+        <field>sf_devops__Repository__c.sf_devops__Named_Credential__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -386,37 +419,32 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>sf_devops__Vcs_Event__c.sf_devops__Handled__c</field>
+        <field>sf_devops__Vcs_Synch_State__c.sf_devops__Last_Synch_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>sf_devops__Vcs_Event__c.sf_devops__Operation_Status__c</field>
+        <field>sf_devops__Vcs_Synch_State__c.sf_devops__Retry_Count__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>sf_devops__Vcs_Event__c.sf_devops__Payload__c</field>
+        <field>sf_devops__Vcs_Synch_State__c.sf_devops__Synch_Job_Id__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>sf_devops__Vcs_Event__c.sf_devops__Source_Branch__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>sf_devops__Vcs_Event__c.sf_devops__Target_Pipeline_Stage__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>sf_devops__Vcs_Event__c.sf_devops__Target_Work_Item__c</field>
+        <field>sf_devops__Vcs_Synch_State__c.sf_devops__Synch_Status__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>sf_devops__Work_Item_Promote__c.sf_devops__Deployment_Result__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Work_Item_Promote__c.sf_devops__Rebase_Limit__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -517,6 +545,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>sf_devops__Work_Item__c.sf_devops__State__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>sf_devops__Work_Item__c.sf_devops__Synch_State__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
@@ -668,7 +701,7 @@
     <objectPermissions>
         <allowCreate>false</allowCreate>
         <allowDelete>false</allowDelete>
-        <allowEdit>true</allowEdit>
+        <allowEdit>false</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>sf_devops__Repository__c</object>
@@ -698,7 +731,16 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>sf_devops__Vcs_Event__c</object>
+        <object>sf_devops__Vcs_Synch_State__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>sf_devops__Vcs__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -719,8 +761,4 @@
         <object>sf_devops__Work_Item__c</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
-    <pageAccesses>
-        <apexPage>sf_devops__SessionIdSource</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
 </PermissionSet>

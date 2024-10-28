@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
+        <label><!-- Bitbucket Project Name --></label>
+        <name>sf_devops__Bitbucket_Project_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bitbucket Repository UUID --></label>
+        <name>sf_devops__Bitbucket_Repo_UUID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bitbucket Workspace UUID --></label>
+        <name>sf_devops__Bitbucket_Workspace_UUID__c</name>
+    </fields>
+    <fields>
         <label><!-- Default Branch --></label>
         <name>sf_devops__Default_Branch__c</name>
     </fields>
@@ -19,6 +31,10 @@
     <fields>
         <label><!-- Named Credential --></label>
         <name>sf_devops__Named_Credential__c</name>
+    </fields>
+    <fields>
+        <label><!-- Path --></label>
+        <name>sf_devops__Path__c</name>
     </fields>
     <fields>
         <label><!-- Polling Interval --></label>
@@ -40,16 +56,25 @@
             <translation><!-- GitLab --></translation>
         </picklistValues>
     </fields>
+    <fields>
+        <label><!-- Url --></label>
+        <name>sf_devops__Url__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vcs --></label>
+        <name>sf_devops__Vcs__c</name>
+        <relationshipLabel><!-- Repositories --></relationshipLabel>
+    </fields>
     <validationRules>
-        <errorMessage><!-- GitHub_Repo and GitHub_Owner can only be set for GitHub repositories. --></errorMessage>
+        <errorMessage><!-- Deprecated. --></errorMessage>
         <name>sf_devops__GitHub_Properties</name>
     </validationRules>
     <validationRules>
-        <errorMessage><!-- This field cannot be modified. --></errorMessage>
+        <errorMessage><!-- Deprecated. --></errorMessage>
         <name>sf_devops__No_Property_Changes</name>
     </validationRules>
     <validationRules>
-        <errorMessage><!-- Repo and Owner are required for GitHub repositories. --></errorMessage>
+        <errorMessage><!-- Deprecated. --></errorMessage>
         <name>sf_devops__Require_GitHub_Properties</name>
     </validationRules>
 </CustomObjectTranslation>
