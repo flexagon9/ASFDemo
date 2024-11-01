@@ -538,7 +538,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>SitePageController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>SlackOpportunityPublisher</apexClass>
@@ -566,7 +566,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>TestClass2</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>TestClass3</apexClass>
