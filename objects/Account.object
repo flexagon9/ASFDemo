@@ -379,32 +379,14 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
-        <fullName>ExternalID_Acc__c</fullName>
+        <fullName>External_TXT__c</fullName>
         <externalId>true</externalId>
-        <label>ExternalID_Acc</label>
-        <length>255</length>
-        <required>false</required>
+        <label>External TXT</label>
+        <length>200</length>
+        <required>true</required>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
         <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>ExternalIdExternalId__c</fullName>
-        <externalId>true</externalId>
-        <label>ExternalId</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>FD_ExternalId__c</fullName>
-        <displayFormat>FD-{0000}</displayFormat>
-        <externalId>true</externalId>
-        <label>FD_ExternalId</label>
-        <type>AutoNumber</type>
     </fields>
     <fields>
         <fullName>Fax</fullName>
@@ -628,16 +610,6 @@
         </valueSet>
     </fields>
     <fields>
-        <fullName>SampleExternalId__c</fullName>
-        <externalId>true</externalId>
-        <label>SampleExternalId</label>
-        <length>255</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>ShippingAddress</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -779,14 +751,12 @@
     </fields>
     <listViews>
         <fullName>AllAccounts</fullName>
-        <columns>FD_ExternalId__c</columns>
         <columns>ACCOUNT.NAME</columns>
         <columns>ACCOUNT.SITE</columns>
         <columns>ACCOUNT.ADDRESS1_STATE</columns>
         <columns>ACCOUNT.PHONE1</columns>
         <columns>ACCOUNT.TYPE</columns>
-        <columns>SampleExternalId__c</columns>
-        <columns>CORE.USERS.ALIAS</columns>
+        <columns>External_TXT__c</columns>
         <filterScope>Everything</filterScope>
         <label>All Accounts</label>
     </listViews>

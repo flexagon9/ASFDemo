@@ -41,6 +41,10 @@
                 <behavior>Readonly</behavior>
                 <field>FD_ExternalId__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>External_TXT__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

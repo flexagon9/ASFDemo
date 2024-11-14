@@ -54,8 +54,8 @@
                 <field>sample_ext_id_contact__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
-                <field>ExternalID_Con__c</field>
+                <behavior>Required</behavior>
+                <field>External_TXT__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
