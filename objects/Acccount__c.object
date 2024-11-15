@@ -169,6 +169,22 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Accounts</pluralLabel>
+    <recordTypes>
+        <fullName>Global_Ecosystem</fullName>
+        <active>true</active>
+        <description>Global Innovation Ecosystem</description>
+        <label>Global Innovation Ecosystem</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>seller</fullName>
+        <active>true</active>
+        <label>Individual seller</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>seller2</fullName>
+        <active>true</active>
+        <label>seller2</label>
+    </recordTypes>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

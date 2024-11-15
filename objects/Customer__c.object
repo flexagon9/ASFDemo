@@ -208,6 +208,11 @@
         <fields>OWNER.LAST_NAME</fields>
         <profileName>Flex Lead</profileName>
     </profileSearchLayouts>
+    <recordTypes>
+        <fullName>Test_Record_Label</fullName>
+        <active>true</active>
+        <label>Test Record Label2</label>
+    </recordTypes>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

@@ -20,5 +20,9 @@
         <label><!-- Phone No --></label>
         <name>Phone_No__c</name>
     </fields>
+    <recordTypes>
+        <label><!-- Test Record Label2 --></label>
+        <name>Test_Record_Label</name>
+    </recordTypes>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

@@ -21252,6 +21252,18 @@
         <flow>Sample_PB</flow>
     </flowAccesses>
     <layoutAssignments>
+        <layout>Acccount__c-Acc Layout</layout>
+        <recordType>Acccount__c.Global_Ecosystem</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Acccount__c-Acc Layout</layout>
+        <recordType>Acccount__c.seller</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Acccount__c-Acc Layout</layout>
+        <recordType>Acccount__c.seller2</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Summary__c-Summary Layout</layout>
     </layoutAssignments>
     <pageAccesses>
@@ -21904,7 +21916,52 @@
     </pageAccesses>
     <recordTypeVisibilities>
         <default>false</default>
+        <recordType>Acccount__c.Global_Ecosystem</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Acccount__c.seller</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Acccount__c.seller2</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
         <recordType>Account.CleanDataService</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Account.Global_Ecosystem</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Account.seller</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Customer__c.Test_Record_Label</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Event.event_record_type</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Event.event_visit_report</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Event.third_type</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
