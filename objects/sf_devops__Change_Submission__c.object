@@ -165,6 +165,17 @@
         <visibleLines>3</visibleLines>
     </fields>
     <fields>
+        <fullName>sf_devops__Completed__c</fullName>
+        <deprecated>false</deprecated>
+        <description>True if this is a completed submit or inspection</description>
+        <externalId>false</externalId>
+        <formula>OR( TEXT(sf_devops__Inspection_Result__r.sf_devops__Status__c)  = &quot;COMPLETED&quot;,  TEXT(sf_devops__Creation_Result__r.sf_devops__Status__c) = &quot;COMPLETED&quot; )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Completed</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>sf_devops__Creation_Result__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>

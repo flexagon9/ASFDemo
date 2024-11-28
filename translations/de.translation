@@ -1217,6 +1217,10 @@
         <name>sf_devops__approvedItemChanges</name>
     </customLabels>
     <customLabels>
+        <label><!-- When we are asked to unapprove a work item that is not approved --></label>
+        <name>sf_devops__approvedRequiredForUnapprove</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Default label for the approved state. --></label>
         <name>sf_devops__approvedStateLabel</name>
     </customLabels>
@@ -1473,6 +1477,22 @@
         <name>sf_devops__combinePipelineSuccessHeader</name>
     </customLabels>
     <customLabels>
+        <label><!-- First recommendation in combine-cancel flow --></label>
+        <name>sf_devops__combineRecommendation1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Second recommendation in combine-cancel flow --></label>
+        <name>sf_devops__combineRecommendation2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Recommended header in combine-cancel flow --></label>
+        <name>sf_devops__combineRecommended</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Running message for combine validator --></label>
+        <name>sf_devops__combineRunningMessage</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Message when combine operation is going on. --></label>
         <name>sf_devops__combineSourceInProgress</name>
     </customLabels>
@@ -1487,6 +1507,10 @@
     <customLabels>
         <label><!-- Application UI text for success combine survivor with one source --></label>
         <name>sf_devops__combineSurvivorSuccessHeaderSingular</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Button for combine in the combine or cancel flow --></label>
+        <name>sf_devops__combineWorkItemsButton</name>
     </customLabels>
     <customLabels>
         <label><!-- Label for cancel button in combine work items dialog --></label>
@@ -1609,6 +1633,10 @@
         <name>sf_devops__confirmQuickDeployDialogHeader</name>
     </customLabels>
     <customLabels>
+        <label><!-- Running message for conflicts validator --></label>
+        <name>sf_devops__conflictsRunningMessage</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Description for the conflicts table section when there are rebase errors. --></label>
         <name>sf_devops__conflictsTableDescriptionForPromotionBlocked</name>
     </customLabels>
@@ -1683,6 +1711,10 @@
     <customLabels>
         <label><!-- Error if an environment contains in progress work items --></label>
         <name>sf_devops__containsInProgressWorkItems</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Continue&quot; --></label>
+        <name>sf_devops__continue</name>
     </customLabels>
     <customLabels>
         <label><!-- Application UI text for &quot;Continue with Promotion&quot;. --></label>
@@ -2414,6 +2446,10 @@
         <name>sf_devops__loading</name>
     </customLabels>
     <customLabels>
+        <label><!-- Status while we compute the promote options --></label>
+        <name>sf_devops__loadingPromoteOptions</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Run local tests during promotion. --></label>
         <name>sf_devops__localOption</name>
     </customLabels>
@@ -3022,6 +3058,10 @@
         <name>sf_devops__pastCommits</name>
     </customLabels>
     <customLabels>
+        <label><!-- Running message for permission validator --></label>
+        <name>sf_devops__permissionsRunningMessage</name>
+    </customLabels>
+    <customLabels>
         <label><!-- The word Pipeline. --></label>
         <name>sf_devops__pipeline</name>
     </customLabels>
@@ -3072,6 +3112,18 @@
     <customLabels>
         <label><!-- Description telling that there is a potential conflict detected. --></label>
         <name>sf_devops__potentialConflictDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Promotion stopped due to operation in progress&quot;. --></label>
+        <name>sf_devops__prePromoteOperationInProgressIssue</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Promotion stopped due to operation in progress&quot;. --></label>
+        <name>sf_devops__prePromoteOperationInProgressSolution</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Application UI text for &quot;Promotion stopped due to operation in progress&quot;. --></label>
+        <name>sf_devops__prePromoteOperationInProgressTitle</name>
     </customLabels>
     <customLabels>
         <label><!-- Close button dialog text --></label>
@@ -3156,6 +3208,10 @@
     <customLabels>
         <label><!-- Aria-description text for the Promote Conflicts Dialog. --></label>
         <name>sf_devops__promoteConflictsModalDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Description parameter for the promote dialog. --></label>
+        <name>sf_devops__promoteDialogDescription</name>
     </customLabels>
     <customLabels>
         <label><!-- Aria-description text for the Promote Options Dialog. --></label>
@@ -3354,6 +3410,10 @@
         <name>sf_devops__rebaseInProgressStatus</name>
     </customLabels>
     <customLabels>
+        <label><!-- Running message for rebase validator --></label>
+        <name>sf_devops__rebaseRunningMessage</name>
+    </customLabels>
+    <customLabels>
         <label><!-- The what happened text for a failed rebase activity. --></label>
         <name>sf_devops__rebaseWhatHappened</name>
     </customLabels>
@@ -3456,6 +3516,10 @@
     <customLabels>
         <label><!-- Run all Apex tests label. --></label>
         <name>sf_devops__runAllTestsOption</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Default message for a running validator --></label>
+        <name>sf_devops__runningValidator</name>
     </customLabels>
     <customLabels>
         <label><!-- Used when the swapped env is the same as the source --></label>
@@ -3874,6 +3938,10 @@
         <name>sf_devops__synchronizationTitle</name>
     </customLabels>
     <customLabels>
+        <label><!-- Running message for synchronizer validator --></label>
+        <name>sf_devops__synchronizerRunningMessage</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Message when synching is going on&quot;. --></label>
         <name>sf_devops__synchronizingInProgress</name>
     </customLabels>
@@ -3994,6 +4062,10 @@
         <name>sf_devops__unmergeableConflictDescription</name>
     </customLabels>
     <customLabels>
+        <label><!-- Running message for unmergeable validator --></label>
+        <name>sf_devops__unmergeableRunningMessage</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Conflict dialog detail for computing stage. --></label>
         <name>sf_devops__unmergeableStageComputingDetail</name>
     </customLabels>
@@ -4092,6 +4164,26 @@
     <customLabels>
         <label><!-- UI text for Validating --></label>
         <name>sf_devops__validating</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Default title in a fail validation result --></label>
+        <name>sf_devops__validatingFailTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Default title in an info validation result --></label>
+        <name>sf_devops__validatingInfoTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Common validating message in the promote dialog --></label>
+        <name>sf_devops__validatingPromotion</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Status message when we are loading validators --></label>
+        <name>sf_devops__validatingPromotionLoading</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Default title in a warning validation result --></label>
+        <name>sf_devops__validatingWarningTitle</name>
     </customLabels>
     <customLabels>
         <label><!-- Hover text for pre-approval warning icon --></label>

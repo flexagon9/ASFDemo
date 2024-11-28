@@ -45,6 +45,10 @@
         <name>sf_devops__Comment__c</name>
     </fields>
     <fields>
+        <label><!-- Completed --></label>
+        <name>sf_devops__Completed__c</name>
+    </fields>
+    <fields>
         <label><!-- Creation Result --></label>
         <name>sf_devops__Creation_Result__c</name>
         <relationshipLabel><!-- Change Submissions --></relationshipLabel>

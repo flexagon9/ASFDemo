@@ -25,10 +25,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__PreApprovalController</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>sf_devops__ProjectController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -38,6 +34,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__RemoteMetadataController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ServiceProviderController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -125,6 +125,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>sf_devops__Change_Submission__c.sf_devops__Comment__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Change_Submission__c.sf_devops__Completed__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

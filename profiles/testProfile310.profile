@@ -2877,14 +2877,6 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__AbsAdHocStageConflictLocator</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__AbsAdHocStageConflictLocatorUTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>sf_devops__AbsStageMergeSynchronizer</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -3053,7 +3045,23 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__AdHocPrePromoteValidator</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__AdHocPrePromoteValidatorUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__AdHocPromoResHandlerErrorFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__AdHocPromoteDataLoader</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__AdHocPromoteDataLoaderFTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -3078,18 +3086,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__AdHocPromoteServiceUTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__AdHocStageConflictLocator</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__AdHocStageConflictLocatorFTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__AdHocStageConflictLocatorUTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -3162,6 +3158,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__AorRelationshipBuilder</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__AorTester</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -3238,14 +3238,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__ApproveWorkItemUseCase</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__ApprovedStageConflictLocator</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__ApprovedStageConflictLocatorFTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -3425,11 +3417,31 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__BasePrePromoteBuilder</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__BasePrePromoteBuilderUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__BasePromoteDataLoader</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__BaseRestProcessor</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__BaseRestProcessorUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__BaseSpiContext</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__BaseTester</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -4053,10 +4065,6 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__ConflictTestHelpers</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>sf_devops__Constants</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -4261,6 +4269,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__DefaultedPromoteOptions</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__DeferredRelationshipBuilder</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -4369,6 +4381,14 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__DevOpsDefaultPrePromoteOptions</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__DevOpsDefaultPrePromoteOptionsFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__DevOpsPkgPostInstallScript</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -4438,6 +4458,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__DmlTestUtils</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__DocePrePromoteValidator</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__DocePrePromoteValidatorUTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -5369,6 +5397,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__LoggingTester</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__MannySteelThreadTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -5857,30 +5889,6 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__PipelineCombineConflicts</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__PipelineConflictLocator</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__PipelineConflictLocatorUTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__PipelineConflictType</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__PipelineConflicts</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__PipelineConflictsUTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>sf_devops__PipelineController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -5901,22 +5909,6 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__PipelineMergeWorkItem</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__PipelinePermissionsConflicts</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__PipelinePotentialConflicts</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__PipelineRebaseErrorConflicts</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>sf_devops__PipelineService</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -5926,10 +5918,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__PipelineServiceUTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__PipelineSlowWorkItem</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -6009,31 +5997,11 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__PipelineSynchConflicts</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>sf_devops__PipelineTestUtils</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__PipelineTester</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__PipelineUnmergeableStageConflicts</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__PipelineUnmergeableStageConflictsUTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__PipelineUnmergeableWIConflictsUTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__PipelineUnmergeableWorkItemConflicts</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -6077,6 +6045,18 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__PlatformEventService</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PlatformEventServiceUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PlatformEventTestUtils</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__PossibleFieldValues</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -6093,27 +6073,167 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__PreApprovalContext</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__PreApprovalController</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__PreApprovalControllerFTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__PreApprovalControllerUTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__PreApprovalValidationResponse</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>sf_devops__PreApprovalValidator</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PrePromoteCombineProvider</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PrePromoteCombineValidator</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PrePromoteCombineValidatorFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PrePromoteCombineValidatorUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PrePromoteConflictsProvider</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PrePromoteConflictsValidator</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PrePromoteConflictsValidatorFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PrePromoteConflictsValidatorUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PrePromoteCustomAction</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PrePromoteEngineUserResponse</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PrePromoteOverlapManager</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PrePromoteOverlapManagerFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PrePromoteOverlapManagerUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PrePromotePermissionsProvider</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PrePromotePermissionsProviderUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PrePromoteProvider</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PrePromoteRebaseManager</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PrePromoteRebaseManagerFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PrePromoteRebaseProvider</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PrePromoteRebaseValidator</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PrePromoteRebaseValidatorFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PrePromoteRebaseValidatorUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PrePromoteResponseDataValidator</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PrePromoteResponseValidator</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PrePromoteSynchronizationProvider</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PrePromoteSynchronizationProviderFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PrePromoteSynchronizationProviderUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PrePromoteTestHelpers</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PrePromoteTestValidator</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PrePromoteTester</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PrePromoteUnmergeableProvider</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PrePromoteUnmergeableValidator</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PrePromoteUnmergeableValidatorFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PrePromoteUnmergeableValidatorUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PrePromoteValidator</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PrePromoteValidatorTestEngine</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PrePromoteValidatorsFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PrePromoteWhatHappened</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PrePromoteWorkItemManager</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__PrePromoteWorkItemManagerFTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -6274,6 +6394,22 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__PromotesMappingCacheFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ProviderExecutionService</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ProviderExecutionServiceFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ProviderExecutionServiceImpl</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ProviderExecutionServiceImplUTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -6897,6 +7033,26 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__SelectorTester</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ServiceProviderController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ServiceProviderControllerFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ServiceProviderControllerUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ServiceProviderDefinition</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__ServiceProviderException</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -6910,6 +7066,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__ServiceProviderServiceUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ServiceTester</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -7037,6 +7197,14 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__SoupPromoteDataLoader</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__SoupPromoteDataLoaderFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__SoupPromoteResultHandler</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -7137,7 +7305,91 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__SpiContext</apexClass>
+        <apexClass>sf_devops__SpiChangeBundle</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__SpiChangeBundleImpl</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__SpiContinuePrePromoteBuilder</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__SpiDefaultPromoteOptionsBuilder</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__SpiDefaultPromoteOptionsBuilderFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__SpiDefaultPromoteOptionsBuilderImpl</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__SpiDefaultPromoteOptionsBuilderImplUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__SpiDeploymentType</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__SpiPreApprovalContext</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__SpiPreApprovalContextImpl</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__SpiPreApprovalContextImplUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__SpiPreApprovalValidationResponse</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__SpiPreApprovalValidationResponseImpl</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__SpiPrePromoteContext</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__SpiPrePromoteContextImpl</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__SpiPrePromoteResponseBuilder</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__SpiPrePromoteValidationResponse</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__SpiPrePromoteValidationResponseImpl</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__SpiPromotionType</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__SpiSimplePrePromoteBuilder</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__SpiSimplePrePromoteBuilderUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__SpiTestLevel</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -7153,11 +7405,23 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__SpiValidationResponse</apexClass>
+        <apexClass>sf_devops__SpiWhatHappenedBuilder</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__SpiValidator</apexClass>
+        <apexClass>sf_devops__SpiWhatHappenedBuilderUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__SpiWhatHappenedPrePromoteBuilder</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__SpiWorkItem</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__SpiWorkItemImpl</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -7778,6 +8042,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__TestPopulationResultHandlers</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__TestPrePromoteProvider</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -8993,14 +9261,6 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__UiWorkItemStateAction</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__UiWorkItemStateActionUTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>sf_devops__UiWorkItemStates</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -9074,18 +9334,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__UnableToUpdateChangeRequestException</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__UndeployedOnlyConflictsLocator</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__UndeployedOnlyConflictsLocatorFTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__UndeployedOnlyConflictsLocatorUTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -9177,6 +9425,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__UowTester</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__UpdateBranchRRQueueableUTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -9250,14 +9502,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__V2SObjectReference</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__ValidationService</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__ValidationServiceUTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -9425,6 +9669,14 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__VersionedPromoteDataLoader</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__VersionedPromoteDataLoaderFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__VersionedPromoteResultHandler</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -9461,14 +9713,6 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_devops__VersionedStageConflictLocator</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>sf_devops__VersionedStageConflictLocatorFTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>sf_devops__VersionedToVerWorkItemsLocatorFTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -9482,6 +9726,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__VersionsSelectorFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__WhatHappenedBanner</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -20689,6 +20937,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>sf_devops__Change_Submission__c.sf_devops__Completed__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>sf_devops__Change_Submission__c.sf_devops__Creation_Result__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -20790,6 +21043,26 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>sf_devops__Deployment_Result__c.sf_devops__Test_Level__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Deployment__e.sf_devops__Change_Bundle_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Deployment__e.sf_devops__Deployment_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Deployment__e.sf_devops__Target_Stage_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Deployment__e.sf_devops__Work_Item_Id__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -21099,6 +21372,41 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>sf_devops__Work_Item_Merged_Change_Request__e.sf_devops__Remote_Reference__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Work_Item_Merged_Change_Request__e.sf_devops__Source_Stage_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Work_Item_Merged_Change_Request__e.sf_devops__Target_Stage_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Work_Item_Merged_Change_Request__e.sf_devops__Work_Item_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Work_Item_Open_Change_Request__e.sf_devops__Remote_Reference__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Work_Item_Open_Change_Request__e.sf_devops__Target_Stage_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Work_Item_Open_Change_Request__e.sf_devops__Work_Item_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>sf_devops__Work_Item_Promote__c.sf_devops__Completion_Date__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -21130,6 +21438,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>sf_devops__Work_Item_Promote__c.sf_devops__Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Work_Item_State_Change__e.sf_devops__Previous_State__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -23194,6 +23507,15 @@
         <allowEdit>false</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
+        <object>sf_devops__Deployment__e</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
         <object>sf_devops__Environment__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -23320,7 +23642,43 @@
         <allowEdit>false</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
+        <object>sf_devops__Work_Item_Commit__e</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>sf_devops__Work_Item_Merged_Change_Request__e</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>sf_devops__Work_Item_Open_Change_Request__e</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
         <object>sf_devops__Work_Item_Promote__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>sf_devops__Work_Item_State_Change__e</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
