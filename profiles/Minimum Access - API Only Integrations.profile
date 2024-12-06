@@ -2877,6 +2877,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>dummy1</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__AbsStageMergeSynchronizer</apexClass>
         <enabled>false</enabled>
     </classAccesses>
