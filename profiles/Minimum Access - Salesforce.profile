@@ -12901,6 +12901,21 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Summary__c.Closed__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Summary__c.Summary_Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Summary__c.Total_Sale_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Task.ActivityDate</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -21719,6 +21734,10 @@
         <layout>Summary__c-Summary Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Summary__c-Summary Layout</layout>
+        <recordType>Summary__c.Illingworth_Proposal</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Test_sample__c-Test_sample Layout</layout>
     </layoutAssignments>
     <pageAccesses>
@@ -22422,6 +22441,11 @@
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Summary__c.Illingworth_Proposal</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
