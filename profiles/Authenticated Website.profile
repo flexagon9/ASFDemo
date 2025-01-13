@@ -105,6 +105,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>CaseForward</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>ChangePasswordController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -554,6 +558,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>TestCaseAssignee</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>TestCaseForward</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
