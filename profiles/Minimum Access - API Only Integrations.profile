@@ -21604,6 +21604,9 @@
         <recordType>Acccount__c.seller2</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>FlowRecord-Flow Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Summary__c-Summary Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
