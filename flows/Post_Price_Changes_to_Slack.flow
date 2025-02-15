@@ -56,7 +56,6 @@
             </value>
         </inputParameters>
         <nameSegment>PostPriceChangeToSlack</nameSegment>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>49.0</apiVersion>
     <assignments>

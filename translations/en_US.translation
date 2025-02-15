@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Translations xmlns="http://soap.sforce.com/2006/04/metadata">
     <customApplications>
-        <label><!-- Agile Accelerator --></label>
-        <name>Agile_Accelerator</name>
-    </customApplications>
-    <customApplications>
-        <label><!-- Agile Accelerator --></label>
-        <name>Agile_Accelerator_LEX</name>
-    </customApplications>
-    <customApplications>
         <label><!-- DreamHouse --></label>
         <name>DreamHouse</name>
     </customApplications>
@@ -19,6 +11,14 @@
     <customApplications>
         <label><!-- Trailblazer --></label>
         <name>Trailblazer</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Agile Accelerator --></label>
+        <name>agf__Agile_Accelerator</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Agile Accelerator --></label>
+        <name>agf__Agile_Accelerator_LEX</name>
     </customApplications>
     <customLabels>
         <label><!-- FD_About_Label --></label>
@@ -4494,14 +4494,6 @@
         <name>FD</name>
     </customPageWebLinks>
     <customTabs>
-        <label><!-- Kanban Board --></label>
-        <name>ADM_Kanban_Board</name>
-    </customTabs>
-    <customTabs>
-        <label><!-- Backlog Manager --></label>
-        <name>ADM_Unified_Wall</name>
-    </customTabs>
-    <customTabs>
         <label><!-- Dashboard --></label>
         <name>Dashboard</name>
     </customTabs>
@@ -4510,24 +4502,12 @@
         <name>FlexDeploy</name>
     </customTabs>
     <customTabs>
-        <label><!-- Settings --></label>
-        <name>Gus_Settings</name>
-    </customTabs>
-    <customTabs>
         <label><!-- Heat Map --></label>
         <name>Heat_Map</name>
     </customTabs>
     <customTabs>
         <label><!-- Heat Map (Mock) --></label>
         <name>Heat_Map_Mock</name>
-    </customTabs>
-    <customTabs>
-        <label><!-- My Current Teams --></label>
-        <name>MyTeam</name>
-    </customTabs>
-    <customTabs>
-        <label><!-- My Teams --></label>
-        <name>My_Teams</name>
     </customTabs>
     <customTabs>
         <label><!-- Property Explorer --></label>
@@ -4546,12 +4526,32 @@
         <name>Testing</name>
     </customTabs>
     <customTabs>
+        <label><!-- Kanban Board --></label>
+        <name>agf__ADM_Kanban_Board</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Backlog Manager --></label>
+        <name>agf__ADM_Unified_Wall</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Settings --></label>
+        <name>agf__Gus_Settings</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- My Current Teams --></label>
+        <name>agf__MyTeam</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- My Teams --></label>
+        <name>agf__My_Teams</name>
+    </customTabs>
+    <customTabs>
         <label><!-- Work Manager --></label>
-        <name>Work_Manager</name>
+        <name>agf__Work_Manager</name>
     </customTabs>
     <customTabs>
         <label><!-- Kanban Board (New) --></label>
-        <name>admBoardKanban</name>
+        <name>agf__admBoardKanban</name>
     </customTabs>
     <flowDefinitions>
         <flows/>
