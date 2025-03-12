@@ -71,6 +71,11 @@
         <name>sf_devops__Polling_Interval__c</name>
     </fields>
     <fields>
+        <label><!-- Project Generation Operation Status --></label>
+        <name>sf_devops__Project_Generation_Status__c</name>
+        <relationshipLabel><!-- Repositories --></relationshipLabel>
+    </fields>
+    <fields>
         <label><!-- Provider --></label>
         <name>sf_devops__Provider__c</name>
         <picklistValues>

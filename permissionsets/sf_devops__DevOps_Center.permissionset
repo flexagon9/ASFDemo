@@ -50,7 +50,15 @@
     </classAccesses>
     <customMetadataTypeAccesses>
         <enabled>true</enabled>
+        <name>sf_devops__App_Config__mdt</name>
+    </customMetadataTypeAccesses>
+    <customMetadataTypeAccesses>
+        <enabled>true</enabled>
         <name>sf_devops__Service_Provider__mdt</name>
+    </customMetadataTypeAccesses>
+    <customMetadataTypeAccesses>
+        <enabled>true</enabled>
+        <name>sf_devops__Service__mdt</name>
     </customMetadataTypeAccesses>
     <customMetadataTypeAccesses>
         <enabled>true</enabled>
@@ -405,6 +413,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>sf_devops__Repository__c.sf_devops__Named_Credential__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>sf_devops__Repository__c.sf_devops__Project_Generation_Status__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

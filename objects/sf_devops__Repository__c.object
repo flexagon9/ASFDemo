@@ -276,6 +276,20 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>sf_devops__Project_Generation_Status__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The AOR referencing the project generation operation.</description>
+        <externalId>false</externalId>
+        <label>Project Generation Operation Status</label>
+        <referenceTo>sf_devops__Async_Operation_Result__c</referenceTo>
+        <relationshipLabel>Repositories</relationshipLabel>
+        <relationshipName>Repositories</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>sf_devops__Provider__c</fullName>
         <defaultValue>&apos;GitHub&apos;</defaultValue>
         <deprecated>false</deprecated>
