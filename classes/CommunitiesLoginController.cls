@@ -1,6 +1,8 @@
-// 3/18/2025 Demo CHG 2
+// 3/20/2025 Demo CHG 3
 /**
  * An apex page controller that exposes the site login functionality
+ * HID Test
+ * HID Demo
  */
 global with sharing class CommunitiesLoginController {
 
