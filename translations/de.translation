@@ -941,6 +941,22 @@
         <name>sf_devops__activityTypeMigration</name>
     </customLabels>
     <customLabels>
+        <label><!-- When a quality gate evaluation Completed for a stage --></label>
+        <name>sf_devops__activityTypeQualityGateEvaluationStageComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- When a quality gate evaluation is started for a stage --></label>
+        <name>sf_devops__activityTypeQualityGateEvaluationStageInit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- When a quality gate evaluation Completed for a work item --></label>
+        <name>sf_devops__activityTypeQualityGateEvaluationWorkItemComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- When a quality gate evaluation is started for a work item --></label>
+        <name>sf_devops__activityTypeQualityGateEvaluationWorkItemInit</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Display text for a stage getting a quick deploy. --></label>
         <name>sf_devops__activityTypeQuickDeployComplete</name>
     </customLabels>
@@ -969,6 +985,14 @@
         <name>sf_devops__activityTypeRecreateWorkItemChangeRequest</name>
     </customLabels>
     <customLabels>
+        <label><!-- When a stage assignment is completed --></label>
+        <name>sf_devops__activityTypeStageAssignmentComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- When a stage assignment is started --></label>
+        <name>sf_devops__activityTypeStageAssignmentInit</name>
+    </customLabels>
+    <customLabels>
         <label><!-- Display text for development environment getting swapped activity type. --></label>
         <name>sf_devops__activityTypeSwapDevelopmentEnvironment</name>
     </customLabels>
@@ -987,6 +1011,22 @@
     <customLabels>
         <label><!-- Display text for work item dev env swap activity. --></label>
         <name>sf_devops__activityTypeSwappedWorkItem</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- When a test suite group execution is completed for a stage --></label>
+        <name>sf_devops__activityTypeTestSuiteExecutionStageComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- When a test suite group execution is started for a stage --></label>
+        <name>sf_devops__activityTypeTestSuiteExecutionStageInit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- When a test suite group execution is completed for a work item --></label>
+        <name>sf_devops__activityTypeTestSuiteExecutionWorkItemComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- When a test suite group execution is started for a work item --></label>
+        <name>sf_devops__activityTypeTestSuiteExecutionWorkItemInit</name>
     </customLabels>
     <customLabels>
         <label><!-- Display text for a stage getting a versioned promote. --></label>
@@ -3172,6 +3212,10 @@
     <customLabels>
         <label><!-- Project environments count for Dev and Pipeline --></label>
         <name>sf_devops__projectEnvironments</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AOR message when we enqueue a repository project generation operation --></label>
+        <name>sf_devops__projectGenerationQueued</name>
     </customLabels>
     <customLabels>
         <label><!-- Application UI text for &quot;Project PROJECT_NAME has been created&quot;. --></label>

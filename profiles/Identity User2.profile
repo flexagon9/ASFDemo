@@ -5024,6 +5024,14 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__HerokuProjectQueueable</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__HerokuProjectQueueableUTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__HerokuQueueable</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -5864,6 +5872,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__PipelineStageActionProvider</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__PipelineStageBulkTriggerData</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -6217,6 +6229,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__ProjectEventServiceFTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ProjectGenerationQueueable</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__ProjectGenerationQueueableUTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -7280,6 +7300,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>sf_devops__SpiContextMenuAction</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>sf_devops__SpiContinuePrePromoteBuilder</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -7301,6 +7325,14 @@
     </classAccesses>
     <classAccesses>
         <apexClass>sf_devops__SpiDeploymentType</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__SpiHeaderAction</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>sf_devops__SpiPipelineStageActions</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
