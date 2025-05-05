@@ -152,6 +152,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>DuplicateAccountCleaner</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>DuplicateCustomer</apexClass>
         <enabled>true</enabled>
     </classAccesses>
