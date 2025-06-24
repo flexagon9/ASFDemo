@@ -81,6 +81,7 @@
     <profileName>Flex Lead</profileName>
     <profileName>B2B Reordering Portal Buyer Profile</profileName>
     <profileName>Minimum Access - API Only Integrations</profileName>
+    <profileName>KarlsProfileFrom9</profileName>
     <sessionPolicy>
         <sessionTimeout>15</sessionTimeout>
     </sessionPolicy>
