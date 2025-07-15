@@ -129,6 +129,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>ApexUtilSalesforce</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>CaseAssignee</apexClass>
         <enabled>true</enabled>
     </classAccesses>
