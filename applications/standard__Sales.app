@@ -13,6 +13,7 @@
     <tabs>standard-Forecasting3</tabs>
     <tabs>standard-Contract</tabs>
     <tabs>standard-Order</tabs>
+    <tabs>standard-Invoice</tabs>
     <tabs>standard-Case</tabs>
     <tabs>standard-Solution</tabs>
     <tabs>standard-Product2</tabs>
@@ -22,5 +23,4 @@
     <tabs>Sample2__c</tabs>
     <tabs>Bank_Branch__c</tabs>
     <tabs>Customer__c</tabs>
-    <tabs>Test_sample__c</tabs>
 </CustomApplication>

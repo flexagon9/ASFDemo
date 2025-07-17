@@ -184,7 +184,6 @@
     <tabs>Sample2__c</tabs>
     <tabs>Bank_Branch__c</tabs>
     <tabs>Customer__c</tabs>
-    <tabs>Test_sample__c</tabs>
     <workspaceConfig>
         <mappings>
             <tab>Bank_Branch__c</tab>
@@ -197,9 +196,6 @@
         </mappings>
         <mappings>
             <tab>Sample2__c</tab>
-        </mappings>
-        <mappings>
-            <tab>Test_sample__c</tab>
         </mappings>
         <mappings>
             <tab>standard-Account</tab>
