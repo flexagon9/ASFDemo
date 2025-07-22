@@ -8,9 +8,17 @@
         <plural>true</plural>
         <value>Addresses</value>
     </caseValues>
+    <fieldSets>
+        <label><!-- Address_fields --></label>
+        <name>firelds</name>
+    </fieldSets>
     <fields>
         <label><!-- Custom_Field_Testing --></label>
         <name>Custom_Field_Testing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone Number --></label>
+        <name>Phone_Number__c</name>
     </fields>
     <fields>
         <help><!-- Testing custom field --></help>
