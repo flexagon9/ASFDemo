@@ -8,6 +8,10 @@
         <plural>true</plural>
         <value>Customers</value>
     </caseValues>
+    <fieldSets>
+        <label><!-- xxxcxc --></label>
+        <name>xxxcxc</name>
+    </fieldSets>
     <fields>
         <label><!-- Customer_Externalid --></label>
         <name>Customer_Externalid__c</name>

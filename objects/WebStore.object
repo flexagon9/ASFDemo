@@ -100,10 +100,14 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
-    <externalSharingModel>Private</externalSharingModel>
+    <externalSharingModel>Read</externalSharingModel>
+    <fields>
+        <fullName>Country</fullName>
+        <inlineHelpText>The ship to country to use when a optional ship to country isn&apos;t selected at checkout.</inlineHelpText>
+    </fields>
     <fields>
         <fullName>DefaultLanguage</fullName>
-        <inlineHelpText>The language to use when translated content isn&apos;t available. This value comes from the first supported language for your org in Translation Workbench.</inlineHelpText>
+        <inlineHelpText>The language to use when translated content isn&apos;t available. This value is configured during store creation. If you change the default language later, you must also change the default language in Experience Builder for any associated community.</inlineHelpText>
     </fields>
     <fields>
         <fullName>Description</fullName>
@@ -135,6 +139,7 @@
     </fields>
     <fields>
         <fullName>ProductGrouping</fullName>
+        <inlineHelpText>Choose how product variations and parent products display in search results.</inlineHelpText>
     </fields>
     <fields>
         <fullName>SortByPricebookId</fullName>
@@ -149,6 +154,10 @@
     <fields>
         <fullName>SupportedLanguages</fullName>
         <inlineHelpText>The languages to make available to buyers. Language options come from Translation Workbench.</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>SupportedShipToCountries</fullName>
+        <inlineHelpText>The ship to countries to make available on the store.</inlineHelpText>
     </fields>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>

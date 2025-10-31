@@ -9,6 +9,10 @@
         <name>FlexDeploy_SFDC</name>
     </customApplications>
     <customApplications>
+        <label><!-- TestFDBMCHelix --></label>
+        <name>TestFDBMCHelix</name>
+    </customApplications>
+    <customApplications>
         <label><!-- Trailblazer --></label>
         <name>Trailblazer</name>
     </customApplications>
@@ -1868,6 +1872,18 @@
         <label><!-- Global header text for &quot;View in Lightning Experience
     &quot;. --></label>
         <name>sf_devops__devOpsCenterGlobalHeaderActionMenu</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Description for the DevOps Testing Ad --></label>
+        <name>sf_devops__devOpsTestingAdDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Link for the DevOps Testing Ad --></label>
+        <name>sf_devops__devOpsTestingAdLink</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Title for the DevOps Testing Ad --></label>
+        <name>sf_devops__devOpsTestingAdTitle</name>
     </customLabels>
     <customLabels>
         <label><!-- Application UI text for &quot;Development Environments&quot;. --></label>
@@ -4617,6 +4633,25 @@
         <flows/>
         <fullName>Sample_PB</fullName>
     </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>f2</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <name>Screen_2</name>
+            </screens>
+            <screens>
+                <name>level1</name>
+            </screens>
+        </flows>
+        <fullName>test_flow</fullName>
+    </flowDefinitions>
+    <quickActions>
+        <label><!-- Guest Community Case --></label>
+        <name>GuestCommunityCase</name>
+    </quickActions>
     <quickActions>
         <label><!-- LogACall --></label>
         <name>LogACall</name>
@@ -4630,6 +4665,10 @@
         <name>NewCase</name>
     </quickActions>
     <quickActions>
+        <label><!-- New Community Case --></label>
+        <name>NewCommunityCase</name>
+    </quickActions>
+    <quickActions>
         <label><!-- NewContact --></label>
         <name>NewContact</name>
     </quickActions>
@@ -4638,7 +4677,7 @@
         <name>NewEvent</name>
     </quickActions>
     <quickActions>
-        <label><!-- NewGroup --></label>
+        <label><!-- New Group --></label>
         <name>NewGroup</name>
     </quickActions>
     <quickActions>
@@ -4747,6 +4786,19 @@
         </sections>
     </reportTypes>
     <reportTypes>
+        <description><!-- Partner Fund Requests and Partner Fund C --></description>
+        <label><!-- Partner Fund Requests and Partner Fund C --></label>
+        <name>MDF_Claim_Request_Crt</name>
+        <sections>
+            <label><!-- Partner Fund Claims --></label>
+            <name>Partner Fund Claims</name>
+        </sections>
+        <sections>
+            <label><!-- Partner Fund Requests --></label>
+            <name>Partner Fund Requests</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
         <description><!-- Projects with Packages with Package Files --></description>
         <label><!-- Projects with Packages with Package Files --></label>
         <name>Projects_with_Packages_with_Package_Files</name>
@@ -4825,6 +4877,50 @@
         </sections>
     </reportTypes>
     <reportTypes>
+        <description><!-- Partner Fund Requests --></description>
+        <label><!-- Partner Fund Requests --></label>
+        <name>prm_partner_fund_request_crt</name>
+        <sections>
+            <label><!-- Partner Fund Requests --></label>
+            <name>Partner Fund Requests</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Partner Marketing Budgets --></description>
+        <label><!-- Partner Marketing Budgets --></label>
+        <name>prm_partner_marketing_budget_crt</name>
+        <sections>
+            <label><!-- Partner Marketing Budgets --></label>
+            <name>Partner Marketing Budgets</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Login History for Experience Cloud Site --></description>
+        <label><!-- Login History for Experience Cloud Site --></label>
+        <name>prm_total_portal_login_crt</name>
+        <sections>
+            <label><!-- Login History --></label>
+            <name>Login History</name>
+        </sections>
+        <sections>
+            <label><!-- Network Members --></label>
+            <name>Network Members</name>
+        </sections>
+        <sections>
+            <label><!-- Networks --></label>
+            <name>Networks</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- User Details --></description>
+        <label><!-- User Details --></label>
+        <name>prm_unique_portal_crt</name>
+        <sections>
+            <label><!-- Users --></label>
+            <name>Users</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
         <description><!-- Screen Flows --></description>
         <label><!-- Screen Flows --></label>
         <name>screen_flows_prebuilt_crt</name>
@@ -4835,6 +4931,189 @@
         <sections>
             <label><!-- Flow Interview Logs --></label>
             <name>Flow Interview Logs</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Payment Authorizations --></description>
+        <label><!-- Payment Authorizations --></label>
+        <name>sfdc_payments_auth_crt</name>
+        <sections>
+            <label><!-- Payment Authorizations --></label>
+            <name>Payment Authorizations</name>
+        </sections>
+        <sections>
+            <label><!-- Payments --></label>
+            <name>Payments</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Payment Authorizations by Merchant --></description>
+        <label><!-- Payment Authorizations by Merchant --></label>
+        <name>sfdc_payments_auth_groupby_merchant_crt</name>
+        <sections>
+            <label><!-- Merchant Accounts --></label>
+            <name>Merchant Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Payment Authorizations --></label>
+            <name>Payment Authorizations</name>
+        </sections>
+        <sections>
+            <label><!-- Payment Gateways --></label>
+            <name>Payment Gateways</name>
+        </sections>
+        <sections>
+            <label><!-- Payments --></label>
+            <name>Payments</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Payment Authorizations by Channel --></description>
+        <label><!-- Payment Authorizations by Channel --></label>
+        <name>sfdc_payments_auth_groupby_sales_crt</name>
+        <sections>
+            <label><!-- Order Payment Summaries --></label>
+            <name>Order Payment Summaries</name>
+        </sections>
+        <sections>
+            <label><!-- Order Summaries --></label>
+            <name>Order Summaries</name>
+        </sections>
+        <sections>
+            <label><!-- Payment Authorizations --></label>
+            <name>Payment Authorizations</name>
+        </sections>
+        <sections>
+            <label><!-- Sales Channels --></label>
+            <name>Sales Channels</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Payment Captures --></description>
+        <label><!-- Payment Captures --></label>
+        <name>sfdc_payments_capture_crt</name>
+        <sections>
+            <columns>
+                <label><!-- Merchant Name --></label>
+                <name>Merchant Name</name>
+            </columns>
+            <label><!-- Merchant Accounts --></label>
+            <name>Merchant Accounts</name>
+        </sections>
+        <sections>
+            <columns>
+                <label><!-- Order Amount --></label>
+                <name>Order Amount</name>
+            </columns>
+            <columns>
+                <label><!-- Order Summary --></label>
+                <name>Order Summary</name>
+            </columns>
+            <label><!-- Order Summaries --></label>
+            <name>Order Summaries</name>
+        </sections>
+        <sections>
+            <label><!-- Payments --></label>
+            <name>Payments</name>
+        </sections>
+        <sections>
+            <columns>
+                <label><!-- Sales Channel --></label>
+                <name>Sales Channel</name>
+            </columns>
+            <label><!-- Sales Channels --></label>
+            <name>Sales Channels</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Payment Captures by Merchant --></description>
+        <label><!-- Payment Captures by Merchant --></label>
+        <name>sfdc_payments_capture_groupby_merchant_crt</name>
+        <sections>
+            <label><!-- Merchant Accounts --></label>
+            <name>Merchant Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Payment Gateways --></label>
+            <name>Payment Gateways</name>
+        </sections>
+        <sections>
+            <label><!-- Payments --></label>
+            <name>Payments</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Payment Captures by Channel --></description>
+        <label><!-- Payment Captures by Channel --></label>
+        <name>sfdc_payments_capture_groupby_sales_crt</name>
+        <sections>
+            <label><!-- Order Payment Summaries --></label>
+            <name>Order Payment Summaries</name>
+        </sections>
+        <sections>
+            <label><!-- Order Summaries --></label>
+            <name>Order Summaries</name>
+        </sections>
+        <sections>
+            <label><!-- Payments --></label>
+            <name>Payments</name>
+        </sections>
+        <sections>
+            <label><!-- Sales Channels --></label>
+            <name>Sales Channels</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Payment Refunds --></description>
+        <label><!-- Payment Refunds --></label>
+        <name>sfdc_payments_refund_crt</name>
+        <sections>
+            <columns>
+                <label><!-- Merchant Name --></label>
+                <name>Merchant Name</name>
+            </columns>
+            <label><!-- Merchant Accounts --></label>
+            <name>Merchant Accounts</name>
+        </sections>
+        <sections>
+            <columns>
+                <label><!-- Order Amount --></label>
+                <name>Order Amount</name>
+            </columns>
+            <columns>
+                <label><!-- Order Summary --></label>
+                <name>Order Summary</name>
+            </columns>
+            <label><!-- Order Summaries --></label>
+            <name>Order Summaries</name>
+        </sections>
+        <sections>
+            <columns>
+                <label><!-- Payment Amount --></label>
+                <name>Payment Amount</name>
+            </columns>
+            <label><!-- Payments --></label>
+            <name>Payments</name>
+        </sections>
+        <sections>
+            <columns>
+                <label><!-- Refund Amount --></label>
+                <name>Refund Amount</name>
+            </columns>
+            <columns>
+                <label><!-- Refund Number --></label>
+                <name>Refund Number</name>
+            </columns>
+            <label><!-- Refund Line Payments --></label>
+            <name>Refund Line Payments</name>
+        </sections>
+        <sections>
+            <columns>
+                <label><!-- Sales Channel --></label>
+                <name>Sales Channel</name>
+            </columns>
+            <label><!-- Sales Channels --></label>
+            <name>Sales Channels</name>
         </sections>
     </reportTypes>
 </Translations>

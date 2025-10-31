@@ -154,6 +154,12 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fieldSets>
+        <fullName>X33dd</fullName>
+        <description>asdf</description>
+        <label>33dd</label>
+    </fieldSets>
     <fields>
         <fullName>agf__Account_Id__c</fullName>
         <deprecated>false</deprecated>

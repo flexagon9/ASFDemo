@@ -13,8 +13,8 @@
         <name>Sample_ExternalId1__c</name>
     </fields>
     <fields>
-        <label><!-- Sample Text1 --></label>
-        <name>Sample_Text1__c</name>
+        <label><!-- Sample text1 --></label>
+        <name>Sample_text1__c</name>
     </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

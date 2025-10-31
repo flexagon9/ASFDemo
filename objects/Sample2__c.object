@@ -152,6 +152,7 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
     <fields>
         <fullName>Sample_ExternalId2__c</fullName>
         <externalId>true</externalId>
@@ -179,7 +180,7 @@
         <label>All</label>
     </listViews>
     <nameField>
-        <label>Sample2 Name</label>
+        <label>Sample1 Name</label>
         <type>Text</type>
     </nameField>
     <pluralLabel>Sample2s</pluralLabel>

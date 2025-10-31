@@ -128,6 +128,7 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
     <fields>
         <fullName>ActualTax</fullName>
     </fields>
@@ -169,6 +170,11 @@
     <fields>
         <fullName>TransactionDate</fullName>
     </fields>
+    <listViews>
+        <fullName>AssetActionSource</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <listViews>
         <fullName>AssetActionSource</fullName>
         <filterScope>Everything</filterScope>

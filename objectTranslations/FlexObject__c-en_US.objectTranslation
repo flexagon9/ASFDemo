@@ -8,13 +8,5 @@
         <plural>true</plural>
         <value>FlexObjects</value>
     </caseValues>
-    <fields>
-        <label><!-- FlexId --></label>
-        <name>FlexId__c</name>
-    </fields>
-    <fields>
-        <label><!-- FlexObjectExtId --></label>
-        <name>FlexObjectExtId__c</name>
-    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

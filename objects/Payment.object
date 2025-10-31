@@ -114,6 +114,7 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
+    <externalSharingModel>ReadWrite</externalSharingModel>
     <fields>
         <fullName>AccountId</fullName>
         <type>Lookup</type>
@@ -182,7 +183,14 @@
         <fullName>NetApplied</fullName>
     </fields>
     <fields>
+        <fullName>NetPaymentCreditApplied</fullName>
+    </fields>
+    <fields>
         <fullName>NetRefundApplied</fullName>
+    </fields>
+    <fields>
+        <fullName>OrderPaymentSummaryId</fullName>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>PaymentAuthorizationId</fullName>
@@ -214,6 +222,12 @@
     </fields>
     <fields>
         <fullName>TotalApplied</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalPaymentCreditApplied</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalPaymentCreditUnapplied</fullName>
     </fields>
     <fields>
         <fullName>TotalRefundApplied</fullName>

@@ -152,6 +152,7 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
     <fields>
         <fullName>Sample_ExternalId1__c</fullName>
         <externalId>true</externalId>
@@ -163,9 +164,9 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Sample_Text1__c</fullName>
+        <fullName>Sample_text1__c</fullName>
         <externalId>false</externalId>
-        <label>Sample Text1</label>
+        <label>Sample text1</label>
         <length>255</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
