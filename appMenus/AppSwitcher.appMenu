@@ -180,4 +180,8 @@
         <name>TestFDBMCHelix</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>FlexDeploy_Karl_Local</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
 </AppMenu>
