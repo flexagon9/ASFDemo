@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtlClntAppOauthSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <commaSeparatedOauthScopes>Api, Full</commaSeparatedOauthScopes>
+    <externalClientApplication>Run_Test_Client</externalClientApplication>
+    <label>Run_Test_Client_oauth</label>
+    <oauthLink>00D46000000ptYV:888KY0000012XhC</oauthLink>
+</ExtlClntAppOauthSettings>
