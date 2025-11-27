@@ -188,4 +188,8 @@
         <name>Run_Test_Client</name>
         <type>ExternalClientApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>FlexDeploy_Prod</name>
+        <type>ExternalClientApplication</type>
+    </appMenuItems>
 </AppMenu>
