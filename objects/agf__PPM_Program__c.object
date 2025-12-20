@@ -158,7 +158,6 @@
         <fullName>agf__End_Date__c</fullName>
         <deprecated>false</deprecated>
         <description>End Date for the Program.</description>
-        <externalId>false</externalId>
         <inlineHelpText>End Date for the Program.</inlineHelpText>
         <label>End Date</label>
         <required>false</required>
@@ -171,7 +170,6 @@
         <fullName>agf__Executive_Sponsor__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Executive Sponsor</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Programs_Users</relationshipName>
@@ -185,7 +183,6 @@
         <fullName>agf__Portfolio__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Portfolio</label>
         <referenceTo>agf__PPM_Portfolio__c</referenceTo>
         <relationshipLabel>Programs</relationshipLabel>
@@ -227,7 +224,6 @@
     <fields>
         <fullName>agf__Program_Health__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Program Health</label>
         <required>false</required>
         <trackFeedHistory>true</trackFeedHistory>
@@ -286,7 +282,6 @@
         <fullName>agf__Program_Manager__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Program Manager</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Programs1</relationshipName>
@@ -313,7 +308,6 @@
         <fullName>agf__Start_Date__c</fullName>
         <deprecated>false</deprecated>
         <description>Start Date for the Program or Close Date.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Start Date for the Program or Close Date.</inlineHelpText>
         <label>Start Date</label>
         <required>false</required>

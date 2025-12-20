@@ -155,7 +155,6 @@
     <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>Journey_Date__c</fullName>
-        <externalId>false</externalId>
         <label>Journey Date</label>
         <required>false</required>
         <trackHistory>false</trackHistory>

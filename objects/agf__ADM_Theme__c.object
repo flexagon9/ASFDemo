@@ -159,7 +159,6 @@
         <fullName>agf__Active__c</fullName>
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Active</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -180,7 +179,6 @@
     <fields>
         <fullName>agf__Description__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Description</label>
         <length>1500</length>
         <trackHistory>false</trackHistory>
@@ -206,7 +204,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Optional relationship with a scrum team so teams can organize their themes</description>
-        <externalId>false</externalId>
         <label>Scrum Team</label>
         <referenceTo>agf__ADM_Scrum_Team__c</referenceTo>
         <relationshipName>Themes</relationshipName>

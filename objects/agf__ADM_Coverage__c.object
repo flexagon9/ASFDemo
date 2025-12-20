@@ -159,7 +159,6 @@
     <fields>
         <fullName>agf__Actual_Coverage__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Actual Coverage (%)</label>
         <precision>5</precision>
         <required>false</required>
@@ -184,7 +183,6 @@
     <fields>
         <fullName>agf__Coverage_Gap__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <formula>agf__Actual_Coverage__c - agf__Target_Coverage__c</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>Coverage Gap</label>
@@ -211,7 +209,6 @@
     <fields>
         <fullName>agf__Link_to_actual_report__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Link to actual report</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -284,7 +281,6 @@
         <fullName>agf__Scheduled_Build__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Scheduled Build</label>
         <referenceTo>agf__ADM_Build__c</referenceTo>
         <relationshipLabel>Coverage</relationshipLabel>
@@ -298,7 +294,6 @@
         <fullName>agf__Scrum_Team__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Scrum Team</label>
         <referenceTo>agf__ADM_Scrum_Team__c</referenceTo>
         <relationshipName>Feature_Code_Coverage</relationshipName>
@@ -310,7 +305,6 @@
     <fields>
         <fullName>agf__Target_Coverage__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Target Coverage (%)</label>
         <precision>5</precision>
         <required>false</required>

@@ -158,7 +158,6 @@
     <fields>
         <fullName>agf__Allocation__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Allocation (%)</label>
         <precision>3</precision>
         <required>false</required>
@@ -271,7 +270,6 @@ IF ( $RecordType.Name = &apos;External&apos;, &apos;(External) &apos; , &apos;(P
         <fullName>agf__Member_Name__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Member Name</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Scrum_Team_Members</relationshipName>
@@ -309,7 +307,6 @@ IF ( $RecordType.Name = &apos;External&apos;, &apos;(External) &apos; , &apos;(P
     <fields>
         <fullName>agf__Role__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Role</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -511,7 +508,6 @@ IF ( $RecordType.Name = &apos;External&apos;, &apos;(External) &apos; , &apos;(P
     <fields>
         <fullName>agf__Scrum_Team__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Team</label>
         <referenceTo>agf__ADM_Scrum_Team__c</referenceTo>
         <relationshipLabel>Team Members</relationshipLabel>

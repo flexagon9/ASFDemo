@@ -57,6 +57,20 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
+        <actionName>OpenDockedEmailPaymentLink</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>OpenDockedEmailPaymentLink</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>OpenDockedEmailPaymentLink</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>SaveEdit</actionName>
         <type>Default</type>
     </actionOverrides>

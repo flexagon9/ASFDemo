@@ -158,7 +158,6 @@
         <fullName>agf__Business_Hours__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Specify your working hours based on your location. This is used to improve the accuracy of SLAs of Work you own. If you don&apos;t specify a value, GUS will use the setting for your team.</inlineHelpText>
         <label>Business Hours</label>
         <referenceTo>BusinessHours</referenceTo>
@@ -172,7 +171,6 @@
         <fullName>agf__User__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>User</label>
         <referenceTo>User</referenceTo>
         <relationshipName>User_Business_Hours</relationshipName>

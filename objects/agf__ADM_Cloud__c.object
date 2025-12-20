@@ -158,7 +158,6 @@
         <fullName>agf__Cloud_Lead__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Cloud Lead</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Clouds1</relationshipName>
@@ -169,7 +168,6 @@
     <fields>
         <fullName>agf__Cloud_Type__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Cloud Type</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -211,7 +209,6 @@
         <fullName>agf__Escalation_Security_Contact__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Escalation Security Contact</label>
         <referenceTo>User</referenceTo>
         <relationshipName>As_Cloud_Escalation_Security_Contact</relationshipName>
@@ -223,7 +220,6 @@
         <fullName>agf__Parent_Cloud__c</fullName>
         <deleteConstraint>Restrict</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Parent Cloud</label>
         <referenceTo>agf__ADM_Parent_Cloud__c</referenceTo>
         <relationshipLabel>Clouds</relationshipLabel>
@@ -236,7 +232,6 @@
         <fullName>agf__Primary_Security_Contact__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Primary Security Contact</label>
         <referenceTo>User</referenceTo>
         <relationshipName>As_Cloud_Primary_Security_Contact</relationshipName>
@@ -248,7 +243,6 @@
         <fullName>agf__Secondary_Security_Contact__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Secondary Security Contact</label>
         <referenceTo>User</referenceTo>
         <relationshipName>As_Cloud_Secondary_Security_Contact</relationshipName>
@@ -270,7 +264,6 @@
     <fields>
         <fullName>agf__Security_Guidance__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Security Guidance</label>
         <length>32768</length>
         <trackTrending>false</trackTrending>
@@ -280,7 +273,6 @@
     <fields>
         <fullName>agf__Security_Guidence__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Security Guidence</label>
         <length>32768</length>
         <trackTrending>false</trackTrending>
@@ -291,7 +283,6 @@
         <fullName>agf__Tertiary_Security_Contact__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Tertiary Security Contact</label>
         <referenceTo>User</referenceTo>
         <relationshipName>As_Cloud_Tertiary_Security_Contact</relationshipName>

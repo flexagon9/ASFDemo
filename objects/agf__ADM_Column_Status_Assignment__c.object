@@ -158,7 +158,6 @@
         <fullName>agf__Column__c</fullName>
         <deleteConstraint>Restrict</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Column</label>
         <referenceTo>agf__ADM_Column__c</referenceTo>
         <relationshipLabel>Column Status Assignments</relationshipLabel>
@@ -182,7 +181,6 @@
         <fullName>agf__Work_Status__c</fullName>
         <deleteConstraint>Restrict</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Work Status</label>
         <referenceTo>agf__ADM_Work_Status__c</referenceTo>
         <relationshipLabel>Column Status Assignments</relationshipLabel>

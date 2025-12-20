@@ -160,7 +160,6 @@
         <deleteConstraint>Restrict</deleteConstraint>
         <deprecated>false</deprecated>
         <description>A reference to the Change Submission that this change was submitted with.</description>
-        <externalId>false</externalId>
         <label>Change Submission</label>
         <referenceTo>sf_devops__Change_Submission__c</referenceTo>
         <relationshipName>Changes</relationshipName>
@@ -172,7 +171,6 @@
         <fullName>sf_devops__Environment__c</fullName>
         <deprecated>false</deprecated>
         <description>The Environment that this remote change was loaded from.</description>
-        <externalId>false</externalId>
         <label>Environment</label>
         <referenceTo>sf_devops__Environment__c</referenceTo>
         <relationshipName>Remote_Changes</relationshipName>
@@ -222,7 +220,6 @@
         <fullName>sf_devops__Remote_Change_On__c</fullName>
         <deprecated>false</deprecated>
         <description>The date and time this change was made on the remote server.</description>
-        <externalId>false</externalId>
         <label>Remote Change On</label>
         <required>true</required>
         <trackTrending>false</trackTrending>
@@ -232,7 +229,6 @@
         <fullName>sf_devops__Remote_Change_Type__c</fullName>
         <deprecated>false</deprecated>
         <description>What type of change is this?</description>
-        <externalId>false</externalId>
         <label>Remote Change Type</label>
         <required>true</required>
         <trackTrending>false</trackTrending>

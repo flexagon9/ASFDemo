@@ -10470,6 +10470,10 @@
         <enabled>true</enabled>
         <name>agf__ADM_Release_Calendar__c</name>
     </customSettingAccesses>
+    <externalDataSourceAccesses>
+        <enabled>false</enabled>
+        <externalDataSource>FlexDB</externalDataSource>
+    </externalDataSourceAccesses>
     <fieldPermissions>
         <editable>true</editable>
         <field>Acccount__c.Active__c</field>
@@ -12299,6 +12303,11 @@
         <editable>true</editable>
         <field>Favorite__c.User__c</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>FlexIntegration__x.Active__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -23391,6 +23400,7 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>UserExternalCredential</object>
+        <viewAllFields>false</viewAllFields>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <pageAccesses>

@@ -158,7 +158,6 @@
         <fullName>agf__Severity__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Severity</label>
         <referenceTo>agf__ADM_Severity__c</referenceTo>
         <relationshipName>R00N90000000NkrWEAS</relationshipName>
@@ -171,7 +170,6 @@
         <fullName>agf__Type__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Type</label>
         <referenceTo>agf__ADM_Type__c</referenceTo>
         <relationshipName>R00N90000000NkrXEAS</relationshipName>

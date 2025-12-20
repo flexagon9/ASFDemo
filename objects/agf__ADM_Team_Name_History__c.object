@@ -159,7 +159,6 @@
         <fullName>agf__Team__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Team</label>
         <referenceTo>agf__ADM_Scrum_Team__c</referenceTo>
         <relationshipLabel>Team Names History</relationshipLabel>

@@ -160,7 +160,6 @@
         <fullName>agf__Build__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Build</label>
         <referenceTo>agf__ADM_Build__c</referenceTo>
         <relationshipLabel>Team Builds</relationshipLabel>
@@ -184,7 +183,6 @@
     <fields>
         <fullName>agf__Release_Goals__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Release Goals</label>
         <length>2000</length>
         <trackTrending>false</trackTrending>
@@ -195,7 +193,6 @@
         <fullName>agf__Scrum_Team__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Scrum Team</label>
         <referenceTo>agf__ADM_Scrum_Team__c</referenceTo>
         <relationshipName>Release_Teams</relationshipName>
@@ -231,8 +228,8 @@
     <pluralLabel>Team Releases</pluralLabel>
     <searchLayouts>
         <customTabListAdditionalFields>agf__Scrum_Team__c</customTabListAdditionalFields>
-        <excludedStandardButtons>Accept</excludedStandardButtons>
         <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
         <lookupDialogsAdditionalFields>agf__Scrum_Team__c</lookupDialogsAdditionalFields>
         <searchResultsAdditionalFields>agf__Scrum_Team__c</searchResultsAdditionalFields>
     </searchLayouts>

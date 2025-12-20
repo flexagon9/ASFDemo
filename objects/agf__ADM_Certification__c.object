@@ -157,7 +157,6 @@
     <fields>
         <fullName>agf__Additional_Comments__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Additional Comments</label>
         <length>32768</length>
         <trackFeedHistory>false</trackFeedHistory>
@@ -168,7 +167,6 @@
     <fields>
         <fullName>agf__Certified_On__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Certified On</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -179,7 +177,6 @@
         <fullName>agf__Certified__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Certified</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
@@ -188,7 +185,6 @@
     <fields>
         <fullName>agf__Type__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Type</label>
         <required>true</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -215,7 +211,6 @@
         <fullName>agf__User__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>User</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Certifications</relationshipName>

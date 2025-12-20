@@ -15,7 +15,6 @@
     </fields>
     <fields>
         <fullName>LIFX_URL__c</fullName>
-        <externalId>false</externalId>
         <label>LIFX URL</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -23,7 +22,6 @@
     </fields>
     <fields>
         <fullName>Light_Service_URL__c</fullName>
-        <externalId>false</externalId>
         <label>Light Service URL</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -31,7 +29,6 @@
     </fields>
     <fields>
         <fullName>Push_Server_URL__c</fullName>
-        <externalId>false</externalId>
         <label>Push Server URL</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -39,7 +36,6 @@
     </fields>
     <fields>
         <fullName>Slack_Opportunity_Webhook_URL__c</fullName>
-        <externalId>false</externalId>
         <label>Slack Opportunity Webhook URL</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -47,7 +43,6 @@
     </fields>
     <fields>
         <fullName>Slack_Property_Webhook_URL__c</fullName>
-        <externalId>false</externalId>
         <label>Slack Property Webhook URL</label>
         <required>false</required>
         <trackTrending>false</trackTrending>

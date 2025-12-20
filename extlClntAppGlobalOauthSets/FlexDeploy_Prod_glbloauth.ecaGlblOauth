@@ -4,10 +4,17 @@
     <consumerKey>3MVG9i1HRpGLXp.pB_VNJYhNFeu7K7Pe8euvOx7Xe9g0o.AifFW2QWTLLuE06cJae41gsUWbhr95HXtWTx5yT</consumerKey>
     <externalClientApplication>FlexDeploy_Prod</externalClientApplication>
     <isClientCredentialsFlowEnabled>true</isClientCredentialsFlowEnabled>
+    <isCodeCredFlowEnabled>true</isCodeCredFlowEnabled>
+    <isCodeCredPostOnly>false</isCodeCredPostOnly>
     <isConsumerSecretOptional>false</isConsumerSecretOptional>
+    <isDeviceFlowEnabled>false</isDeviceFlowEnabled>
     <isIntrospectAllTokens>false</isIntrospectAllTokens>
+    <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
     <isPkceRequired>false</isPkceRequired>
+    <isRefreshTokenRotationEnabled>false</isRefreshTokenRotationEnabled>
     <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
+    <isSecretRequiredForTokenExchange>true</isSecretRequiredForTokenExchange>
+    <isTokenExchangeEnabled>false</isTokenExchangeEnabled>
     <label>FlexDeploy_Prod_glbloauth</label>
     <shouldRotateConsumerKey>false</shouldRotateConsumerKey>
     <shouldRotateConsumerSecret>false</shouldRotateConsumerSecret>

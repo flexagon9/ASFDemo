@@ -165,7 +165,6 @@
     <fields>
         <fullName>FD_Activate__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Activate</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -174,7 +173,6 @@
     <fields>
         <fullName>FD_Saved__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Saved</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -194,7 +192,6 @@
     </fields>
     <fields>
         <fullName>FD_Updated_On__c</fullName>
-        <externalId>false</externalId>
         <formula>LastModifiedDate</formula>
         <label>Updated On</label>
         <required>false</required>
@@ -230,7 +227,6 @@ FD_Workflow__r.Name + &quot; &quot; + &quot;[&quot; + TEXT(FD_Version__c) + &quo
     </fields>
     <fields>
         <fullName>FD_Workflow__c</fullName>
-        <externalId>false</externalId>
         <label>Workflow</label>
         <referenceTo>FD_Workflow__c</referenceTo>
         <relationshipLabel>Definitions</relationshipLabel>

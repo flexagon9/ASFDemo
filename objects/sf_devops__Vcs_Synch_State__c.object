@@ -158,7 +158,6 @@
         <fullName>sf_devops__Last_Synch_Date__c</fullName>
         <deprecated>false</deprecated>
         <description>Date and Time when this was last synchronized with the VCS.</description>
-        <externalId>false</externalId>
         <label>Last Synch Date</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -169,7 +168,6 @@
         <deleteConstraint>Restrict</deleteConstraint>
         <deprecated>false</deprecated>
         <description>The Project that this state belongs to</description>
-        <externalId>false</externalId>
         <label>Project</label>
         <referenceTo>sf_devops__Project__c</referenceTo>
         <relationshipLabel>Synch States</relationshipLabel>
@@ -220,7 +218,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>The status of the current synch operation.</description>
-        <externalId>false</externalId>
         <label>Synch Status</label>
         <referenceTo>sf_devops__Async_Operation_Result__c</referenceTo>
         <relationshipLabel>Vcs Synch States</relationshipLabel>

@@ -159,7 +159,6 @@
     <fields>
         <fullName>agf__Portfolio_Goals__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Portfolio Goals</label>
         <required>false</required>
         <trackFeedHistory>true</trackFeedHistory>
@@ -195,7 +194,6 @@ CASE( agf__Portfolio_Health__c ,
     <fields>
         <fullName>agf__Portfolio_Health__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Portfolio Health</label>
         <required>false</required>
         <trackFeedHistory>true</trackFeedHistory>
@@ -254,7 +252,6 @@ CASE( agf__Portfolio_Health__c ,
         <fullName>agf__Portfolio_Manager__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Portfolio Manager</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Portfolios1</relationshipName>
@@ -268,7 +265,6 @@ CASE( agf__Portfolio_Health__c ,
         <fullName>agf__Portfolio_Owner__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Portfolio Owner</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Portfolios</relationshipName>
@@ -281,7 +277,6 @@ CASE( agf__Portfolio_Health__c ,
     <fields>
         <fullName>agf__Portfolio_Summary__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Portfolio Summary</label>
         <required>false</required>
         <trackFeedHistory>true</trackFeedHistory>

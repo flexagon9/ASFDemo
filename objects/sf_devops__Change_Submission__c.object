@@ -158,7 +158,6 @@
         <fullName>sf_devops__Comment__c</fullName>
         <deprecated>false</deprecated>
         <description>Allows for a comment to be associated with this submission</description>
-        <externalId>false</externalId>
         <label>Comment</label>
         <length>32768</length>
         <trackTrending>false</trackTrending>
@@ -169,7 +168,6 @@
         <fullName>sf_devops__Completed__c</fullName>
         <deprecated>false</deprecated>
         <description>True if this is a completed submit or inspection</description>
-        <externalId>false</externalId>
         <formula>OR( TEXT(sf_devops__Inspection_Result__r.sf_devops__Status__c)  = &quot;COMPLETED&quot;,  TEXT(sf_devops__Creation_Result__r.sf_devops__Status__c) = &quot;COMPLETED&quot; )</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>Completed</label>
@@ -181,7 +179,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>The results of the remote operation to create this commit.</description>
-        <externalId>false</externalId>
         <label>Creation Result</label>
         <referenceTo>sf_devops__Async_Operation_Result__c</referenceTo>
         <relationshipLabel>Change Submissions</relationshipLabel>
@@ -195,7 +192,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>The results of the remote operation to inspect this commit.</description>
-        <externalId>false</externalId>
         <label>Inspection Result</label>
         <referenceTo>sf_devops__Async_Operation_Result__c</referenceTo>
         <relationshipLabel>Inspected Change Submissions</relationshipLabel>
@@ -208,7 +204,6 @@
         <fullName>sf_devops__Modified_Remote_Changes__c</fullName>
         <deprecated>false</deprecated>
         <description>This field is deprecated and should not be referenced</description>
-        <externalId>false</externalId>
         <label>Modified Remote Changes</label>
         <length>32768</length>
         <trackTrending>false</trackTrending>
@@ -220,7 +215,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Internal flag to determine if this change submission has been migrated to the open beta data model.  This field will be deleted in the future</description>
-        <externalId>false</externalId>
         <label>Open Beta Migrated</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -253,7 +247,6 @@
         <fullName>sf_devops__Removed_Remote_Changes__c</fullName>
         <deprecated>false</deprecated>
         <description>This field is deprecated and should not be referenced</description>
-        <externalId>false</externalId>
         <label>Removed Remote Changes</label>
         <length>32768</length>
         <trackTrending>false</trackTrending>
@@ -264,7 +257,6 @@
         <fullName>sf_devops__Repository__c</fullName>
         <deprecated>false</deprecated>
         <description>The repository this CS is associated with</description>
-        <externalId>false</externalId>
         <label>Repository</label>
         <referenceTo>sf_devops__Repository__c</referenceTo>
         <relationshipName>Change_Submissions</relationshipName>
@@ -291,7 +283,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>The user that submitted this change.</description>
-        <externalId>false</externalId>
         <label>Submitted By</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Change_Submissions</relationshipName>
@@ -303,7 +294,6 @@
         <fullName>sf_devops__Submitted_On__c</fullName>
         <deprecated>false</deprecated>
         <description>When this submission was submitted.</description>
-        <externalId>false</externalId>
         <label>Submitted On</label>
         <required>true</required>
         <trackTrending>false</trackTrending>
@@ -314,7 +304,6 @@
         <deleteConstraint>Restrict</deleteConstraint>
         <deprecated>false</deprecated>
         <description>The work item this submission belongs to</description>
-        <externalId>false</externalId>
         <label>Work Item</label>
         <referenceTo>sf_devops__Work_Item__c</referenceTo>
         <relationshipLabel>Change Submissions</relationshipLabel>

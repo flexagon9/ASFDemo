@@ -158,7 +158,6 @@
     <fields>
         <fullName>agf__Question__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Question</label>
         <referenceTo>agf__QA_Question__c</referenceTo>
         <relationshipLabel>Default Test  Cases</relationshipLabel>
@@ -172,7 +171,6 @@
     <fields>
         <fullName>agf__Test_Case__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Test Case</label>
         <referenceTo>agf__QA_Test_Case__c</referenceTo>
         <relationshipLabel>Default Test  Cases</relationshipLabel>

@@ -159,7 +159,6 @@
         <fullName>agf__Answer__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Answer</label>
         <referenceTo>agf__QA_Answer__c</referenceTo>
         <relationshipLabel>Test Plan Comments</relationshipLabel>
@@ -171,7 +170,6 @@
     <fields>
         <fullName>agf__Comment_Text__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Comment Text</label>
         <length>32000</length>
         <trackTrending>false</trackTrending>

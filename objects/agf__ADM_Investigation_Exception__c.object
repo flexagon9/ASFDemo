@@ -159,7 +159,6 @@
         <fullName>agf__Assigned_To__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>The person making the decision - varies by status</inlineHelpText>
         <label>Assigned To</label>
         <referenceTo>User</referenceTo>
@@ -174,7 +173,6 @@
         <fullName>agf__Decision_Explanation__c</fullName>
         <deprecated>false</deprecated>
         <description>Should be filled out by the Assigned To</description>
-        <externalId>false</externalId>
         <inlineHelpText>Should be filled out by the Assigned To</inlineHelpText>
         <label>Decision Explanation</label>
         <length>1000</length>
@@ -187,7 +185,6 @@
     <fields>
         <fullName>agf__Investigation__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Investigation</label>
         <referenceTo>agf__ADM_Work__c</referenceTo>
         <relationshipName>Investigation_Exceptions</relationshipName>
@@ -203,7 +200,6 @@
         <fullName>agf__Reason_for_Request__c</fullName>
         <deprecated>false</deprecated>
         <description>Should be filled out by the Requestor</description>
-        <externalId>false</externalId>
         <inlineHelpText>Should be filled out by the Requestor</inlineHelpText>
         <label>Reason for Request</label>
         <length>2000</length>
@@ -218,7 +214,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Person who created the exception. Value entered automatically upon saving the record.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Person who created the exception. Value entered automatically upon saving the record.</inlineHelpText>
         <label>Requestor</label>
         <referenceTo>User</referenceTo>
@@ -232,7 +227,6 @@
     <fields>
         <fullName>agf__Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Status</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -268,7 +262,6 @@
     <fields>
         <fullName>agf__Type__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Check the Help For this page link for more examples</inlineHelpText>
         <label>Type</label>
         <required>false</required>

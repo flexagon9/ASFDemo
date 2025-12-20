@@ -160,7 +160,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Boolean flag to denote if this environment has been configured to track changes.  If this is true, then this environment can be associated with a work item.</description>
-        <externalId>false</externalId>
         <label>Can Track Changes</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -170,7 +169,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>If true, this environment is no longer used by the dev ops center</description>
-        <externalId>false</externalId>
         <label>Expired</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -205,7 +203,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>This field references the AOR for the back sync operation.</description>
-        <externalId>false</externalId>
         <label>Operation Result</label>
         <referenceTo>sf_devops__Async_Operation_Result__c</referenceTo>
         <relationshipLabel>Environments</relationshipLabel>
@@ -229,7 +226,6 @@
         <fullName>sf_devops__Project__c</fullName>
         <deprecated>false</deprecated>
         <description>The Project this Environment is associated with.</description>
-        <externalId>false</externalId>
         <label>Project</label>
         <referenceTo>sf_devops__Project__c</referenceTo>
         <relationshipLabel>Environments</relationshipLabel>
@@ -244,7 +240,6 @@
         <fullName>sf_devops__Refresh_Date__c</fullName>
         <deprecated>false</deprecated>
         <description>The Datetime when this environment was refreshed</description>
-        <externalId>false</externalId>
         <label>Refresh Date</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -255,7 +250,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>The environment that this environment was refreshed from.</description>
-        <externalId>false</externalId>
         <label>Refresh Source</label>
         <referenceTo>sf_devops__Environment__c</referenceTo>
         <relationshipLabel>Environments</relationshipLabel>
@@ -269,7 +263,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>A reference to the Environment that this environment replaces in the DevOps center.</description>
-        <externalId>false</externalId>
         <label>Replaces</label>
         <referenceTo>sf_devops__Environment__c</referenceTo>
         <relationshipLabel>Replaces</relationshipLabel>
@@ -283,7 +276,6 @@
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
         <description>If true, this environment is on test instance, and auth should be performed at test.salesforce.com (not login.salesforce.com)</description>
-        <externalId>false</externalId>
         <label>Test Environment</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>

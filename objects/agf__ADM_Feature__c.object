@@ -157,7 +157,6 @@
     <fields>
         <fullName>agf__Definition__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Definition</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -178,7 +177,6 @@
         <fullName>agf__Enabled__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Enabled</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -187,7 +185,6 @@
         <fullName>agf__Scrum_Team__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Team</label>
         <referenceTo>agf__ADM_Scrum_Team__c</referenceTo>
         <relationshipLabel>Features</relationshipLabel>

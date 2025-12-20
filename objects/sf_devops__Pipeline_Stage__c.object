@@ -184,7 +184,6 @@
         <deleteConstraint>Restrict</deleteConstraint>
         <deprecated>false</deprecated>
         <description>The branch in the VCS that this stage is associated with.</description>
-        <externalId>false</externalId>
         <inlineHelpText>The branch in the VCS that this stage is associated with.</inlineHelpText>
         <label>Branch</label>
         <referenceTo>sf_devops__Branch__c</referenceTo>
@@ -199,7 +198,6 @@
         <deleteConstraint>Restrict</deleteConstraint>
         <deprecated>false</deprecated>
         <description>The environment this stage is associated with.</description>
-        <externalId>false</externalId>
         <label>Environment</label>
         <referenceTo>sf_devops__Environment__c</referenceTo>
         <relationshipLabel>Pipeline Stages</relationshipLabel>
@@ -213,7 +211,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>The next stage in the pipeline.</description>
-        <externalId>false</externalId>
         <label>Next Stage</label>
         <referenceTo>sf_devops__Pipeline_Stage__c</referenceTo>
         <relationshipLabel>Pipeline Stages</relationshipLabel>
@@ -227,7 +224,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Feedback for the asynchronous operation that is happening on this stage.</description>
-        <externalId>false</externalId>
         <label>Operation Status</label>
         <referenceTo>sf_devops__Async_Operation_Result__c</referenceTo>
         <relationshipLabel>Pipeline Stages</relationshipLabel>
@@ -240,7 +236,6 @@
         <fullName>sf_devops__Pipeline__c</fullName>
         <deprecated>false</deprecated>
         <description>The pipeline this stage belongs to</description>
-        <externalId>false</externalId>
         <label>Pipeline</label>
         <referenceTo>sf_devops__Pipeline__c</referenceTo>
         <relationshipLabel>Pipeline Stages</relationshipLabel>
@@ -255,7 +250,6 @@
         <fullName>sf_devops__Prerelease__c</fullName>
         <deprecated>false</deprecated>
         <description>The last non-versioned stage in the pipeline that is used to create a version.</description>
-        <externalId>false</externalId>
         <formula>AND( NOT( sf_devops__Versioned__c ) ,  sf_devops__Next_Stage__r.sf_devops__Versioned__c )</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>Prerelease</label>
@@ -278,7 +272,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Feedback for the asynchronous swap operation that is happening on this stage.</description>
-        <externalId>false</externalId>
         <label>Swap Status</label>
         <referenceTo>sf_devops__Async_Operation_Result__c</referenceTo>
         <relationshipLabel>Pipeline Stage Swaps</relationshipLabel>
@@ -292,7 +285,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>A reference to our synchronization state with the VCS</description>
-        <externalId>false</externalId>
         <label>Synch State</label>
         <referenceTo>sf_devops__Vcs_Synch_State__c</referenceTo>
         <relationshipLabel>Pipeline Stages</relationshipLabel>
@@ -306,7 +298,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Declares that this pipeline stage requires metadata to be installed via a change bundle.</description>
-        <externalId>false</externalId>
         <label>Versioned</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>

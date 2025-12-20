@@ -160,7 +160,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Application that this Approver supports.</description>
-        <externalId>false</externalId>
         <label>Application</label>
         <referenceTo>agf__ADM_Application__c</referenceTo>
         <relationshipLabel>Application Approvers</relationshipLabel>
@@ -177,7 +176,6 @@
 May Approve -- This Approver, or any other Approver with the same role, may approve the request.
 Must Approve -- This Approver must approve all requests. If multiple Approvers have Must Approve context for a role, all of them will be required to approve the request.
 Notify When Approved -- The Approver will be notified only when the request has been Approved.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Inform Only -- will receive all notifications; 
 May Approve -- may approve the request;
 Must Approve -- must approve all requests; 
@@ -320,7 +318,6 @@ Secondary -- Cloud</inlineHelpText>
         <fullName>agf__Approval_Type__c</fullName>
         <deprecated>false</deprecated>
         <description>Type of approvals in which this Approver participates.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Select the type of approvals in which this Approver participates.</inlineHelpText>
         <label>Approval Type</label>
         <required>false</required>
@@ -376,7 +373,6 @@ Secondary -- Cloud</inlineHelpText>
         <fullName>agf__Approver_Role__c</fullName>
         <deprecated>false</deprecated>
         <description>The role that this Approver performs.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Approval Role. Note: &quot;Distribution List&quot; indicated this Approver is for notifications only. &quot;Functional&quot; requires that a Team be entered in the Functional Role field.</inlineHelpText>
         <label>Approver Role</label>
         <required>false</required>
@@ -469,7 +465,6 @@ Secondary -- Cloud</inlineHelpText>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Users record of the Approver.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Approver. Must be blank if Approver Email is a distribution list.</inlineHelpText>
         <label>Approver</label>
         <referenceTo>User</referenceTo>
@@ -484,7 +479,6 @@ Secondary -- Cloud</inlineHelpText>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Cloud to which this Approver is related.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Cloud to which this Approver is related.</inlineHelpText>
         <label>Cloud</label>
         <referenceTo>agf__ADM_Cloud__c</referenceTo>
@@ -514,7 +508,6 @@ Secondary -- Cloud</inlineHelpText>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Required when Approval_Role is &quot;Functional&quot;, otherwise must be blank. Scrum Team for which this Approver is providing functional approval.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enter Scrum Team represented by this Approver when &quot;Functional&quot; Approval Role is selected, otherwise leave blank.</inlineHelpText>
         <label>Functional Team</label>
         <referenceTo>agf__ADM_Scrum_Team__c</referenceTo>

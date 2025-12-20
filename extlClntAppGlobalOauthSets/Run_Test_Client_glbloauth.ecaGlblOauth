@@ -4,10 +4,17 @@
     <consumerKey>3MVG9i1HRpGLXp.pB_VNJYhNFeqqSIY5.dXAzjfLjVizKIRPwEVz2.gzMKkvBxsjT3afTE6pkQlYbZ6fMrZB5</consumerKey>
     <externalClientApplication>Run_Test_Client</externalClientApplication>
     <isClientCredentialsFlowEnabled>true</isClientCredentialsFlowEnabled>
+    <isCodeCredFlowEnabled>true</isCodeCredFlowEnabled>
+    <isCodeCredPostOnly>false</isCodeCredPostOnly>
     <isConsumerSecretOptional>false</isConsumerSecretOptional>
+    <isDeviceFlowEnabled>false</isDeviceFlowEnabled>
     <isIntrospectAllTokens>false</isIntrospectAllTokens>
+    <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
     <isPkceRequired>false</isPkceRequired>
+    <isRefreshTokenRotationEnabled>false</isRefreshTokenRotationEnabled>
     <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
+    <isSecretRequiredForTokenExchange>true</isSecretRequiredForTokenExchange>
+    <isTokenExchangeEnabled>false</isTokenExchangeEnabled>
     <label>Run_Test_Client_glbloauth</label>
     <shouldRotateConsumerKey>false</shouldRotateConsumerKey>
     <shouldRotateConsumerSecret>false</shouldRotateConsumerSecret>

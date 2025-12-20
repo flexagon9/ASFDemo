@@ -158,7 +158,6 @@
     <fields>
         <fullName>sf_devops__Base_URL__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Base URL</label>
         <required>true</required>
         <trackTrending>false</trackTrending>

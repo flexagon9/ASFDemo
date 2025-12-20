@@ -158,7 +158,6 @@
         <fullName>agf__AppStore_Approval__c</fullName>
         <deprecated>false</deprecated>
         <description>This is used by the AppStore teams to provide the date when they signed off at Release Freeze</description>
-        <externalId>false</externalId>
         <label>AppStore Approval</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -171,7 +170,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>This field is used by the AppStore team to provide signoff</description>
-        <externalId>false</externalId>
         <label>AppStore</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Release_Signoff2</relationshipName>
@@ -184,7 +182,6 @@
     <fields>
         <fullName>agf__Approval_Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Approval Status</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -216,7 +213,6 @@
         <fullName>agf__Build__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Build</label>
         <referenceTo>agf__ADM_Build__c</referenceTo>
         <relationshipLabel>Release Signoff</relationshipLabel>
@@ -230,7 +226,6 @@
     <fields>
         <fullName>agf__Comments__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Comments</label>
         <length>1000</length>
         <trackFeedHistory>false</trackFeedHistory>
@@ -242,7 +237,6 @@
     <fields>
         <fullName>agf__Core_Approval__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Core Approval</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -254,7 +248,6 @@
         <fullName>agf__Core__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Core</label>
         <referenceTo>User</referenceTo>
         <relationshipName>R00NT0000000tzW0MAI</relationshipName>
@@ -267,7 +260,6 @@
     <fields>
         <fullName>agf__Date_Approved__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Date Approved</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -278,7 +270,6 @@
     <fields>
         <fullName>agf__Dev_Approval__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Engineering Exec Approval</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -290,7 +281,6 @@
         <fullName>agf__Dev__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Engineering Exec</label>
         <referenceTo>User</referenceTo>
         <relationshipName>R00NT0000000tzRbMAI</relationshipName>
@@ -303,7 +293,6 @@
     <fields>
         <fullName>agf__Doc_Approval__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Doc Approval</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -315,7 +304,6 @@
         <fullName>agf__Doc__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Doc</label>
         <referenceTo>User</referenceTo>
         <relationshipName>R00NT0000000tzW1MAI</relationshipName>
@@ -342,7 +330,6 @@
     <fields>
         <fullName>agf__L10N_Approval__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>L10N Approval</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -354,7 +341,6 @@
         <fullName>agf__L10N__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>L10N</label>
         <referenceTo>User</referenceTo>
         <relationshipName>R00NT0000000tzWFMAY</relationshipName>
@@ -367,7 +353,6 @@
     <fields>
         <fullName>agf__Platform_Approval__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Platform Approval</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -379,7 +364,6 @@
         <fullName>agf__Platform__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Platform</label>
         <referenceTo>User</referenceTo>
         <relationshipName>R00NT0000000tzW5MAI</relationshipName>
@@ -392,7 +376,6 @@
     <fields>
         <fullName>agf__Product_Approval__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Product Approval</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -404,7 +387,6 @@
         <fullName>agf__Product__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Product</label>
         <referenceTo>User</referenceTo>
         <relationshipName>R00NT0000000tzWAMAY</relationshipName>
@@ -417,7 +399,6 @@
     <fields>
         <fullName>agf__QA_Approval__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Cross-Cloud Exec Approval</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -429,7 +410,6 @@
         <fullName>agf__QA__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Cross-Cloud Exec</label>
         <referenceTo>User</referenceTo>
         <relationshipName>R00NT0000000tzTHMAY</relationshipName>
@@ -443,7 +423,6 @@
         <fullName>agf__QE__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>TQE</label>
         <referenceTo>User</referenceTo>
         <relationshipName>R00NT0000000tziTMAQ</relationshipName>
@@ -457,7 +436,6 @@
         <fullName>agf__QPD_Approval__c</fullName>
         <deprecated>false</deprecated>
         <description>Date of QPD Approval</description>
-        <externalId>false</externalId>
         <label>QPD Approval</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -470,7 +448,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Quality, Performance and Docs</description>
-        <externalId>false</externalId>
         <label>QPD</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Release_Signoff</relationshipName>
@@ -483,7 +460,6 @@
     <fields>
         <fullName>agf__RM_Approval__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>RM Approval</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -495,7 +471,6 @@
         <fullName>agf__RM__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>RM</label>
         <referenceTo>User</referenceTo>
         <relationshipName>RM_Signoff_User</relationshipName>
@@ -508,7 +483,6 @@
     <fields>
         <fullName>agf__Release_Approved__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Release Approved</label>
         <required>false</required>
         <trackFeedHistory>true</trackFeedHistory>
@@ -519,7 +493,6 @@
     <fields>
         <fullName>agf__Security_Approval__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Security Approval</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -531,7 +504,6 @@
         <fullName>agf__Security__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Security</label>
         <referenceTo>User</referenceTo>
         <relationshipName>R00NT0000000u21OMAQ</relationshipName>
@@ -557,7 +529,6 @@
     <fields>
         <fullName>agf__Systest_Approval__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>PerfEng Approval</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -570,7 +541,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Performance Engineering (aka SysTest) signoff</description>
-        <externalId>false</externalId>
         <label>PerfEng</label>
         <referenceTo>User</referenceTo>
         <relationshipName>R00NT0000000tzVqMAI</relationshipName>
@@ -583,7 +553,6 @@
     <fields>
         <fullName>agf__TQE_Approval__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>TQE Approval</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -594,7 +563,6 @@
     <fields>
         <fullName>agf__TechOps_Approval__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>TechOps Approval</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -606,7 +574,6 @@
         <fullName>agf__TechOps__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>TechOps</label>
         <referenceTo>User</referenceTo>
         <relationshipName>R00NT0000000tzTgMAI</relationshipName>
@@ -620,7 +587,6 @@
         <fullName>agf__Tech_SVP_Approval__c</fullName>
         <deprecated>false</deprecated>
         <description>Date of Tech SVP Approval</description>
-        <externalId>false</externalId>
         <label>Tech SVP Approval</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -633,7 +599,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Technology Sr. VP Signoff</description>
-        <externalId>false</externalId>
         <label>Tech SVP</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Release_Signoff1</relationshipName>
@@ -646,7 +611,6 @@
     <fields>
         <fullName>agf__UE_Approval__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>UX Approval</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -658,7 +622,6 @@
         <fullName>agf__UE__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>UX</label>
         <referenceTo>User</referenceTo>
         <relationshipName>R00NT0000000tzW2MAI</relationshipName>

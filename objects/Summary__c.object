@@ -156,7 +156,6 @@
     <fields>
         <fullName>Closed__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Closed</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -164,7 +163,6 @@
     </fields>
     <fields>
         <fullName>End_Date__c</fullName>
-        <externalId>false</externalId>
         <label>End Date</label>
         <required>true</required>
         <trackHistory>false</trackHistory>
@@ -173,7 +171,6 @@
     </fields>
     <fields>
         <fullName>Start_Date__c</fullName>
-        <externalId>false</externalId>
         <label>Start Date</label>
         <required>true</required>
         <trackHistory>false</trackHistory>
@@ -182,7 +179,6 @@
     </fields>
     <fields>
         <fullName>Summary_Status__c</fullName>
-        <externalId>false</externalId>
         <label>Summary Status</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -213,7 +209,6 @@
     <fields>
         <fullName>Total_Sale_Amount__c</fullName>
         <defaultValue>0</defaultValue>
-        <externalId>false</externalId>
         <label>Total Sale Amount</label>
         <precision>12</precision>
         <required>false</required>

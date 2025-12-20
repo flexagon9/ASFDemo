@@ -161,7 +161,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>These Solution Overviews are planned for empahsis in release and launch Marketing efforts</description>
-        <externalId>false</externalId>
         <label>Big Marketing Push</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -171,7 +170,6 @@
     <fields>
         <fullName>agf__Customer_Communication_Requirement__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Will this product enhancement or feature enablement require proactive communication from SFDC to customer Sys Admin&apos;s informing them of a behavior change or action they will be required to take?</inlineHelpText>
         <label>Customer Communication Required</label>
         <required>false</required>
@@ -199,7 +197,6 @@
         <fullName>agf__Customer_communication_required__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Select this field if this feature or product enhancement will require proactive communication from Salesforce.com to customer System Administrators informing them of a behavior change or action they need to take.</inlineHelpText>
         <label>Customer communication required</label>
         <trackFeedHistory>false</trackFeedHistory>
@@ -210,7 +207,6 @@
     <fields>
         <fullName>agf__Description__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Enter specific details of your features or feature enhancements which are customer impacting.</inlineHelpText>
         <label>Description</label>
         <length>3200</length>
@@ -223,7 +219,6 @@
     <fields>
         <fullName>agf__Editions__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Which editions will your feature be enabled for?  Select all that apply.</inlineHelpText>
         <label>Editions</label>
         <required>false</required>
@@ -276,7 +271,6 @@
     <fields>
         <fullName>agf__Enter_Idea_Exchange_URL__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>If feature is associated to an Idea(s) on the Idea Exchange - enter URL(s) here and update the Ideas  themselves with comments &amp; status changes.</inlineHelpText>
         <label>Enter Idea Exchange URL(s)</label>
         <required>false</required>
@@ -288,7 +282,6 @@
     <fields>
         <fullName>agf__Exception_Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Exception Date</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -300,7 +293,6 @@
         <fullName>agf__Exec_Approval_Receved_WRoR__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Off Cycle releases resulting in features being enabled outside of 24hrs of the release require Executive approval.
 This approval is requested during the Weekly Review of Releases (WRoR) Meeting</inlineHelpText>
         <label>Exec Approval Received @ WRoR</label>
@@ -312,7 +304,6 @@ This approval is requested during the Weekly Review of Releases (WRoR) Meeting</
     <fields>
         <fullName>agf__Explain_License_Type__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>If feature requires additional license, please list license requirements, pricing here.</inlineHelpText>
         <label>If  &quot;YES&quot; - Explain License Type</label>
         <required>false</required>
@@ -324,7 +315,6 @@ This approval is requested during the Weekly Review of Releases (WRoR) Meeting</
     <fields>
         <fullName>agf__Explain_if_no_customer_comm_required__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Provide explicit details why no customer communication is required</inlineHelpText>
         <label>Explain if &quot;NO&quot; Customer Comm Required</label>
         <required>false</required>
@@ -350,7 +340,6 @@ This approval is requested during the Weekly Review of Releases (WRoR) Meeting</
     <fields>
         <fullName>agf__Feature_Enablement_Timeline__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>All features must be enabled with the release or within 24 hrs of the release.
 *No exceptions*</inlineHelpText>
         <label>Feature Enablement Timing</label>
@@ -393,7 +382,6 @@ This approval is requested during the Weekly Review of Releases (WRoR) Meeting</
     <fields>
         <fullName>agf__Feature_Enablement__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Identify how this feature will be enabled for customers.  Note: Customers on the &quot;Do Not Auto Enable Features&quot; list will never have features automatically turned on unless they request it.</inlineHelpText>
         <label>Feature Availability</label>
         <required>false</required>
@@ -435,7 +423,6 @@ This approval is requested during the Weekly Review of Releases (WRoR) Meeting</
     <fields>
         <fullName>agf__Feature_Requires_Licence__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Please indicate if feature requires additional license.</inlineHelpText>
         <label>Feature Requires License</label>
         <required>false</required>
@@ -462,7 +449,6 @@ This approval is requested during the Weekly Review of Releases (WRoR) Meeting</
     <fields>
         <fullName>agf__If_Other_Please_Explain__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>If you chose &apos;OTHER&apos; for your feature enablement timing, please provide specific details here.</inlineHelpText>
         <label>If Enablement Timing=OTHER, Explain:</label>
         <required>false</required>
@@ -474,7 +460,6 @@ This approval is requested during the Weekly Review of Releases (WRoR) Meeting</
     <fields>
         <fullName>agf__Include_in_Admin_Preview__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Include in Admin Preview</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -501,7 +486,6 @@ This approval is requested during the Weekly Review of Releases (WRoR) Meeting</
         <fullName>agf__Internal__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>This field should be checked when a feature(s) is not customer facing, but useful and/or valuable knowledge for internal audiences.</inlineHelpText>
         <label>Internal</label>
         <trackFeedHistory>false</trackFeedHistory>
@@ -513,7 +497,6 @@ This approval is requested during the Weekly Review of Releases (WRoR) Meeting</
         <fullName>agf__Internal_feature_only__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Internal feature only</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -523,7 +506,6 @@ This approval is requested during the Weekly Review of Releases (WRoR) Meeting</
     <fields>
         <fullName>agf__Level__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Temporary Field for William Gradin</inlineHelpText>
         <label>Level</label>
         <required>false</required>
@@ -560,7 +542,6 @@ This approval is requested during the Weekly Review of Releases (WRoR) Meeting</
     <fields>
         <fullName>agf__Major_Minor_Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Major-Minor Status</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -586,7 +567,6 @@ This approval is requested during the Weekly Review of Releases (WRoR) Meeting</
     <fields>
         <fullName>agf__Marketing_Description__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Enter the Marketing description for the release preview document</inlineHelpText>
         <label>Marketing Description</label>
         <length>32000</length>
@@ -599,7 +579,6 @@ This approval is requested during the Weekly Review of Releases (WRoR) Meeting</
     <fields>
         <fullName>agf__Marketing_Key_Benefits__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>2 - 4 bullet points of key business benefits.  If feature can&apos;t easily be tied to business benefits then put 2 - 4 key technical benefits</inlineHelpText>
         <label>Marketing Key Benefits</label>
         <length>32000</length>
@@ -655,7 +634,6 @@ This approval is requested during the Weekly Review of Releases (WRoR) Meeting</
         <fullName>agf__Off_Cycle_Release__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Check this box if the feature will not be released with R1 or R2 releases.</inlineHelpText>
         <label>Off Cycle Release</label>
         <trackFeedHistory>true</trackFeedHistory>
@@ -666,7 +644,6 @@ This approval is requested during the Weekly Review of Releases (WRoR) Meeting</
     <fields>
         <fullName>agf__Planned_Release_Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>What is the plan for the marketed availability of this product/feature?</inlineHelpText>
         <label>Planned Release Status</label>
         <required>false</required>
@@ -713,7 +690,6 @@ This approval is requested during the Weekly Review of Releases (WRoR) Meeting</
     <fields>
         <fullName>agf__Product_Division__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Product Division</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -829,7 +805,6 @@ This approval is requested during the Weekly Review of Releases (WRoR) Meeting</
     <fields>
         <fullName>agf__Product_Leader__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Product Leader</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -896,7 +871,6 @@ This approval is requested during the Weekly Review of Releases (WRoR) Meeting</
         <fullName>agf__Product_Manager__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Product Manager</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Feature_Set</relationshipName>
@@ -909,7 +883,6 @@ This approval is requested during the Weekly Review of Releases (WRoR) Meeting</
     <fields>
         <fullName>agf__Product__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Product</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1000,7 +973,6 @@ This approval is requested during the Weekly Review of Releases (WRoR) Meeting</
     <fields>
         <fullName>agf__Release_Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>What is the plan for the marketed availability of this product / feature?</inlineHelpText>
         <label>Release Status</label>
         <required>false</required>
@@ -1042,7 +1014,6 @@ This approval is requested during the Weekly Review of Releases (WRoR) Meeting</
         <fullName>agf__Scheduled_Build__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Scheduled Build</label>
         <referenceTo>agf__ADM_Build__c</referenceTo>
         <relationshipLabel>Solution Overviews</relationshipLabel>
@@ -1056,7 +1027,6 @@ This approval is requested during the Weekly Review of Releases (WRoR) Meeting</
     <fields>
         <fullName>agf__Solution_Overview_Link__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Solution Overview Link</label>
         <required>false</required>
         <trackFeedHistory>true</trackFeedHistory>
@@ -1067,7 +1037,6 @@ This approval is requested during the Weekly Review of Releases (WRoR) Meeting</
     <fields>
         <fullName>agf__Solution_Overview_Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Solution Overview Status</label>
         <required>false</required>
         <trackFeedHistory>true</trackFeedHistory>
@@ -1093,7 +1062,6 @@ This approval is requested during the Weekly Review of Releases (WRoR) Meeting</
     <fields>
         <fullName>agf__Target_Audience__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Select all that apply.  Who will be the primary users of this product/feature?</inlineHelpText>
         <label>Target Audience</label>
         <required>false</required>
@@ -1131,7 +1099,6 @@ This approval is requested during the Weekly Review of Releases (WRoR) Meeting</
     <fields>
         <fullName>agf__Target_Off_Cycle_Release_Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>If you chose &quot;Off Cycle&quot;, please enter the target date of this enablement/release.
 This requires Exec Approval. You should have received an automated email with instructions on how to obtain this Exec Approval.</inlineHelpText>
         <label>Target Off Cycle Release Date</label>
@@ -1144,7 +1111,6 @@ This requires Exec Approval. You should have received an automated email with in
     <fields>
         <fullName>agf__Target_Release_Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>If you chose &apos;Off-Cycle&apos; for your feature enablement timing, please provide the TARGET date of this enablement/release.
 &apos;Off Cycle&apos; requires Exec Approval. You should have received an automated email with instructions on how to obtain this Exec Approval.</inlineHelpText>
         <label>Off Cycle Target Release Date</label>
@@ -1157,7 +1123,6 @@ This requires Exec Approval. You should have received an automated email with in
     <fields>
         <fullName>agf__WRoR_Approval_Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>If you chose &quot;Off Cycle&quot;, please list the release date which the Exec Team have now approved.
 You would have received this approved date from attending the Weekly Review of Releases meeting.</inlineHelpText>
         <label>Exec Approved Release Date</label>

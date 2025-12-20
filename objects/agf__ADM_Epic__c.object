@@ -157,7 +157,6 @@
     <fields>
         <fullName>agf__Category__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Category</label>
         <required>false</required>
         <trackFeedHistory>true</trackFeedHistory>
@@ -189,7 +188,6 @@
         <fullName>agf__Committed_By_Team__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Committed By Team</label>
         <trackFeedHistory>true</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -199,7 +197,6 @@
     <fields>
         <fullName>agf__Description__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Description</label>
         <length>32768</length>
         <trackFeedHistory>true</trackFeedHistory>
@@ -211,7 +208,6 @@
     <fields>
         <fullName>agf__Design_Complete__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Design Complete</label>
         <required>false</required>
         <trackFeedHistory>true</trackFeedHistory>
@@ -243,7 +239,6 @@
         <fullName>agf__Design_Lead__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Design Lead</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Design_Lead_Epics</relationshipName>
@@ -257,7 +252,6 @@
         <fullName>agf__Development_Lead__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Development Lead</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Development_Lead_Epics</relationshipName>
@@ -270,7 +264,6 @@
     <fields>
         <fullName>agf__End_Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>End Date</label>
         <required>false</required>
         <trackFeedHistory>true</trackFeedHistory>
@@ -281,7 +274,6 @@
     <fields>
         <fullName>agf__Health__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Health</label>
         <required>false</required>
         <trackFeedHistory>true</trackFeedHistory>
@@ -355,7 +347,6 @@
         <fullName>agf__Performance_Lead__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Performance Lead</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Performance_Lead_Epics</relationshipName>
@@ -383,7 +374,6 @@
         <fullName>agf__Project__c</fullName>
         <deleteConstraint>Restrict</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Project</label>
         <referenceTo>agf__PPM_Project__c</referenceTo>
         <relationshipLabel>Epics</relationshipLabel>
@@ -398,7 +388,6 @@
         <fullName>agf__Quality_Lead__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Quality Lead</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Quality_Lead_Epics</relationshipName>
@@ -412,7 +401,6 @@
         <fullName>agf__Scheduled_Build__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Scheduled Build</label>
         <referenceTo>agf__ADM_Build__c</referenceTo>
         <relationshipLabel>Epics</relationshipLabel>
@@ -426,7 +414,6 @@
     <fields>
         <fullName>agf__Start_Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Start Date</label>
         <required>false</required>
         <trackFeedHistory>true</trackFeedHistory>
@@ -437,7 +424,6 @@
     <fields>
         <fullName>agf__T_Shirt_Size__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>T-Shirt Size</label>
         <required>false</required>
         <trackFeedHistory>true</trackFeedHistory>
@@ -474,7 +460,6 @@
         <fullName>agf__Team__c</fullName>
         <deleteConstraint>Restrict</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Team</label>
         <lookupFilter>
             <active>true</active>
@@ -498,7 +483,6 @@
     <fields>
         <fullName>agf__Tech_Design_Complete__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Tech Design Complete</label>
         <required>false</required>
         <trackFeedHistory>true</trackFeedHistory>
@@ -529,7 +513,6 @@
     <fields>
         <fullName>agf__Test_Design_Complete__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Test Design Complete</label>
         <required>false</required>
         <trackFeedHistory>true</trackFeedHistory>

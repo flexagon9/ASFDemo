@@ -157,7 +157,6 @@
     <fields>
         <fullName>agf__Actual_Delivery_Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>When was the environment handed off?</inlineHelpText>
         <label>Actual Delivery Date</label>
         <required>false</required>
@@ -169,7 +168,6 @@
     <fields>
         <fullName>agf__Additional_Comments__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Is there additional information that is relevant to TechExec?  
 This will be displayed in the regular status reports for Environment Delivery.</inlineHelpText>
         <label>Additional Comments</label>
@@ -182,7 +180,6 @@ This will be displayed in the regular status reports for Environment Delivery.</
     <fields>
         <fullName>agf__Additional_Database_Details__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Additional details related to the database portion of the environment request.</inlineHelpText>
         <label>Additional Database Details</label>
         <required>false</required>
@@ -194,7 +191,6 @@ This will be displayed in the regular status reports for Environment Delivery.</
     <fields>
         <fullName>agf__Change_Action__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>What type of action are we asking the DBAs to take?</inlineHelpText>
         <label>Change Action</label>
         <required>false</required>
@@ -231,7 +227,6 @@ This will be displayed in the regular status reports for Environment Delivery.</
     <fields>
         <fullName>agf__Change_Request_s__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Location for the URL to any and all change requests logged against this environment order.
 URLs should be entered one per line.</inlineHelpText>
         <label>Change Request(s)</label>
@@ -244,7 +239,6 @@ URLs should be entered one per line.</inlineHelpText>
     <fields>
         <fullName>agf__Committed_Delivery_Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Date upon which the Environments Office agrees to fill the request.</inlineHelpText>
         <label>Committed Delivery Date</label>
         <required>false</required>
@@ -272,7 +266,6 @@ URLs should be entered one per line.</inlineHelpText>
         <fullName>agf__DB_Schema_Request__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Work request for the DB schema team.</inlineHelpText>
         <label>DB Schema Request</label>
         <referenceTo>agf__ADM_Work__c</referenceTo>
@@ -287,7 +280,6 @@ URLs should be entered one per line.</inlineHelpText>
     <fields>
         <fullName>agf__Database_Instance__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>What instance is the database being refreshed as?
 Release Engineering may have configuration implications based on the instance.</inlineHelpText>
         <label>Database Instance</label>
@@ -452,7 +444,6 @@ Release Engineering may have configuration implications based on the instance.</
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Is the database to be refreshed from a stock image?</description>
-        <externalId>false</externalId>
         <label>Database Refresh Requested</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -463,7 +454,6 @@ Release Engineering may have configuration implications based on the instance.</
         <fullName>agf__Database_Refresh_Source__c</fullName>
         <deprecated>false</deprecated>
         <description>what source image should be used for the refresh?</description>
-        <externalId>false</externalId>
         <label>Database Refresh Source</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -509,7 +499,6 @@ Release Engineering may have configuration implications based on the instance.</
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>This is the sprint of the team that will be performing the final handoff to the customer.</description>
-        <externalId>false</externalId>
         <inlineHelpText>This is the sprint of the team that will be performing the final handoff to the customer.</inlineHelpText>
         <label>Delivery Sprint</label>
         <referenceTo>agf__ADM_Sprint__c</referenceTo>
@@ -525,7 +514,6 @@ Release Engineering may have configuration implications based on the instance.</
         <fullName>agf__Environment_Purpose__c</fullName>
         <deprecated>false</deprecated>
         <description>What is the primary use of the environment</description>
-        <externalId>false</externalId>
         <inlineHelpText>What is the primary use of the environment?</inlineHelpText>
         <label>Environment Purpose</label>
         <required>false</required>
@@ -581,7 +569,6 @@ Release Engineering may have configuration implications based on the instance.</
     <fields>
         <fullName>agf__Impact__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Particular measurable impact if this environment does not meet key delivery dates
 ex:  delay in release, delay in feature delivery, etc.</inlineHelpText>
         <label>Impact</label>
@@ -595,7 +582,6 @@ ex:  delay in release, delay in feature delivery, etc.</inlineHelpText>
         <fullName>agf__Internal_Services_Request__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Work request for the Internal Services DBAs.</inlineHelpText>
         <label>Internal Services Request</label>
         <referenceTo>agf__ADM_Work__c</referenceTo>
@@ -610,7 +596,6 @@ ex:  delay in release, delay in feature delivery, etc.</inlineHelpText>
     <fields>
         <fullName>agf__Network_Case__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Supportforce case for any network changes needed for this request</inlineHelpText>
         <label>Network Case</label>
         <required>false</required>
@@ -622,7 +607,6 @@ ex:  delay in release, delay in feature delivery, etc.</inlineHelpText>
     <fields>
         <fullName>agf__Network_Request__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Network Request</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -648,7 +632,6 @@ This should be provided by the customer.</inlineHelpText>
     <fields>
         <fullName>agf__Organizational_Priority_Methods__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Organizational Priority Methods</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -765,7 +748,6 @@ This should be provided by the customer.</inlineHelpText>
         <fullName>agf__Organizational_Priority_Value__c</fullName>
         <deprecated>false</deprecated>
         <description>FY11 Technology &amp; Products Organizational Values</description>
-        <externalId>false</externalId>
         <inlineHelpText>FY11 Technology &amp; Products Organizational Values</inlineHelpText>
         <label>Organizational Priority Values</label>
         <required>false</required>
@@ -798,7 +780,6 @@ This should be provided by the customer.</inlineHelpText>
         <fullName>agf__POC__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Enter the point-of-contact for this request as identified by the customer.</inlineHelpText>
         <label>POC</label>
         <referenceTo>User</referenceTo>
@@ -813,7 +794,6 @@ This should be provided by the customer.</inlineHelpText>
         <fullName>agf__RelEng_Work__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>The RelEng work object supporting this environment order that will be attached to the corresponding
 Release Engineering sprint.</inlineHelpText>
         <label>RelEng Work</label>
@@ -830,7 +810,6 @@ Release Engineering sprint.</inlineHelpText>
         <fullName>agf__Release_Engineer__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Who is the Release Engineer delivering this order?</inlineHelpText>
         <label>Release Engineer</label>
         <referenceTo>User</referenceTo>
@@ -844,7 +823,6 @@ Release Engineering sprint.</inlineHelpText>
     <fields>
         <fullName>agf__Requested_Delivery_Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Requested Delivery Date</label>
         <required>false</required>
         <trackFeedHistory>true</trackFeedHistory>
@@ -855,7 +833,6 @@ Release Engineering sprint.</inlineHelpText>
     <fields>
         <fullName>agf__Risk_To_The_Release__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>What is the risk to the release given the chance the environment will be delivered on time?</inlineHelpText>
         <label>Risk To The Release</label>
         <required>false</required>
@@ -892,7 +869,6 @@ Release Engineering sprint.</inlineHelpText>
     <fields>
         <fullName>agf__Scheduled_Maintenance_End__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Expected conclusion of work on the environment during which time it would not be usable by the customer.</inlineHelpText>
         <label>Scheduled Maintenance End</label>
         <required>false</required>
@@ -904,7 +880,6 @@ Release Engineering sprint.</inlineHelpText>
     <fields>
         <fullName>agf__Scheduled_Maintenance_Start__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Expected start of work on the environment during which time it would not be usable by the customer.</inlineHelpText>
         <label>Scheduled Maintenance Start</label>
         <required>false</required>
@@ -916,7 +891,6 @@ Release Engineering sprint.</inlineHelpText>
     <fields>
         <fullName>agf__Schema_Upgrade_Path__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Select the current schema version of the database as well as the desired version.
 This allows DB schema to be aware of exactly what upgrades to execute upon.</inlineHelpText>
         <label>Schema Upgrade Path</label>
@@ -998,7 +972,6 @@ This allows DB schema to be aware of exactly what upgrades to execute upon.</inl
         <fullName>agf__Schema_Upgrade_Required__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Schema Upgrade Required?</label>
         <trackFeedHistory>true</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -1022,7 +995,6 @@ This allows DB schema to be aware of exactly what upgrades to execute upon.</inl
         <fullName>agf__Source_Request__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>The user story against the Environments Office that provides the requirements of this environment order</inlineHelpText>
         <label>Source Request</label>
         <referenceTo>agf__ADM_Work__c</referenceTo>
@@ -1037,7 +1009,6 @@ This allows DB schema to be aware of exactly what upgrades to execute upon.</inl
     <fields>
         <fullName>agf__Special_Instructions__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Special Instructions</label>
         <length>32000</length>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1052,7 +1023,6 @@ This allows DB schema to be aware of exactly what upgrades to execute upon.</inl
         <deprecated>false</deprecated>
         <description>Do you want Internal Services to prepare the standard plsql users ( 7 dwarves )?
 If not, you can specify a custom set</description>
-        <externalId>false</externalId>
         <inlineHelpText>bashful
 dopey
 doc
@@ -1069,7 +1039,6 @@ sneezy</inlineHelpText>
     <fields>
         <fullName>agf__Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Status</label>
         <required>false</required>
         <trackFeedHistory>true</trackFeedHistory>
@@ -1126,7 +1095,6 @@ sneezy</inlineHelpText>
         <fullName>agf__Supporting_Release__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>What release will this environment be supporting?</inlineHelpText>
         <label>Supporting Release</label>
         <referenceTo>agf__ADM_Release__c</referenceTo>
@@ -1141,7 +1109,6 @@ sneezy</inlineHelpText>
     <fields>
         <fullName>agf__System_Case__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Supportforce case for any system/hardware changes required for this environment request</inlineHelpText>
         <label>System Case</label>
         <required>false</required>
@@ -1153,7 +1120,6 @@ sneezy</inlineHelpText>
     <fields>
         <fullName>agf__System_Request__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>System Request</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>

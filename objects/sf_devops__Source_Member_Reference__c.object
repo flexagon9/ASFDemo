@@ -160,7 +160,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>True if this source member represents a delete.</description>
-        <externalId>false</externalId>
         <label>Is Delete</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -170,7 +169,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>True if this source member represents an add.</description>
-        <externalId>false</externalId>
         <label>Is New</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -179,7 +177,6 @@
         <fullName>sf_devops__Remote_Change__c</fullName>
         <deprecated>false</deprecated>
         <description>A reference to the RemoteChange we are associated with.</description>
-        <externalId>false</externalId>
         <label>Remote Change</label>
         <referenceTo>sf_devops__Remote_Change__c</referenceTo>
         <relationshipName>Source_Member_References</relationshipName>

@@ -38,6 +38,7 @@
                 <showPicturesOnCharts>false</showPicturesOnCharts>
                 <showValues>true</showValues>
                 <sortBy>RowLabelAscending</sortBy>
+                <sortLegendValues>false</sortLegendValues>
                 <title>Approved Partner Fund Requests</title>
                 <useReportChart>false</useReportChart>
             </dashboardComponent>
@@ -74,6 +75,7 @@
                 <showPicturesOnCharts>false</showPicturesOnCharts>
                 <showValues>true</showValues>
                 <sortBy>RowLabelAscending</sortBy>
+                <sortLegendValues>false</sortLegendValues>
                 <title>Open Partner Fund Claims</title>
                 <useReportChart>false</useReportChart>
             </dashboardComponent>
@@ -147,6 +149,7 @@
                 <showPicturesOnCharts>false</showPicturesOnCharts>
                 <showValues>true</showValues>
                 <sortBy>RowLabelAscending</sortBy>
+                <sortLegendValues>false</sortLegendValues>
                 <title>Approved Partner Fund Claims</title>
                 <useReportChart>false</useReportChart>
             </dashboardComponent>
@@ -183,6 +186,7 @@
                 <showPicturesOnCharts>false</showPicturesOnCharts>
                 <showValues>true</showValues>
                 <sortBy>RowLabelAscending</sortBy>
+                <sortLegendValues>false</sortLegendValues>
                 <title>Open Partner Fund Requests</title>
                 <useReportChart>false</useReportChart>
             </dashboardComponent>
@@ -195,6 +199,7 @@
     <dashboardType>SpecifiedUser</dashboardType>
     <description>Track key metrics on marketing budget status and progress.</description>
     <isGridLayout>true</isGridLayout>
+    <owner>autoproc@00d46000000ptyveay</owner>
     <runningUser>flexagon9@flexagon.com</runningUser>
     <textColor>#000000</textColor>
     <title>Channel Marketing</title>

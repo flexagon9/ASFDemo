@@ -158,7 +158,6 @@
         <fullName>agf__Assignee__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Assignee</label>
         <referenceTo>User</referenceTo>
         <relationshipName>ADM_Status_Histories</relationshipName>
@@ -170,7 +169,6 @@
         <fullName>agf__Processed__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Processed</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -179,7 +177,6 @@
         <fullName>agf__Scheduled_Build__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Scheduled_Build</label>
         <referenceTo>agf__ADM_Build__c</referenceTo>
         <relationshipLabel>ADM_Status_Histories</relationshipLabel>
@@ -203,7 +200,6 @@
         <fullName>agf__Work_ID__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Work ID</label>
         <referenceTo>agf__ADM_Work__c</referenceTo>
         <relationshipLabel>ADM_Status_Histories</relationshipLabel>

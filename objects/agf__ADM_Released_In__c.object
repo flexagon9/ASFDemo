@@ -184,7 +184,6 @@
     <fields>
         <fullName>agf__Release__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Release</label>
         <referenceTo>agf__ADM_Release__c</referenceTo>
         <relationshipName>Release</relationshipName>
@@ -199,7 +198,6 @@
         <fullName>agf__Reverted__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Reverted</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -208,7 +206,6 @@
     <fields>
         <fullName>agf__Scheduled_Release_Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <formula>agf__Release__r.agf__Release_Date__c</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>Release Date</label>
@@ -221,7 +218,6 @@
         <fullName>agf__Selected__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Selected</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -231,7 +227,6 @@
         <fullName>agf__Stamped_On__c</fullName>
         <deprecated>false</deprecated>
         <description>Date/time that the release stamp was stamped.</description>
-        <externalId>false</externalId>
         <label>Stamped On</label>
         <required>true</required>
         <trackHistory>false</trackHistory>
@@ -254,7 +249,6 @@
         <fullName>agf__Work__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Work ID</label>
         <referenceTo>agf__ADM_Work__c</referenceTo>
         <relationshipName>WorkReleasedIn</relationshipName>

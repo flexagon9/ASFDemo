@@ -160,7 +160,6 @@
         <fullName>agf__Associated_with_Program__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Associated with Program</label>
         <referenceTo>agf__ADM_Scrum_Team__c</referenceTo>
         <relationshipLabel>Team Dependencies (Associated with Program)</relationshipLabel>
@@ -174,7 +173,6 @@
     <fields>
         <fullName>agf__Deliver_By__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>If the deliverable is needed by a specific date, indicate that in this field.</inlineHelpText>
         <label>Needed by (date)</label>
         <required>false</required>
@@ -201,7 +199,6 @@
     <fields>
         <fullName>agf__Dependency_Size__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>- Small: requires up to 1 sprint to complete work by 1 resource ^M
 - Medium: requires 1 month to complete work by 1-2 resources ^M
 - Large: requires 1 release to complete work by &gt; 2 resources</inlineHelpText>
@@ -235,7 +232,6 @@
     <fields>
         <fullName>agf__Dependency_Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>The status of this dependency.
 
 Prioritized = Deliverable has a user story and is prioritized on the backlog.
@@ -293,7 +289,6 @@ Committed = Team is confident the work can be done in the needed timeframe and P
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>The team that is dependent on another team to provide the deliverable.</description>
-        <externalId>false</externalId>
         <inlineHelpText>The team that is dependent on another team to provide the deliverable.</inlineHelpText>
         <label>Team With Dependency</label>
         <lookupFilter>
@@ -320,7 +315,6 @@ Committed = Team is confident the work can be done in the needed timeframe and P
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>The work that is dependent on the completion of the specified deliverable.</description>
-        <externalId>false</externalId>
         <inlineHelpText>The work that is dependent on the completion of  the specified deliverable.</inlineHelpText>
         <label>Work With Dependency</label>
         <referenceTo>agf__ADM_Work__c</referenceTo>
@@ -336,7 +330,6 @@ Committed = Team is confident the work can be done in the needed timeframe and P
         <fullName>agf__Epic__c</fullName>
         <deleteConstraint>Restrict</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Epic</label>
         <referenceTo>agf__ADM_Epic__c</referenceTo>
         <relationshipLabel>Team Dependencies</relationshipLabel>
@@ -365,7 +358,6 @@ Committed = Team is confident the work can be done in the needed timeframe and P
         <fullName>agf__Notes__c</fullName>
         <deprecated>false</deprecated>
         <description>Notes concerning the dependency or deliverable (e.g. why it is needed, acceptance criteria, more detailed description, etc.)</description>
-        <externalId>false</externalId>
         <inlineHelpText>Notes concerning the dependency or deliverable (e.g. why it is needed, acceptance criteria, more detailed description, etc.)</inlineHelpText>
         <label>Notes</label>
         <length>2000</length>
@@ -380,7 +372,6 @@ Committed = Team is confident the work can be done in the needed timeframe and P
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>The team that will provide the deliverable to fulfill this dependency.</description>
-        <externalId>false</externalId>
         <inlineHelpText>The team that will provide the deliverable to fulfill this dependency.</inlineHelpText>
         <label>Team Providing Deliverable</label>
         <lookupFilter>
@@ -407,7 +398,6 @@ Committed = Team is confident the work can be done in the needed timeframe and P
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>The record representing the work to satisfy the deliverable of this dependency.</description>
-        <externalId>false</externalId>
         <inlineHelpText>The record representing the work to satisfy the deliverable of this dependency.</inlineHelpText>
         <label>Work For Deliverable</label>
         <referenceTo>agf__ADM_Work__c</referenceTo>
@@ -424,7 +414,6 @@ Committed = Team is confident the work can be done in the needed timeframe and P
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>The build in which you would like the deliverable completed.</description>
-        <externalId>false</externalId>
         <inlineHelpText>The build in which you would like the deliverable completed. If the deliverable is not associated with a specific build, enter the major product release corresponding to the season in which this deliverable is needed (e.g. 162 - Winter &apos;10).</inlineHelpText>
         <label>Target Build</label>
         <referenceTo>agf__ADM_Build__c</referenceTo>
@@ -668,8 +657,8 @@ Committed = Team is confident the work can be done in the needed timeframe and P
         <customTabListAdditionalFields>agf__Provider_Team__c</customTabListAdditionalFields>
         <customTabListAdditionalFields>agf__Deliverable__c</customTabListAdditionalFields>
         <customTabListAdditionalFields>agf__Dependency_Status__c</customTabListAdditionalFields>
-        <excludedStandardButtons>Accept</excludedStandardButtons>
         <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
         <lookupDialogsAdditionalFields>agf__Dependent_Team__c</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>agf__Provider_Team__c</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>agf__Deliverable__c</lookupDialogsAdditionalFields>

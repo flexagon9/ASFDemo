@@ -157,7 +157,6 @@
     <fields>
         <fullName>agf__Action__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Action</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -203,7 +202,6 @@
         <fullName>agf__Release_From__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Release From</label>
         <referenceTo>agf__ADM_Release__c</referenceTo>
         <relationshipLabel>Release Stamp Batch IDs (Release From)</relationshipLabel>
@@ -216,7 +214,6 @@
         <fullName>agf__Release_To__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Release To</label>
         <referenceTo>agf__ADM_Release__c</referenceTo>
         <relationshipLabel>Release Stamp Batch IDs (Release To)</relationshipLabel>
@@ -228,7 +225,6 @@
     <fields>
         <fullName>agf__Release__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Release</label>
         <referenceTo>agf__ADM_Release__c</referenceTo>
         <relationshipLabel>Release Stamp Batch IDs</relationshipLabel>

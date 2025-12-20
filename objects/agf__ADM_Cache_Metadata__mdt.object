@@ -4,7 +4,6 @@
         <fullName>agf__OrgCacheEnabled__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <fieldManageability>DeveloperControlled</fieldManageability>
         <label>OrgCacheEnabled</label>
         <type>Checkbox</type>
@@ -13,7 +12,6 @@
         <fullName>agf__SessionCacheEnabled__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <fieldManageability>DeveloperControlled</fieldManageability>
         <label>SessionCacheEnabled</label>
         <type>Checkbox</type>

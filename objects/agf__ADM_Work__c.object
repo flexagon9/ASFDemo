@@ -275,7 +275,6 @@
     <fields>
         <fullName>agf__Additional_Details__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Additional Details</label>
         <length>1000</length>
         <trackFeedHistory>false</trackFeedHistory>
@@ -368,7 +367,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
         <fullName>agf__Apex_Hammer_Compile_Failure__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Apex Hammer Compile Failure</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -379,7 +377,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
         <fullName>agf__Assigned_On__c</fullName>
         <deprecated>false</deprecated>
         <description>Deprecated field for bugforce 1.0</description>
-        <externalId>false</externalId>
         <label>Assigned On</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -391,7 +388,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
         <fullName>agf__Assignee__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Assigned To</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Assignee</relationshipName>
@@ -419,7 +415,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
     <fields>
         <fullName>agf__Attributes__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Attributes</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -519,7 +514,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
         <fullName>agf__Board_Column__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Board Column</label>
         <referenceTo>agf__ADM_Column__c</referenceTo>
         <relationshipLabel>Work (Board Column)</relationshipLabel>
@@ -577,7 +571,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>This field defaults to the Investigation creator if the creator is in support (otherwise it defaults to blank). It can also be populated/overridden manually.</description>
-        <externalId>false</externalId>
         <inlineHelpText>This field defaults to the Investigation creator if the creator is in support (otherwise it defaults to blank). It can also be populated/overridden manually.</inlineHelpText>
         <label>Support Contact</label>
         <referenceTo>User</referenceTo>
@@ -592,7 +585,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
         <fullName>agf__Capex_Enabled__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>New Customer Facing Feature</label>
         <trackFeedHistory>true</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -643,7 +635,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
     <fields>
         <fullName>agf__Closed_On__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Closed On</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -683,7 +674,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
         <fullName>agf__Color__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Color</label>
         <referenceTo>agf__ADM_Color__c</referenceTo>
         <relationshipLabel>Work</relationshipLabel>
@@ -712,7 +702,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
         <fullName>agf__Column__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Column</label>
         <referenceTo>agf__ADM_Column__c</referenceTo>
         <relationshipLabel>Work</relationshipLabel>
@@ -726,7 +715,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
     <fields>
         <fullName>agf__Comment_Copy__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Comment Copy</label>
         <length>32000</length>
         <trackFeedHistory>false</trackFeedHistory>
@@ -738,7 +726,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
     <fields>
         <fullName>agf__Complete_By__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Complete By</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -820,7 +807,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
         <fullName>agf__Completed_Hours__c</fullName>
         <deprecated>false</deprecated>
         <description>Total of Actual hours on all the child tasks associated to this work-item</description>
-        <externalId>false</externalId>
         <label>Completed Hours</label>
         <summarizedField>agf__ADM_Task__c.agf__Actual_Hours__c</summarizedField>
         <summaryFilterItems>
@@ -839,7 +825,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>User imported from bugforce that created the original bug.</description>
-        <externalId>false</externalId>
         <label>Created By (import)</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Work</relationshipName>
@@ -852,7 +837,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
     <fields>
         <fullName>agf__Created_On_Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <formula>IF( ISNULL( agf__Created_On_import__c ) ,  DATEVALUE( CreatedDate ) ,  DATEVALUE( agf__Created_On_import__c )  )</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>Created On Date</label>
@@ -865,7 +849,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
         <fullName>agf__Created_On_import__c</fullName>
         <deprecated>false</deprecated>
         <description>Data/time imported from the original bug from bugforce.</description>
-        <externalId>false</externalId>
         <label>Created On (import)</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -877,7 +860,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
         <fullName>agf__Critical_CRM_Feature__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Critical CRM Feature or Org Inaccessible</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -914,7 +896,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
         <fullName>agf__Data_Silo_Test_Affected__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Data Silo Test Affected</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -924,7 +905,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
     <fields>
         <fullName>agf__Deal_at_Risk__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Deal at Risk</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -984,7 +964,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
     <fields>
         <fullName>agf__Description__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Comments will be added to the Work record and included in an email to the names listed in the Email Notifications section after saving. Formatting will also be preserved when saving via in line edit.</inlineHelpText>
         <label>Comment</label>
         <length>32000</length>
@@ -998,7 +977,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
         <fullName>agf__Detailed__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Select this checkbox for epic stories that have been divided into detailed stories and therefore the epic no longer needs to appear on the backlog.</inlineHelpText>
         <label>Exclude from Prioritize View</label>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1009,7 +987,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
     <fields>
         <fullName>agf__Details__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>User type (As a...) Goal (I want to...) Reason (so that...) Additional Details</inlineHelpText>
         <label>Description</label>
         <length>32000</length>
@@ -1022,7 +999,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
     <fields>
         <fullName>agf__Details_and_Steps_to_Reproduce__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Text contents of this field will be sent in initial record creation only</inlineHelpText>
         <label>Details and Steps to Reproduce</label>
         <length>32000</length>
@@ -1035,7 +1011,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
     <fields>
         <fullName>agf__Due_Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Due Date</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1047,7 +1022,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
         <fullName>agf__Email2GUS_Addresses__c</fullName>
         <deprecated>false</deprecated>
         <description>Used to record the email list from the to and cc list on emails sent into GUS from outside sources.</description>
-        <externalId>false</externalId>
         <label>Email2GUS Addresses</label>
         <length>32768</length>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1060,7 +1034,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
         <fullName>agf__Email_On_Save_Copy__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Email On Save Copy</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -1071,7 +1044,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
         <fullName>agf__Email_On_Save__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Check this box to send an email to the users in the To: field when you save this record.</inlineHelpText>
         <label>Email On Save</label>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1109,7 +1081,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
     <fields>
         <fullName>agf__Encoded_Recipients_Txt_Area__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Encoded Recipients</label>
         <length>32000</length>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1121,7 +1092,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
     <fields>
         <fullName>agf__Environment__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Environment</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1191,7 +1161,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
         <fullName>agf__Epic__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Epic</label>
         <referenceTo>agf__ADM_Epic__c</referenceTo>
         <relationshipLabel>Work</relationshipLabel>
@@ -1219,7 +1188,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
     <fields>
         <fullName>agf__Estimated_Financial_Impact__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Estimated Financial Impact</label>
         <precision>9</precision>
         <required>false</required>
@@ -1233,7 +1201,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
         <fullName>agf__Executive_Involved__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Executive Involved</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
@@ -1271,7 +1238,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
     <fields>
         <fullName>agf__Feedback__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Feedback</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1308,7 +1274,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
         <fullName>agf__Found_in_Build__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>The Found In Build field is a lookup to the Build object.  Enter the build where the bug was introduced.</inlineHelpText>
         <label>Found in Build</label>
         <referenceTo>agf__ADM_Build__c</referenceTo>
@@ -1336,7 +1301,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
         <fullName>agf__Frequency__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Frequency reflects how often the target user will encounter the issue.</inlineHelpText>
         <label>Frequency</label>
         <referenceTo>agf__ADM_Frequency__c</referenceTo>
@@ -1351,7 +1315,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
     <fields>
         <fullName>agf__Goal__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Goal (I want to...)</label>
         <length>1000</length>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1376,7 +1339,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
         <fullName>agf__Help_Status__c</fullName>
         <deprecated>false</deprecated>
         <description>Tracks whether the Documentation team is engaged and the progress of the documentation.</description>
-        <externalId>false</externalId>
         <label>Help Status</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1438,7 +1400,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
         <fullName>agf__Highlight__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Highlight</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -1461,7 +1422,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
         <fullName>agf__Impact__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Impact</label>
         <referenceTo>agf__ADM_Impact__c</referenceTo>
         <relationshipLabel>Work</relationshipLabel>
@@ -1477,7 +1437,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>For internal use only.</description>
-        <externalId>false</externalId>
         <label>Is Ignorable</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -1488,7 +1447,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
         <fullName>agf__Is_Template__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Is Template</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -1541,7 +1499,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Created for email2gus in order to show who created a comment.</description>
-        <externalId>false</externalId>
         <label>Last Modified By Copy</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Work3</relationshipName>
@@ -1556,7 +1513,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Created for email2gus in order to show who created the last comment.</description>
-        <externalId>false</externalId>
         <label>Last Modified By</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Work2</relationshipName>
@@ -1595,7 +1551,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
     <fields>
         <fullName>agf__Major_Func_Area__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Major Func Area</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1647,7 +1602,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
     <fields>
         <fullName>agf__Mobile_Device_OS__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Mobile Device OS</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1759,7 +1713,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
     <fields>
         <fullName>agf__Mobile_Device__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Mobile Device</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1946,7 +1899,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
     <fields>
         <fullName>agf__Mobile_Network__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Mobile Network</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1983,7 +1935,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
     <fields>
         <fullName>agf__Modules__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Module(s)</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -2541,7 +2492,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
     <fields>
         <fullName>agf__Number_of_SLA_Violations__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Number of T&amp;P SLA Violations</label>
         <summaryFilterItems>
             <field>agf__SLA_Violation__c.agf__Type__c</field>
@@ -2601,7 +2551,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
         <fullName>agf__Out_of_SLA__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Out of SLA</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -2625,7 +2574,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
     <fields>
         <fullName>agf__Perforce_Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Source Control Status</label>
         <required>false</required>
         <trackFeedHistory>true</trackFeedHistory>
@@ -2652,7 +2600,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
         <fullName>agf__Preserve_Formatting_Copy__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Preserve Formatting Copy</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -2663,7 +2610,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
         <fullName>agf__Preserve_Formatting__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Preserve Formatting</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -2714,7 +2660,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
         <fullName>agf__Priority_Mapping__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Priority Mapping</label>
         <referenceTo>agf__ADM_Priority_Mapping__c</referenceTo>
         <relationshipLabel>Work</relationshipLabel>
@@ -2729,7 +2674,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
         <fullName>agf__Priority_Override_Explanation_Copy__c</fullName>
         <deprecated>false</deprecated>
         <description>used to temporarily store the contents of the priority override explanation to create a new record</description>
-        <externalId>false</externalId>
         <label>Priority Override Explanation Copy</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -2740,7 +2684,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
     <fields>
         <fullName>agf__Priority_Override_Explanation__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Priority Override Explanation</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -2765,7 +2708,6 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
     <fields>
         <fullName>agf__Priority__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>For bugs, priority is automatically determined based upon the combination of Impact and Frequency.
 
 For user stories, P0 represents the highest priority, P4 the lowest.</inlineHelpText>
@@ -2814,7 +2756,6 @@ For user stories, P0 represents the highest priority, P4 the lowest.</inlineHelp
     <fields>
         <fullName>agf__Product_Area__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Product Area</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -2836,7 +2777,6 @@ For user stories, P0 represents the highest priority, P4 the lowest.</inlineHelp
         <fullName>agf__Product_Child__c</fullName>
         <deprecated>false</deprecated>
         <description>Used only by the Clients team. Dependent on the Product Area picklist.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Used only by the Clients team. Dependent on the Product Area picklist.</inlineHelpText>
         <label>Product Child</label>
         <required>false</required>
@@ -2859,7 +2799,6 @@ For user stories, P0 represents the highest priority, P4 the lowest.</inlineHelp
         <fullName>agf__Product_Owner__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Product Owner</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Product_Owner</relationshipName>
@@ -2887,7 +2826,6 @@ For user stories, P0 represents the highest priority, P4 the lowest.</inlineHelp
         <fullName>agf__Product_Tag__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Product Tag</label>
         <referenceTo>agf__ADM_Product_Tag__c</referenceTo>
         <relationshipName>Product_Tag</relationshipName>
@@ -2901,7 +2839,6 @@ For user stories, P0 represents the highest priority, P4 the lowest.</inlineHelp
         <fullName>agf__QA_Engineer__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>QA Engineer</label>
         <referenceTo>User</referenceTo>
         <relationshipName>QA_Engineer</relationshipName>
@@ -2914,7 +2851,6 @@ For user stories, P0 represents the highest priority, P4 the lowest.</inlineHelp
     <fields>
         <fullName>agf__Readme_Notes__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>How would you explain the change to customers? Try not to give away internal details. Be as general as possible.</inlineHelpText>
         <label>Readme Notes</label>
         <length>32768</length>
@@ -2941,7 +2877,6 @@ For user stories, P0 represents the highest priority, P4 the lowest.</inlineHelp
         <fullName>agf__Red_Account__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Red Account</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -2952,7 +2887,6 @@ For user stories, P0 represents the highest priority, P4 the lowest.</inlineHelp
         <fullName>agf__Regressed__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Regressed</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -2990,7 +2924,6 @@ For user stories, P0 represents the highest priority, P4 the lowest.</inlineHelp
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Used to look up work items to create new ADM_Parent_Work__c relationships</description>
-        <externalId>false</externalId>
         <inlineHelpText>Used to look up work items to create new ADM_Parent_Work__c Parent/Child relationships only. This field is not meant to store any ids or values</inlineHelpText>
         <label>New Related Work</label>
         <referenceTo>agf__ADM_Work__c</referenceTo>
@@ -3006,7 +2939,6 @@ For user stories, P0 represents the highest priority, P4 the lowest.</inlineHelp
         <fullName>agf__Release__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Release</label>
         <referenceTo>agf__ADM_Release__c</referenceTo>
         <relationshipLabel>Work</relationshipLabel>
@@ -3021,7 +2953,6 @@ For user stories, P0 represents the highest priority, P4 the lowest.</inlineHelp
         <fullName>agf__Request_RD_Mgr_Review__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Request Senior Mgr Review</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
@@ -3031,7 +2962,6 @@ For user stories, P0 represents the highest priority, P4 the lowest.</inlineHelp
     <fields>
         <fullName>agf__Resolution__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>App Bug Fix - TF caught a product bug&lt;br&gt;
 TC: Due to app changes - Test changed b/c app behavior changed&lt;br&gt;
 TC: Test issue only - Test needed fixing&lt;br&gt;
@@ -3114,7 +3044,6 @@ More: search Google Sites for &quot;test resolution&quot;</inlineHelpText>
     <fields>
         <fullName>agf__Resolved_On__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Resolved On</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -3146,7 +3075,6 @@ More: search Google Sites for &quot;test resolution&quot;</inlineHelpText>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Points to a related Root Cause Analysis record.</description>
-        <externalId>false</externalId>
         <label>Root Cause Analysis</label>
         <referenceTo>agf__RCA__c</referenceTo>
         <relationshipLabel>Work &amp; Action Plan</relationshipLabel>
@@ -3214,7 +3142,6 @@ More: search Google Sites for &quot;test resolution&quot;</inlineHelpText>
         <fullName>agf__Scheduled_Build__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>The Scheduled Build field is a lookup to the Build object.  Enter a pre-existing build where the change will be made.</inlineHelpText>
         <label>Scheduled Build</label>
         <referenceTo>agf__ADM_Build__c</referenceTo>
@@ -3230,7 +3157,6 @@ More: search Google Sites for &quot;test resolution&quot;</inlineHelpText>
         <fullName>agf__Scheduled_On__c</fullName>
         <deprecated>false</deprecated>
         <description>Deprecated field from BF 1.0</description>
-        <externalId>false</externalId>
         <label>Scheduled On</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -3242,7 +3168,6 @@ More: search Google Sites for &quot;test resolution&quot;</inlineHelpText>
         <fullName>agf__Schema__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Requires Schema Change</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -3254,7 +3179,6 @@ More: search Google Sites for &quot;test resolution&quot;</inlineHelpText>
         <defaultValue>Now()</defaultValue>
         <deprecated>false</deprecated>
         <description>Stores the last time the Scrum Team field was modified</description>
-        <externalId>false</externalId>
         <inlineHelpText>Stores the last time the Scrum Team field was modified</inlineHelpText>
         <label>Scrum Team Last Modified</label>
         <required>false</required>
@@ -3279,7 +3203,6 @@ More: search Google Sites for &quot;test resolution&quot;</inlineHelpText>
         <fullName>agf__Scrum_Team__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Team</label>
         <referenceTo>agf__ADM_Scrum_Team__c</referenceTo>
         <relationshipLabel>Work</relationshipLabel>
@@ -3308,7 +3231,6 @@ More: search Google Sites for &quot;test resolution&quot;</inlineHelpText>
         <fullName>agf__Security__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Security</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -3320,7 +3242,6 @@ More: search Google Sites for &quot;test resolution&quot;</inlineHelpText>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>The person who gets engaged when an escalation of the current investigation occurs</description>
-        <externalId>false</externalId>
         <inlineHelpText>The person who gets engaged when an escalation of the current investigation occurs</inlineHelpText>
         <label>Senior Management POC</label>
         <referenceTo>User</referenceTo>
@@ -3347,7 +3268,6 @@ More: search Google Sites for &quot;test resolution&quot;</inlineHelpText>
     <fields>
         <fullName>agf__Severity_Level__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Severity Level</label>
         <required>false</required>
         <trackFeedHistory>true</trackFeedHistory>
@@ -3388,7 +3308,6 @@ More: search Google Sites for &quot;test resolution&quot;</inlineHelpText>
         <fullName>agf__Solution_Overview__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Solution Overview</label>
         <referenceTo>agf__ADM_Solution_Overview__c</referenceTo>
         <relationshipLabel>Work</relationshipLabel>
@@ -3443,7 +3362,6 @@ More: search Google Sites for &quot;test resolution&quot;</inlineHelpText>
         <fullName>agf__Sprint__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Sprint</label>
         <referenceTo>agf__ADM_Sprint__c</referenceTo>
         <relationshipLabel>Work</relationshipLabel>
@@ -3457,7 +3375,6 @@ More: search Google Sites for &quot;test resolution&quot;</inlineHelpText>
     <fields>
         <fullName>agf__Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Status</label>
         <required>false</required>
         <trackFeedHistory>true</trackFeedHistory>
@@ -3684,7 +3601,6 @@ More: search Google Sites for &quot;test resolution&quot;</inlineHelpText>
         <fullName>agf__Subscribe_to_Work__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Subscribe to Work</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -3695,7 +3611,6 @@ More: search Google Sites for &quot;test resolution&quot;</inlineHelpText>
         <fullName>agf__System_Test_Engineer__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Performance Engineer</label>
         <referenceTo>User</referenceTo>
         <relationshipName>System_Test_Engineer</relationshipName>
@@ -3722,7 +3637,6 @@ More: search Google Sites for &quot;test resolution&quot;</inlineHelpText>
         <fullName>agf__Tech_Writer__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Tech Writer</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Tech_Writer</relationshipName>
@@ -3735,7 +3649,6 @@ More: search Google Sites for &quot;test resolution&quot;</inlineHelpText>
     <fields>
         <fullName>agf__Template_Description__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Template Description</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -3759,7 +3672,6 @@ More: search Google Sites for &quot;test resolution&quot;</inlineHelpText>
     <fields>
         <fullName>agf__Test_Failure_Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Test Failure Status</label>
         <required>false</required>
         <trackFeedHistory>true</trackFeedHistory>
@@ -3786,7 +3698,6 @@ More: search Google Sites for &quot;test resolution&quot;</inlineHelpText>
         <fullName>agf__Test_Plan__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Test Plan</label>
         <referenceTo>agf__QA_Test_Plan__c</referenceTo>
         <relationshipLabel>Work</relationshipLabel>
@@ -3815,7 +3726,6 @@ More: search Google Sites for &quot;test resolution&quot;</inlineHelpText>
         <fullName>agf__Theme__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Theme-Deprecated</label>
         <referenceTo>agf__ADM_Theme__c</referenceTo>
         <relationshipLabel>Work</relationshipLabel>
@@ -3873,7 +3783,6 @@ More: search Google Sites for &quot;test resolution&quot;</inlineHelpText>
     <fields>
         <fullName>agf__Type__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Type</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -3950,7 +3859,6 @@ More: search Google Sites for &quot;test resolution&quot;</inlineHelpText>
         <fullName>agf__UE_Engineer__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>UE Engineer</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Work1</relationshipName>
@@ -3965,7 +3873,6 @@ More: search Google Sites for &quot;test resolution&quot;</inlineHelpText>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Used to determine whether or not a work record should be shown on the Work Prioritizer page</description>
-        <externalId>false</externalId>
         <inlineHelpText>Used to determine whether or not a work record should be shown on the Work Prioritizer page</inlineHelpText>
         <label>Include in Prioritize View</label>
         <trackFeedHistory>false</trackFeedHistory>
@@ -4003,7 +3910,6 @@ More: search Google Sites for &quot;test resolution&quot;</inlineHelpText>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>This checkbox enables tracking which Investigations were ever marked with the status picklist value &quot;returned to support.&quot;</description>
-        <externalId>false</externalId>
         <label>Was Ever Returned to Support</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>

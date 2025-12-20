@@ -170,7 +170,6 @@
     <fields>
         <fullName>agf__Question__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Question</label>
         <referenceTo>agf__QA_Question__c</referenceTo>
         <relationshipLabel>Answers</relationshipLabel>
@@ -184,7 +183,6 @@
     <fields>
         <fullName>agf__Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Status</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -218,7 +216,6 @@
     <fields>
         <fullName>agf__Test_Plan__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Test Plan</label>
         <referenceTo>agf__QA_Test_Plan__c</referenceTo>
         <relationshipLabel>Answers</relationshipLabel>

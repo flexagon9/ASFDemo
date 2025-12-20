@@ -158,7 +158,6 @@
     <fields>
         <fullName>agf__Description__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Description</label>
         <length>32000</length>
         <trackHistory>false</trackHistory>
@@ -169,7 +168,6 @@
     <fields>
         <fullName>agf__End_Time__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Resolved Lock Time</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -196,7 +194,6 @@
     <fields>
         <fullName>agf__Reason__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Reason</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -249,7 +246,6 @@
     <fields>
         <fullName>agf__Start_Time__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Start Lock Time</label>
         <required>true</required>
         <trackHistory>false</trackHistory>
@@ -259,7 +255,6 @@
     <fields>
         <fullName>agf__Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Status</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -295,7 +290,6 @@
         <fullName>agf__Team__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Team</label>
         <referenceTo>agf__ADM_Scrum_Team__c</referenceTo>
         <relationshipLabel>Locking Records</relationshipLabel>

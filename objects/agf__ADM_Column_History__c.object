@@ -170,7 +170,6 @@
         <fullName>agf__Column__c</fullName>
         <deleteConstraint>Restrict</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Column</label>
         <referenceTo>agf__ADM_Column__c</referenceTo>
         <relationshipLabel>Column History</relationshipLabel>
@@ -220,7 +219,6 @@ https://help.salesforce.com/help/pdfs/en/formula_date_time_tipsheet.pdf</descrip
         <defaultValue>Now()</defaultValue>
         <deprecated>false</deprecated>
         <description>The timestamp for when a work record enters a column</description>
-        <externalId>false</externalId>
         <label>Time Entered</label>
         <required>true</required>
         <trackTrending>false</trackTrending>
@@ -230,7 +228,6 @@ https://help.salesforce.com/help/pdfs/en/formula_date_time_tipsheet.pdf</descrip
         <fullName>agf__Time_Left__c</fullName>
         <deprecated>false</deprecated>
         <description>The time stamp for when a work record left a column (and be empty if the work record is still present).</description>
-        <externalId>false</externalId>
         <label>Time Left</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -240,7 +237,6 @@ https://help.salesforce.com/help/pdfs/en/formula_date_time_tipsheet.pdf</descrip
         <fullName>agf__Work__c</fullName>
         <deleteConstraint>Restrict</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Work</label>
         <referenceTo>agf__ADM_Work__c</referenceTo>
         <relationshipLabel>Column History</relationshipLabel>

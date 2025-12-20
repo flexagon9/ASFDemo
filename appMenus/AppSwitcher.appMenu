@@ -192,4 +192,16 @@
         <name>FlexDeploy_Prod</name>
         <type>ExternalClientApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>password_grant</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>JWT_Oauth_App</name>
+        <type>ExternalClientApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>FlexDeploy_Prod</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
 </AppMenu>

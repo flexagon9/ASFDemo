@@ -160,7 +160,6 @@
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
         <description>Active field value true/false can be used to delete or undelete a column. Active__c = false will soft delete the column and will not show up in the Kanban board for the team</description>
-        <externalId>false</externalId>
         <label>Active</label>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
@@ -196,7 +195,6 @@
         <fullName>agf__Parent_Column__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Parent Column</label>
         <referenceTo>agf__ADM_Column__c</referenceTo>
         <relationshipLabel>Columns</relationshipLabel>
@@ -247,7 +245,6 @@
         <fullName>agf__Team__c</fullName>
         <deleteConstraint>Restrict</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Team</label>
         <referenceTo>agf__ADM_Scrum_Team__c</referenceTo>
         <relationshipLabel>Columns</relationshipLabel>

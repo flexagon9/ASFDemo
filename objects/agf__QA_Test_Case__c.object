@@ -172,7 +172,6 @@
         <fullName>agf__Count_Automated_Executions__c</fullName>
         <deprecated>false</deprecated>
         <description>Count the number of completed automated executions</description>
-        <externalId>false</externalId>
         <inlineHelpText>Count the number of completed automated executions</inlineHelpText>
         <label>Count Automated Executions</label>
         <summaryFilterItems>
@@ -195,7 +194,6 @@
         <fullName>agf__Count_Automation_To_Complete__c</fullName>
         <deprecated>false</deprecated>
         <description>Counts the number of automated executions that are not done</description>
-        <externalId>false</externalId>
         <inlineHelpText>Counts the number of automated executions that are not done</inlineHelpText>
         <label>Count Automation To Complete</label>
         <summaryFilterItems>
@@ -217,7 +215,6 @@
     <fields>
         <fullName>agf__Execution_Type__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Execution Type</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -303,7 +300,6 @@
     <fields>
         <fullName>agf__Expected_Results__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Expected Results</label>
         <length>32000</length>
         <trackHistory>false</trackHistory>
@@ -370,7 +366,6 @@
         <fullName>agf__Is_Obsolete__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Is Obsolete</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -413,7 +408,6 @@ Incomplete Automation = invalid annotation or Execution not Marked as Passed or 
         <fullName>agf__Owner__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Owner</label>
         <referenceTo>User</referenceTo>
         <relationshipName>R00ND0000001rflAMAQ</relationshipName>
@@ -425,7 +419,6 @@ Incomplete Automation = invalid annotation or Execution not Marked as Passed or 
     <fields>
         <fullName>agf__Priority__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Priority</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -458,7 +451,6 @@ Incomplete Automation = invalid annotation or Execution not Marked as Passed or 
         <deprecated>false</deprecated>
         <description>Details of the test case. Setup info, steps to follow, etc.
 Leave the expected results out. There is field for that</description>
-        <externalId>false</externalId>
         <inlineHelpText>Details of the test case. Setup info, steps to follow, etc.</inlineHelpText>
         <label>Long Description</label>
         <length>32000</length>
@@ -471,7 +463,6 @@ Leave the expected results out. There is field for that</description>
         <fullName>agf__Team__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>This field will be automatically populated if the test case has a test execution, otherwise it can be manually populated.</inlineHelpText>
         <label>Team</label>
         <referenceTo>agf__ADM_Scrum_Team__c</referenceTo>

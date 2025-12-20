@@ -169,7 +169,6 @@
     <fields>
         <fullName>FD_Active__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Active</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -177,7 +176,6 @@
     </fields>
     <fields>
         <fullName>FD_Description__c</fullName>
-        <externalId>false</externalId>
         <label>Description</label>
         <length>32768</length>
         <trackHistory>false</trackHistory>
@@ -221,7 +219,6 @@
     </fields>
     <fields>
         <fullName>FD_Workflow_Type__c</fullName>
-        <externalId>false</externalId>
         <label>Workflow Type</label>
         <required>true</required>
         <trackHistory>false</trackHistory>

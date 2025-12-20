@@ -233,7 +233,6 @@
     <fields>
         <fullName>agf__Case_Created_Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Case Created</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -242,7 +241,6 @@
     <fields>
         <fullName>agf__Case_ID_Set__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Case ID Set</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -365,7 +363,6 @@
         <fullName>agf__Closed__c</fullName>
         <deprecated>false</deprecated>
         <description>Formula designed as per request in the story https://gus.my.salesforce.com/apex/adm_userstorydetail?id=a07B00000011BKiIAM&amp;sfdc.override=1</description>
-        <externalId>false</externalId>
         <formula>OR(agf__Case_Status__c  = &apos;Closed - Resolved&apos;,agf__Case_Status__c = &apos;Closed - Feature Req/Bug&apos;,agf__Case_Status__c = &apos;Closed - No response from customer&apos;, agf__Case_Status__c = &apos;Closed - Cust Credit&apos;, agf__Case_Status__c = &apos;Closed - Write Off&apos;, agf__Case_Status__c = &apos;Closed - WO/Collect&apos;,
 agf__Case_Status__c = &apos;Closed - Future Consideration&apos;,agf__Case_Status__c = &apos;Closed - Rejected&apos;,
 agf__Case_Status__c = &apos;Closed - Duplicate&apos;,agf__Case_Status__c = &apos;Closed - Request Submitted&apos;,
@@ -391,7 +388,6 @@ agf__Case_Status__c = &apos;Closed - Partner Resolved&apos;, agf__Case_Status__c
     <fields>
         <fullName>agf__Date_Time_Closed__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Date/Time Closed</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -457,7 +453,6 @@ agf__Case_Status__c = &apos;Closed - Partner Resolved&apos;, agf__Case_Status__c
         <fullName>agf__New_Feature_Release_Related__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>New Feature or Release Related</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -545,7 +540,6 @@ agf__Case_Status__c = &apos;Closed - Partner Resolved&apos;, agf__Case_Status__c
         <fullName>agf__Work__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Work</label>
         <referenceTo>agf__ADM_Work__c</referenceTo>
         <relationshipName>Work62OrgCases</relationshipName>

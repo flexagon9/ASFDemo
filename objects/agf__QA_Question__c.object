@@ -159,7 +159,6 @@
         <fullName>agf__Category__c</fullName>
         <deprecated>false</deprecated>
         <description>Where the question will be categorized under.</description>
-        <externalId>false</externalId>
         <label>Category</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -250,7 +249,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>This field determines if the question can be editable. It is only set through the UI so that the question can not be edited from API calls.</description>
-        <externalId>false</externalId>
         <label>Editable</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -271,7 +269,6 @@
         <fullName>agf__More_Info__c</fullName>
         <deprecated>false</deprecated>
         <description>Provide more info for the question</description>
-        <externalId>false</externalId>
         <label>More Info</label>
         <length>32000</length>
         <trackTrending>false</trackTrending>
@@ -283,7 +280,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>The question is no longer valid</description>
-        <externalId>false</externalId>
         <label>Obsolete</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -292,7 +288,6 @@
         <fullName>agf__Question_Text__c</fullName>
         <deprecated>false</deprecated>
         <description>Contains the text of the question.</description>
-        <externalId>false</externalId>
         <label>Question_Text</label>
         <required>true</required>
         <trackTrending>false</trackTrending>
@@ -302,7 +297,6 @@
         <fullName>agf__URL__c</fullName>
         <deprecated>false</deprecated>
         <description>Provide an external URL for more information on the question</description>
-        <externalId>false</externalId>
         <label>URL</label>
         <required>false</required>
         <trackTrending>false</trackTrending>

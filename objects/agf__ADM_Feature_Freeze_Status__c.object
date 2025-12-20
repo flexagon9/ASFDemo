@@ -158,7 +158,6 @@
     <fields>
         <fullName>agf__Accessibility_Bugs_Closed__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Are all Accessibility bugs closed?</inlineHelpText>
         <label>Accessibility Bugs Closed</label>
         <required>false</required>
@@ -202,7 +201,6 @@
         <fullName>agf__All_New_Features_DONE__c</fullName>
         <deprecated>false</deprecated>
         <description>All new product development meets the Definition Of Done.</description>
-        <externalId>false</externalId>
         <inlineHelpText>All new product development meets the Definition Of Done:  https://sites.google.com/a/salesforce.com/adm/definition-of-done?AuthEventSource=SSO</inlineHelpText>
         <label>Features Meet Definition of Done</label>
         <required>false</required>
@@ -234,7 +232,6 @@
         <fullName>agf__All_New_Upgraded_3PP_are_Approved__c</fullName>
         <deprecated>false</deprecated>
         <description>All New or Upgraded 3rd Party Software Products have Approval through the 3PP Process (Yes/No)</description>
-        <externalId>false</externalId>
         <inlineHelpText>All New or Upgraded 3rd Party Software Products have Approval through the 3PP Process.  Feature Freeze requirement is that all are APPROVED.</inlineHelpText>
         <label>All New/Upgraded 3PP are Approved</label>
         <required>false</required>
@@ -265,7 +262,6 @@
     <fields>
         <fullName>agf__All_Security_Bugs_Closed__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>P012 Security Bugs are closed or approved by ProdSec in the release that is open at the time of their discovery.</inlineHelpText>
         <label>All Security Bugs Closed?</label>
         <required>false</required>
@@ -291,7 +287,6 @@
     <fields>
         <fullName>agf__All_Security_Stories_Closed__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>All Security Stories Closed?</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -316,7 +311,6 @@
     <fields>
         <fullName>agf__All_Sprint_DOD_Criteria_Met__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>All Sprint DOD criteria must be met</inlineHelpText>
         <label>All Sprint DOD Criteria Met</label>
         <required>false</required>
@@ -343,7 +337,6 @@
         <fullName>agf__All_Supported_one_app_Browsers_Tested__c</fullName>
         <deprecated>false</deprecated>
         <description>Used to track if teams who have features that are surfaced in the S1 Mobile application have tested their functionality on one.app of all the supported browsers (as per the current S1 Support Matrix).</description>
-        <externalId>false</externalId>
         <inlineHelpText>Has the team tested their functionality on one.app for all the supported browsers as per the current S1 Support Matrix?</inlineHelpText>
         <label>Release Tested on all one.app Browsers</label>
         <required>false</required>
@@ -374,7 +367,6 @@
     <fields>
         <fullName>agf__Assessment_Details__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Please provide details on why the team is in Yellow or Red status in  terms of meeting FF</inlineHelpText>
         <label>Assessment Details</label>
         <required>false</required>
@@ -385,7 +377,6 @@
     <fields>
         <fullName>agf__Automated_Tests_Annotated__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Percent of existing automated tests that have been annotated.  FF criterion is at least 60%.</inlineHelpText>
         <label>% Automated Tests Annotated (&gt;=80%)</label>
         <precision>3</precision>
@@ -399,7 +390,6 @@
         <fullName>agf__Biz_SOX_Compliance_Met__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Legal, tax, regulatory, regional, Business SOX compliance met.  Business SOX narratives have been updated or plan to be updated as appropriate.</inlineHelpText>
         <label>Biz SOX Compliance Met</label>
         <trackFeedHistory>false</trackFeedHistory>
@@ -452,7 +442,6 @@
         <fullName>agf__Changes_to_Hub_Agent__c</fullName>
         <deprecated>false</deprecated>
         <description>Any changes to the Hub &amp; Agent?</description>
-        <externalId>false</externalId>
         <inlineHelpText>Any changes to the Hub &amp; Agent?</inlineHelpText>
         <label>Changes to Hub &amp; Agent</label>
         <required>false</required>
@@ -464,7 +453,6 @@
         <fullName>agf__Changes_to_Logging__c</fullName>
         <deprecated>false</deprecated>
         <description>Any changes to the way things are logged?</description>
-        <externalId>false</externalId>
         <inlineHelpText>Any changes to the way things are logged?</inlineHelpText>
         <label>Changes to Logging</label>
         <required>false</required>
@@ -476,7 +464,6 @@
         <fullName>agf__Changes_to_ping_jsp__c</fullName>
         <deprecated>false</deprecated>
         <description>Any changes to ping.jsp?</description>
-        <externalId>false</externalId>
         <inlineHelpText>Any changes to ping.jsp?</inlineHelpText>
         <label>Changes to ping.jsp</label>
         <required>false</required>
@@ -488,7 +475,6 @@
         <fullName>agf__Code_Line_is_Potentially_Releasable__c</fullName>
         <deprecated>false</deprecated>
         <description>Code Line is Potentially Releasable – All New Features and Enhancements meet the Definition of Done and Code Line meets Bug/TF Criteria below (Yes/No)</description>
-        <externalId>false</externalId>
         <inlineHelpText>Code Line is Potentially Releasable – All New Features and Enhancements meet the Definition of Done and Code Line meets Bug/TF Criteria below (Yes/No)</inlineHelpText>
         <label>Code Line is Potentially Releasable</label>
         <required>false</required>
@@ -514,7 +500,6 @@
     <fields>
         <fullName>agf__Comments__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Comments</label>
         <length>1000</length>
         <trackFeedHistory>false</trackFeedHistory>
@@ -528,7 +513,6 @@
         <description>Team must confirm that they are not on the Buildmaster&apos;s Top 10 sheet:
 
 https://docs.google.com/a/salesforce.com/spreadsheet/ccc?key=0AkkHOEHyPs0CdG54akZNN2FCektGSllIOENCVk8zUlE#gid=0</description>
-        <externalId>false</externalId>
         <inlineHelpText>Has team confirmed that it is not on the Buildmaster&apos;s Top 10 list?</inlineHelpText>
         <label>Confirmed not on BM Top 10 List?</label>
         <required>false</required>
@@ -555,7 +539,6 @@ https://docs.google.com/a/salesforce.com/spreadsheet/ccc?key=0AkkHOEHyPs0CdG54ak
         <fullName>agf__Core_Release_against_Hybrid_Apps_in_Dev__c</fullName>
         <deprecated>false</deprecated>
         <description>Used to track if teams who have features that are surfaced in the S1 Mobile application have tested the S1 application *currently being developed* (all supported Hybrid Containers, as per the current S1 Support Matrix) against the new core Major Release that is being developed.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Has the team certified the Core Major Release candidate against all versions of the supported Hybrid Containers that are in development to be part of the S1 Major Release as per the current S1 Support Matrix?  (e.g. iOS, Android, Windows)</inlineHelpText>
         <label>Release Tested on in-dev S1 Hybrid Apps</label>
         <required>false</required>
@@ -587,7 +570,6 @@ https://docs.google.com/a/salesforce.com/spreadsheet/ccc?key=0AkkHOEHyPs0CdG54ak
         <fullName>agf__Core_Release_against_Prod_Hybrid_Apps__c</fullName>
         <deprecated>false</deprecated>
         <description>Used to track if teams who have features that are surfaced in the S1 Mobile application have tested the S1 application currently in production (all supported Hybrid Containers, as per the current S1 Support Matrix) against the new core Major Release that is being developed.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Has the team certified the Core Major Release candidate against all &apos;Production&apos; versions of the supported Hybrid Containers as per the current S1 Support Matrix?  (e.g. iOS, Android, Windows)</inlineHelpText>
         <label>Release Tested on Prod S1 Hybrid Apps</label>
         <required>false</required>
@@ -619,7 +601,6 @@ https://docs.google.com/a/salesforce.com/spreadsheet/ccc?key=0AkkHOEHyPs0CdG54ak
         <fullName>agf__DB_Upgrade_Scripts_Complete_and_Verified__c</fullName>
         <deprecated>false</deprecated>
         <description>DB Upgrade Scripts Complete and Verified (Yes/No)</description>
-        <externalId>false</externalId>
         <inlineHelpText>DB Upgrade Scripts Complete and Verified (Yes/No)</inlineHelpText>
         <label>DB Upgrade Scripts Complete and Verified</label>
         <required>false</required>
@@ -645,7 +626,6 @@ https://docs.google.com/a/salesforce.com/spreadsheet/ccc?key=0AkkHOEHyPs0CdG54ak
     <fields>
         <fullName>agf__Deferred_Work__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>This is work that has been moved to next release that has been placed behind a perm.</inlineHelpText>
         <label>Deferred Work</label>
         <required>false</required>
@@ -656,7 +636,6 @@ https://docs.google.com/a/salesforce.com/spreadsheet/ccc?key=0AkkHOEHyPs0CdG54ak
     <fields>
         <fullName>agf__Dependencies_on_other_teams_closed__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Dependencies from other teams = Closed</inlineHelpText>
         <label>Dependencies from other teams closed</label>
         <required>false</required>
@@ -683,7 +662,6 @@ https://docs.google.com/a/salesforce.com/spreadsheet/ccc?key=0AkkHOEHyPs0CdG54ak
         <fullName>agf__Dev_Leadership_Confirmation_Details__c</fullName>
         <deprecated>false</deprecated>
         <description>For the Engineering Cloud Lead (or their delegate) to optionally leave details regarding the Team Signoff Status.</description>
-        <externalId>false</externalId>
         <inlineHelpText>For the Engineering Cloud Lead (or their delegate) to optionally leave details regarding the Team Signoff Status.</inlineHelpText>
         <label>Cloud Leadership Confirmation Details</label>
         <required>false</required>
@@ -696,7 +674,6 @@ https://docs.google.com/a/salesforce.com/spreadsheet/ccc?key=0AkkHOEHyPs0CdG54ak
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>For confirming that the Cloud Engineering Lead associated to that team has reviewed the status and confirmed the signoff, especially if the team has not signed off or is signing off without meeting criteria.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Used by the Engineering Cloud Lead (or their delegate) to confirm the Team Signoff Status.</inlineHelpText>
         <label>Cloud Leadership Sign Off Confirmed</label>
         <trackFeedHistory>false</trackFeedHistory>
@@ -708,7 +685,6 @@ https://docs.google.com/a/salesforce.com/spreadsheet/ccc?key=0AkkHOEHyPs0CdG54ak
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>To document who is providing the Cloud Leadership Signoff</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enter the name of the Cloud Lead or delegate who is confirming signoff.</inlineHelpText>
         <label>Cloud Lead Name</label>
         <referenceTo>User</referenceTo>
@@ -721,7 +697,6 @@ https://docs.google.com/a/salesforce.com/spreadsheet/ccc?key=0AkkHOEHyPs0CdG54ak
     <fields>
         <fullName>agf__EA_2Week_NotReady_Comment__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Explain what your next steps are and what assistance you need.</inlineHelpText>
         <label>Next steps or assistance needed</label>
         <length>32768</length>
@@ -747,7 +722,6 @@ https://docs.google.com/a/salesforce.com/spreadsheet/ccc?key=0AkkHOEHyPs0CdG54ak
         <fullName>agf__EA_2Week_NotReady_Response__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Check if: &quot;We may be the team that causes the release to be delayed.&quot;</inlineHelpText>
         <label>C</label>
         <trackFeedHistory>false</trackFeedHistory>
@@ -770,7 +744,6 @@ https://docs.google.com/a/salesforce.com/spreadsheet/ccc?key=0AkkHOEHyPs0CdG54ak
         <fullName>agf__EA_2Week_Ready_Response__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Check if: &quot;At Feature Freeze, we’ll be ready to release to GS0 and provide a great experience for internal and external users. If necessary, we will disable incomplete features at Feature Freeze.&quot;</inlineHelpText>
         <label>A</label>
         <trackFeedHistory>false</trackFeedHistory>
@@ -780,7 +753,6 @@ https://docs.google.com/a/salesforce.com/spreadsheet/ccc?key=0AkkHOEHyPs0CdG54ak
     <fields>
         <fullName>agf__EA_2Week_Risk_Comment__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Explain your proposed alternative solution and any assistance you need.</inlineHelpText>
         <label>Comments or assistance needed</label>
         <length>2048</length>
@@ -806,7 +778,6 @@ https://docs.google.com/a/salesforce.com/spreadsheet/ccc?key=0AkkHOEHyPs0CdG54ak
         <fullName>agf__EA_2Week_Risk_Response__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Check if: &quot;Excluding hammer tests, we probably won&apos;t be done at Feature Freeze but we can release if we can come up with an alternative solution.&quot;</inlineHelpText>
         <label>B</label>
         <trackFeedHistory>false</trackFeedHistory>
@@ -816,7 +787,6 @@ https://docs.google.com/a/salesforce.com/spreadsheet/ccc?key=0AkkHOEHyPs0CdG54ak
     <fields>
         <fullName>agf__EA_6Week_NotReady_Comment__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Explain what your next steps are and what assistance you need.</inlineHelpText>
         <label>Next steps or assistance needed</label>
         <length>32768</length>
@@ -842,7 +812,6 @@ https://docs.google.com/a/salesforce.com/spreadsheet/ccc?key=0AkkHOEHyPs0CdG54ak
         <fullName>agf__EA_6Week_NotReady_Response__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Check if: &quot;We may be the team that causes the release to be delayed.&quot;</inlineHelpText>
         <label>C</label>
         <trackFeedHistory>false</trackFeedHistory>
@@ -865,7 +834,6 @@ https://docs.google.com/a/salesforce.com/spreadsheet/ccc?key=0AkkHOEHyPs0CdG54ak
         <fullName>agf__EA_6Week_Ready_Response__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Check if: &quot;At Feature Freeze, we’ll be ready to release to GS0 and provide a great experience for internal and external users. If necessary, we will disable incomplete features at Feature Freeze.&quot;</inlineHelpText>
         <label>A</label>
         <trackFeedHistory>false</trackFeedHistory>
@@ -875,7 +843,6 @@ https://docs.google.com/a/salesforce.com/spreadsheet/ccc?key=0AkkHOEHyPs0CdG54ak
     <fields>
         <fullName>agf__EA_6Week_Risk_Comment__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Explain your proposed alternative solution and any assistance you need.</inlineHelpText>
         <label>Comments or assistance needed</label>
         <length>2048</length>
@@ -901,7 +868,6 @@ https://docs.google.com/a/salesforce.com/spreadsheet/ccc?key=0AkkHOEHyPs0CdG54ak
         <fullName>agf__EA_6Week_Risk_Response__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Check if: &quot;Excluding hammer tests, we probably won&apos;t be done at Feature Freeze but we can release if we can come up with an alternative solution.&quot;</inlineHelpText>
         <label>B</label>
         <trackFeedHistory>false</trackFeedHistory>
@@ -924,7 +890,6 @@ https://docs.google.com/a/salesforce.com/spreadsheet/ccc?key=0AkkHOEHyPs0CdG54ak
         <fullName>agf__EA_Concerns_Response__c</fullName>
         <deprecated>false</deprecated>
         <description>Response for: What are your team&apos;s biggest concerns or risks? Do you want to provide any additional comments?</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enter response for: &quot;What are your team&apos;s biggest concerns or risks? Do you want to provide any additional comments?&quot;</inlineHelpText>
         <label>Concerns Response</label>
         <length>32768</length>
@@ -949,7 +914,6 @@ https://docs.google.com/a/salesforce.com/spreadsheet/ccc?key=0AkkHOEHyPs0CdG54ak
         <fullName>agf__EA_Perm_Response__c</fullName>
         <deprecated>false</deprecated>
         <description>Reponse for: Does your team have changes which are NOT being developed behind a perm OR are part of a Dark Launch? If yes, explain what are these changes?</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enter response for: &quot;Does your team have changes which are NOT being developed behind a perm OR are part of a Dark Launch? If yes, explain what are these changes?&quot;</inlineHelpText>
         <label>Perm Response</label>
         <length>32768</length>
@@ -975,7 +939,6 @@ https://docs.google.com/a/salesforce.com/spreadsheet/ccc?key=0AkkHOEHyPs0CdG54ak
         <deprecated>false</deprecated>
         <description>Response for: If your team owns a Split Script, have you reviewed it for the next release?  If your team is in the Split Risk Group, have you verified that your feature set will continue to work after the next split?
 Has your team completed the required BUTC/Maven work?</description>
-        <externalId>false</externalId>
         <inlineHelpText>If team owns a Split Script, have you reviewed it for the next release?  If your team is in the Split Risk Group, have you verified that your feature set will continue to work after the next split? Has your team completed the required BUTC/Maven work?</inlineHelpText>
         <label>Split Response</label>
         <length>32768</length>
@@ -1000,7 +963,6 @@ Has your team completed the required BUTC/Maven work?</description>
         <fullName>agf__EA_Test_Response__c</fullName>
         <deprecated>false</deprecated>
         <description>Response for: Does your team have adequate test coverage for any re-factoring work that is being done? If not, what is your plan to add test coverage?</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enter your response for: &quot;Does your team have adequate test coverage for any re-factoring work that is being done? If not, what is your plan to add test coverage?&quot;</inlineHelpText>
         <label>Test Response</label>
         <length>32768</length>
@@ -1025,7 +987,6 @@ Has your team completed the required BUTC/Maven work?</description>
         <fullName>agf__EA_Trust_Response__c</fullName>
         <deprecated>false</deprecated>
         <description>Response for: Is your team on course to complete the TRUST work for which you planned? If not, explain why you changed course.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enter response for question: &quot;Is your team on course to complete the TRUST work for which you planned? If not, explain why you changed course.&quot;</inlineHelpText>
         <label>Trust Response</label>
         <length>32768</length>
@@ -1037,7 +998,6 @@ Has your team completed the required BUTC/Maven work?</description>
     <fields>
         <fullName>agf__Expalin_if_Team_is_Yellow_Red__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Please provide details on why the team is in Yellow or Red status in  terms of meeting FF</inlineHelpText>
         <label>Explain if Team is Yellow or Red</label>
         <required>false</required>
@@ -1049,7 +1009,6 @@ Has your team completed the required BUTC/Maven work?</description>
         <fullName>agf__Explain_3rd_Party_Product__c</fullName>
         <deprecated>false</deprecated>
         <description>If the Answer is NO then provide an explanation and the plan.</description>
-        <externalId>false</externalId>
         <inlineHelpText>If the Answer is NO then provide an explanation and the plan.</inlineHelpText>
         <label>Explain Unapproved 3rd Party Product</label>
         <required>false</required>
@@ -1061,7 +1020,6 @@ Has your team completed the required BUTC/Maven work?</description>
         <fullName>agf__Explain_Automated_Tests_Annotated__c</fullName>
         <deprecated>false</deprecated>
         <description>Explain if the %Automated Tests Annotated is less than 80%</description>
-        <externalId>false</externalId>
         <inlineHelpText>Explain if the %Automated Tests Annotated is less than 80%</inlineHelpText>
         <label>Explain % Automated Tests Annotated</label>
         <required>false</required>
@@ -1073,7 +1031,6 @@ Has your team completed the required BUTC/Maven work?</description>
         <fullName>agf__Explain_Bugs_TF_to_Fix__c</fullName>
         <deprecated>false</deprecated>
         <description>Explain if Total Number of Bugs/TF to Fix exceeds maximum 2 per Full-Time Developer</description>
-        <externalId>false</externalId>
         <inlineHelpText>Explain if Total Number of Bugs/TF to Fix exceeds maximum 2 per Full-Time Developer</inlineHelpText>
         <label>Explain Bugs/TF to Fix</label>
         <required>false</required>
@@ -1085,7 +1042,6 @@ Has your team completed the required BUTC/Maven work?</description>
         <fullName>agf__Explain_Bugs_TF_to_Verify__c</fullName>
         <deprecated>false</deprecated>
         <description>Explain if Total Number of Fixed Bugs/TF to Verify exceeds maximum 2 per Full-Time QE</description>
-        <externalId>false</externalId>
         <inlineHelpText>Explain if Total Number of Fixed Bugs/TF to Verify exceeds maximum 2 per Full-Time QE</inlineHelpText>
         <label>Explain Bugs/TF to Verify</label>
         <required>false</required>
@@ -1097,7 +1053,6 @@ Has your team completed the required BUTC/Maven work?</description>
         <fullName>agf__Explain_Bugs_missing_Automation__c</fullName>
         <deprecated>false</deprecated>
         <description>Explain if Total Number of Closed P0/P1/P2 Bugs and Closed Bugs-with-Cases that do not have automation is &gt; 0</description>
-        <externalId>false</externalId>
         <inlineHelpText>Explain if Total Number of Closed P0/P1/P2 Bugs and Closed Bugs-with-Cases that do not have automation is &gt; 0</inlineHelpText>
         <label>Explain Bugs missing Automation</label>
         <required>false</required>
@@ -1109,7 +1064,6 @@ Has your team completed the required BUTC/Maven work?</description>
         <fullName>agf__Explain_Bugs_to_Fix__c</fullName>
         <deprecated>false</deprecated>
         <description>Explain if Total Number of Bugs to Fix exceeds maximum 1 per Full-Time Developer</description>
-        <externalId>false</externalId>
         <inlineHelpText>Explain if Total Number of Bugs to Fix exceeds maximum 1 per Full-Time Developer</inlineHelpText>
         <label>Explain Bugs to Fix</label>
         <required>false</required>
@@ -1121,7 +1075,6 @@ Has your team completed the required BUTC/Maven work?</description>
         <fullName>agf__Explain_Bugs_to_Verify__c</fullName>
         <deprecated>false</deprecated>
         <description>Explain if Total Number of Fixed Bugs to Verify exceeds maximum 1 per Full-Time QE</description>
-        <externalId>false</externalId>
         <inlineHelpText>Explain if Total Number of Fixed Bugs to Verify exceeds maximum 1 per Full-Time QE</inlineHelpText>
         <label>Explain Bugs to Verify</label>
         <required>false</required>
@@ -1133,7 +1086,6 @@ Has your team completed the required BUTC/Maven work?</description>
         <fullName>agf__Explain_Code_Line_is_Potentially_Releasa__c</fullName>
         <deprecated>false</deprecated>
         <description>Explain Code Line is Potentially Releasable – All New Features and Enhancements meet the Definition of Done and Code Line meets Bug/TF Criteria below (Yes/No)</description>
-        <externalId>false</externalId>
         <inlineHelpText>Explain Code Line is Potentially Releasable – All New Features and Enhancements meet the Definition of Done and Code Line meets Bug/TF Criteria below (Yes/No)</inlineHelpText>
         <label>Explain if not Potentially Releasable</label>
         <required>false</required>
@@ -1145,7 +1097,6 @@ Has your team completed the required BUTC/Maven work?</description>
         <fullName>agf__Explain_DB_Upgrade_Scripts_Incomplete__c</fullName>
         <deprecated>false</deprecated>
         <description>Explain if DB Upgrade Scripts are not Complete and Verified.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Explain if DB Upgrade Scripts are not Complete and Verified.</inlineHelpText>
         <label>Explain DB Upgrade Scripts Incomplete</label>
         <required>false</required>
@@ -1156,7 +1107,6 @@ Has your team completed the required BUTC/Maven work?</description>
     <fields>
         <fullName>agf__Explain_Extended_ftest_Test_Failures__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Explain Extended ftest Test Failures</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1178,7 +1128,6 @@ Has your team completed the required BUTC/Maven work?</description>
     <fields>
         <fullName>agf__Explain_High__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Explain High Risk Perf Features</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1189,7 +1138,6 @@ Has your team completed the required BUTC/Maven work?</description>
         <fullName>agf__Explain_IT_Compliance_Not_Met__c</fullName>
         <deprecated>false</deprecated>
         <description>IT Feature Freeze Criteria to explain any legal, tax, regulatory, regional, business or IT SOX compliance not met or N/A.</description>
-        <externalId>false</externalId>
         <inlineHelpText>IT Feature Freeze Criteria to explain any legal, tax, regulatory, regional, business or IT SOX compliance not met or N/A.</inlineHelpText>
         <label>Explain IT Compliance Not Met</label>
         <required>false</required>
@@ -1201,7 +1149,6 @@ Has your team completed the required BUTC/Maven work?</description>
         <fullName>agf__Explain_IT_Conversion_Plan_Incomplete__c</fullName>
         <deprecated>false</deprecated>
         <description>IT Feature Freeze Criteria to explain if data conversion plan has not been automated, tested, reviewed, validated or potentially performance tuned.</description>
-        <externalId>false</externalId>
         <inlineHelpText>IT Feature Freeze Criteria to explain if data conversion plan has not been automated, tested, reviewed, validated or potentially performance tuned.</inlineHelpText>
         <label>Explain IT Conversion Plan Incomplete</label>
         <required>false</required>
@@ -1213,7 +1160,6 @@ Has your team completed the required BUTC/Maven work?</description>
         <fullName>agf__Explain_IT_Prod_Support_Model_Incomplete__c</fullName>
         <deprecated>false</deprecated>
         <description>IT Feature Freeze Criteria to explain if a production support model has not been documented, reviewed or signed off (Tier 1, Tier 2, etc.).</description>
-        <externalId>false</externalId>
         <inlineHelpText>IT Feature Freeze Criteria to explain if a production support model has not been documented, reviewed or signed off (Tier 1, Tier 2, etc.).</inlineHelpText>
         <label>Explain IT Prod Support Model Incomplete</label>
         <required>false</required>
@@ -1225,7 +1171,6 @@ Has your team completed the required BUTC/Maven work?</description>
         <fullName>agf__Explain_IT_Rollback_Plan_Incomplete__c</fullName>
         <deprecated>false</deprecated>
         <description>IT Feature Freeze to explain if rollback and contingency plans are not documented, tested or ready for IT VAT and CAB review.</description>
-        <externalId>false</externalId>
         <inlineHelpText>IT Feature Freeze to explain if rollback and contingency plans are not documented, tested or ready for IT VAT and CAB review.</inlineHelpText>
         <label>Explain IT Rollback Plan Incomplete</label>
         <required>false</required>
@@ -1237,7 +1182,6 @@ Has your team completed the required BUTC/Maven work?</description>
         <fullName>agf__Explain_IT_Security_Reviews_Incomplete__c</fullName>
         <deprecated>false</deprecated>
         <description>IT Freature Freeze Criteria to explain any Security Reviews, testing or fixes complete.</description>
-        <externalId>false</externalId>
         <inlineHelpText>IT Freature Freeze Criteria to explain any Security Reviews, testing or fixes complete.</inlineHelpText>
         <label>Explain IT Security Reviews Incomplete</label>
         <required>false</required>
@@ -1249,7 +1193,6 @@ Has your team completed the required BUTC/Maven work?</description>
         <fullName>agf__Explain_IT_Stage_Environment_not_ready__c</fullName>
         <deprecated>false</deprecated>
         <description>IT Feature Freeze Criteria to explain if the stage environment is not prepared for the Release Sprint/UAT.</description>
-        <externalId>false</externalId>
         <inlineHelpText>IT Feature Freeze Criteria to explain if the stage environment is not prepared for the Release Sprint/UAT.</inlineHelpText>
         <label>Explain IT Stage Environment not ready</label>
         <required>false</required>
@@ -1261,7 +1204,6 @@ Has your team completed the required BUTC/Maven work?</description>
         <fullName>agf__Explain_IT_VAT_Review_Incomplete__c</fullName>
         <deprecated>false</deprecated>
         <description>IT Feature Freeze Criteria to explain any IT VAT architecture reviews, requirements or exceptions that have not been performed and noted.</description>
-        <externalId>false</externalId>
         <inlineHelpText>IT Feature Freeze Criteria to explain any IT VAT architecture reviews, requirements or exceptions that have not been performed and noted.</inlineHelpText>
         <label>Explain IT VAT Review Incomplete</label>
         <required>false</required>
@@ -1273,7 +1215,6 @@ Has your team completed the required BUTC/Maven work?</description>
         <fullName>agf__Explain_Java_Package_and_PL_SQL_Coverage__c</fullName>
         <deprecated>false</deprecated>
         <description>Explain if the Java Package or PL/SQL Coverage is &lt; 20%</description>
-        <externalId>false</externalId>
         <inlineHelpText>Explain if the Java Package or PL/SQL Coverage is &lt; 20%</inlineHelpText>
         <label>Explain Java Package and PL/SQL Coverage</label>
         <required>false</required>
@@ -1284,7 +1225,6 @@ Has your team completed the required BUTC/Maven work?</description>
     <fields>
         <fullName>agf__Explain_Num_P1_Bugs_TF_to_Fix_Verify__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Explain Num P1 Bugs/TF to Fix/Verify</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1294,7 +1234,6 @@ Has your team completed the required BUTC/Maven work?</description>
     <fields>
         <fullName>agf__Explain_Num_P2_Bugs_TF_to_Fix_Verify__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Explain Num P2 Bugs/TF to Fix/Verify</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1304,7 +1243,6 @@ Has your team completed the required BUTC/Maven work?</description>
     <fields>
         <fullName>agf__Explain_Open_Bugs__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Explain Open P0, P1 &amp; P2 Bugs</inlineHelpText>
         <label>Explain Open Bugs</label>
         <required>false</required>
@@ -1315,7 +1253,6 @@ Has your team completed the required BUTC/Maven work?</description>
     <fields>
         <fullName>agf__Explain_Open_Feature_Requests__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Explain Open Feature Requests</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1325,7 +1262,6 @@ Has your team completed the required BUTC/Maven work?</description>
     <fields>
         <fullName>agf__Explain_Open_Non_Deterministic_Test_NDT__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Explain Open Non Deterministic Test (NDT) Not Required for Sign-off</inlineHelpText>
         <label>Explain Open Non Deterministic Test</label>
         <length>32768</length>
@@ -1337,7 +1273,6 @@ Has your team completed the required BUTC/Maven work?</description>
     <fields>
         <fullName>agf__Explain_Open_P012_Bugs__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>P012 Bugs = Zero</inlineHelpText>
         <label>Explain Open P012 Bugs</label>
         <required>false</required>
@@ -1348,7 +1283,6 @@ Has your team completed the required BUTC/Maven work?</description>
     <fields>
         <fullName>agf__Explain_Open_RCA_Bugs__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>All P0,1,2 Bugs from RCAs older than 1 month, *including* previous or current releases should be closed.</inlineHelpText>
         <label>Explain Open RCA Bugs</label>
         <required>false</required>
@@ -1359,7 +1293,6 @@ Has your team completed the required BUTC/Maven work?</description>
     <fields>
         <fullName>agf__Explain_Open_RCA_Stories__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>All User-stories from RCAs older than 1 month, must be closed or scheduled for a release or sprint</inlineHelpText>
         <label>Explain Open RCA Stories</label>
         <required>false</required>
@@ -1370,7 +1303,6 @@ Has your team completed the required BUTC/Maven work?</description>
     <fields>
         <fullName>agf__Explain_Open_RCA_To_D__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>All ToDos (all priorities) from RCAs older than 1 month, *including* previous or current releases should be closed.</inlineHelpText>
         <label>Explain Open RCA To Do&apos;s</label>
         <required>false</required>
@@ -1381,7 +1313,6 @@ Has your team completed the required BUTC/Maven work?</description>
     <fields>
         <fullName>agf__Explain_Open_Regression__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Regressions = Zero</inlineHelpText>
         <label>Explain Open Regression</label>
         <required>false</required>
@@ -1392,7 +1323,6 @@ Has your team completed the required BUTC/Maven work?</description>
     <fields>
         <fullName>agf__Explain_Open_Security_bugs__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>P012 Security Bugs are closed or approved by ProdSec in the release that is open at the time of their discovery.</inlineHelpText>
         <label>Explain Open Security bugs</label>
         <required>false</required>
@@ -1403,7 +1333,6 @@ Has your team completed the required BUTC/Maven work?</description>
     <fields>
         <fullName>agf__Explain_Open_TF_1_Week__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>TF &gt; 1 Week = Zero {Inc Flappers}</inlineHelpText>
         <label>Explain Open TF &gt; 1 Week {Inc Flappers}</label>
         <required>false</required>
@@ -1414,7 +1343,6 @@ Has your team completed the required BUTC/Maven work?</description>
     <fields>
         <fullName>agf__Explain_Open_TF__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>TF on basic ftest, basic selenium &amp; utest = Zero
 (Does not inc Flappers)</inlineHelpText>
         <label>Explain Open TF&apos;s</label>
@@ -1427,7 +1355,6 @@ Has your team completed the required BUTC/Maven work?</description>
         <fullName>agf__Explain_Open_User_Stories__c</fullName>
         <deprecated>false</deprecated>
         <description>Number of Open User Stories – excluding “Release Sprint Theme” stories (0)</description>
-        <externalId>false</externalId>
         <inlineHelpText>Number of Open User Stories – excluding “Release Sprint Theme” stories (0)</inlineHelpText>
         <label>Explain Open User Stories</label>
         <required>false</required>
@@ -1439,7 +1366,6 @@ Has your team completed the required BUTC/Maven work?</description>
         <fullName>agf__Explain_P0_Blocking_Bugs__c</fullName>
         <deprecated>false</deprecated>
         <description>Explain if P0/Blocking Bugs are &gt; 0</description>
-        <externalId>false</externalId>
         <inlineHelpText>Explain if P0/Blocking Bugs are &gt; 0</inlineHelpText>
         <label>Explain Your P0/Blocking Bugs</label>
         <required>false</required>
@@ -1451,7 +1377,6 @@ Has your team completed the required BUTC/Maven work?</description>
         <fullName>agf__Explain_P0_Bugs_at_FF__c</fullName>
         <deprecated>false</deprecated>
         <description>IT Feature Freeze Criteria for teams to provide explanation for any open P0 bugs at FF.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Provide an explanation for any open P0 bugs at FF.</inlineHelpText>
         <label>Explain P0 Bugs at FF</label>
         <required>false</required>
@@ -1462,7 +1387,6 @@ Has your team completed the required BUTC/Maven work?</description>
     <fields>
         <fullName>agf__Explain_P1_P2_Bugs_TF_1_wk_old__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Explain P1/P2 Bugs/TF &gt;1 wk old</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1472,7 +1396,6 @@ Has your team completed the required BUTC/Maven work?</description>
     <fields>
         <fullName>agf__Explain_Pending_Auto_Integrations__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Explain Pending Auto Integrations</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1482,7 +1405,6 @@ Has your team completed the required BUTC/Maven work?</description>
     <fields>
         <fullName>agf__Explain_Sprint_DOD_Criteria__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>If not met, please explain</inlineHelpText>
         <label>Explain Sprint DOD Criteria</label>
         <required>false</required>
@@ -1494,7 +1416,6 @@ Has your team completed the required BUTC/Maven work?</description>
         <fullName>agf__Explain_TF_to_Fix__c</fullName>
         <deprecated>false</deprecated>
         <description>Explain the number of Test Failures to Fix.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Explain the number of Test Failures to Fix.</inlineHelpText>
         <label>Explain Test Failures to Fix</label>
         <required>false</required>
@@ -1506,7 +1427,6 @@ Has your team completed the required BUTC/Maven work?</description>
         <fullName>agf__Explain_TF_to_Fix_or_Verify_1_week_0__c</fullName>
         <deprecated>false</deprecated>
         <description>Explain if Total Number of Test Failures to Fix or Verify more than 1 week old is &gt; 0</description>
-        <externalId>false</externalId>
         <inlineHelpText>Explain if Total Number of Test Failures to Fix or Verify more than 1 week old is &gt; 0</inlineHelpText>
         <label>Explain Test Failures  &gt;1 week</label>
         <required>false</required>
@@ -1517,7 +1437,6 @@ Has your team completed the required BUTC/Maven work?</description>
     <fields>
         <fullName>agf__Explain_if_Biz_Sox_Not_Met__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Explain if Biz SOX Not Met</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1527,7 +1446,6 @@ Has your team completed the required BUTC/Maven work?</description>
     <fields>
         <fullName>agf__Explain_if_Blocking_Bugs_Exist_on_Freeze__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Explain if Blocking Bugs Exist on Freeze</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1538,7 +1456,6 @@ Has your team completed the required BUTC/Maven work?</description>
         <fullName>agf__Explain_if_IT_Infra_not_Met__c</fullName>
         <deprecated>false</deprecated>
         <description>IT Feature Freeze Criteria to explain if IT Infrastructure required is not setup, configured, tested or documented (if required for Apps).</description>
-        <externalId>false</externalId>
         <inlineHelpText>IT Feature Freeze Criteria to explain if IT Infrastructure required is not setup, configured, tested or documented (if required for Apps).</inlineHelpText>
         <label>Explain IT Infra not Met</label>
         <required>false</required>
@@ -1549,7 +1466,6 @@ Has your team completed the required BUTC/Maven work?</description>
     <fields>
         <fullName>agf__Explain_if_Not_Complete__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Explain if Not Complete</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1559,7 +1475,6 @@ Has your team completed the required BUTC/Maven work?</description>
     <fields>
         <fullName>agf__Explain_if_PerfEng_Requirements_not_Met__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Explain if PerfEng Requirements not Met</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1569,7 +1484,6 @@ Has your team completed the required BUTC/Maven work?</description>
     <fields>
         <fullName>agf__Explain_if_Regressions_Exist_on_Freeze__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Explain if Regressions Exist on Freeze</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1579,7 +1493,6 @@ Has your team completed the required BUTC/Maven work?</description>
     <fields>
         <fullName>agf__Explain_if_Scripts_not_Verified__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Explain if Scripts not Verified</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1589,7 +1502,6 @@ Has your team completed the required BUTC/Maven work?</description>
     <fields>
         <fullName>agf__Explain_if_Solution_Swimlanes_not_Built__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Explain if Solution Swimlanes not Built</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1599,7 +1511,6 @@ Has your team completed the required BUTC/Maven work?</description>
     <fields>
         <fullName>agf__Explain_if_TF_Count_is_High__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Explain if TF Count is High</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1610,7 +1521,6 @@ Has your team completed the required BUTC/Maven work?</description>
         <fullName>agf__Explain_if_TF_Exist__c</fullName>
         <deprecated>false</deprecated>
         <description>Explain if your team has TF on basic ftest, basic selenium or utest.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Explain if your team has TF on basic ftest, basic selenium or utest.</inlineHelpText>
         <label>Explain if TF Exist</label>
         <required>false</required>
@@ -1622,7 +1532,6 @@ Has your team completed the required BUTC/Maven work?</description>
         <fullName>agf__Explain_if_TF_not_Trending_Down__c</fullName>
         <deprecated>false</deprecated>
         <description>Explain if the Test Failure rate is not trending downward.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Explain if the Test Failure rate is not trending downward.</inlineHelpText>
         <label>Explain if TF not Trending Down</label>
         <required>false</required>
@@ -1633,7 +1542,6 @@ Has your team completed the required BUTC/Maven work?</description>
     <fields>
         <fullName>agf__Explain_if_Unable_to_Sign_off_for_ZD__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>By signing Off Teams are confirming:
 Work for Pre, Post, Retired scripts are done.
 Identified Features to be enabled with Retired Scripts
@@ -1647,7 +1555,6 @@ Completed all action items assigned to them by ZD Team</inlineHelpText>
     <fields>
         <fullName>agf__Explain_if_VAT_review_not_Complete__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>IT VAT architecture reviews, requirements and exceptions have been performed and noted.</inlineHelpText>
         <label>Explain if VAT review not Complete</label>
         <required>false</required>
@@ -1659,7 +1566,6 @@ Completed all action items assigned to them by ZD Team</inlineHelpText>
         <fullName>agf__Explain_if_bug_count_is_high__c</fullName>
         <deprecated>false</deprecated>
         <description>Bugs Fixed the Week of Feature Freeze (explain if count is high relative to previous 2-3 weeks)</description>
-        <externalId>false</externalId>
         <inlineHelpText>Bugs Fixed the Week of Feature Freeze (explain if count is high relative to previous 2-3 weeks)</inlineHelpText>
         <label>Explain if Bug Count is High</label>
         <required>false</required>
@@ -1671,7 +1577,6 @@ Completed all action items assigned to them by ZD Team</inlineHelpText>
         <fullName>agf__Explain_if_bugs_not_trending_down__c</fullName>
         <deprecated>false</deprecated>
         <description>P0/P1/P2 Bugs Found the Week of Feature Freeze (explain if count is not trending downward compared to previous 2-3 weeks)</description>
-        <externalId>false</externalId>
         <inlineHelpText>P0/P1/P2 Bugs Found the Week of Feature Freeze (explain if count is not trending downward compared to previous 2-3 weeks)</inlineHelpText>
         <label>Explain if Bugs not Trending Down</label>
         <required>false</required>
@@ -1683,7 +1588,6 @@ Completed all action items assigned to them by ZD Team</inlineHelpText>
         <fullName>agf__Explain_if_count_is_high__c</fullName>
         <deprecated>false</deprecated>
         <description>Bugs/TF Fixed the Week of Feature Freeze (explain if count is high relative to previous 2-3 weeks)</description>
-        <externalId>false</externalId>
         <inlineHelpText>Bugs/TF Fixed the Week of Feature Freeze (explain if count is high relative to previous 2-3 weeks)</inlineHelpText>
         <label>Explain if Count is High</label>
         <required>false</required>
@@ -1695,7 +1599,6 @@ Completed all action items assigned to them by ZD Team</inlineHelpText>
         <fullName>agf__Explain_if_not_Behind_a_Perm_or_Equiv__c</fullName>
         <deprecated>false</deprecated>
         <description>No team should put the release at risk – Any Feature or change that is large enough or invasive enough to risk the release is behind a permission or equivalent safety valve (Yes/No)</description>
-        <externalId>false</externalId>
         <inlineHelpText>No team should put the release at risk – Any Feature or change that is large enough or invasive enough to risk the release is behind a permission or equivalent safety valve (Yes/No)</inlineHelpText>
         <label>Explain if not Behind a Perm or Equiv</label>
         <required>false</required>
@@ -1707,7 +1610,6 @@ Completed all action items assigned to them by ZD Team</inlineHelpText>
         <fullName>agf__Explain_if_not_trending_downward__c</fullName>
         <deprecated>false</deprecated>
         <description>P0/P1/P2 Bugs/TF Found the Week of Feature Freeze (explain if count is not trending downward compared to previous 2-3 weeks)</description>
-        <externalId>false</externalId>
         <inlineHelpText>P0/P1/P2 Bugs/TF Found the Week of Feature Freeze (explain if count is not trending downward compared to previous 2-3 weeks)</inlineHelpText>
         <label>Explain if not Trending Downward</label>
         <required>false</required>
@@ -1731,7 +1633,6 @@ Completed all action items assigned to them by ZD Team</inlineHelpText>
     <fields>
         <fullName>agf__Features_Complete_and_DoD_Achieved__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Are all features complete and meeting the criteria of the Definition of Done?</inlineHelpText>
         <label>Feature Complete and DoD Achieved</label>
         <required>false</required>
@@ -1757,7 +1658,6 @@ Completed all action items assigned to them by ZD Team</inlineHelpText>
     <fields>
         <fullName>agf__Features_Enabled_Within_24hrs_of_Relea__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Teams are required to confirm that all features will be enabled within 24 hrs of the Release</inlineHelpText>
         <label>Features Enabled Within 24hrs of Release</label>
         <required>false</required>
@@ -1784,7 +1684,6 @@ Completed all action items assigned to them by ZD Team</inlineHelpText>
         <fullName>agf__Features_Enabled_by_Retirement_Scripts__c</fullName>
         <deprecated>false</deprecated>
         <description>Teams should call out any features that will be enabled when the retired scripts are run in the new zero downtime process.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Call out any features that will be enabled when the retired scripts are run in the new zero downtime process.</inlineHelpText>
         <label>Features Enabled by Retirement Scripts</label>
         <required>false</required>
@@ -1795,7 +1694,6 @@ Completed all action items assigned to them by ZD Team</inlineHelpText>
     <fields>
         <fullName>agf__Features_Enabled_within_24hrs__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Teams are required to confirm that all features will be enabled within 24 hrs of the Release</inlineHelpText>
         <label>Features Enabled within 24hrs of Release</label>
         <required>false</required>
@@ -1821,7 +1719,6 @@ Completed all action items assigned to them by ZD Team</inlineHelpText>
     <fields>
         <fullName>agf__Features_behind_perm_disabled__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Are incomplete features behind a perm and disabled?</inlineHelpText>
         <label>Feature behind perm / disabled</label>
         <required>false</required>
@@ -1848,7 +1745,6 @@ Completed all action items assigned to them by ZD Team</inlineHelpText>
         <fullName>agf__Features_with_Perf_Test_Outstanding__c</fullName>
         <deprecated>false</deprecated>
         <description>Are remaining features which have not yet completed performance testing, ready to be handed over to Performance Engineering Team?”</description>
-        <externalId>false</externalId>
         <inlineHelpText>What does it mean to be ready?
 
 •	Test plans are finalized &amp; reviewed.
@@ -1876,7 +1772,6 @@ Completed all action items assigned to them by ZD Team</inlineHelpText>
         <fullName>agf__GUS_Signoff_Confirmed__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>GUS Signoff Confirmed</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
@@ -1885,7 +1780,6 @@ Completed all action items assigned to them by ZD Team</inlineHelpText>
     <fields>
         <fullName>agf__GUS_Signoff_Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>GUS Signoff Date</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1896,7 +1790,6 @@ Completed all action items assigned to them by ZD Team</inlineHelpText>
         <fullName>agf__IT_Compliance_Met__c</fullName>
         <deprecated>false</deprecated>
         <description>IT Feature Freeze Criteria to meet all legal, tax, regulatory, regional, business and IT SOX compliance.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Confirm that all legal, tax, regulatory, regional, business and IT SOX compliance has been met for the features being released.</inlineHelpText>
         <label>IT Compliance Met</label>
         <required>false</required>
@@ -1923,7 +1816,6 @@ Completed all action items assigned to them by ZD Team</inlineHelpText>
         <fullName>agf__IT_Data_Conversion_Plan_Complete__c</fullName>
         <deprecated>false</deprecated>
         <description>IT Feature Freeze Criteria to ensure a data conversion plan has been automated, tested, reviewed, validated and potentially performance tuned.</description>
-        <externalId>false</externalId>
         <inlineHelpText>IT Feature Freeze Criteria to ensure a data conversion plan has been automated, tested, reviewed, validated and potentially performance tuned.</inlineHelpText>
         <label>IT Data Conversion Plan Complete</label>
         <required>false</required>
@@ -1950,7 +1842,6 @@ Completed all action items assigned to them by ZD Team</inlineHelpText>
         <fullName>agf__IT_Infra__c</fullName>
         <deprecated>false</deprecated>
         <description>IT Feature Freeze Criteria to ensure Infrastructure is setup, configured, tested and documented (if required for Apps).</description>
-        <externalId>false</externalId>
         <inlineHelpText>Infrastructure is setup, configured, tested and documented (if required).</inlineHelpText>
         <label>IT Infra Requirements Met</label>
         <required>false</required>
@@ -1977,7 +1868,6 @@ Completed all action items assigned to them by ZD Team</inlineHelpText>
         <fullName>agf__IT_Prod_Support_Model_Complete__c</fullName>
         <deprecated>false</deprecated>
         <description>IT Feature Freeze Criteria to ensure a Production Support model has been documented, reviewed and signed off (Tier 1, Tier 2, etc.)</description>
-        <externalId>false</externalId>
         <inlineHelpText>IT Feature Freeze Criteria to ensure a Production Support model has been documented, reviewed and signed off (Tier 1, Tier 2, etc.)</inlineHelpText>
         <label>IT Prod Support Model Complete</label>
         <required>false</required>
@@ -2004,7 +1894,6 @@ Completed all action items assigned to them by ZD Team</inlineHelpText>
         <fullName>agf__IT_Rollback_Plan_Complete__c</fullName>
         <deprecated>false</deprecated>
         <description>IT Feature Freeze Criteria to ensure rollback and contingency plans have been documented, tested and are ready for IT VAT and CAB review.</description>
-        <externalId>false</externalId>
         <inlineHelpText>IT Feature Freeze Criteria to ensure rollback and contingency plans have been documented, tested and are ready for IT VAT and CAB review.</inlineHelpText>
         <label>IT Rollback Plan Complete</label>
         <required>false</required>
@@ -2031,7 +1920,6 @@ Completed all action items assigned to them by ZD Team</inlineHelpText>
         <fullName>agf__IT_Security_Reviews_Complete__c</fullName>
         <deprecated>false</deprecated>
         <description>IT Feature Freeze Criteria for all Security reviews, testing and fixes complete.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Security reviews, testing and fixes complete.</inlineHelpText>
         <label>IT Security Reviews Complete</label>
         <required>false</required>
@@ -2058,7 +1946,6 @@ Completed all action items assigned to them by ZD Team</inlineHelpText>
         <fullName>agf__IT_Stage_Environment_Ready__c</fullName>
         <deprecated>false</deprecated>
         <description>IT Feature Freeze Criteria to ensure the Stage environment is prepared and ready for the Release Sprint/UAT.</description>
-        <externalId>false</externalId>
         <inlineHelpText>All 4 swimlanes for the solution are built and utilized (dev, test, stage, prod).  Dev/Test must be part of Sprint.  Stage must be used for UAT.</inlineHelpText>
         <label>IT Stage Environment Ready</label>
         <required>false</required>
@@ -2085,7 +1972,6 @@ Completed all action items assigned to them by ZD Team</inlineHelpText>
         <fullName>agf__IT_VATQuestionnaire_Complete__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>IT VAT has performed a vendor assessment or waived</inlineHelpText>
         <label>IT VAT Questionnaire Complete</label>
         <trackFeedHistory>false</trackFeedHistory>
@@ -2096,7 +1982,6 @@ Completed all action items assigned to them by ZD Team</inlineHelpText>
         <fullName>agf__IT_VAT_Review_Complete__c</fullName>
         <deprecated>false</deprecated>
         <description>IT Feature Freeze Criteria to ensure IT VAT architecture reviews, requirements and exceptions have been performed and noted.</description>
-        <externalId>false</externalId>
         <inlineHelpText>IT VAT architecture reviews, requirements and exceptions have been performed and noted</inlineHelpText>
         <label>IT VAT Review Complete</label>
         <required>false</required>
@@ -2124,7 +2009,6 @@ Completed all action items assigned to them by ZD Team</inlineHelpText>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>IT VAT architecture reviews, requirements and exceptions have been performed and noted.</description>
-        <externalId>false</externalId>
         <inlineHelpText>IT VAT architecture reviews, requirements and exceptions must be performed and noted.</inlineHelpText>
         <label>IT  VAT Architecture Review Completed</label>
         <trackFeedHistory>false</trackFeedHistory>
@@ -2134,7 +2018,6 @@ Completed all action items assigned to them by ZD Team</inlineHelpText>
     <fields>
         <fullName>agf__Is_the_work_behind_a_perm__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Is the work behind a perm?</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -2193,7 +2076,6 @@ Completed all action items assigned to them by ZD Team</inlineHelpText>
         <fullName>agf__Large_Invasive_changes_are_behind_a_perm__c</fullName>
         <deprecated>false</deprecated>
         <description>No team should put the release at risk – Any Feature or change that is large enough or invasive enough to risk the release is behind a permission or equivalent safety valve</description>
-        <externalId>false</externalId>
         <inlineHelpText>No team should put the release at risk – Any Feature or change that is large enough or invasive enough to risk the release is behind a permission or equivalent safety valve (Yes/No)</inlineHelpText>
         <label>Large/Invasive changes are behind a perm</label>
         <required>false</required>
@@ -2220,7 +2102,6 @@ Completed all action items assigned to them by ZD Team</inlineHelpText>
         <fullName>agf__List_Monitoring_Requirements__c</fullName>
         <deprecated>false</deprecated>
         <description>List Monitoring Requirements: new services or disabled services.</description>
-        <externalId>false</externalId>
         <inlineHelpText>List NEW services which require monitoring ON &amp;/OR Existing services being DISABLED</inlineHelpText>
         <label>List Monitoring Requirements</label>
         <required>false</required>
@@ -2232,7 +2113,6 @@ Completed all action items assigned to them by ZD Team</inlineHelpText>
         <fullName>agf__Minor_Exception__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Check the box if you are filing an exception request. PLEASE FILL OUT EXCEPTION RECORD AT THE BOTTOM OF THIS PAGE.</inlineHelpText>
         <label>Exception</label>
         <trackFeedHistory>true</trackFeedHistory>
@@ -2243,7 +2123,6 @@ Completed all action items assigned to them by ZD Team</inlineHelpText>
         <fullName>agf__New_Services_Requiring_Monitoring__c</fullName>
         <deprecated>false</deprecated>
         <description>Any new services that need monitoring turned on?</description>
-        <externalId>false</externalId>
         <inlineHelpText>Any new services that need monitoring turned on?</inlineHelpText>
         <label>New Services Requiring Monitoring</label>
         <required>false</required>
@@ -2255,7 +2134,6 @@ Completed all action items assigned to them by ZD Team</inlineHelpText>
         <fullName>agf__No_Blocking_Bugs_on_the_Freeze_Branch__c</fullName>
         <deprecated>false</deprecated>
         <description>There are no Blocking Bugs on the Freeze Branch.</description>
-        <externalId>false</externalId>
         <inlineHelpText>There are no Blocking Bugs on the Freeze Branch.</inlineHelpText>
         <label>No Blocking Bugs on the Freeze Branch</label>
         <required>false</required>
@@ -2282,7 +2160,6 @@ Completed all action items assigned to them by ZD Team</inlineHelpText>
         <fullName>agf__No_Open_P0_Bugs_at_FF__c</fullName>
         <deprecated>false</deprecated>
         <description>IT Feature Freeze Criteria.  No Open P0 Bugs allowed at Feature Freeze.</description>
-        <externalId>false</externalId>
         <inlineHelpText>P1/P2&apos;s must be noted as exceptions and explained at WRoR.</inlineHelpText>
         <label>No Open P0 Bugs at FF</label>
         <required>false</required>
@@ -2308,7 +2185,6 @@ Completed all action items assigned to them by ZD Team</inlineHelpText>
     <fields>
         <fullName>agf__No_Open_User_Stories__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>IT RM standard FF criteria.</inlineHelpText>
         <label>No Open User Stories</label>
         <required>false</required>
@@ -2335,7 +2211,6 @@ Completed all action items assigned to them by ZD Team</inlineHelpText>
         <fullName>agf__No_Regressions_on_the_Freeze_Branch__c</fullName>
         <deprecated>false</deprecated>
         <description>There are no Regressions on the Freeze Branch.</description>
-        <externalId>false</externalId>
         <inlineHelpText>There are no Regressions on the Freeze Branch.</inlineHelpText>
         <label>No Regressions on the Freeze Branch</label>
         <required>false</required>
@@ -2624,7 +2499,6 @@ Completed all action items assigned to them by ZD Team</inlineHelpText>
     <fields>
         <fullName>agf__Open_Accessibility_Bugs__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Does your team have any open Accessibility bugs?</inlineHelpText>
         <label>Open Accessibility Bugs</label>
         <required>false</required>
@@ -2656,7 +2530,6 @@ Completed all action items assigned to them by ZD Team</inlineHelpText>
         <fullName>agf__Other_Changes_for_RelEng__c</fullName>
         <deprecated>false</deprecated>
         <description>Anything of interest that Release Engineering should be aware of?</description>
-        <externalId>false</externalId>
         <inlineHelpText>Anything of interest that Release Engineering should be aware of?</inlineHelpText>
         <label>Other Changes for RelEng</label>
         <required>false</required>
@@ -2668,7 +2541,6 @@ Completed all action items assigned to them by ZD Team</inlineHelpText>
         <fullName>agf__Other_Changes_for_Tech_Ops__c</fullName>
         <deprecated>false</deprecated>
         <description>Anything of interest that Tech Ops should be aware of?</description>
-        <externalId>false</externalId>
         <inlineHelpText>Anything of interest that Tech Ops should be aware of?</inlineHelpText>
         <label>Other Changes for Tech Ops</label>
         <required>false</required>
@@ -2679,7 +2551,6 @@ Completed all action items assigned to them by ZD Team</inlineHelpText>
     <fields>
         <fullName>agf__P012_Security_Bugs_Closed__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>P012 Security Bugs are closed or approved by ProdSec in the release that is open at the time of their discovery.</inlineHelpText>
         <label>P012 Security Bugs Closed</label>
         <required>false</required>
@@ -2705,7 +2576,6 @@ Completed all action items assigned to them by ZD Team</inlineHelpText>
     <fields>
         <fullName>agf__P0_1_2_Bugs_from_RCA_1_Month_Closed__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>All P,0,1,2 Bugs from RCAs older than 1 month are closed, *including* previous or current releases</inlineHelpText>
         <label>P012 Bugs from RCA&apos;s &gt; 1 Month: Closed</label>
         <required>false</required>
@@ -2782,7 +2652,6 @@ Completed all action items assigned to them by ZD Team</inlineHelpText>
         <fullName>agf__Perf_Impact_Features_Tested_Behind_Perm__c</fullName>
         <deprecated>false</deprecated>
         <description>High Risk Performance Impacting features tested / behind perm</description>
-        <externalId>false</externalId>
         <inlineHelpText>Performance risk assessment completed for all features.   All high risk performance impacting features have been adequately tested and/or disabled by default (e.g. behind perm, or config)</inlineHelpText>
         <label>High Risk Performance:Tested/Behind Perm</label>
         <required>false</required>
@@ -2814,7 +2683,6 @@ Completed all action items assigned to them by ZD Team</inlineHelpText>
         <fullName>agf__Performance_Engineering_Requirements_Met__c</fullName>
         <deprecated>false</deprecated>
         <description>The Performance Engineering requirements have been met.</description>
-        <externalId>false</externalId>
         <inlineHelpText>The Performance Engineering requirements have been met.</inlineHelpText>
         <label>Performance Engineering Requirements Met</label>
         <required>false</required>
@@ -2841,7 +2709,6 @@ Completed all action items assigned to them by ZD Team</inlineHelpText>
         <fullName>agf__Performance_Self_Assessment__c</fullName>
         <deprecated>false</deprecated>
         <description>Are remaining features which have not yet completed performance testing, ready to be handed over to Performance Engineering Team?”</description>
-        <externalId>false</externalId>
         <inlineHelpText>What does it mean to be ready?
 
 Test plans are finalized &amp; reviewed.
@@ -2876,7 +2743,6 @@ Features with known performance risk are disabled by default (behind perm, confi
     <fields>
         <fullName>agf__Post_Feature_Freeze_Updates__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Use this for updates on status after Feature Freeze.</inlineHelpText>
         <label>Post Feature Freeze Updates</label>
         <length>32000</length>
@@ -2889,7 +2755,6 @@ Features with known performance risk are disabled by default (behind perm, confi
         <fullName>agf__Provide_Details_for_Core_Hybrid_in_Dev__c</fullName>
         <deprecated>false</deprecated>
         <description>Used for details around if a team has not completed their testing of the Core Release against the Hybrid Applications that are in development and slated for the S1 Major Release.  Only needed if &quot;No&quot; is selected.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Provide details if &quot;No&quot; is selected for the &quot;Core Release against Hybrid Apps in Dev&quot; field.</inlineHelpText>
         <label>Provide Details for Core/In-dev Hybrid</label>
         <required>false</required>
@@ -2900,7 +2765,6 @@ Features with known performance risk are disabled by default (behind perm, confi
     <fields>
         <fullName>agf__Provide_Details_for_Scale_Impact__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Provide details if Scale Impact is not documented.</inlineHelpText>
         <label>Provide Details for Scale Impact</label>
         <required>false</required>
@@ -2912,7 +2776,6 @@ Features with known performance risk are disabled by default (behind perm, confi
         <fullName>agf__Provide_Details_for_one_app_Testing__c</fullName>
         <deprecated>false</deprecated>
         <description>Used for details around if a team has not completed their testing of the supported one.app browsers.  Only needed if &quot;No&quot; is selected.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Provide details if &quot;No&quot; is selected for the &quot;All supported one.app browsers tested&quot; field.</inlineHelpText>
         <label>Provide Details for one.app Testing</label>
         <required>false</required>
@@ -2923,7 +2786,6 @@ Features with known performance risk are disabled by default (behind perm, confi
     <fields>
         <fullName>agf__Provide_behind_perm_details__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Provide details explaining how a perm is used to disable incomplete features.</inlineHelpText>
         <label>Provide details on your features perm</label>
         <required>false</required>
@@ -2935,7 +2797,6 @@ Features with known performance risk are disabled by default (behind perm, confi
         <fullName>agf__Provide_details_for_Core_Prod_Hybrid__c</fullName>
         <deprecated>false</deprecated>
         <description>Used for details around if a team has not completed their testing of the Core Release against the Production Hybrid Applications.  Only needed if &quot;No&quot; is selected.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Provide details if &quot;No&quot; is selected for the &quot;Core Release against Prod Hybrid Apps&quot; field.</inlineHelpText>
         <label>Provide Details for Core/Prod Hybrid</label>
         <required>false</required>
@@ -2946,7 +2807,6 @@ Features with known performance risk are disabled by default (behind perm, confi
     <fields>
         <fullName>agf__Provide_details_if_SO_not_created__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>FF Criteria: Feature Enablement must be detailed in Solutions Overview (SO)</inlineHelpText>
         <label>Provide details if SO not created</label>
         <required>false</required>
@@ -2957,7 +2817,6 @@ Features with known performance risk are disabled by default (behind perm, confi
     <fields>
         <fullName>agf__Provide_details_on_open_P012_Bugs__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>FF Criteria: All P012 bugs CLOSED</inlineHelpText>
         <label>Provide details on open P012 Bugs</label>
         <required>false</required>
@@ -2968,7 +2827,6 @@ Features with known performance risk are disabled by default (behind perm, confi
     <fields>
         <fullName>agf__Provide_details_on_open_RCA_Stories__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>FF Criteria: All User Stories from RCAs older than 1 month CLOSED or SCHEDULED</inlineHelpText>
         <label>Provide details on open RCA Stories</label>
         <required>false</required>
@@ -2979,7 +2837,6 @@ Features with known performance risk are disabled by default (behind perm, confi
     <fields>
         <fullName>agf__Provide_details_on_open_RCA_ToDos__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>FF Criteria: All ToDos (any priority) from RCAs older than 1 month CLOSED, including previous or current release</inlineHelpText>
         <label>Provide details on open RCA ToDos</label>
         <required>false</required>
@@ -2990,7 +2847,6 @@ Features with known performance risk are disabled by default (behind perm, confi
     <fields>
         <fullName>agf__Provide_details_on_open_RCA_bugs__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>FF Criteria: All P012 bugs from RCAs older than 1 month CLOSED, including previous or current release</inlineHelpText>
         <label>Provide details on open RCA bugs</label>
         <required>false</required>
@@ -3001,7 +2857,6 @@ Features with known performance risk are disabled by default (behind perm, confi
     <fields>
         <fullName>agf__Provide_details_on_open_Regressions__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>FF Criteria: All Regressions CLOSED</inlineHelpText>
         <label>Provide details on open Regressions</label>
         <required>false</required>
@@ -3012,7 +2867,6 @@ Features with known performance risk are disabled by default (behind perm, confi
     <fields>
         <fullName>agf__Provide_details_on_open_Security_bugs__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>FF Criteria: All P01 Security bugs and P2 Security bugs that are &gt; 120 days old CLOSED</inlineHelpText>
         <label>Provide details on open Security bugs</label>
         <required>false</required>
@@ -3023,7 +2877,6 @@ Features with known performance risk are disabled by default (behind perm, confi
     <fields>
         <fullName>agf__Provide_open_Accessibility_bug_details__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>FF Criteria: All bugs &gt; 45 days closed; RF Criteria: All bugs closed</inlineHelpText>
         <label>Provide open Accessibility bug details</label>
         <required>false</required>
@@ -3034,7 +2887,6 @@ Features with known performance risk are disabled by default (behind perm, confi
     <fields>
         <fullName>agf__Provide_other_team_dependencies_details__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Provide details on the status of dependencies on other teams.</inlineHelpText>
         <label>Provide details on open dependencies</label>
         <required>false</required>
@@ -3045,7 +2897,6 @@ Features with known performance risk are disabled by default (behind perm, confi
     <fields>
         <fullName>agf__QE_Leadership_Confirmation_Details__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>QE Leadership Confirmation Details</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -3056,7 +2907,6 @@ Features with known performance risk are disabled by default (behind perm, confi
         <fullName>agf__QE_Leadership_Sign_Off_Confirmed__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Used by QE Leader responsible for confirming team signoff.</inlineHelpText>
         <label>QE Leadership Sign Off Confirmed</label>
         <trackFeedHistory>false</trackFeedHistory>
@@ -3067,7 +2917,6 @@ Features with known performance risk are disabled by default (behind perm, confi
         <fullName>agf__QE_Signoff_By__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>QE Signoff By</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Feature_Freeze_Team_Status</relationshipName>
@@ -3091,7 +2940,6 @@ Features with known performance risk are disabled by default (behind perm, confi
     <fields>
         <fullName>agf__RCA_Stories_1_Month_Closed_Scheduled__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>All User-stories from RCAs older than 1 month, must be closed or scheduled for a release or sprint</inlineHelpText>
         <label>RCA Stories &gt;1 Month Closed or Scheduled</label>
         <required>false</required>
@@ -3122,7 +2970,6 @@ Features with known performance risk are disabled by default (behind perm, confi
     <fields>
         <fullName>agf__RCA_To_Do_s_1_Month_Closed__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>All ToDos (*ALL Priorities**) from RCAs older than 1 month, *including* previous or current releases are closed.</inlineHelpText>
         <label>To Do&apos;s from RCA&apos;s &gt; 1 Month: Closed</label>
         <required>false</required>
@@ -3165,7 +3012,6 @@ Features with known performance risk are disabled by default (behind perm, confi
     <fields>
         <fullName>agf__Scale_Impact_Documented__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Has the Team reviewed and documented scale limitations for all new/updated features?</inlineHelpText>
         <label>Scale Impact Documented?</label>
         <required>false</required>
@@ -3215,7 +3061,6 @@ Features with known performance risk are disabled by default (behind perm, confi
     <fields>
         <fullName>agf__Signoff_Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <formula>IF(
  OR( ISPICKVAL(agf__Team_Signoff_Status__c, &quot;Yes / meets criteria&quot;), ISPICKVAL(agf__Team_Signoff_Status__c, &quot;Yes / does not meet criteria&quot;)),
  LastModifiedDate , null
@@ -3230,7 +3075,6 @@ Features with known performance risk are disabled by default (behind perm, confi
         <fullName>agf__Solution_Overview_Complete__c</fullName>
         <deprecated>false</deprecated>
         <description>Enablement slide in the Solution Overview is complete and delivered to Product Ops and Feature Enablement field is updated in Solution Overview in Scrumforce.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enablement slide in the Solution Overview is complete and delivered to Product Ops and Feature Enablement field is updated in Solution Overview in Scrumforce.</inlineHelpText>
         <label>Solution Overview Complete</label>
         <required>false</required>
@@ -3261,7 +3105,6 @@ Features with known performance risk are disabled by default (behind perm, confi
     <fields>
         <fullName>agf__Solutions_Overview_Complete__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Feature Enablement details are documented in the Solution Overview object</inlineHelpText>
         <label>Solution Overview Created</label>
         <required>false</required>
@@ -3288,7 +3131,6 @@ Features with known performance risk are disabled by default (behind perm, confi
         <fullName>agf__Stop_Monitoring_Disabled_Services__c</fullName>
         <deprecated>false</deprecated>
         <description>Any existing services being disabled and need monitoring turned off?</description>
-        <externalId>false</externalId>
         <inlineHelpText>Any existing services being disabled and need monitoring turned off?</inlineHelpText>
         <label>Stop Monitoring Disabled Services</label>
         <required>false</required>
@@ -3300,7 +3142,6 @@ Features with known performance risk are disabled by default (behind perm, confi
         <fullName>agf__Swimlane_Solutions_Built_Utilized__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>All 4 swimlanes for the solution are built and utilized (dev, test, stage, prod).
 
 Dev/Test must be part of Sprint.  Stage must be used for UAT.</inlineHelpText>
@@ -3340,7 +3181,6 @@ Dev/Test must be part of Sprint.  Stage must be used for UAT.</inlineHelpText>
     <fields>
         <fullName>agf__Team_Comments__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Team Comments</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -3351,7 +3191,6 @@ Dev/Test must be part of Sprint.  Stage must be used for UAT.</inlineHelpText>
         <fullName>agf__Team_Release__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Team Release</label>
         <referenceTo>agf__ADM_Team_Release__c</referenceTo>
         <relationshipName>R00NT0000000txY2MAI</relationshipName>
@@ -3364,7 +3203,6 @@ Dev/Test must be part of Sprint.  Stage must be used for UAT.</inlineHelpText>
         <fullName>agf__Team_Signoff_Confirmed__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Team Signoff Confirmed</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
@@ -3373,7 +3211,6 @@ Dev/Test must be part of Sprint.  Stage must be used for UAT.</inlineHelpText>
     <fields>
         <fullName>agf__Team_Signoff_Status_Details__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Team Signoff Status Details</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -3383,7 +3220,6 @@ Dev/Test must be part of Sprint.  Stage must be used for UAT.</inlineHelpText>
     <fields>
         <fullName>agf__Team_Signoff_Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Team Signoff Status</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -3415,7 +3251,6 @@ Dev/Test must be part of Sprint.  Stage must be used for UAT.</inlineHelpText>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Team signs off by checking the box.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Team signs off by checking the box.</inlineHelpText>
         <label>Team Signoff</label>
         <trackFeedHistory>true</trackFeedHistory>
@@ -3426,7 +3261,6 @@ Dev/Test must be part of Sprint.  Stage must be used for UAT.</inlineHelpText>
         <fullName>agf__Team_Signs_Off__c</fullName>
         <deprecated>false</deprecated>
         <description>The date the Scrum Team signed off on Feature Freeze.</description>
-        <externalId>false</externalId>
         <inlineHelpText>The date the Scrum Team signed off on Feature Freeze.</inlineHelpText>
         <label>Team Signed Off</label>
         <required>false</required>
@@ -3438,7 +3272,6 @@ Dev/Test must be part of Sprint.  Stage must be used for UAT.</inlineHelpText>
         <fullName>agf__Teams_Self_Assessment__c</fullName>
         <deprecated>false</deprecated>
         <description>Teams will be asked to assess their risk of meeting FF, 2 weeks out from the FF milestone date</description>
-        <externalId>false</externalId>
         <inlineHelpText>If your team is at risk of not meeting any of the Feature Freeze Criteria listed on this record, you should mark your status as Red or Yellow and explain reasons why.</inlineHelpText>
         <label>Assess Teams Risk of meeting FF</label>
         <required>false</required>
@@ -3470,7 +3303,6 @@ Dev/Test must be part of Sprint.  Stage must be used for UAT.</inlineHelpText>
         <fullName>agf__Upgrade_Scripts_Verified_in_Upgrade_Env__c</fullName>
         <deprecated>false</deprecated>
         <description>Upgrade scripts have been verified in GUS upgrade environment.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Upgrade scripts have been verified in GUS upgrade environment.</inlineHelpText>
         <label>Upgrade Scripts Verified in Upgrade Env</label>
         <required>false</required>
@@ -3497,7 +3329,6 @@ Dev/Test must be part of Sprint.  Stage must be used for UAT.</inlineHelpText>
         <fullName>agf__Upgrade__c</fullName>
         <deprecated>false</deprecated>
         <description>Database scripts are complete and incorporated into database upgrade process.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Database scripts are complete and incorporated into database upgrade process.</inlineHelpText>
         <label>DB Upgrade Scripts Complete</label>
         <required>false</required>
@@ -3530,7 +3361,6 @@ Dev/Test must be part of Sprint.  Stage must be used for UAT.</inlineHelpText>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Zero TF on the basicftest, basicselenium and utest at time of FF</description>
-        <externalId>false</externalId>
         <inlineHelpText>New Criteria for 172:
 
 Zero TF on these test suites at time of FF.</inlineHelpText>
@@ -3543,7 +3373,6 @@ Zero TF on these test suites at time of FF.</inlineHelpText>
         <fullName>agf__Zero_Downtime_Sign_Off__c</fullName>
         <deprecated>false</deprecated>
         <description>Sign Off for Zero Downtime</description>
-        <externalId>false</externalId>
         <inlineHelpText>Sign Off confirms:
 1. All work for Pre, Post, Retired scripts is done
 2. Features to be enabled with Retired Scripts have been identified

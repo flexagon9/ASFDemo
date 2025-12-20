@@ -172,7 +172,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>If true, this project will not show up in the project list view.  This only affects if it is displayed in the list view.</description>
-        <externalId>false</externalId>
         <label>Hide</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -181,7 +180,6 @@
         <fullName>sf_devops__Package_Directories__c</fullName>
         <deprecated>false</deprecated>
         <description>Stores the filepath(s) of the sfdx-project.json&apos;s package directories</description>
-        <externalId>false</externalId>
         <label>Sfdx-project.json&apos;s Package Directories</label>
         <length>25000</length>
         <trackTrending>false</trackTrending>
@@ -193,7 +191,6 @@
         <deleteConstraint>Restrict</deleteConstraint>
         <deprecated>false</deprecated>
         <description>The repository used by this project to store Salesforce Platform metadata (Apex, CustomObject, etc.)</description>
-        <externalId>false</externalId>
         <label>Platform Repository</label>
         <referenceTo>sf_devops__Repository__c</referenceTo>
         <relationshipLabel>Platform Projects</relationshipLabel>

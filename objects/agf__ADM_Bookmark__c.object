@@ -182,7 +182,6 @@
     <fields>
         <fullName>agf__URL__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>URL</label>
         <required>false</required>
         <trackTrending>false</trackTrending>

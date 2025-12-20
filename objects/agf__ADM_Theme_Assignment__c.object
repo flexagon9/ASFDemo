@@ -172,7 +172,6 @@
         <fullName>agf__Theme__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Theme</label>
         <referenceTo>agf__ADM_Theme__c</referenceTo>
         <relationshipLabel>Theme Assignments</relationshipLabel>
@@ -185,7 +184,6 @@
         <fullName>agf__Work__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Work</label>
         <referenceTo>agf__ADM_Work__c</referenceTo>
         <relationshipLabel>Theme Assignments</relationshipLabel>

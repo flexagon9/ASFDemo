@@ -159,7 +159,6 @@
     <fields>
         <fullName>agf__AAR_Record_Link__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>AAR Record Link</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -183,7 +182,6 @@
     <fields>
         <fullName>agf__Action_Plan_Completion_Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Action Plan Completion Date</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -194,7 +192,6 @@
     <fields>
         <fullName>agf__Action_Plan_Summary__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Action Plan Summary</label>
         <length>32000</length>
         <trackFeedHistory>false</trackFeedHistory>
@@ -206,7 +203,6 @@
     <fields>
         <fullName>agf__Action_Plan__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Action Plan in Scrumforce</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -218,7 +214,6 @@
         <fullName>agf__Assignee__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Assignee</label>
         <referenceTo>User</referenceTo>
         <relationshipName>RCA_Assignee</relationshipName>
@@ -232,7 +227,6 @@
         <fullName>agf__Bug__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Bug</label>
         <referenceTo>agf__ADM_Work__c</referenceTo>
         <relationshipLabel>Root Cause Analysis</relationshipLabel>
@@ -246,7 +240,6 @@
     <fields>
         <fullName>agf__Category_Other__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>We all hate the other field but over time this free text field might give us a good indication of what we are missing in the previous category fields.</inlineHelpText>
         <label>Root Cause Category (Other)</label>
         <required>false</required>
@@ -258,7 +251,6 @@
     <fields>
         <fullName>agf__Completed_Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Completed Date</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -269,7 +261,6 @@
     <fields>
         <fullName>agf__Customer_Impacting__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Customer Impacting</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -308,7 +299,6 @@
     <fields>
         <fullName>agf__Estimated_Delivery__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Message Owners: Use this field to update Support on the ETA for the RCM/Issue Message if you are still investigating and will not have the message within the 5 business day SLA.  Flip &quot;Message Status&quot; to &quot;Under Investigation&quot;</inlineHelpText>
         <label>Estimated Delivery</label>
         <required>false</required>
@@ -320,7 +310,6 @@
     <fields>
         <fullName>agf__Event_Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Event Date</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -331,7 +320,6 @@
     <fields>
         <fullName>agf__Incident_End_Time__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Incident End Time</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -342,7 +330,6 @@
     <fields>
         <fullName>agf__Incident_Participants__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Incident Participants</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -353,7 +340,6 @@
     <fields>
         <fullName>agf__Incident_Start_Time__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Incident Start Time</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -365,7 +351,6 @@
         <fullName>agf__Message_Requestor__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Tier 3 case owner who requested the messaging on behalf of the customer.</inlineHelpText>
         <label>Message Requestor</label>
         <referenceTo>User</referenceTo>
@@ -379,7 +364,6 @@
     <fields>
         <fullName>agf__Message_Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Message Status</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -422,7 +406,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Field to identify messaging owner. OSC for RCA + RCM service incidents, Product Manager for RCA + RCM or Issue Message for product incidents.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Field to identify messaging owner. OSC for RCA + RCM service incidents, Product Manager for RCA + RCM or Issue Message for product incidents.</inlineHelpText>
         <label>Messaging Owner</label>
         <referenceTo>User</referenceTo>
@@ -436,7 +419,6 @@
     <fields>
         <fullName>agf__RCA_Completed_Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Date when the RCA owner finishes filling in the details.</inlineHelpText>
         <label>RCA Completed Date</label>
         <required>false</required>
@@ -449,7 +431,6 @@
         <fullName>agf__RCA_Incident_Summary__c</fullName>
         <deprecated>false</deprecated>
         <description>Brief summary of what occurred.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Brief summary of what occurred.</inlineHelpText>
         <label>RCA Incident Summary</label>
         <length>32000</length>
@@ -462,7 +443,6 @@
     <fields>
         <fullName>agf__RCA_Invitees__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>RCA Invitees</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -473,7 +453,6 @@
     <fields>
         <fullName>agf__RCA_Participants__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>RCA Participants</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -484,7 +463,6 @@
     <fields>
         <fullName>agf__RCA_Review_Forum__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>RCA Review Forum</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -555,7 +533,6 @@
     <fields>
         <fullName>agf__RCA_Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Allows the team to see how many RCA records are still pending completion.</inlineHelpText>
         <label>RCA Status</label>
         <required>false</required>
@@ -597,7 +574,6 @@
     <fields>
         <fullName>agf__RCA_Type__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>5 value options are presented here to allow the owner to categorize the release at a high level.</inlineHelpText>
         <label>RCA Type</label>
         <required>false</required>
@@ -656,7 +632,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Designates whether or not messaging is required for a given incident.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Check this box if a customer has requested formal root cause messaging.</inlineHelpText>
         <label>RCM Required</label>
         <trackFeedHistory>false</trackFeedHistory>
@@ -667,7 +642,6 @@
     <fields>
         <fullName>agf__RCM_Type__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Use this field to denote if the RCM or Issue Message request was verbal or written. If the customer did not specify, the message should always be delivered verbally.</inlineHelpText>
         <label>Message Format</label>
         <required>false</required>
@@ -695,7 +669,6 @@
         <fullName>agf__Ready_for_Manager_Approval__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Messaging Owners: Check this box when the RCM is ready for manager approval.</inlineHelpText>
         <label>Ready for Manager Approval</label>
         <trackFeedHistory>false</trackFeedHistory>
@@ -707,7 +680,6 @@
         <fullName>agf__Release__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Gives the team the ability to tie the RCA records to specific releases in GUS to gather valuable metrics over time.</inlineHelpText>
         <label>Release</label>
         <referenceTo>agf__ADM_Release__c</referenceTo>
@@ -722,7 +694,6 @@
     <fields>
         <fullName>agf__Reported_By__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Reported By</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -758,7 +729,6 @@
     <fields>
         <fullName>agf__Request_Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Request Date</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -770,7 +740,6 @@
         <fullName>agf__Request_Details__c</fullName>
         <defaultValue>&quot;Please include the Account Name, Contact Name &amp; Case Number of the messaging request.&quot;</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Please include the Account and Contact names, Case Number, and any other details related to this request</inlineHelpText>
         <label>Request Details</label>
         <required>false</required>
@@ -782,7 +751,6 @@
     <fields>
         <fullName>agf__Review_Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Indicates when a particular RCA is reviewed in a given management meeting.</inlineHelpText>
         <label>Review Date</label>
         <required>false</required>
@@ -794,7 +762,6 @@
     <fields>
         <fullName>agf__Root_Cause_Category__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Many more options are provided here to categorize the incident at a more granular level.</inlineHelpText>
         <label>Root Cause Category</label>
         <required>false</required>
@@ -1184,7 +1151,6 @@
         <defaultValue>&quot;Messaging Templates: https://sites.google.com/a/salesforce.com/release-operations-program-management/Home/release-processes/whats-on-the-release-operations-backlog/root-cause-analysis-process&quot;</defaultValue>
         <deprecated>false</deprecated>
         <description>This field is used to record the customer facing messaging pertaining to a given incident.  The messaging falls under two different categories, &quot;Product&quot; &amp; &quot;Service&quot; related.  There is a template for each that can be found here: https://sites.google.com/a/salesforce.com/release-operations-program-management/Home/release-processes/whats-on-the-release-operations-backlog/root-cause-analysis-process.</description>
-        <externalId>false</externalId>
         <inlineHelpText>This field is in the process of being EOL&apos;d. Please attach the RCM to the appropriate RCA record.</inlineHelpText>
         <label>Root Cause Messaging</label>
         <length>32000</length>
@@ -1198,7 +1164,6 @@
         <fullName>agf__Scrum_Team__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Scrum Team</label>
         <referenceTo>agf__ADM_Scrum_Team__c</referenceTo>
         <relationshipLabel>Root Cause Analysis</relationshipLabel>
@@ -1212,7 +1177,6 @@
     <fields>
         <fullName>agf__Subject__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Subject</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1223,7 +1187,6 @@
     <fields>
         <fullName>agf__Timeline_of_Events__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Timeline of Events</label>
         <length>32000</length>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1235,7 +1198,6 @@
     <fields>
         <fullName>agf__What_was_the_customer_impact__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>This answers the question of who was affected by the incident.  Was it all customers?  Only customers on NAX?</inlineHelpText>
         <label>What was the customer impact?</label>
         <length>32000</length>
@@ -1248,7 +1210,6 @@
     <fields>
         <fullName>agf__What_was_the_resolution__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>This is a fairly straightforward question that asks the owner to detail how exactly the incident was resolved.</inlineHelpText>
         <label>What was the resolution?</label>
         <length>32000</length>
@@ -1262,7 +1223,6 @@
         <fullName>agf__Why_did_this_occur_2__c</fullName>
         <defaultValue>&quot;Include the 5 reasons (why&apos;s) for the Incident - http://en.wikipedia.org/wiki/5_Whys&quot;</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>“The 5 Whys is a question-asking method used to explore the cause/effect relationships underlying a particular problem. Ultimately, the goal of applying the 5 Whys method is to determine a root cause of a defect or problem.”</inlineHelpText>
         <label>Why did this occur?</label>
         <length>32000</length>

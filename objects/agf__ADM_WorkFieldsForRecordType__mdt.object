@@ -3,7 +3,6 @@
     <fields>
         <fullName>agf__Fields__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <fieldManageability>DeveloperControlled</fieldManageability>
         <label>Fields</label>
         <length>32768</length>

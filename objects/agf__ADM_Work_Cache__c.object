@@ -157,7 +157,6 @@
     <fields>
         <fullName>agf__Change_List_Description__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Change List Description</label>
         <length>32000</length>
         <trackTrending>false</trackTrending>
@@ -168,7 +167,6 @@
         <fullName>agf__Changes__c</fullName>
         <deprecated>false</deprecated>
         <description>Stores a JSON formatted array of changes.</description>
-        <externalId>false</externalId>
         <label>Changes</label>
         <length>32768</length>
         <trackTrending>false</trackTrending>
@@ -178,7 +176,6 @@
     <fields>
         <fullName>agf__Field_Names_With_Changes__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Field Names With Changes</label>
         <length>32000</length>
         <trackTrending>false</trackTrending>
@@ -189,7 +186,6 @@
         <fullName>agf__Has_Been_Closed__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Has Been Closed</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -198,7 +194,6 @@
         <fullName>agf__Has_Been_Opened__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Has Been Opened</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -207,7 +202,6 @@
         <fullName>agf__User__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>User</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Work_Cache</relationshipName>
@@ -219,7 +213,6 @@
         <fullName>agf__Work__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Work</label>
         <referenceTo>agf__ADM_Work__c</referenceTo>
         <relationshipLabel>Work Cache</relationshipLabel>

@@ -173,7 +173,6 @@
     </fields>
     <fields>
         <fullName>Mobile_Phone__c</fullName>
-        <externalId>false</externalId>
         <label>Mobile Phone</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -181,7 +180,6 @@
     </fields>
     <fields>
         <fullName>Phone__c</fullName>
-        <externalId>false</externalId>
         <label>Phone</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -200,7 +198,6 @@
     </fields>
     <fields>
         <fullName>Picture__c</fullName>
-        <externalId>false</externalId>
         <label>Picture</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -220,7 +217,6 @@
         <fullName>custom_Field__c</fullName>
         <businessStatus>Active</businessStatus>
         <description>This is a testing custom field.</description>
-        <externalId>false</externalId>
         <label>custom_Field</label>
         <precision>18</precision>
         <required>false</required>

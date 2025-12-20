@@ -13,7 +13,11 @@
         <isConsumerSecretOptional>false</isConsumerSecretOptional>
         <isIntrospectAllTokens>false</isIntrospectAllTokens>
         <isNamedUserJwtEnabled>true</isNamedUserJwtEnabled>
+        <isPkceRequired>true</isPkceRequired>
+        <isRefreshTokenRotationEnabled>false</isRefreshTokenRotationEnabled>
         <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
+        <isSecretRequiredForTokenExchange>false</isSecretRequiredForTokenExchange>
+        <isTokenExchangeEnabled>false</isTokenExchangeEnabled>
         <oauthClientCredentialUser>flexagon9@flexagon.com</oauthClientCredentialUser>
         <scopes>Api</scopes>
         <scopes>Web</scopes>
@@ -21,6 +25,7 @@
     </oauthConfig>
     <oauthPolicy>
         <ipRelaxation>ENFORCE</ipRelaxation>
+        <isTokenExchangeFlowEnabled>false</isTokenExchangeFlowEnabled>
         <refreshTokenPolicy>infinite</refreshTokenPolicy>
     </oauthPolicy>
     <profileName>System Administrator</profileName>

@@ -157,7 +157,6 @@
     </fields>
     <fields>
         <fullName>Billing_Frequency__c</fullName>
-        <externalId>false</externalId>
         <label>Billing Frequency</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -197,7 +196,6 @@
     </fields>
     <fields>
         <fullName>Conditions__c</fullName>
-        <externalId>false</externalId>
         <label>Conditions</label>
         <length>32768</length>
         <trackFeedHistory>false</trackFeedHistory>
@@ -224,7 +222,6 @@
     </fields>
     <fields>
         <fullName>DeliveryInstallationStatus__c</fullName>
-        <externalId>false</externalId>
         <label>Delivery/Installation Status</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -348,7 +345,6 @@
     </fields>
     <fields>
         <fullName>Payment_Method__c</fullName>
-        <externalId>false</externalId>
         <label>Payment Method</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -372,7 +368,6 @@
     </fields>
     <fields>
         <fullName>Payment_Terms__c</fullName>
-        <externalId>false</externalId>
         <label>Payment Terms</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -417,7 +412,6 @@
     </fields>
     <fields>
         <fullName>Start_Date__c</fullName>
-        <externalId>false</externalId>
         <label>Start Date</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>

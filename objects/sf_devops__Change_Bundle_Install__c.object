@@ -159,7 +159,6 @@
         <fullName>sf_devops__Change_Bundle__c</fullName>
         <deprecated>false</deprecated>
         <description>The bundle that was installed</description>
-        <externalId>false</externalId>
         <label>Change Bundle</label>
         <referenceTo>sf_devops__Change_Bundle__c</referenceTo>
         <relationshipLabel>Change Bundle Installs</relationshipLabel>
@@ -187,7 +186,6 @@
         <deleteConstraint>Restrict</deleteConstraint>
         <deprecated>false</deprecated>
         <description>The results of our deployment into the target stage</description>
-        <externalId>false</externalId>
         <label>Deployment Result</label>
         <referenceTo>sf_devops__Deployment_Result__c</referenceTo>
         <relationshipLabel>Change Bundle Installs</relationshipLabel>
@@ -201,7 +199,6 @@
         <deleteConstraint>Restrict</deleteConstraint>
         <deprecated>false</deprecated>
         <description>A reference to the environment this is installed into</description>
-        <externalId>false</externalId>
         <label>Environment</label>
         <referenceTo>sf_devops__Environment__c</referenceTo>
         <relationshipLabel>Change Bundle Installs</relationshipLabel>
@@ -214,7 +211,6 @@
         <fullName>sf_devops__Merge_Reference__c</fullName>
         <deprecated>false</deprecated>
         <description>This field is deprecated and should not be referenced</description>
-        <externalId>false</externalId>
         <label>Merge Reference</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -224,7 +220,6 @@
         <fullName>sf_devops__Merge_Result__c</fullName>
         <deleteConstraint>Restrict</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Merge Result</label>
         <referenceTo>sf_devops__Merge_Result__c</referenceTo>
         <relationshipLabel>Change Bundle Installs</relationshipLabel>
@@ -238,7 +233,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Async feedback for use during the installation operation.</description>
-        <externalId>false</externalId>
         <label>Status</label>
         <referenceTo>sf_devops__Async_Operation_Result__c</referenceTo>
         <relationshipLabel>Change Bundle Installs</relationshipLabel>

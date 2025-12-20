@@ -160,7 +160,6 @@
         <fullName>agf__Date__c</fullName>
         <defaultValue>TODAY()</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Date</label>
         <required>true</required>
         <trackTrending>false</trackTrending>
@@ -193,7 +192,6 @@
     <fields>
         <fullName>agf__Team_Release__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Team Release</label>
         <referenceTo>agf__ADM_Team_Release__c</referenceTo>
         <relationshipName>Release_Burndown_Item_2</relationshipName>
@@ -206,7 +204,6 @@
     <fields>
         <fullName>agf__Type__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Type</label>
         <required>false</required>
         <trackTrending>false</trackTrending>

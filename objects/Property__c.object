@@ -189,7 +189,6 @@
     </fields>
     <fields>
         <fullName>Assessed_Value__c</fullName>
-        <externalId>false</externalId>
         <label>Assessed Value</label>
         <precision>18</precision>
         <required>false</required>
@@ -228,7 +227,6 @@
     <fields>
         <fullName>Broker__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
         <label>Broker</label>
         <referenceTo>Broker__c</referenceTo>
         <relationshipLabel>Properties</relationshipLabel>
@@ -253,7 +251,6 @@
     </fields>
     <fields>
         <fullName>Date_Agreement__c</fullName>
-        <externalId>false</externalId>
         <label>Date Agreement</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -263,7 +260,6 @@
     </fields>
     <fields>
         <fullName>Date_Closed__c</fullName>
-        <externalId>false</externalId>
         <label>Date Closed</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -273,7 +269,6 @@
     </fields>
     <fields>
         <fullName>Date_Listed__c</fullName>
-        <externalId>false</externalId>
         <label>Date Listed</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -283,7 +278,6 @@
     </fields>
     <fields>
         <fullName>Description__c</fullName>
-        <externalId>false</externalId>
         <label>Description</label>
         <length>500</length>
         <trackFeedHistory>false</trackFeedHistory>
@@ -295,7 +289,6 @@
     <fields>
         <fullName>Location__c</fullName>
         <displayLocationInDecimal>false</displayLocationInDecimal>
-        <externalId>false</externalId>
         <label>Location</label>
         <required>false</required>
         <scale>7</scale>
@@ -318,7 +311,6 @@
     </fields>
     <fields>
         <fullName>Picture__c</fullName>
-        <externalId>false</externalId>
         <label>Picture</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -328,7 +320,6 @@
     </fields>
     <fields>
         <fullName>Price__c</fullName>
-        <externalId>false</externalId>
         <label>Price</label>
         <precision>8</precision>
         <required>false</required>
@@ -364,7 +355,6 @@
     </fields>
     <fields>
         <fullName>Status__c</fullName>
-        <externalId>false</externalId>
         <label>Status</label>
         <required>false</required>
         <trackFeedHistory>true</trackFeedHistory>
@@ -428,7 +418,6 @@
     </fields>
     <fields>
         <fullName>Thumbnail__c</fullName>
-        <externalId>false</externalId>
         <label>Thumbnail</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>

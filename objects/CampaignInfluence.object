@@ -131,7 +131,6 @@
     <fields>
         <fullName>Is_Object_Visible__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Is Object Visible</label>
         <type>Checkbox</type>
     </fields>
@@ -141,7 +140,6 @@
     </fields>
     <fields>
         <fullName>Object_Enabled__c</fullName>
-        <externalId>false</externalId>
         <formula>IF(Is_Object_Visible__c == true, true, false)</formula>
         <label>Object Enabled</label>
         <type>Checkbox</type>

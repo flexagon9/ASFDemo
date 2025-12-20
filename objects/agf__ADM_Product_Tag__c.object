@@ -159,7 +159,6 @@
         <fullName>agf__Active__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Active</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -168,7 +167,6 @@
     <fields>
         <fullName>agf__Description__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Description</label>
         <length>32768</length>
         <trackHistory>false</trackHistory>
@@ -218,7 +216,6 @@
         <fullName>agf__Team__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Team</label>
         <referenceTo>agf__ADM_Scrum_Team__c</referenceTo>
         <relationshipLabel>Product Tags</relationshipLabel>
@@ -232,7 +229,6 @@
         <fullName>agf__Use_for_Automated_Tools__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Use for Automated Tools</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>

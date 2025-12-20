@@ -643,7 +643,6 @@
         <fullName>agf__Certified_Product_Owner__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Certified Product Owner</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -653,7 +652,6 @@
         <fullName>agf__Certified_Scrum_Master__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Certified Scrum Master</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -679,7 +677,6 @@
 Contractor - This will be used to identify all Contractors in GUS
 Team User - This will be used to identify all Team Users in GUS
 API user - This will be used to identify all API users in GUS</description>
-        <externalId>false</externalId>
         <label>GUS User Type</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -725,7 +722,6 @@ API user - This will be used to identify all API users in GUS</description>
     <fields>
         <fullName>agf__Notification_Level__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Adjusts how often you are sent emails about Work.
 
 Bread &amp; Butter:  User comments and added as an Assignee
@@ -760,7 +756,6 @@ The Whole Enchilada: All notifications (Default)</inlineHelpText>
     <fields>
         <fullName>agf__Product_Owner_Certified_Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Product Owner Certified Date</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -770,7 +765,6 @@ The Whole Enchilada: All notifications (Default)</inlineHelpText>
     <fields>
         <fullName>agf__Scrum_Master_Certified_Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Scrum Master Certified Date</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -781,7 +775,6 @@ The Whole Enchilada: All notifications (Default)</inlineHelpText>
         <fullName>agf__Show_All_Work_Comments__c</fullName>
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Show All Work Comments</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -790,7 +783,6 @@ The Whole Enchilada: All notifications (Default)</inlineHelpText>
     <fields>
         <fullName>agf__Summary__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Summary</label>
         <length>32000</length>
         <trackFeedHistory>false</trackFeedHistory>
@@ -812,7 +804,6 @@ The Whole Enchilada: All notifications (Default)</inlineHelpText>
     <fields>
         <fullName>agf__User_Preference__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>User Preference</label>
         <length>32768</length>
         <trackFeedHistory>false</trackFeedHistory>
@@ -823,7 +814,6 @@ The Whole Enchilada: All notifications (Default)</inlineHelpText>
     <fields>
         <fullName>agf__Wall_Preference__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Wall Preference</label>
         <length>32768</length>
         <trackFeedHistory>false</trackFeedHistory>
@@ -834,7 +824,6 @@ The Whole Enchilada: All notifications (Default)</inlineHelpText>
     <fields>
         <fullName>agf__Work_User_Interface__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Determines which version of the Work page you will see for Bugs and User Stories.</inlineHelpText>
         <label>Work User Interface</label>
         <required>false</required>
@@ -879,7 +868,6 @@ The Whole Enchilada: All notifications (Default)</inlineHelpText>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Determines whether the User acknowledged the notice about DevOps Testing in the Promote Options Dialog.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Determines whether the User acknowledged the notice about DevOps Testing in the Promote Options Dialog.</inlineHelpText>
         <label>DevOps Testing Acknowledged</label>
         <trackFeedHistory>false</trackFeedHistory>

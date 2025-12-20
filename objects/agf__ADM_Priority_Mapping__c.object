@@ -158,7 +158,6 @@
         <fullName>agf__Frequency__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Frequency</label>
         <referenceTo>agf__ADM_Frequency__c</referenceTo>
         <relationshipName>Severity_Matries</relationshipName>
@@ -170,7 +169,6 @@
         <fullName>agf__Impact__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Impact</label>
         <referenceTo>agf__ADM_Impact__c</referenceTo>
         <relationshipName>Severity_Matries</relationshipName>
@@ -182,7 +180,6 @@
         <fullName>agf__Priority__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Priority</label>
         <referenceTo>agf__ADM_Priority__c</referenceTo>
         <relationshipLabel>Priority Mapping</relationshipLabel>

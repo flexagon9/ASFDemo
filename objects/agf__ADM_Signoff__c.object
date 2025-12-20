@@ -159,7 +159,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>When the approval is delegated through the approval process, this field is updated by the ADM_Signoff.trigger with the actual approver.</description>
-        <externalId>false</externalId>
         <label>Actual Approver</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Signoffs1</relationshipName>
@@ -173,7 +172,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Set by Approval Process when record has been approved or rejected. Used by Signoff&apos;s trigger to update the Signoff_Comments__c field.</description>
-        <externalId>false</externalId>
         <label>Approval Comments Available</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -197,7 +195,6 @@
         <fullName>agf__Approver__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Approver</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Signoffs</relationshipName>
@@ -210,7 +207,6 @@
         <fullName>agf__Exception_Cost__c</fullName>
         <deprecated>false</deprecated>
         <description>Describe the cost of granting the exception.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Describe the cost of granting the exception in terms of customer impact, staff impact or additional risk which may be introduced as a result.</inlineHelpText>
         <label>Exception Cost</label>
         <length>1024</length>
@@ -223,7 +219,6 @@
         <fullName>agf__Exception_Request__c</fullName>
         <deprecated>false</deprecated>
         <description>Describe the exception for which this approval is being requested.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Describe the exception for which this approval is being requested. Explain how it deviates from standard procedures.</inlineHelpText>
         <label>Exception Request</label>
         <length>1024</length>
@@ -237,7 +232,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>The Application Approver related to this signoff record.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enter this Signoff record&apos;s Application Approver.</inlineHelpText>
         <label>Release Approver</label>
         <referenceTo>agf__ADM_Application_Approver__c</referenceTo>
@@ -252,7 +246,6 @@
         <fullName>agf__Release__c</fullName>
         <deleteConstraint>Restrict</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Release</label>
         <referenceTo>agf__ADM_Release__c</referenceTo>
         <relationshipLabel>Signoffs</relationshipLabel>
@@ -265,7 +258,6 @@
     <fields>
         <fullName>agf__Signoff_Comments__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Signoff Comments</label>
         <length>4000</length>
         <trackHistory>true</trackHistory>
@@ -277,7 +269,6 @@
         <fullName>agf__checked__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>checked</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -288,7 +279,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>eRelease Request this Signoff record is approving</description>
-        <externalId>false</externalId>
         <inlineHelpText>eRelease Request this Signoff record is approving. Cannot specify both Release and eRelease Request.</inlineHelpText>
         <label>eRelease Request</label>
         <referenceTo>agf__eRelease_Request__c</referenceTo>
@@ -304,7 +294,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Set when the Signoff record is submitted for approval by a Field Update. Then reset when the request has been approved or rejected (also by an approval process Field Update).</description>
-        <externalId>false</externalId>
         <label>is Locked</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>

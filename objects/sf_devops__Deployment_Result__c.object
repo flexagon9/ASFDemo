@@ -159,7 +159,6 @@
         <fullName>sf_devops__Check_Deploy_Date__c</fullName>
         <deprecated>false</deprecated>
         <description>The Datetime when the Check Deploy was finished</description>
-        <externalId>false</externalId>
         <label>Check Deploy Date</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -170,7 +169,6 @@
         <deleteConstraint>Restrict</deleteConstraint>
         <deprecated>false</deprecated>
         <description>The status of the Check Deploy.</description>
-        <externalId>false</externalId>
         <label>Check Deploy Status</label>
         <referenceTo>sf_devops__Async_Operation_Result__c</referenceTo>
         <relationshipLabel>Check Deploy Results</relationshipLabel>
@@ -184,7 +182,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Notify this is a check deploy only</description>
-        <externalId>false</externalId>
         <label>Check Deploy</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -193,7 +190,6 @@
         <fullName>sf_devops__Completion_Date__c</fullName>
         <deprecated>false</deprecated>
         <description>The Datetime when this deployment completed</description>
-        <externalId>false</externalId>
         <label>Completion Date</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -216,7 +212,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Was this deployment for all metadata in the repository, or just metadata that we tracked as changed</description>
-        <externalId>false</externalId>
         <label>Full Deploy</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -239,7 +234,6 @@
         <fullName>sf_devops__Run_Tests__c</fullName>
         <deprecated>false</deprecated>
         <description>If the test level is RunSpecifiedTests, this is a comma separated list of tests that are run.</description>
-        <externalId>false</externalId>
         <label>Run Tests</label>
         <length>32768</length>
         <trackTrending>false</trackTrending>
@@ -251,7 +245,6 @@
         <deleteConstraint>Restrict</deleteConstraint>
         <deprecated>false</deprecated>
         <description>The status of the promote operation where this deployment is involved.</description>
-        <externalId>false</externalId>
         <label>Status</label>
         <referenceTo>sf_devops__Async_Operation_Result__c</referenceTo>
         <relationshipLabel>Deployment Results</relationshipLabel>

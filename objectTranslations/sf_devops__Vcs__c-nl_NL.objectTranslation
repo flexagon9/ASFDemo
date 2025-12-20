@@ -22,6 +22,10 @@
     </fields>
     <gender><!-- Neuter --></gender>
     <nameFieldLabel><!-- Vcs Name --></nameFieldLabel>
+    <quickActions>
+        <label><!-- Connect Repository --></label>
+        <name>sf_devops__Connect_Repository_Action</name>
+    </quickActions>
     <validationRules>
         <errorMessage><!-- The Base_Url__c of a VCS cannot be changed. --></errorMessage>
         <name>sf_devops__Base_Url_No_Change</name>

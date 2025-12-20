@@ -158,7 +158,6 @@
         <fullName>agf__Annotation_Status__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Has Annotation</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -190,7 +189,6 @@
     <fields>
         <fullName>agf__Report_Exception__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Exclude from Report</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -220,7 +218,6 @@
         <fullName>agf__Scrum_Team__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Scrum Team</label>
         <referenceTo>agf__ADM_Scrum_Team__c</referenceTo>
         <relationshipName>R00ND0000001rfkHMAQ</relationshipName>
@@ -242,7 +239,6 @@
     <fields>
         <fullName>agf__Test_Suite__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Test Suite</label>
         <required>false</required>
         <trackTrending>false</trackTrending>

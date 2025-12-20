@@ -160,7 +160,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>The user working on this work item.</description>
-        <externalId>false</externalId>
         <label>Assigned To</label>
         <referenceTo>User</referenceTo>
         <relationshipLabel>WorkItems</relationshipLabel>
@@ -210,7 +209,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>The branch that this work item is using.</description>
-        <externalId>false</externalId>
         <label>Branch</label>
         <referenceTo>sf_devops__Branch__c</referenceTo>
         <relationshipLabel>Work Items</relationshipLabel>
@@ -224,7 +222,6 @@
         <deleteConstraint>Restrict</deleteConstraint>
         <deprecated>false</deprecated>
         <description>The bundle this work item has been associated with</description>
-        <externalId>false</externalId>
         <label>Change Bundle</label>
         <referenceTo>sf_devops__Change_Bundle__c</referenceTo>
         <relationshipLabel>Work Items</relationshipLabel>
@@ -238,7 +235,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>The AOR referencing the most recent attempt to combine other work items with this work item.</description>
-        <externalId>false</externalId>
         <label>Combine Status</label>
         <referenceTo>sf_devops__Async_Operation_Result__c</referenceTo>
         <relationshipLabel>Combine Work Items</relationshipLabel>
@@ -252,7 +248,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>The work item that this work item has been combined into.</description>
-        <externalId>false</externalId>
         <label>Combined With</label>
         <referenceTo>sf_devops__Work_Item__c</referenceTo>
         <relationshipLabel>Combined Work Items</relationshipLabel>
@@ -279,7 +274,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>If true, this work item is the survivor of a combination operation where metadata came from multiple development environments.  This needs to be treated differently during a back sync.</description>
-        <externalId>false</externalId>
         <label>Cross Environment Combination</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -288,7 +282,6 @@
         <fullName>sf_devops__Description__c</fullName>
         <deprecated>false</deprecated>
         <description>A description provides more details about the work item.</description>
-        <externalId>false</externalId>
         <label>Description</label>
         <length>32768</length>
         <trackTrending>false</trackTrending>
@@ -300,7 +293,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>A reference to the user that approved this work item.</description>
-        <externalId>false</externalId>
         <label>Development Approved By</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Approved_Work_Items</relationshipName>
@@ -313,7 +305,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Flag indicating that this work item has been reviewed and approved in the Dev Ops Center.</description>
-        <externalId>false</externalId>
         <label>Development Approved</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -337,7 +328,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>The environment that this work item is running in.</description>
-        <externalId>false</externalId>
         <label>Connected Environment</label>
         <referenceTo>sf_devops__Environment__c</referenceTo>
         <relationshipLabel>Work Items</relationshipLabel>
@@ -351,7 +341,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>The AOR referencing the current ongoing operation of this work item.</description>
-        <externalId>false</externalId>
         <label>Operation Status</label>
         <referenceTo>sf_devops__Async_Operation_Result__c</referenceTo>
         <relationshipLabel>Work Items</relationshipLabel>
@@ -364,7 +353,6 @@
         <fullName>sf_devops__Project__c</fullName>
         <deprecated>false</deprecated>
         <description>The Project that this Work Item belongs to</description>
-        <externalId>false</externalId>
         <label>Project</label>
         <referenceTo>sf_devops__Project__c</referenceTo>
         <relationshipLabel>Work Items</relationshipLabel>
@@ -380,7 +368,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>The environment that this work item was promoted.</description>
-        <externalId>false</externalId>
         <label>Promoted From Environment</label>
         <referenceTo>sf_devops__Environment__c</referenceTo>
         <relationshipLabel>Work Items</relationshipLabel>
@@ -394,7 +381,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Has this Work Item been promoted into a Pipeline Stage?</description>
-        <externalId>false</externalId>
         <inlineHelpText>Managed by the DevOps Center, when this Work Item record moves into a promoted state, this value will be updated to true automatically.</inlineHelpText>
         <label>Promoted</label>
         <trackTrending>false</trackTrending>
@@ -405,7 +391,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>The rebase branch that this work item is using.</description>
-        <externalId>false</externalId>
         <label>Rebase Branch</label>
         <referenceTo>sf_devops__Branch__c</referenceTo>
         <relationshipLabel>Rebased Work Items</relationshipLabel>
@@ -488,7 +473,6 @@ IF(
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>A reference to our synchronization state with the VCS</description>
-        <externalId>false</externalId>
         <label>Synch State</label>
         <referenceTo>sf_devops__Vcs_Synch_State__c</referenceTo>
         <relationshipLabel>Work Items</relationshipLabel>

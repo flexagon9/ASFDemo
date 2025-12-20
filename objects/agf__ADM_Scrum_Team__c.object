@@ -164,7 +164,6 @@
         <fullName>agf__Active__c</fullName>
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Active</label>
         <trackFeedHistory>true</trackFeedHistory>
         <trackHistory>true</trackHistory>
@@ -175,7 +174,6 @@
         <fullName>agf__Board_Preference__c</fullName>
         <deprecated>false</deprecated>
         <description>This field defines if team follows Sprints or Kanban</description>
-        <externalId>false</externalId>
         <inlineHelpText>Use this field to indicate if your team uses Sprint or Kanban. For Scrumban users, this field is used to indicate which board (Sprint or Kanban) is currently active and in use. For ex: Setting this field to Sprint will activate your work status mappings for the Sprint Board so that when a work card is moved across columns, the Status of that work is also changed accordingly. It will not update your Kanban Board if you choose Sprint and vice versa.</inlineHelpText>
         <label>Board Preference</label>
         <required>false</required>
@@ -204,7 +202,6 @@
         <fullName>agf__Business_Hours__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Business Hours</label>
         <referenceTo>BusinessHours</referenceTo>
         <relationshipName>Teams</relationshipName>
@@ -219,7 +216,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>This team can mark User Stories and Tasks as Capital Expenditures</description>
-        <externalId>false</externalId>
         <inlineHelpText>This team can mark User Stories and Tasks as Capital Expenditures</inlineHelpText>
         <label>Capitalizable</label>
         <trackFeedHistory>true</trackFeedHistory>
@@ -231,7 +227,6 @@
         <fullName>agf__Capex_Lead__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Capitalization Lead</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Capex_Leads</relationshipName>
@@ -244,7 +239,6 @@
     <fields>
         <fullName>agf__Chatter_Groups__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Enter a list of Chatter Group IDs separated by commas (ie: 0F9B000000000qR, 0F9B000000000q2). The ID can be found in a Group&apos;s URL.
 
 Valid IDs will be rendered into links to Chatter Groups.</inlineHelpText>
@@ -259,7 +253,6 @@ Valid IDs will be rendered into links to Chatter Groups.</inlineHelpText>
         <fullName>agf__Cloud_LU__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Cloud</label>
         <referenceTo>agf__ADM_Cloud__c</referenceTo>
         <relationshipLabel>Teams</relationshipLabel>
@@ -273,7 +266,6 @@ Valid IDs will be rendered into links to Chatter Groups.</inlineHelpText>
     <fields>
         <fullName>agf__Cloud__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Department</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -404,7 +396,6 @@ Valid IDs will be rendered into links to Chatter Groups.</inlineHelpText>
     <fields>
         <fullName>agf__Colocation__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Colocation</label>
         <precision>18</precision>
         <required>false</required>
@@ -432,7 +423,6 @@ Valid IDs will be rendered into links to Chatter Groups.</inlineHelpText>
         <fullName>agf__Definition_of_Done_Check__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Definition of Done Check</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -442,7 +432,6 @@ Valid IDs will be rendered into links to Chatter Groups.</inlineHelpText>
     <fields>
         <fullName>agf__Definition_of_Done__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Definition of Done</label>
         <length>32768</length>
         <trackFeedHistory>true</trackFeedHistory>
@@ -455,7 +444,6 @@ Valid IDs will be rendered into links to Chatter Groups.</inlineHelpText>
         <fullName>agf__Definition_of_Ready_Check__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Definition of Ready Check</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -465,7 +453,6 @@ Valid IDs will be rendered into links to Chatter Groups.</inlineHelpText>
     <fields>
         <fullName>agf__Definition_of_Ready__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Definition of Ready</label>
         <length>32768</length>
         <trackFeedHistory>true</trackFeedHistory>
@@ -477,7 +464,6 @@ Valid IDs will be rendered into links to Chatter Groups.</inlineHelpText>
     <fields>
         <fullName>agf__Distribution_Lists__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Distribution Lists</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -488,7 +474,6 @@ Valid IDs will be rendered into links to Chatter Groups.</inlineHelpText>
     <fields>
         <fullName>agf__Division__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>To be replaced with new Cloud mappings soon.</inlineHelpText>
         <label>Division</label>
         <required>false</required>
@@ -535,7 +520,6 @@ Valid IDs will be rendered into links to Chatter Groups.</inlineHelpText>
     <fields>
         <fullName>agf__Domain__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Domain</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -706,7 +690,6 @@ Valid IDs will be rendered into links to Chatter Groups.</inlineHelpText>
     <fields>
         <fullName>agf__End_Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>End Date</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -719,7 +702,6 @@ Valid IDs will be rendered into links to Chatter Groups.</inlineHelpText>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Boolean value used to exclude team from IT Reports</description>
-        <externalId>false</externalId>
         <label>Exclude from IT Capacity Reports</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -771,7 +753,6 @@ Valid IDs will be rendered into links to Chatter Groups.</inlineHelpText>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Check this box if Lightning Platform Freeze records should be included for releases. This is in addition to Feature Freeze and Release Freeze records.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Check this box if Lightning Platform Freeze records should be included for releases. This is in addition to Feature Freeze and Release Freeze records.</inlineHelpText>
         <label>Include Lightning Platform Freeze</label>
         <trackFeedHistory>false</trackFeedHistory>
@@ -783,7 +764,6 @@ Valid IDs will be rendered into links to Chatter Groups.</inlineHelpText>
         <fullName>agf__Kanban__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Kanban</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
@@ -820,7 +800,6 @@ Valid IDs will be rendered into links to Chatter Groups.</inlineHelpText>
     <fields>
         <fullName>agf__Overall_Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Overall Status</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -852,7 +831,6 @@ Valid IDs will be rendered into links to Chatter Groups.</inlineHelpText>
         <fullName>agf__PO_Certified__c</fullName>
         <deprecated>false</deprecated>
         <description>Is Product Owner certified?</description>
-        <externalId>false</externalId>
         <formula>agf__Product_Owner__r.agf__Certified_Product_Owner__c</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <inlineHelpText>Is Product Owner certified?</inlineHelpText>
@@ -865,7 +843,6 @@ Valid IDs will be rendered into links to Chatter Groups.</inlineHelpText>
         <fullName>agf__PO_more_than_one_team__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>PO more than one team</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -890,7 +867,6 @@ Valid IDs will be rendered into links to Chatter Groups.</inlineHelpText>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>If team checks this - Work status update will update Board column on the Sprint Virtual wall and Kanban Columns will not be updated automatically.</description>
-        <externalId>false</externalId>
         <inlineHelpText>If team checks this - Work status update will update Board column on the Sprint Virtual wall and Kanban Columns will not be updated automatically.</inlineHelpText>
         <label>Prefer Board Column Auto Update</label>
         <trackFeedHistory>false</trackFeedHistory>
@@ -901,7 +877,6 @@ Valid IDs will be rendered into links to Chatter Groups.</inlineHelpText>
     <fields>
         <fullName>agf__Product_Area__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Product Area</label>
         <required>false</required>
         <trackFeedHistory>true</trackFeedHistory>
@@ -1022,7 +997,6 @@ Valid IDs will be rendered into links to Chatter Groups.</inlineHelpText>
     <fields>
         <fullName>agf__Product_Line__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>To be replaced with new Cloud mappings soon.</inlineHelpText>
         <label>Product Line TO BE DELETED</label>
         <required>false</required>
@@ -1252,7 +1226,6 @@ Valid IDs will be rendered into links to Chatter Groups.</inlineHelpText>
         <fullName>agf__Product_Owner__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Product Owner</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Product_Owner_For_Team</relationshipName>
@@ -1267,7 +1240,6 @@ Valid IDs will be rendered into links to Chatter Groups.</inlineHelpText>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Whether team needs to participate in release coverage</description>
-        <externalId>false</externalId>
         <label>Release Coverage Needed</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -1277,7 +1249,6 @@ Valid IDs will be rendered into links to Chatter Groups.</inlineHelpText>
     <fields>
         <fullName>agf__Rollup_Reporting_Group__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>To be replaced with new Cloud mappings soon.</inlineHelpText>
         <label>Rollup Reporting Group TO BE DELETED</label>
         <required>false</required>
@@ -1351,7 +1322,6 @@ Valid IDs will be rendered into links to Chatter Groups.</inlineHelpText>
         <fullName>agf__SM_Certified__c</fullName>
         <deprecated>false</deprecated>
         <description>Is ScrumMaster certified?</description>
-        <externalId>false</externalId>
         <formula>agf__Scrum_Master__r.agf__Certified_Scrum_Master__c</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <inlineHelpText>Is ScrumMaster certified?</inlineHelpText>
@@ -1364,7 +1334,6 @@ Valid IDs will be rendered into links to Chatter Groups.</inlineHelpText>
         <fullName>agf__SM_more_than_one_team__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>SM more than one team</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -1375,7 +1344,6 @@ Valid IDs will be rendered into links to Chatter Groups.</inlineHelpText>
         <fullName>agf__Scrum_Master__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Scrum Master</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Scrum_Master_For_Team</relationshipName>
@@ -1403,7 +1371,6 @@ Valid IDs will be rendered into links to Chatter Groups.</inlineHelpText>
         <fullName>agf__Scrum_Team_Domain__c</fullName>
         <deprecated>false</deprecated>
         <description>Describes what the team owns (functionality, infrastructure, services, etc.)</description>
-        <externalId>false</externalId>
         <inlineHelpText>Describes what the team owns (functionality, infrastructure, services, etc.)</inlineHelpText>
         <label>Scrum Team Domain</label>
         <length>32000</length>
@@ -1430,7 +1397,6 @@ Valid IDs will be rendered into links to Chatter Groups.</inlineHelpText>
     <fields>
         <fullName>agf__Start_Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Start Date</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1442,7 +1408,6 @@ Valid IDs will be rendered into links to Chatter Groups.</inlineHelpText>
         <fullName>agf__Status_Change_Notify__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Status Change Notify</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -1496,7 +1461,6 @@ Valid IDs will be rendered into links to Chatter Groups.</inlineHelpText>
         <fullName>agf__Team_Home_Page__c</fullName>
         <deprecated>false</deprecated>
         <description>A link to the team&apos;s home page.  For example their Google Site, Chatter Group or alternative resource where users can find more information about this team.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enter the URL for your team&apos;s main site (Google, GitHub, etc). If you don&apos;t have a site, enter the URL for your team&apos;s primary Chatter group.</inlineHelpText>
         <label>Team Homepage</label>
         <required>false</required>
@@ -1548,7 +1512,6 @@ Valid IDs will be rendered into links to Chatter Groups.</inlineHelpText>
     <fields>
         <fullName>agf__Tenure_on_team__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>One year tenure on team</label>
         <precision>18</precision>
         <required>false</required>
@@ -1561,7 +1524,6 @@ Valid IDs will be rendered into links to Chatter Groups.</inlineHelpText>
     <fields>
         <fullName>agf__Total_Dev_Allocation__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Total Dev Allocation</label>
         <summarizedField>agf__ADM_Scrum_Team_Member__c.agf__Allocation__c</summarizedField>
         <summaryFilterItems>
@@ -1578,7 +1540,6 @@ Valid IDs will be rendered into links to Chatter Groups.</inlineHelpText>
     <fields>
         <fullName>agf__Total_Dev__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Total Dev</label>
         <summaryFilterItems>
             <field>agf__ADM_Scrum_Team_Member__c.agf__Role__c</field>
@@ -1609,7 +1570,6 @@ Valid IDs will be rendered into links to Chatter Groups.</inlineHelpText>
     <fields>
         <fullName>agf__Total_Member_Allocation__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Total Member Allocation</label>
         <summarizedField>agf__ADM_Scrum_Team_Member__c.agf__Allocation__c</summarizedField>
         <summaryForeignKey>agf__ADM_Scrum_Team_Member__c.agf__Scrum_Team__c</summaryForeignKey>
@@ -1621,7 +1581,6 @@ Valid IDs will be rendered into links to Chatter Groups.</inlineHelpText>
     <fields>
         <fullName>agf__Total_Members__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Total Members</label>
         <summaryForeignKey>agf__ADM_Scrum_Team_Member__c.agf__Scrum_Team__c</summaryForeignKey>
         <summaryOperation>count</summaryOperation>
@@ -1647,7 +1606,6 @@ Valid IDs will be rendered into links to Chatter Groups.</inlineHelpText>
     <fields>
         <fullName>agf__Total_QE_Allocation__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Total QE Allocation</label>
         <summarizedField>agf__ADM_Scrum_Team_Member__c.agf__Allocation__c</summarizedField>
         <summaryFilterItems>
@@ -1664,7 +1622,6 @@ Valid IDs will be rendered into links to Chatter Groups.</inlineHelpText>
     <fields>
         <fullName>agf__Total_QE__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Total QE</label>
         <summaryFilterItems>
             <field>agf__ADM_Scrum_Team_Member__c.agf__Role__c</field>
@@ -1695,7 +1652,6 @@ Valid IDs will be rendered into links to Chatter Groups.</inlineHelpText>
     <fields>
         <fullName>agf__Type__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Type</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1732,7 +1688,6 @@ Valid IDs will be rendered into links to Chatter Groups.</inlineHelpText>
         <fullName>agf__Velocity_Type__c</fullName>
         <defaultValue>(&quot;Story Points&quot;)</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Velocity Type</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1759,7 +1714,6 @@ Valid IDs will be rendered into links to Chatter Groups.</inlineHelpText>
     <fields>
         <fullName>agf__Vision__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>The reason why this program exists. Ultimately what is this program accomplishing.</inlineHelpText>
         <label>Vision</label>
         <length>5000</length>

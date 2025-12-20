@@ -158,7 +158,6 @@
         <fullName>agf__Record_Group__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Record Group</label>
         <referenceTo>agf__ADM_Record_Group__c</referenceTo>
         <relationshipLabel>Record Group Items</relationshipLabel>

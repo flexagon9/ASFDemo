@@ -157,7 +157,6 @@
     <fields>
         <fullName>agf__Stamp_ID_List__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Stamp ID List</label>
         <length>32000</length>
         <trackHistory>false</trackHistory>

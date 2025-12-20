@@ -10454,6 +10454,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <custom>true</custom>
+    <externalDataSourceAccesses>
+        <enabled>false</enabled>
+        <externalDataSource>FlexDB</externalDataSource>
+    </externalDataSourceAccesses>
     <fieldPermissions>
         <editable>true</editable>
         <field>Acccount__c.Active__c</field>
@@ -12283,6 +12287,11 @@
         <editable>true</editable>
         <field>Favorite__c.User__c</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>FlexIntegration__x.Active__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>

@@ -182,7 +182,6 @@
     <fields>
         <fullName>agf__Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Date</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -191,7 +190,6 @@
     <fields>
         <fullName>agf__Epic__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Epic</label>
         <referenceTo>agf__ADM_Epic__c</referenceTo>
         <relationshipLabel>Epic Burndown Items</relationshipLabel>

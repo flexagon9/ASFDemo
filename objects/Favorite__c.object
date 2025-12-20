@@ -156,7 +156,6 @@
     <fields>
         <fullName>Property__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
         <label>Property</label>
         <referenceTo>Property__c</referenceTo>
         <relationshipLabel>Favorites</relationshipLabel>
@@ -168,7 +167,6 @@
     <fields>
         <fullName>User__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
         <label>User</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Favorites</relationshipName>

@@ -158,7 +158,6 @@
     <fields>
         <fullName>agf__Body__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Comment</label>
         <length>32000</length>
         <trackTrending>false</trackTrending>
@@ -169,7 +168,6 @@
         <fullName>agf__Comment_Created_By__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Comment Created By</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Comments</relationshipName>
@@ -180,7 +178,6 @@
     <fields>
         <fullName>agf__Comment_Created_Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Comment Created Date</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -213,7 +210,6 @@
         <fullName>agf__Is_Copy__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Is Copy</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -234,7 +230,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>This field tracks if the comment has been posted to chatter. This field is used to tell if we need to display legacy comments, for more info see dependent story: W-1756310</description>
-        <externalId>false</externalId>
         <label>Posted to Chatter</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -244,7 +239,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Used to decide if we are going to surround our comment body with a &quot;PRE&quot; tag</description>
-        <externalId>false</externalId>
         <label>Preserve Formatting</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -253,7 +247,6 @@
         <fullName>agf__Priority_Override_Explanation__c</fullName>
         <deprecated>false</deprecated>
         <description>Used to store what the reason for a priority override was</description>
-        <externalId>false</externalId>
         <label>Priority Override Explanation</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -275,7 +268,6 @@
         <fullName>agf__Work__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Work</label>
         <referenceTo>agf__ADM_Work__c</referenceTo>
         <relationshipLabel>Comments</relationshipLabel>

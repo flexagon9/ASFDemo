@@ -159,7 +159,6 @@
         <fullName>sf_devops__Activity_Date__c</fullName>
         <deprecated>false</deprecated>
         <description>The date this activity occurred, this could be different then the date the record was created.</description>
-        <externalId>false</externalId>
         <label>Activity Date</label>
         <required>true</required>
         <trackTrending>false</trackTrending>
@@ -181,7 +180,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>The change submission involved in this activity</description>
-        <externalId>false</externalId>
         <label>Change Submission</label>
         <referenceTo>sf_devops__Change_Submission__c</referenceTo>
         <relationshipLabel>Object Activities</relationshipLabel>
@@ -195,7 +193,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>The Environment involved with this activity</description>
-        <externalId>false</externalId>
         <label>Environment</label>
         <referenceTo>sf_devops__Environment__c</referenceTo>
         <relationshipLabel>Object Activities</relationshipLabel>
@@ -209,7 +206,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Marks an activity as an internal book keeping activity that should not be displayed</description>
-        <externalId>false</externalId>
         <label>Hidden</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -218,7 +214,6 @@
         <fullName>sf_devops__Message__c</fullName>
         <deprecated>false</deprecated>
         <description>The summary of the activity</description>
-        <externalId>false</externalId>
         <label>Message</label>
         <length>1000</length>
         <trackTrending>false</trackTrending>
@@ -230,7 +225,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>A reference to the async results for this activity</description>
-        <externalId>false</externalId>
         <label>Operation Result</label>
         <referenceTo>sf_devops__Async_Operation_Result__c</referenceTo>
         <relationshipLabel>Object Activities</relationshipLabel>
@@ -244,7 +238,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Reference to the activity that is the main activity being recorded.</description>
-        <externalId>false</externalId>
         <label>Parent Activity</label>
         <referenceTo>sf_devops__Object_Activity__c</referenceTo>
         <relationshipLabel>Child Activities</relationshipLabel>
@@ -258,7 +251,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>The pipeline involved in this activity</description>
-        <externalId>false</externalId>
         <label>Pipeline</label>
         <referenceTo>sf_devops__Pipeline__c</referenceTo>
         <relationshipLabel>Object Activities</relationshipLabel>
@@ -271,7 +263,6 @@
         <fullName>sf_devops__Project__c</fullName>
         <deprecated>false</deprecated>
         <description>The project we are associated with.</description>
-        <externalId>false</externalId>
         <label>Project</label>
         <referenceTo>sf_devops__Project__c</referenceTo>
         <relationshipLabel>Object Activities</relationshipLabel>
@@ -299,7 +290,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>The stage that received this activity</description>
-        <externalId>false</externalId>
         <label>Target Pipeline Stage</label>
         <referenceTo>sf_devops__Pipeline_Stage__c</referenceTo>
         <relationshipLabel>Target Object Activities</relationshipLabel>
@@ -313,7 +303,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>The work item involved in this activity</description>
-        <externalId>false</externalId>
         <label>Work Item</label>
         <referenceTo>sf_devops__Work_Item__c</referenceTo>
         <relationshipLabel>Object Activities</relationshipLabel>

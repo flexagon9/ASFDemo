@@ -159,7 +159,6 @@
         <fullName>sf_devops__Event_Date__c</fullName>
         <deprecated>false</deprecated>
         <description>The date and time this event occurred in the version control system.</description>
-        <externalId>false</externalId>
         <label>Event Date</label>
         <required>true</required>
         <trackTrending>false</trackTrending>
@@ -183,7 +182,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Has this VCS Event been handled by the DevOps Center?</description>
-        <externalId>false</externalId>
         <inlineHelpText>Managed by the DevOps Center, when this VCS Event has been handled/resolved, this value will be updated to true automatically.</inlineHelpText>
         <label>Handled</label>
         <trackTrending>false</trackTrending>
@@ -194,7 +192,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>The AOR referencing the current ongoing operation of this VCS Event, if one exists.</description>
-        <externalId>false</externalId>
         <label>Operation Status</label>
         <referenceTo>sf_devops__Async_Operation_Result__c</referenceTo>
         <relationshipLabel>VCS Events</relationshipLabel>
@@ -207,7 +204,6 @@
         <fullName>sf_devops__Payload__c</fullName>
         <deprecated>false</deprecated>
         <description>The event payload, sent from the version control system.</description>
-        <externalId>false</externalId>
         <label>Payload</label>
         <length>131072</length>
         <trackTrending>false</trackTrending>
@@ -218,7 +214,6 @@
         <fullName>sf_devops__Repository__c</fullName>
         <deprecated>false</deprecated>
         <description>The VCS repository that was the source of this VCS Event.</description>
-        <externalId>false</externalId>
         <label>Repository</label>
         <referenceTo>sf_devops__Repository__c</referenceTo>
         <relationshipLabel>Vcs Events</relationshipLabel>
@@ -258,7 +253,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>The Pipeline Stage record that this VCS Event applies to.</description>
-        <externalId>false</externalId>
         <label>Target Pipeline Stage</label>
         <referenceTo>sf_devops__Pipeline_Stage__c</referenceTo>
         <relationshipLabel>VCS Events</relationshipLabel>
@@ -272,7 +266,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>The Work Item record that this VCS Event applies to.</description>
-        <externalId>false</externalId>
         <label>Target Work Item</label>
         <referenceTo>sf_devops__Work_Item__c</referenceTo>
         <relationshipLabel>Vcs Events</relationshipLabel>

@@ -160,7 +160,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Has this Hidden Remote Change been hidden by force ignore?</description>
-        <externalId>false</externalId>
         <label>Hidden by Force Ignore</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -169,7 +168,6 @@
         <fullName>sf_devops__Remote_Change__c</fullName>
         <deprecated>false</deprecated>
         <description>the remote change in this join</description>
-        <externalId>false</externalId>
         <label>Remote Change</label>
         <referenceTo>sf_devops__Remote_Change__c</referenceTo>
         <relationshipName>HiddenRemoteChanges</relationshipName>
@@ -183,7 +181,6 @@
         <fullName>sf_devops__Work_Item__c</fullName>
         <deprecated>false</deprecated>
         <description>The work item in this join.</description>
-        <externalId>false</externalId>
         <label>Work Item</label>
         <referenceTo>sf_devops__Work_Item__c</referenceTo>
         <relationshipName>HiddenRemoteChanges</relationshipName>

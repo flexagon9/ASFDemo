@@ -159,7 +159,6 @@
         <fullName>sf_devops__Completion_Date__c</fullName>
         <deprecated>false</deprecated>
         <description>This field is deprecated and should not be referenced</description>
-        <externalId>false</externalId>
         <label>Completion Date</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -182,7 +181,6 @@
         <deleteConstraint>Restrict</deleteConstraint>
         <deprecated>false</deprecated>
         <description>The results of our deployment into the target stage</description>
-        <externalId>false</externalId>
         <label>Deployment Result</label>
         <referenceTo>sf_devops__Deployment_Result__c</referenceTo>
         <relationshipLabel>Work Item Promotes</relationshipLabel>
@@ -195,7 +193,6 @@
         <fullName>sf_devops__Merge_Result__c</fullName>
         <deleteConstraint>Restrict</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Merge Result</label>
         <referenceTo>sf_devops__Merge_Result__c</referenceTo>
         <relationshipLabel>Work Item Promotes</relationshipLabel>
@@ -208,7 +205,6 @@
         <fullName>sf_devops__Pipeline_Stage__c</fullName>
         <deprecated>false</deprecated>
         <description>The stage of this promotion</description>
-        <externalId>false</externalId>
         <label>Pipeline Stage</label>
         <referenceTo>sf_devops__Pipeline_Stage__c</referenceTo>
         <relationshipLabel>Work Item Promotes</relationshipLabel>
@@ -237,7 +233,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>The status of the post promote rebase operation.</description>
-        <externalId>false</externalId>
         <label>Rebase Status</label>
         <referenceTo>sf_devops__Async_Operation_Result__c</referenceTo>
         <relationshipLabel>Work Item Promote Rebases</relationshipLabel>
@@ -263,7 +258,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>The status of the promote operation.</description>
-        <externalId>false</externalId>
         <label>Status</label>
         <referenceTo>sf_devops__Async_Operation_Result__c</referenceTo>
         <relationshipLabel>Work Item Promotes</relationshipLabel>
@@ -276,7 +270,6 @@
         <fullName>sf_devops__Work_Item__c</fullName>
         <deprecated>false</deprecated>
         <description>The work item that was promoted</description>
-        <externalId>false</externalId>
         <label>Work Item</label>
         <referenceTo>sf_devops__Work_Item__c</referenceTo>
         <relationshipLabel>Work Item Promotes</relationshipLabel>

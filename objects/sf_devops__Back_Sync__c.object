@@ -160,7 +160,6 @@
         <deleteConstraint>Restrict</deleteConstraint>
         <deprecated>false</deprecated>
         <description>The results of our deployment into the dev environment</description>
-        <externalId>false</externalId>
         <label>Deployment Result</label>
         <referenceTo>sf_devops__Deployment_Result__c</referenceTo>
         <relationshipLabel>Back Syncs</relationshipLabel>
@@ -174,7 +173,6 @@
         <deleteConstraint>Restrict</deleteConstraint>
         <deprecated>false</deprecated>
         <description>The destination environment of a back sync.</description>
-        <externalId>false</externalId>
         <label>Destination Environment</label>
         <referenceTo>sf_devops__Environment__c</referenceTo>
         <relationshipLabel>Destination Back Syncs</relationshipLabel>
@@ -199,7 +197,6 @@
         <fullName>sf_devops__Operation_Result__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Operation Result</label>
         <referenceTo>sf_devops__Async_Operation_Result__c</referenceTo>
         <relationshipLabel>Back Sync</relationshipLabel>
@@ -213,7 +210,6 @@
         <deleteConstraint>Restrict</deleteConstraint>
         <deprecated>false</deprecated>
         <description>The source stage of a back sync.</description>
-        <externalId>false</externalId>
         <label>Source Pipeline Stage</label>
         <referenceTo>sf_devops__Pipeline_Stage__c</referenceTo>
         <relationshipLabel>Source Back Syncs</relationshipLabel>

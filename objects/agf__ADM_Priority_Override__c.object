@@ -171,7 +171,6 @@
         <fullName>agf__Priority_Mapping__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Priority Mapping</label>
         <referenceTo>agf__ADM_Priority_Mapping__c</referenceTo>
         <relationshipLabel>Priority Overrides</relationshipLabel>
@@ -184,7 +183,6 @@
     <fields>
         <fullName>agf__Priority_Override_Explanation__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Priority Override Explanation</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -206,7 +204,6 @@
     <fields>
         <fullName>agf__Work__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Work</label>
         <referenceTo>agf__ADM_Work__c</referenceTo>
         <relationshipLabel>Priority Overrides</relationshipLabel>

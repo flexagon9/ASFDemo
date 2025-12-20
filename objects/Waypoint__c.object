@@ -155,7 +155,6 @@
     <externalSharingModel>ReadWrite</externalSharingModel>
     <fields>
         <fullName>Test_Custom_Field__c</fullName>
-        <externalId>false</externalId>
         <label>Test_Custom_Field</label>
         <precision>18</precision>
         <required>false</required>

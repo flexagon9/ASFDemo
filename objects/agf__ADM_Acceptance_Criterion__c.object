@@ -157,7 +157,6 @@
     <fields>
         <fullName>agf__Description__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Description (2000)</label>
         <length>32000</length>
         <trackFeedHistory>true</trackFeedHistory>
@@ -183,7 +182,6 @@
     <fields>
         <fullName>agf__Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Status</label>
         <required>false</required>
         <trackFeedHistory>true</trackFeedHistory>
@@ -219,7 +217,6 @@
     <fields>
         <fullName>agf__Work__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Work</label>
         <referenceTo>agf__ADM_Work__c</referenceTo>
         <relationshipLabel>Acceptance Criteria</relationshipLabel>

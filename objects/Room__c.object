@@ -155,7 +155,6 @@
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <fields>
         <fullName>Hotal__c</fullName>
-        <externalId>false</externalId>
         <label>Hotal</label>
         <referenceTo>Hotal__c</referenceTo>
         <relationshipLabel>Rooms</relationshipLabel>
@@ -168,7 +167,6 @@
     </fields>
     <fields>
         <fullName>Occupancy__c</fullName>
-        <externalId>false</externalId>
         <label>Occupancy</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -198,7 +196,6 @@
     <fields>
         <fullName>Tariff__c</fullName>
         <defaultValue>0.00</defaultValue>
-        <externalId>false</externalId>
         <label>Tariff</label>
         <precision>18</precision>
         <required>false</required>

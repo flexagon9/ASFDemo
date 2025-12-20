@@ -159,7 +159,6 @@
         <fullName>agf__Completed__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Completed</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -170,7 +169,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Indicates a corresponding scrum team record was deleted causing this record to be created</description>
-        <externalId>false</externalId>
         <label>Deleted</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -194,7 +192,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Indicates a corresponding scrum team record was inserted causing this record to be created</description>
-        <externalId>false</externalId>
         <label>Inserted</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>

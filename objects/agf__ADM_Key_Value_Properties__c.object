@@ -158,7 +158,6 @@
         <fullName>agf__Property_Description__c</fullName>
         <deprecated>false</deprecated>
         <description>Description on what this key value pair is. Making this field required so that a description is entered on what this field is used for, to make it easy for somebody who is looking at it later</description>
-        <externalId>false</externalId>
         <label>Property Description</label>
         <required>true</required>
         <trackHistory>false</trackHistory>

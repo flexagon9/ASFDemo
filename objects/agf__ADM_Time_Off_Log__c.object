@@ -159,7 +159,6 @@
         <fullName>agf__Allocation__c</fullName>
         <defaultValue>1</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Percentage of time allocated to the PTOn project between the PTOn Start date and End date.</inlineHelpText>
         <label>Allocation %</label>
         <precision>3</precision>
@@ -173,7 +172,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>This checkbox gets checked once a PTon request has been approved by the requestee&apos;s manager.</description>
-        <externalId>false</externalId>
         <label>Approved</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -195,7 +193,6 @@
     <fields>
         <fullName>agf__Description__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Describe your PTOn project or Out of Office in this field.</inlineHelpText>
         <label>Description</label>
         <length>1000</length>
@@ -206,7 +203,6 @@
     <fields>
         <fullName>agf__End_Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>End Date</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -227,7 +223,6 @@
     <fields>
         <fullName>agf__Start_Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Start Date</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -237,7 +232,6 @@
         <fullName>agf__User__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>User</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Time_Off_Log</relationshipName>

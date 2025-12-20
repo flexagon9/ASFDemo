@@ -159,7 +159,6 @@
         <fullName>agf__Applicable_Moratoriums__c</fullName>
         <deprecated>false</deprecated>
         <description>Moratoriums that impact the application&apos;s release.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Moratoriums that impact the application&apos;s release.</inlineHelpText>
         <label>Applicable Moratoriums</label>
         <required>false</required>
@@ -212,7 +211,6 @@
     <fields>
         <fullName>agf__Application_Type__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Application Type</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -269,7 +267,6 @@
         <fullName>agf__Case_Description_Footer__c</fullName>
         <deprecated>false</deprecated>
         <description>This field is appended to the bottom of the Description field of the Case created by Release Planning (when enabled).</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enter the text to be appended to the bottom of the Description field of the Case created by Release Planning (if enabled).</inlineHelpText>
         <label>Case Description Footer</label>
         <length>4000</length>
@@ -283,7 +280,6 @@
         <fullName>agf__Case_Description_Header__c</fullName>
         <deprecated>false</deprecated>
         <description>This field is appended to the top of the Description field of the Case created by Release Planning (when enabled).</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enter the text to be appended to the top of the Description field of the Case created by Release Planning (if enabled).</inlineHelpText>
         <label>Case Description Header</label>
         <length>4000</length>
@@ -312,7 +308,6 @@
         <fullName>agf__Category__c</fullName>
         <deprecated>false</deprecated>
         <description>Category indicates the stage of an application (Preproduction, Active, Retired or Maintenance) or whether the application represents an activity that is to appear on the Release Schedule.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Select &quot;Schedule&quot; if this Application object represents an activity that is to appear on the Release schedule (eg, Moratorium, Maintenance or Infrastructure), otherwise select the Application&apos;s life-cycle stage.</inlineHelpText>
         <label>Category</label>
         <required>false</required>
@@ -371,7 +366,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>For Applications that have staggered Major Release deployments with overlapping active release lines, the Current Major Release is the older of the two active release.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enter the name of the initial Major Release record for the older of the two active Major Releases.</inlineHelpText>
         <label>Current Major Release</label>
         <referenceTo>agf__ADM_Release__c</referenceTo>
@@ -387,7 +381,6 @@
         <fullName>agf__Daily_Header_Text_Next_Major__c</fullName>
         <deprecated>false</deprecated>
         <description>This text field is inserted before the Schedule of generated Release Alert posts for Daily and Emergency Releases which are under the Next Major Release.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enter Release Alert header text for Daily Releases of the Next Major Release.</inlineHelpText>
         <label>Daily Header Text [Next Major]</label>
         <length>10000</length>
@@ -401,7 +394,6 @@
         <fullName>agf__Daily_Release_Stagger__c</fullName>
         <deprecated>false</deprecated>
         <description>This text field is inserted before the Schedule of generated Release Alert posts for Daily and Emergency Releases which are under the Current Major Release.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enter Release Alert header text for Daily Releases of the Current Major Release.</inlineHelpText>
         <label>Daily Header Text [Current Major]</label>
         <length>32768</length>
@@ -431,7 +423,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Set this checkbox to enable notification emails for eRelease Requests. This functionality replaces the workflow-based notifications. The corresponding workflow for this Application should be deactivated when this box is checked, otherwise recipients may receive duplicate notifications.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Set this checkbox to enable notification emails for eRelease Requests. To avoid duplicate notifications, disable the corresponding eRelease Request notification workflow for this Application.</inlineHelpText>
         <label>Enable ERR Notification Emails</label>
         <trackFeedHistory>false</trackFeedHistory>
@@ -444,7 +435,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>When checked, the Release Planning system will generate Cases for generated Release Events.</description>
-        <externalId>false</externalId>
         <inlineHelpText>When Release Planning is enabled, will generate Cases for generated Release Events.</inlineHelpText>
         <label>Enable Release Planning Case Creation</label>
         <trackFeedHistory>false</trackFeedHistory>
@@ -457,7 +447,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enables Release Planning for this Application.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Check to enable Release Planning for this Application.</inlineHelpText>
         <label>Enable Release Planning</label>
         <trackFeedHistory>false</trackFeedHistory>
@@ -485,7 +474,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>A check in this field indicates that the application is customer-facing, not internal-only.</description>
-        <externalId>false</externalId>
         <inlineHelpText>A check in this field indicates that the application is customer-facing, not internal-only.</inlineHelpText>
         <label>Is Customer Facing</label>
         <trackFeedHistory>false</trackFeedHistory>
@@ -497,7 +485,6 @@
         <fullName>agf__Major_Release_Stagger__c</fullName>
         <deprecated>false</deprecated>
         <description>This field contains the template for the Major Release Stagger</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enter the template for the Major Release Stagger</inlineHelpText>
         <label>Major Release Stagger</label>
         <length>32768</length>
@@ -512,7 +499,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>For Applications that have staggered Major Release deployments with overlapping active release lines, the Next Major Release is the newer of the two active release.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enter the name of the initial Major Release record for the newer of the two active Major Releases.</inlineHelpText>
         <label>Next Major Release</label>
         <referenceTo>agf__ADM_Release__c</referenceTo>
@@ -528,7 +514,6 @@
         <fullName>agf__Other_Release_Stagger__c</fullName>
         <deprecated>false</deprecated>
         <description>This contains the release stagger for any distributed apps or other releases that are not Major, Patches, or eReleases.</description>
-        <externalId>false</externalId>
         <inlineHelpText>This contains the release stagger for any distributed apps or other releases that are not Major, Patches, or eReleases.</inlineHelpText>
         <label>Other Release Stagger</label>
         <length>32768</length>
@@ -542,7 +527,6 @@
         <fullName>agf__Patch_Header_Text_Next_Major__c</fullName>
         <deprecated>false</deprecated>
         <description>This text field is inserted before the Schedule of generated Release Alert posts for Patch Releases which are under the Next Major Release.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enter Release Alert header text for patch releases of the Next Major Release.</inlineHelpText>
         <label>Patch Header Text [Next Major]</label>
         <length>10000</length>
@@ -556,7 +540,6 @@
         <fullName>agf__Patch_Stagger__c</fullName>
         <deprecated>false</deprecated>
         <description>This text field is inserted before the Schedule of generated Release Alert posts for Patch Releases which are under the Current Major Release.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enter Release Alert header text for patch releases of the Current Major Release.</inlineHelpText>
         <label>Patch Header Text [Current Major]</label>
         <length>32768</length>
@@ -584,7 +567,6 @@
         <fullName>agf__Primary_Chatter_Post_Notes__c</fullName>
         <deprecated>false</deprecated>
         <description>This text field is inserted below the Schedule of generated Release Alert posts for posts to the Primary Chatter group for all Releases which are under the Current Major Release.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enter Primary Chatter group Release Alert footer text for Releases of the Current Major Release.</inlineHelpText>
         <label>Primary Footer Text [Current Major]</label>
         <length>10000</length>
@@ -598,7 +580,6 @@
         <fullName>agf__Primary_Footer_Text_Next_Major__c</fullName>
         <deprecated>false</deprecated>
         <description>This text field is inserted below the Schedule of generated Release Alert posts for posts to the Primary Chatter group for all Releases which are under the Next Major Release.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enter Primary Chatter group Release Alert footer text for Releases of the Next Major Release.</inlineHelpText>
         <label>Primary Footer Text [Next Major]</label>
         <length>10000</length>
@@ -613,7 +594,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>The Primary Release Manager has primary responsibility for managing the releases for teams supported by this .</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enter the name of the Release Manager with primary responsibility for the releases of products supported by this Application.</inlineHelpText>
         <label>Primary Release Manager</label>
         <referenceTo>User</referenceTo>
@@ -642,7 +622,6 @@
         <fullName>agf__Secondary_Chatter_Post_Notes__c</fullName>
         <deprecated>false</deprecated>
         <description>This text field is inserted below the Schedule of generated Release Alert posts for posts to the Secondary Chatter group for all Releases.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enter Secondary Chatter group Release Alert footer text for all Releases.</inlineHelpText>
         <label>Secondary Footer Text</label>
         <length>10000</length>
@@ -657,7 +636,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Secondary or backup Release Manager for this Application.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enter the secondary or backup Release Manager for this Application.</inlineHelpText>
         <label>Secondary Release Manager</label>
         <referenceTo>User</referenceTo>

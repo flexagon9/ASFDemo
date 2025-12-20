@@ -161,7 +161,6 @@ Execution of a test case under a particular scenario, i.e., targeted release, bu
         <fullName>agf__Assignee__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Assignee</label>
         <referenceTo>User</referenceTo>
         <relationshipName>R00ND0000001rflFMAQ</relationshipName>
@@ -199,7 +198,6 @@ Execution of a test case under a particular scenario, i.e., targeted release, bu
     <fields>
         <fullName>agf__Comments__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Comments</label>
         <length>32000</length>
         <trackHistory>false</trackHistory>
@@ -211,7 +209,6 @@ Execution of a test case under a particular scenario, i.e., targeted release, bu
         <fullName>agf__Date_of_Last_Execution__c</fullName>
         <deprecated>false</deprecated>
         <description>Populate this field when you complete execution for this test case.</description>
-        <externalId>false</externalId>
         <label>Date of Last Execution</label>
         <required>false</required>
         <trackHistory>true</trackHistory>
@@ -266,7 +263,6 @@ in progress: test has started, result is not ready yet
 passed: test executed and passed
 failed: test executed and failed
 blocked: test execution cannot progress until obstacles are removed</description>
-        <externalId>false</externalId>
         <label>Status</label>
         <required>false</required>
         <trackHistory>true</trackHistory>
@@ -312,7 +308,6 @@ blocked: test execution cannot progress until obstacles are removed</description
         <fullName>agf__Test_Case__c</fullName>
         <deprecated>false</deprecated>
         <description>Specifies the parent Test Case object.</description>
-        <externalId>false</externalId>
         <label>Test Case</label>
         <referenceTo>agf__QA_Test_Case__c</referenceTo>
         <relationshipLabel>Test Executions</relationshipLabel>
@@ -328,7 +323,6 @@ blocked: test execution cannot progress until obstacles are removed</description
         <fullName>agf__Type__c</fullName>
         <deprecated>false</deprecated>
         <description>Specifies the execution type.</description>
-        <externalId>false</externalId>
         <label>Type</label>
         <required>false</required>
         <trackHistory>true</trackHistory>
@@ -404,7 +398,6 @@ blocked: test execution cannot progress until obstacles are removed</description
         <fullName>agf__User_Story__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>User Story</label>
         <referenceTo>agf__ADM_Work__c</referenceTo>
         <relationshipLabel>Test Executions (User Story)</relationshipLabel>

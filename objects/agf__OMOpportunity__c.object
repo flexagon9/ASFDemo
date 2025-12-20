@@ -158,7 +158,6 @@
     <fields>
         <fullName>agf__Additional_Comments__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Additional Comments</label>
         <length>32000</length>
         <trackHistory>false</trackHistory>
@@ -169,7 +168,6 @@
     <fields>
         <fullName>agf__Desired_Skills__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Desired Skills</label>
         <length>32000</length>
         <trackHistory>false</trackHistory>
@@ -182,7 +180,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Does the team have distributed team members (remote employees)?</description>
-        <externalId>false</externalId>
         <label>Distributed Team</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -191,7 +188,6 @@
     <fields>
         <fullName>agf__Function__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Function</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -248,7 +244,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>This opportunity will show up on the OOM welcome page.</description>
-        <externalId>false</externalId>
         <label>V2MOM Top Priority</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -258,7 +253,6 @@
         <fullName>agf__Hiring_Manager__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Hiring Manager</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Opportunities</relationshipName>
@@ -270,7 +264,6 @@
     <fields>
         <fullName>agf__Intranet_Posting__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>If there is an associated talentforce posting include a link to the job opening on the intranet.</inlineHelpText>
         <label>Intranet Posting</label>
         <required>false</required>
@@ -295,7 +288,6 @@
     <fields>
         <fullName>agf__Opportunity_Description__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Opportunity Description</label>
         <length>32000</length>
         <trackHistory>false</trackHistory>
@@ -308,7 +300,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Release the opportunity is for.</description>
-        <externalId>false</externalId>
         <label>Release</label>
         <referenceTo>agf__ADM_Release__c</referenceTo>
         <relationshipLabel>Open Market Opportunities</relationshipLabel>
@@ -321,7 +312,6 @@
     <fields>
         <fullName>agf__Required_Skills__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Required Skills</label>
         <length>32000</length>
         <trackHistory>false</trackHistory>
@@ -332,7 +322,6 @@
     <fields>
         <fullName>agf__Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Status</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -367,7 +356,6 @@
     <fields>
         <fullName>agf__Team__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Team</label>
         <referenceTo>agf__ADM_Scrum_Team__c</referenceTo>
         <relationshipName>Opportunities</relationshipName>

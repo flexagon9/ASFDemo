@@ -169,7 +169,6 @@
     <fields>
         <fullName>agf__Describe__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Describe</label>
         <length>32000</length>
         <trackTrending>false</trackTrending>
@@ -215,7 +214,6 @@
         <fullName>agf__User__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>User</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Perforce_Connectors</relationshipName>
@@ -237,7 +235,6 @@
     <fields>
         <fullName>agf__type__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>type</label>
         <required>false</required>
         <trackTrending>false</trackTrending>

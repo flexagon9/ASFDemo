@@ -266,7 +266,6 @@
     <fields>
         <fullName>agf__Completion_Committed_Items__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <formula>IF(
     OR(
         ISBLANK(agf__Committed_Items_Completed__c),
@@ -286,7 +285,6 @@
     <fields>
         <fullName>agf__Completion_Committed_Story_Points__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <formula>IF(
 OR(
 ISBLANK(agf__Committed_Story_Points_Completed__c),
@@ -306,7 +304,6 @@ agf__Committed_Story_Points_Completed__c/agf__Committed_Points__c
     <fields>
         <fullName>agf__Completion_Items__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <formula>IF(
     OR(
         ISBLANK(agf__Completed_Items__c),
@@ -326,7 +323,6 @@ agf__Committed_Story_Points_Completed__c/agf__Committed_Points__c
     <fields>
         <fullName>agf__Completion_Story_Points__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <formula>IF(
     OR(
         ISBLANK(agf__Completed_Story_Points__c),
@@ -360,7 +356,6 @@ agf__Committed_Story_Points_Completed__c/agf__Committed_Points__c
         <fullName>agf__Definition_of_Done_Met__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Definition of Done Met</label>
         <trackFeedHistory>true</trackFeedHistory>
         <trackHistory>true</trackHistory>
@@ -371,7 +366,6 @@ agf__Committed_Story_Points_Completed__c/agf__Committed_Points__c
         <fullName>agf__Definition_of_Ready_Met__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Definition of Ready Met</label>
         <trackFeedHistory>true</trackFeedHistory>
         <trackHistory>true</trackHistory>
@@ -383,7 +377,6 @@ agf__Committed_Story_Points_Completed__c/agf__Committed_Points__c
         <defaultValue>0</defaultValue>
         <deprecated>false</deprecated>
         <description>% to take off of the total time available</description>
-        <externalId>false</externalId>
         <label>Discount work time (%)</label>
         <precision>2</precision>
         <required>false</required>
@@ -396,7 +389,6 @@ agf__Committed_Story_Points_Completed__c/agf__Committed_Points__c
     <fields>
         <fullName>agf__End_Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>End Date</label>
         <required>true</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -421,7 +413,6 @@ agf__Committed_Story_Points_Completed__c/agf__Committed_Points__c
     <fields>
         <fullName>agf__Goals__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Goals</label>
         <length>3000</length>
         <trackFeedHistory>true</trackFeedHistory>
@@ -479,7 +470,6 @@ agf__Committed_Story_Points_Completed__c/agf__Committed_Points__c
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Internal field used by the system to figure out if it should calculate a release burndown for this sprint. This field is updated by a Time Based Workflow and causes a trigger action to fire and calculate the Release_Burndown_Item__c</description>
-        <externalId>false</externalId>
         <label>Release Burndown Calculated</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -490,7 +480,6 @@ agf__Committed_Story_Points_Completed__c/agf__Committed_Points__c
         <fullName>agf__Retrospective__c</fullName>
         <defaultValue>&quot;What went well? --&gt; &quot;  &amp; BR()  &amp;  &quot;What didn&apos;t go well? --&gt;&quot;  &amp; BR()  &amp; &quot;What can we do differently? --&gt;&quot;</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Retrospective</label>
         <length>32000</length>
         <trackFeedHistory>true</trackFeedHistory>
@@ -502,7 +491,6 @@ agf__Committed_Story_Points_Completed__c/agf__Committed_Points__c
     <fields>
         <fullName>agf__Risks__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Risks</label>
         <length>2000</length>
         <trackFeedHistory>true</trackFeedHistory>
@@ -515,7 +503,6 @@ agf__Committed_Story_Points_Completed__c/agf__Committed_Points__c
         <fullName>agf__Scrum_Team__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Scrum Team</label>
         <referenceTo>agf__ADM_Scrum_Team__c</referenceTo>
         <relationshipLabel>Sprints</relationshipLabel>
@@ -543,7 +530,6 @@ agf__Committed_Story_Points_Completed__c/agf__Committed_Points__c
     <fields>
         <fullName>agf__Start_Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Start Date</label>
         <required>true</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -569,7 +555,6 @@ agf__Committed_Story_Points_Completed__c/agf__Committed_Points__c
         <fullName>agf__Transformed__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Transformed</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>

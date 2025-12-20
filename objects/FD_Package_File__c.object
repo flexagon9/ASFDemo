@@ -162,7 +162,6 @@
     <fields>
         <fullName>FD_Active__c</fullName>
         <defaultValue>true</defaultValue>
-        <externalId>false</externalId>
         <label>Active</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -170,7 +169,6 @@
     </fields>
     <fields>
         <fullName>FD_File_Type__c</fullName>
-        <externalId>false</externalId>
         <label>File Type</label>
         <required>true</required>
         <trackHistory>false</trackHistory>
@@ -240,7 +238,6 @@
     </fields>
     <fields>
         <fullName>FD_Package__c</fullName>
-        <externalId>false</externalId>
         <label>Package</label>
         <referenceTo>FD_Package__c</referenceTo>
         <relationshipLabel>Package Files</relationshipLabel>

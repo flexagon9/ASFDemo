@@ -158,7 +158,6 @@
         <fullName>agf__Assignment_Rule__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Assignment Rule</label>
         <referenceTo>agf__ADM_Assignment_Rule__c</referenceTo>
         <relationshipLabel>Tag Assignments</relationshipLabel>
@@ -171,7 +170,6 @@
         <fullName>agf__Product_Tag__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Product Tag</label>
         <referenceTo>agf__ADM_Product_Tag__c</referenceTo>
         <relationshipLabel>Tag Assignments</relationshipLabel>
@@ -183,7 +181,6 @@
     <fields>
         <fullName>agf__Record_Type__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Record Type</label>
         <required>false</required>
         <trackTrending>false</trackTrending>

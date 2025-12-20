@@ -4,6 +4,7 @@
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
     <tabs>standard-Chatter</tabs>
     <tabs>Sample1__c</tabs>
     <tabs>Sample2__c</tabs>

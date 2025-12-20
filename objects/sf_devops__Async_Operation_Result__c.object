@@ -159,7 +159,6 @@
         <fullName>sf_devops__Dependent_Records__c</fullName>
         <deprecated>false</deprecated>
         <description>On transition to Completed, attempt to update the records represented as JSON in this field before the transition. If any of those updates fails, set the Async_Operation_Result&apos;s Status field to Error.</description>
-        <externalId>false</externalId>
         <label>Dependent Records</label>
         <length>32768</length>
         <trackTrending>false</trackTrending>
@@ -170,7 +169,6 @@
         <fullName>sf_devops__Error_Details__c</fullName>
         <deprecated>false</deprecated>
         <description>If the operation is in the Error status, then this is the detailed error message.</description>
-        <externalId>false</externalId>
         <label>Error Details</label>
         <length>32768</length>
         <trackTrending>false</trackTrending>
@@ -181,7 +179,6 @@
         <fullName>sf_devops__In_Terminal_State__c</fullName>
         <deprecated>false</deprecated>
         <description>Indicates whether the AOR is in a terminal state (e.g. done)</description>
-        <externalId>false</externalId>
         <formula>NOT(ISPICKVAL(sf_devops__Status__c, &apos;In Progress&apos;))</formula>
         <label>In Terminal State</label>
         <trackTrending>false</trackTrending>
@@ -227,7 +224,6 @@
         <fullName>sf_devops__Remote_Commands__c</fullName>
         <deprecated>false</deprecated>
         <description>The list of commands this async operation ran on the remote service</description>
-        <externalId>false</externalId>
         <label>Remote Commands</label>
         <length>32768</length>
         <trackTrending>false</trackTrending>
@@ -238,7 +234,6 @@
         <fullName>sf_devops__Status__c</fullName>
         <deprecated>false</deprecated>
         <description>The status of this asynchronous operation.</description>
-        <externalId>false</externalId>
         <label>Status</label>
         <required>true</required>
         <trackTrending>false</trackTrending>

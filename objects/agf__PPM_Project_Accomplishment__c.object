@@ -159,7 +159,6 @@
     <fields>
         <fullName>agf__Accomplishment_Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Accomplishment Date</label>
         <required>false</required>
         <trackFeedHistory>true</trackFeedHistory>
@@ -180,7 +179,6 @@
     <fields>
         <fullName>agf__Accomplishment_Summary__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Accomplishment Summary</label>
         <length>10000</length>
         <trackFeedHistory>true</trackFeedHistory>
@@ -192,7 +190,6 @@
     <fields>
         <fullName>agf__Accomplishment_Type__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Accomplishment Type</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -219,7 +216,6 @@
         <fullName>agf__Planned_Date__c</fullName>
         <deprecated>false</deprecated>
         <description>Planned date for the accomplishment.</description>
-        <externalId>false</externalId>
         <label>Planned Date</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -245,7 +241,6 @@
         <fullName>agf__Portfolio__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Portfolio</label>
         <referenceTo>agf__PPM_Portfolio__c</referenceTo>
         <relationshipName>Portfolio_Accomplishments</relationshipName>
@@ -273,7 +268,6 @@
         <fullName>agf__Program__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Program</label>
         <referenceTo>agf__PPM_Program__c</referenceTo>
         <relationshipName>Program_Accomplishments</relationshipName>
@@ -301,7 +295,6 @@
         <fullName>agf__Project__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Project</label>
         <referenceTo>agf__PPM_Project__c</referenceTo>
         <relationshipName>Project_Accomplishments</relationshipName>
@@ -316,7 +309,6 @@
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
         <description>Identifies whether this accomplishment is to be published or not.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Identifies whether this accomplishment is to be published or not.</inlineHelpText>
         <label>Publish</label>
         <trackFeedHistory>false</trackFeedHistory>

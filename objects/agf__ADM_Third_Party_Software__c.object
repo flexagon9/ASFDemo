@@ -158,7 +158,6 @@
     <fields>
         <fullName>agf__Approval_Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Approval Status</label>
         <required>false</required>
         <trackFeedHistory>true</trackFeedHistory>
@@ -205,7 +204,6 @@
         <fullName>agf__Coupa_Record__c</fullName>
         <deprecated>false</deprecated>
         <description>For commercial products only.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Link to the Coupa record for this product (for commercial products only).</inlineHelpText>
         <label>Coupa Record</label>
         <required>false</required>
@@ -218,7 +216,6 @@
         <defaultValue>Today() + 28</defaultValue>
         <deprecated>false</deprecated>
         <description>Date equivalent to your teams feature freeze date. Please account for 3PP SLA time frames referenced on site</description>
-        <externalId>false</externalId>
         <inlineHelpText>Date equivalent to your teams feature freeze date. Please account for 3PP SLA time frames referenced on site</inlineHelpText>
         <label>Date Approval Needed By</label>
         <required>true</required>
@@ -230,7 +227,6 @@
         <fullName>agf__Does_this_contain_JavaScript__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Does this contain JS or similar code articulated in a client browser? Do portions of the package run in the user’s browser?</inlineHelpText>
         <label>Old does this contain JavaScript?</label>
         <trackFeedHistory>false</trackFeedHistory>
@@ -240,7 +236,6 @@
     <fields>
         <fullName>agf__Does_this_contain_client_side_code__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Does this project contain JavaScript or similar code articulated in a client browser? Do portions of the package run in the user’s browser?</inlineHelpText>
         <label>Is there any client-side code?</label>
         <required>false</required>
@@ -292,7 +287,6 @@
     <fields>
         <fullName>agf__License_Type__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>License Type</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -317,7 +311,6 @@
     <fields>
         <fullName>agf__License_URL__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Please provide a link that demonstrates what license governs this particular 3PP request. It should not be a link to a generic copy of an open source license.</inlineHelpText>
         <label>License URL</label>
         <required>false</required>
@@ -328,7 +321,6 @@
     <fields>
         <fullName>agf__Module__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Module</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -388,7 +380,6 @@
     <fields>
         <fullName>agf__Notes__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>WIll you distribute the code to anyone outside of our data centers?</inlineHelpText>
         <label>Use Cases/Notes</label>
         <length>500</length>
@@ -427,7 +418,6 @@
     <fields>
         <fullName>agf__Request_Sub_Type__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Request Sub Type</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -527,7 +517,6 @@
     <fields>
         <fullName>agf__Request_Type__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Request Type</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -558,7 +547,6 @@
         <fullName>agf__Scheduled_Build__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Scheduled Build or Release</label>
         <referenceTo>agf__ADM_Build__c</referenceTo>
         <relationshipLabel>Third Party Software</relationshipLabel>
@@ -572,7 +560,6 @@
         <fullName>agf__Scrum_Team__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Scrum Team (Owner)</label>
         <referenceTo>agf__ADM_Scrum_Team__c</referenceTo>
         <relationshipLabel>Third Party Software</relationshipLabel>
@@ -586,7 +573,6 @@
         <fullName>agf__URL__c</fullName>
         <deprecated>false</deprecated>
         <description>Link to product information page.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Please provide the URL containing information about the Third Party Property.</inlineHelpText>
         <label>Third Party Property product info URL</label>
         <required>false</required>
@@ -597,7 +583,6 @@
     <fields>
         <fullName>agf__Used_By__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Used By</label>
         <length>500</length>
         <trackFeedHistory>false</trackFeedHistory>
@@ -632,7 +617,6 @@
     <fields>
         <fullName>agf__Will_this_code_be_distributed__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Will this code be distributed outside of Salesforce?</inlineHelpText>
         <label>Will this code be distributed?</label>
         <required>false</required>
@@ -659,7 +643,6 @@
     <fields>
         <fullName>agf__Will_you_actually_modify_the_code__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Will you modify the code, or simply use it as-is?</inlineHelpText>
         <label>Will you modify the code?</label>
         <required>false</required>
@@ -687,7 +670,6 @@
         <fullName>agf__Will_you_modify_the_code__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Will you use the code as-is or will you modify it?</inlineHelpText>
         <label>Old will you modify the code?</label>
         <trackFeedHistory>false</trackFeedHistory>

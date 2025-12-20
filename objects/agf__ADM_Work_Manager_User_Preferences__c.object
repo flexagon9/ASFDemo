@@ -157,7 +157,6 @@
     <fields>
         <fullName>agf__Columns__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Columns</label>
         <length>32768</length>
         <trackTrending>false</trackTrending>
@@ -167,7 +166,6 @@
     <fields>
         <fullName>agf__Filters__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Filters</label>
         <length>32768</length>
         <trackTrending>false</trackTrending>
@@ -177,7 +175,6 @@
     <fields>
         <fullName>agf__Reorder_Field__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Reorder Field</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -187,7 +184,6 @@
         <fullName>agf__Show_Velocity_Line__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Show Velocity Line</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -206,7 +202,6 @@
     <fields>
         <fullName>agf__Sort_Direction__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Sort Direction</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -243,7 +238,6 @@
         <fullName>agf__Team__c</fullName>
         <deleteConstraint>Restrict</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Team</label>
         <referenceTo>agf__ADM_Scrum_Team__c</referenceTo>
         <relationshipName>Work_Manager_User_Settings</relationshipName>
@@ -255,7 +249,6 @@
         <fullName>agf__User__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>User</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Work_Manager_User_Settings</relationshipName>
@@ -290,7 +283,6 @@
     <fields>
         <fullName>agf__Visible_Columns__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Visible Columns</label>
         <length>32768</length>
         <trackTrending>false</trackTrending>
