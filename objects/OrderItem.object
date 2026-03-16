@@ -181,6 +181,11 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>QuoteLineItemId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>ReferencePrice</fullName>
     </fields>
     <fields>

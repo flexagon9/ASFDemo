@@ -181,6 +181,10 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
+        <name>standard__Shield</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
         <name>FlexDeploy_Karl_Local</name>
         <type>ConnectedApp</type>
     </appMenuItems>
@@ -203,5 +207,9 @@
     <appMenuItems>
         <name>FlexDeploy_Prod</name>
         <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>standard__Integration</name>
+        <type>CustomApplication</type>
     </appMenuItems>
 </AppMenu>

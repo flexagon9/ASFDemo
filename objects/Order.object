@@ -320,6 +320,11 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>QuoteId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>RelatedOrderId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>

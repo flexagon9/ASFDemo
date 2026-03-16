@@ -25,4 +25,5 @@
     <tabs>Bank_Branch__c</tabs>
     <tabs>Customer__c</tabs>
     <tabs>standard-OmnichannelInventory</tabs>
+    <tabs>standard-Quote</tabs>
 </CustomApplication>

@@ -133,5 +133,10 @@
         <fullName>TaxCode</fullName>
         <inlineHelpText>Tax Code maps products to tax rates. Use the same Tax Code for multiple Tax Rates to apply those rates to the same products in a Tax Treatment.</inlineHelpText>
     </fields>
+    <listViews>
+        <fullName>mine</fullName>
+        <filterScope>Mine</filterScope>
+        <label>My Tax Rates</label>
+    </listViews>
     <sharingModel>Private</sharingModel>
 </CustomObject>

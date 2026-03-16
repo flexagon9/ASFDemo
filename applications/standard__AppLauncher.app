@@ -11,4 +11,5 @@
     <tabs>Sample2__c</tabs>
     <tabs>Bank_Branch__c</tabs>
     <tabs>Customer__c</tabs>
+    <tabs>standard-Quote</tabs>
 </CustomApplication>

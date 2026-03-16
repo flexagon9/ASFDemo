@@ -100,6 +100,9 @@
         <fullName>DistributedAdjustmentTaxAmount</fullName>
     </fields>
     <fields>
+        <fullName>EndDate</fullName>
+    </fields>
+    <fields>
         <fullName>FirstPymtPriceAfterAdjustments</fullName>
     </fields>
     <fields>
@@ -175,6 +178,10 @@
         <fullName>Quantity</fullName>
     </fields>
     <fields>
+        <fullName>QuoteLineItemId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>SalesPrice</fullName>
     </fields>
     <fields>
@@ -182,6 +189,9 @@
     </fields>
     <fields>
         <fullName>Sku</fullName>
+    </fields>
+    <fields>
+        <fullName>StartDate</fullName>
     </fields>
     <fields>
         <fullName>StockCheckMethod</fullName>

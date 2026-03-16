@@ -109,6 +109,9 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>IsPriceInclusive</fullName>
+    </fields>
+    <fields>
         <fullName>MainOrderItemId</fullName>
         <trackHistory>false</trackHistory>
         <type>MasterDetail</type>
@@ -133,6 +136,11 @@
     </fields>
     <fields>
         <fullName>ProductRelationshipTypeId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>RootOrderItemId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>

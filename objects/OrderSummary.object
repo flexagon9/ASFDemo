@@ -132,6 +132,9 @@
         <fullName>EffectiveDate</fullName>
     </fields>
     <fields>
+        <fullName>ExternalCustomerIdReference</fullName>
+    </fields>
+    <fields>
         <fullName>ExternalReferenceIdentifier</fullName>
     </fields>
     <fields>
