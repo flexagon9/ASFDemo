@@ -8,15 +8,7 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>Name</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>FD_Active__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>FD_Workflow_Type__c</field>
+                <field>FD_Active_Version__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
@@ -27,16 +19,12 @@
                 <field>FD_Workflow_Subgroup__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
-                <field>FD_Description__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>FD_Path__c</field>
+                <behavior>Required</behavior>
+                <field>FD_Workflow_Type__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>FD_Active_Version__c</field>
+                <field>Name</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -75,6 +63,12 @@
         <layoutColumns/>
         <style>CustomLinks</style>
     </layoutSections>
+    <miniLayout>
+        <fields>FD_Active_Version__c</fields>
+        <fields>FD_Workflow_Group__c</fields>
+        <fields>FD_Workflow_Subgroup__c</fields>
+        <fields>FD_Workflow_Type__c</fields>
+    </miniLayout>
     <relatedLists>
         <fields>TASK.SUBJECT</fields>
         <fields>TASK.WHO_NAME</fields>
@@ -93,18 +87,6 @@
         <fields>CORE.USERS.FULL_NAME</fields>
         <fields>TASK.LAST_UPDATE</fields>
         <relatedList>RelatedHistoryList</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>NAME</fields>
-        <relatedList>FD_Definition__c.FD_Workflow__c</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>NAME</fields>
-        <relatedList>FD_Project__c.FD_Build_Workflow__c</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>NAME</fields>
-        <relatedList>FD_Project__c.FD_Deploy_Workflow__c</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>

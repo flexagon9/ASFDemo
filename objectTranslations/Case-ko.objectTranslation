@@ -140,11 +140,6 @@
         <label><!-- Test sample custom field --></label>
         <name>Test_sample_custom_field__c</name>
     </fields>
-    <fields>
-        <label><!-- Work --></label>
-        <name>agf__ADM_Work__c</name>
-        <relationshipLabel><!-- Cases --></relationshipLabel>
-    </fields>
     <quickActions>
         <label><!-- CloseCaseLightning --></label>
         <name>CloseCaseLightning</name>

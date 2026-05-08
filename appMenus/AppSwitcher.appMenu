@@ -109,14 +109,6 @@
         <type>ConnectedApp</type>
     </appMenuItems>
     <appMenuItems>
-        <name>agf__Agile_Accelerator</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>agf__Agile_Accelerator_LEX</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
         <name>FlexDeploy_SFDC</name>
         <type>CustomApplication</type>
     </appMenuItems>

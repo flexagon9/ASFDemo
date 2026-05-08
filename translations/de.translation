@@ -1,37 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Translations xmlns="http://soap.sforce.com/2006/04/metadata">
-    <customApplications>
-        <label><!-- DreamHouse --></label>
-        <name>DreamHouse</name>
-    </customApplications>
-    <customApplications>
-        <label><!-- FlexDeploy (SFDC) --></label>
-        <name>FlexDeploy_SFDC</name>
-    </customApplications>
-    <customApplications>
-        <label><!-- TestFDBMCHelix --></label>
-        <name>TestFDBMCHelix</name>
-    </customApplications>
-    <customApplications>
-        <label><!-- Trailblazer --></label>
-        <name>Trailblazer</name>
-    </customApplications>
-    <customApplications>
-        <label><!-- Agile Accelerator --></label>
-        <name>agf__Agile_Accelerator</name>
-    </customApplications>
-    <customApplications>
-        <label><!-- Agile Accelerator --></label>
-        <name>agf__Agile_Accelerator_LEX</name>
-    </customApplications>
-    <customPageWebLinks>
-        <label><!-- FD --></label>
-        <name>FD</name>
-    </customPageWebLinks>
-    <customTabs>
-        <label><!-- Dashboard --></label>
-        <name>Dashboard</name>
-    </customTabs>
+    <customLabels>
+        <label><!-- FD_About_Label --></label>
+        <name>FD_About_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FD ID --></label>
+        <name>FD_ID</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FD_Version_Label --></label>
+        <name>FD_Version_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Test_Custom_Label --></label>
+        <name>Test_Custom_Label</name>
+    </customLabels>
     <customTabs>
         <label><!-- Configure Package XML --></label>
         <name>FlexDeploy</name>
@@ -44,83 +28,463 @@
         <label><!-- Heat Map (Mock) --></label>
         <name>Heat_Map_Mock</name>
     </customTabs>
-    <customTabs>
-        <label><!-- Property Explorer --></label>
-        <name>Property_Explorer1</name>
-    </customTabs>
-    <customTabs>
-        <label><!-- Property Viewer --></label>
-        <name>Property_Viewer</name>
-    </customTabs>
-    <customTabs>
-        <label><!-- Data Import --></label>
-        <name>Sample_Data_Import</name>
-    </customTabs>
-    <customTabs>
-        <label><!-- Testing --></label>
-        <name>Testing</name>
-    </customTabs>
-    <customTabs>
-        <label><!-- Kanban Board --></label>
-        <name>agf__ADM_Kanban_Board</name>
-    </customTabs>
-    <customTabs>
-        <label><!-- Backlog Manager --></label>
-        <name>agf__ADM_Unified_Wall</name>
-    </customTabs>
-    <customTabs>
-        <label><!-- Settings --></label>
-        <name>agf__Gus_Settings</name>
-    </customTabs>
-    <customTabs>
-        <label><!-- My Current Teams --></label>
-        <name>agf__MyTeam</name>
-    </customTabs>
-    <customTabs>
-        <label><!-- My Teams --></label>
-        <name>agf__My_Teams</name>
-    </customTabs>
-    <customTabs>
-        <label><!-- Work Manager --></label>
-        <name>agf__Work_Manager</name>
-    </customTabs>
-    <customTabs>
-        <label><!-- Kanban Board (New) --></label>
-        <name>agf__admBoardKanban</name>
-    </customTabs>
-    <flowDefinitions>
-        <flows/>
-        <fullName>Advertise_New_Property</fullName>
-    </flowDefinitions>
-    <flowDefinitions>
-        <flows/>
-        <fullName>Opportunity_Status_Change</fullName>
-    </flowDefinitions>
-    <flowDefinitions>
-        <flows/>
-        <fullName>Post_Price_Changes_to_Slack</fullName>
-    </flowDefinitions>
-    <flowDefinitions>
-        <flows/>
-        <fullName>Price_Change_Push_Notification</fullName>
-    </flowDefinitions>
-    <flowDefinitions>
-        <flows/>
-        <fullName>Sample_PB</fullName>
-    </flowDefinitions>
-    <flowDefinitions>
-        <flows/>
-        <fullName>f2</fullName>
-    </flowDefinitions>
-    <flowDefinitions>
-        <flows>
-            <screens>
-                <name>Screen_2</name>
-            </screens>
-            <screens>
-                <name>level1</name>
-            </screens>
-        </flows>
-        <fullName>test_flow</fullName>
-    </flowDefinitions>
+    <quickActions>
+        <label><!-- Guest Community Case --></label>
+        <name>GuestCommunityCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- LogACall --></label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewAccount --></label>
+        <name>NewAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewCase --></label>
+        <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Community Case --></label>
+        <name>NewCommunityCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewContact --></label>
+        <name>NewContact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewEvent --></label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Group --></label>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewLead --></label>
+        <name>NewLead</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewNote --></label>
+        <name>NewNote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewOpportunity --></label>
+        <name>NewOpportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewTask --></label>
+        <name>NewTask</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Waypoint --></label>
+        <name>Waypoint</name>
+    </quickActions>
+    <reportTypes>
+        <description><!-- Bot Metrics Daily Winter &apos;23 --></description>
+        <label><!-- Bot Metrics Daily Winter &apos;23 --></label>
+        <name>Bot_Metrics_Daily_v3</name>
+        <sections>
+            <label><!-- Conversation Definition Dialog Daily Metrics --></label>
+            <name>Conversation Definition Dialog Daily Metrics</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Bot Metrics Daily Spring &apos;23 --></description>
+        <label><!-- Bot Metrics Daily Spring &apos;23 --></label>
+        <name>Bot_Metrics_Daily_v4</name>
+        <sections>
+            <label><!-- Conversation Definition Dialog Daily Metrics --></label>
+            <name>Conversation Definition Dialog Daily Metrics</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Bot Metrics Daily Summer &apos;23 --></description>
+        <label><!-- Bot Metrics Daily Summer &apos;23 --></label>
+        <name>Bot_Metrics_Daily_v5</name>
+        <sections>
+            <label><!-- Conversation Definition Dialog Daily Metrics --></label>
+            <name>Conversation Definition Dialog Daily Metrics</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Bot Metrics Hourly Winter &apos;23 --></description>
+        <label><!-- Bot Metrics Hourly Winter &apos;23 --></label>
+        <name>Bot_Metrics_Hourly_v3</name>
+        <sections>
+            <label><!-- Conversation Definition Dialog Hourly Metrics --></label>
+            <name>Conversation Definition Dialog Hourly Metrics</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Bot Metrics Hourly Spring &apos;23 --></description>
+        <label><!-- Bot Metrics Hourly Spring &apos;23 --></label>
+        <name>Bot_Metrics_Hourly_v4</name>
+        <sections>
+            <label><!-- Conversation Definition Dialog Hourly Metrics --></label>
+            <name>Conversation Definition Dialog Hourly Metrics</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Bot Metrics Hourly Summer &apos;23 --></description>
+        <label><!-- Bot Metrics Hourly Summer &apos;23 --></label>
+        <name>Bot_Metrics_Hourly_v5</name>
+        <sections>
+            <label><!-- Conversation Definition Dialog Hourly Metrics --></label>
+            <name>Conversation Definition Dialog Hourly Metrics</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Session Metrics Winter &apos;23 --></description>
+        <label><!-- Session Metrics Winter &apos;23 --></label>
+        <name>Bot_Sessions_v3</name>
+        <sections>
+            <label><!-- Conversation Definition Session Metrics --></label>
+            <name>Conversation Definition Session Metrics</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Session Metrics Spring &apos;23 --></description>
+        <label><!-- Session Metrics Spring &apos;23 --></label>
+        <name>Bot_Sessions_v4</name>
+        <sections>
+            <label><!-- Conversation Definition Session Metrics --></label>
+            <name>Conversation Definition Session Metrics</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Session Metrics Summer &apos;23 --></description>
+        <label><!-- Session Metrics Summer &apos;23 --></label>
+        <name>Bot_Sessions_v5</name>
+        <sections>
+            <label><!-- Conversation Definition Session Metrics --></label>
+            <name>Conversation Definition Session Metrics</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Partner Fund Requests and Partner Fund C --></description>
+        <label><!-- Partner Fund Requests and Partner Fund C --></label>
+        <name>MDF_Claim_Request_Crt</name>
+        <sections>
+            <label><!-- Partner Fund Claims --></label>
+            <name>Partner Fund Claims</name>
+        </sections>
+        <sections>
+            <label><!-- Partner Fund Requests --></label>
+            <name>Partner Fund Requests</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Orchestration Run Logs Spring &apos;24 --></description>
+        <label><!-- Orchestration Run Logs Spring &apos;24 --></label>
+        <name>flow_orchestration_log_ootb_crt_two_four_eight</name>
+        <sections>
+            <label><!-- Orchestration Run Log --></label>
+            <name>Orchestration Run Log</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Orchestration Runs Spring &apos;24 --></description>
+        <label><!-- Orchestration Runs Spring &apos;24 --></label>
+        <name>flow_orchestration_run_ootb_crt_two_four_eight</name>
+        <sections>
+            <label><!-- Orchestration Runs --></label>
+            <name>Orchestration Runs</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Orchestration Stage Runs Spring &apos;24 --></description>
+        <label><!-- Orchestration Stage Runs Spring &apos;24 --></label>
+        <name>flow_orchestration_stage_run_ootb_crt_two_four_eight</name>
+        <sections>
+            <label><!-- Orchestration Stage Runs --></label>
+            <name>Orchestration Stage Runs</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Orchestration Step Runs Spring &apos;24 --></description>
+        <label><!-- Orchestration Step Runs Spring &apos;24 --></label>
+        <name>flow_orchestration_step_run_ootb_crt_two_four_eight</name>
+        <sections>
+            <label><!-- Orchestration Step Runs --></label>
+            <name>Orchestration Step Runs</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Orchestration Work Items Spring &apos;24 --></description>
+        <label><!-- Orchestration Work Items Spring &apos;24 --></label>
+        <name>flow_orchestration_work_item_ootb_crt_two_four_eight</name>
+        <sections>
+            <columns>
+                <label><!-- Orchestration Step Run: Label --></label>
+                <name>Orchestration Step Run: Label</name>
+            </columns>
+            <columns>
+                <label><!-- Orchestration Step Run: Name --></label>
+                <name>Orchestration Step Run: Name</name>
+            </columns>
+            <columns>
+                <label><!-- Orchestration Step Run: Status --></label>
+                <name>Orchestration Step Run: Status</name>
+            </columns>
+            <label><!-- Orchestration Step Runs --></label>
+            <name>Orchestration Step Runs</name>
+        </sections>
+        <sections>
+            <columns>
+                <label><!-- Assigned Group or Queue --></label>
+                <name>Assigned Group or Queue</name>
+            </columns>
+            <columns>
+                <label><!-- Assigned User --></label>
+                <name>Assigned User</name>
+            </columns>
+            <label><!-- Orchestration Work Items --></label>
+            <name>Orchestration Work Items</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Partner Fund Requests --></description>
+        <label><!-- Partner Fund Requests --></label>
+        <name>prm_partner_fund_request_crt</name>
+        <sections>
+            <label><!-- Partner Fund Requests --></label>
+            <name>Partner Fund Requests</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Partner Marketing Budgets --></description>
+        <label><!-- Partner Marketing Budgets --></label>
+        <name>prm_partner_marketing_budget_crt</name>
+        <sections>
+            <label><!-- Partner Marketing Budgets --></label>
+            <name>Partner Marketing Budgets</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Login History for Experience Cloud Site --></description>
+        <label><!-- Login History for Experience Cloud Site --></label>
+        <name>prm_total_portal_login_crt</name>
+        <sections>
+            <label><!-- Login History --></label>
+            <name>Login History</name>
+        </sections>
+        <sections>
+            <label><!-- Network Members --></label>
+            <name>Network Members</name>
+        </sections>
+        <sections>
+            <label><!-- Networks --></label>
+            <name>Networks</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- User Details --></description>
+        <label><!-- User Details --></label>
+        <name>prm_unique_portal_crt</name>
+        <sections>
+            <label><!-- Users --></label>
+            <name>Users</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Screen Flows --></description>
+        <label><!-- Screen Flows --></label>
+        <name>screen_flows_prebuilt_crt</name>
+        <sections>
+            <label><!-- Flow Interview Log Entries --></label>
+            <name>Flow Interview Log Entries</name>
+        </sections>
+        <sections>
+            <label><!-- Flow Interview Logs --></label>
+            <name>Flow Interview Logs</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Payment Authorizations --></description>
+        <label><!-- Payment Authorizations --></label>
+        <name>sfdc_payments_auth_crt</name>
+        <sections>
+            <label><!-- Payment Authorizations --></label>
+            <name>Payment Authorizations</name>
+        </sections>
+        <sections>
+            <label><!-- Payments --></label>
+            <name>Payments</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Payment Authorizations by Merchant --></description>
+        <label><!-- Payment Authorizations by Merchant --></label>
+        <name>sfdc_payments_auth_groupby_merchant_crt</name>
+        <sections>
+            <label><!-- Merchant Accounts --></label>
+            <name>Merchant Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Payment Authorizations --></label>
+            <name>Payment Authorizations</name>
+        </sections>
+        <sections>
+            <label><!-- Payment Gateways --></label>
+            <name>Payment Gateways</name>
+        </sections>
+        <sections>
+            <label><!-- Payments --></label>
+            <name>Payments</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Payment Authorizations by Channel --></description>
+        <label><!-- Payment Authorizations by Channel --></label>
+        <name>sfdc_payments_auth_groupby_sales_crt</name>
+        <sections>
+            <label><!-- Order Payment Summaries --></label>
+            <name>Order Payment Summaries</name>
+        </sections>
+        <sections>
+            <label><!-- Order Summaries --></label>
+            <name>Order Summaries</name>
+        </sections>
+        <sections>
+            <label><!-- Payment Authorizations --></label>
+            <name>Payment Authorizations</name>
+        </sections>
+        <sections>
+            <label><!-- Sales Channels --></label>
+            <name>Sales Channels</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Payment Captures --></description>
+        <label><!-- Payment Captures --></label>
+        <name>sfdc_payments_capture_crt</name>
+        <sections>
+            <columns>
+                <label><!-- Merchant Name --></label>
+                <name>Merchant Name</name>
+            </columns>
+            <label><!-- Merchant Accounts --></label>
+            <name>Merchant Accounts</name>
+        </sections>
+        <sections>
+            <columns>
+                <label><!-- Order Amount --></label>
+                <name>Order Amount</name>
+            </columns>
+            <columns>
+                <label><!-- Order Summary --></label>
+                <name>Order Summary</name>
+            </columns>
+            <label><!-- Order Summaries --></label>
+            <name>Order Summaries</name>
+        </sections>
+        <sections>
+            <label><!-- Payments --></label>
+            <name>Payments</name>
+        </sections>
+        <sections>
+            <columns>
+                <label><!-- Sales Channel --></label>
+                <name>Sales Channel</name>
+            </columns>
+            <label><!-- Sales Channels --></label>
+            <name>Sales Channels</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Payment Captures by Merchant --></description>
+        <label><!-- Payment Captures by Merchant --></label>
+        <name>sfdc_payments_capture_groupby_merchant_crt</name>
+        <sections>
+            <label><!-- Merchant Accounts --></label>
+            <name>Merchant Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Payment Gateways --></label>
+            <name>Payment Gateways</name>
+        </sections>
+        <sections>
+            <label><!-- Payments --></label>
+            <name>Payments</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Payment Captures by Channel --></description>
+        <label><!-- Payment Captures by Channel --></label>
+        <name>sfdc_payments_capture_groupby_sales_crt</name>
+        <sections>
+            <label><!-- Order Payment Summaries --></label>
+            <name>Order Payment Summaries</name>
+        </sections>
+        <sections>
+            <label><!-- Order Summaries --></label>
+            <name>Order Summaries</name>
+        </sections>
+        <sections>
+            <label><!-- Payments --></label>
+            <name>Payments</name>
+        </sections>
+        <sections>
+            <label><!-- Sales Channels --></label>
+            <name>Sales Channels</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Payment Refunds --></description>
+        <label><!-- Payment Refunds --></label>
+        <name>sfdc_payments_refund_crt</name>
+        <sections>
+            <columns>
+                <label><!-- Merchant Name --></label>
+                <name>Merchant Name</name>
+            </columns>
+            <label><!-- Merchant Accounts --></label>
+            <name>Merchant Accounts</name>
+        </sections>
+        <sections>
+            <columns>
+                <label><!-- Order Amount --></label>
+                <name>Order Amount</name>
+            </columns>
+            <columns>
+                <label><!-- Order Summary --></label>
+                <name>Order Summary</name>
+            </columns>
+            <label><!-- Order Summaries --></label>
+            <name>Order Summaries</name>
+        </sections>
+        <sections>
+            <columns>
+                <label><!-- Payment Amount --></label>
+                <name>Payment Amount</name>
+            </columns>
+            <label><!-- Payments --></label>
+            <name>Payments</name>
+        </sections>
+        <sections>
+            <columns>
+                <label><!-- Refund Amount --></label>
+                <name>Refund Amount</name>
+            </columns>
+            <columns>
+                <label><!-- Refund Number --></label>
+                <name>Refund Number</name>
+            </columns>
+            <label><!-- Refund Line Payments --></label>
+            <name>Refund Line Payments</name>
+        </sections>
+        <sections>
+            <columns>
+                <label><!-- Sales Channel --></label>
+                <name>Sales Channel</name>
+            </columns>
+            <label><!-- Sales Channels --></label>
+            <name>Sales Channels</name>
+        </sections>
+    </reportTypes>
 </Translations>

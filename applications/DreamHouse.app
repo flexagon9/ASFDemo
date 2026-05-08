@@ -15,11 +15,8 @@
     <label>DreamHouse</label>
     <navType>Standard</navType>
     <tabs>standard-home</tabs>
-    <tabs>Property_Explorer1</tabs>
-    <tabs>Dashboard</tabs>
     <tabs>Heat_Map_Mock</tabs>
     <tabs>Heat_Map</tabs>
-    <tabs>Sample_Data_Import</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>dreamhouseApplicationUtilityBar</utilityBar>
 </CustomApplication>

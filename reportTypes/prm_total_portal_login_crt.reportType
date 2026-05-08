@@ -414,92 +414,12 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>agf__Certified_Product_Owner__c</field>
-            <table>Network.NetworkMembers</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>agf__Certified_Scrum_Master__c</field>
-            <table>Network.NetworkMembers</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>agf__External_ID__c</field>
-            <table>Network.NetworkMembers</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>agf__GUS_User_Type__c</field>
-            <table>Network.NetworkMembers</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>agf__Notification_Level__c</field>
-            <table>Network.NetworkMembers</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>agf__Product_Owner_Certified_Date__c</field>
-            <table>Network.NetworkMembers</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>agf__Scrum_Master_Certified_Date__c</field>
-            <table>Network.NetworkMembers</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>agf__Show_All_Work_Comments__c</field>
-            <table>Network.NetworkMembers</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>agf__Summary__c</field>
-            <table>Network.NetworkMembers</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>agf__Team_Member_Allocation__c</field>
-            <table>Network.NetworkMembers</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>agf__User_Preference__c</field>
-            <table>Network.NetworkMembers</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>agf__Wall_Preference__c</field>
-            <table>Network.NetworkMembers</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>agf__Work_User_Interface__c</field>
-            <table>Network.NetworkMembers</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
             <field>ExternalID_User__c</field>
             <table>Network.NetworkMembers</table>
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>FD_ExternalId__c</field>
-            <table>Network.NetworkMembers</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>sf_devops__GitHub_Primary_Email_Address__c</field>
-            <table>Network.NetworkMembers</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>agf__Initials__c</field>
-            <table>Network.NetworkMembers</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
-            <field>sf_devops__Bitbucket_Primary_Email_Address__c</field>
             <table>Network.NetworkMembers</table>
         </columns>
         <columns>

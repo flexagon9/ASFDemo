@@ -8,10 +8,6 @@
         <application>standard__Insights</application>
         <visible>true</visible>
     </applicationVisibilities>
-    <classAccesses>
-        <apexClass>PropertyPagedResult</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
     <description>Permission Set generated for access to custom object Waypoint for the FlexDeploy app.</description>
     <fieldPermissions>
         <editable>true</editable>
@@ -51,8 +47,4 @@
         <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
-    <tabSettings>
-        <tab>Dashboard</tab>
-        <visibility>Visible</visibility>
-    </tabSettings>
 </PermissionSet>
