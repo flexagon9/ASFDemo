@@ -1,5 +1,145 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <applicationVisibilities>
+        <application>DreamHouse</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>FlexDeploy_SFDC</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>TestFDBMCHelix</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>Trailblazer</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__AllTabSet</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__AppLauncher</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__Approvals</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__Chatter</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__CommerceV2</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__Community</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__Content</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__DataGovernanceConsole</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__FlowsApp</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__InventoryConsole</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__LightningInstrumentation</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__LightningSales</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__MSJApp</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__Marketing</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__OMConsole</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__PaymentsManagement</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__Platform</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__Sales</application>
+        <default>true</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__SalesCloudMobile</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__SalesforceCMS</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__Service</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__ServiceConsole</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__Shield</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__Sites</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
     <classAccesses>
         <apexClass>ChangePasswordController</apexClass>
         <enabled>false</enabled>
@@ -4175,448 +4315,10 @@
         <field>Waypoint__c.Test_Custom_Field__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    <layoutAssignments>
-        <layout>Acccount__c-Acc Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Acccount__c-Acc Layout</layout>
-        <recordType>Acccount__c.Global_Ecosystem</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Acccount__c-Acc Layout</layout>
-        <recordType>Acccount__c.seller</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Acccount__c-Acc Layout</layout>
-        <recordType>Acccount__c.seller2</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Account-Account Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Account-Account Layout</layout>
-        <recordType>Account.CleanDataService</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Account-Account Layout</layout>
-        <recordType>Account.Global_Ecosystem</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Account-Account Layout</layout>
-        <recordType>Account.seller</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>AccountBrand-Account Brand Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Address-Address Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Address__c-Address Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Asset-Asset Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>AssetAction-Asset Action Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>AssetActionSource-Asset Action Source Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>AssetStatePeriod-Asset State Period Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>AssociatedLocation-Associated Location Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Bank_Branch__c-Bank Branch Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Broker__c-Broker Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>BusinessBrand-Business Brand Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>BuyerAccount-Buyer Account Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Campaign-Campaign Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CampaignInfluence-Campaign Influence Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CampaignInfluenceModel-Campaign Influence Model Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CampaignMember-Campaign Member Page Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CardPaymentMethod-Card Payment Method Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Case-Case Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CaseClose-Close Case Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CollaborationGroup-Group Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CommunityMemberLayout-Community Member Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>ConsumptionRate-Consumption Rate Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>ConsumptionSchedule-Consumption Schedule Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Contact-Contact Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>ContactPointAddress-Contact Point Address Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>ContactPointEmail-Contact Point Email Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>ContactPointPhone-Contact Point Phone Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>ContentVersion-Content Version Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Contract-Contract Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CreditMemo-Credit Memo Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CreditMemoLine-Credit Memo Line Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CspTrustedSite-Trusted URL Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Custom_Object1__c-Custom_Object1 Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Custom_Object1__c-Custom_Object1 Layout</layout>
-        <recordType>Custom_Object1__c.Global_Ecosystem</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Customer-Customer Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Customer__c-Customer Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Customer__c-Customer Layout</layout>
-        <recordType>Customer__c.Test_Record_Label</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>DandBCompany-D%26B Company Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>DelegatedAccount-External Managed Account Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Dependency__c-Dependency Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>DigitalWallet-Digital Wallet Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>DuplicateRecordSet-Duplicate Record Set Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>EmailMessage-Email Message Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Event-Event Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Event-Event Layout</layout>
-        <recordType>Event.event_record_type</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Event-Event Layout</layout>
-        <recordType>Event.event_visit_report</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Event-Event Layout</layout>
-        <recordType>Event.third_type</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>FD_Definition__c-Definition Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>FD_Package_File__c-Package File Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>FD_Package__c-Package Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>FD_Project__c-Project Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>FD_Workflow__c-Workflow Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Favorite__c-Favorite Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>FeedItem-Feed Item Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>FinanceBalanceSnapshot-Finance Balance Snapshot Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>FinanceTransaction-Finance Transaction Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>FlexObject__c-FlexObject Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>FlowRecord-Flow Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>FulfillmentOrder-Fulfillment Order Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>FulfillmentOrderItemAdjustment-Fulfillment Order Item Adjustment Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>FulfillmentOrderItemTax-Fulfillment Order Item Tax Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Global-Global Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Hotal__c-Hotal Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Hotal__c-Hotal Layout</layout>
-        <recordType>Hotal__c.International</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Hotal__c-Hotal Layout</layout>
-        <recordType>Hotal__c.National</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Idea-Idea Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Individual-Individual Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Invoice-Invoice Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>InvoiceLine-Invoice Line Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Journey__c-Journey Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Lead-Lead Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>LegalEntity-Legal Entity Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Location-Location Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Macro-Macro Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Opportunity-Opportunity Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>OpportunityLineItem-Opportunity Product Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Order-Order Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>OrderAdjustmentGroup-Order Adjustment Group Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>OrderAdjustmentGroupSummary-Order Adjustment Group Summary Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>OrderDeliveryGroup-Order Delivery Group Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>OrderDeliveryGroupSummary-Order Delivery Group Summary Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>OrderDeliveryMethod-Order Delivery Method Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>OrderItem-Order Product Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>OrderItemAdjustmentLineItem-Order Product Adjustment Line Item Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>OrderItemAdjustmentLineSummary-Order Product Adjustment Line Item Summary Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>OrderItemSummary-Order Product Summary Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>OrderItemSummaryChange-Order Product Summary Change Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>OrderItemTaxLineItem-Order Product Tax Line Item Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>OrderItemTaxLineItemSummary-Order Product Tax Line Item Summary Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>OrderPaymentSummary-Order Payment Summary Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>OrderSummary-Order Summary Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Payment-Payment Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>PaymentAuthorization-Payment Authorization Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>PaymentGateway-Payment Gateway Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>PaymentGatewayLog-Payment Gateway Log Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>PaymentGroup-Payment Group Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>PaymentLineInvoice-Payment Line Invoice Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Pricebook2-Price Book Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>PricebookEntry-Price Book Entry Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>ProcessException-Process Exception Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Product2-Product Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>ProductConsumptionSchedule-Product Consumption Schedule Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Property__c-Property Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>QuickText-Quick Text Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Quote-Quote Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>QuoteLineItem-Quote Line Item Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Refund-Refund Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>RefundLinePayment-Refund Line Payment Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Room__c-Room Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Room__c-Room Layout</layout>
-        <recordType>Room__c.Duplex</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Room__c-Room Layout</layout>
-        <recordType>Room__c.Super</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SalesChannel-Sales Channel Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Sample1__c-Sample1 Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Sample2__c-Sample2 Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Sample_Custom_MDT__mdt-Sample Custom MDT Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Sample_custom_metadata__mdt-Sample custom metadata Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Scorecard-Scorecard Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>ScorecardAssociation-Scorecard Association Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>ScorecardMetric-Scorecard Metric Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Seller-Seller Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>SocialPersona-Social Persona Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Solution-Solution Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Summary__c-Summary Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Summary__c-Summary Layout</layout>
-        <recordType>Summary__c.Illingworth_Proposal</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Task-Task Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Test_sample__c-Test_sample Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Topology__c-Topology Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>User-User Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>UserAlt-User Profile Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>UserProvAccount-User Provisioning Account Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>UserProvisioningLog-User Provisioning Log Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>UserProvisioningRequest-User Provisioning Request Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Waypoint__c-Waypoint Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>test__mdt-test Layout</layout>
-    </layoutAssignments>
+    <flowAccesses>
+        <enabled>false</enabled>
+        <flow>test_flow</flow>
+    </flowAccesses>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -5147,6 +4849,130 @@
         <viewAllFields>false</viewAllFields>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
+    <pageAccesses>
+        <apexPage>AnswersHome</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>BandwidthExceeded</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>ChangePassword</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>CommunitiesLanding</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>CommunitiesLogin</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>CommunitiesSelfReg</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>CommunitiesSelfRegConfirm</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>DemoPage</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>Exception</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>FileNotFound</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>ForgotPassword</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>ForgotPasswordConfirm</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>HeatMap</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>HeatMapMock</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>InMaintenance</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>MicrobatchSelfReg</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>MyProfilePage</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>Opportunity_PDF</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>SiteLogin</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>SiteRegister</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>SiteRegisterConfirm</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>SiteTemplate</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>StdExceptionTemplate</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>SutePageControllerPage</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>TestDemoPage</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>TestFlexPage</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>TestPage4</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>Unauthorized</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>UnderConstruction</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>test_sample_page</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>testing_page</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Acccount__c.Global_Ecosystem</recordType>

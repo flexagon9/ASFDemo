@@ -33,7 +33,7 @@
                     </groupingSorts>
                 </groupingSortProperties>
                 <legendPosition>Bottom</legendPosition>
-                <report>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_spring24_reportsSPLIT1753476690206/prm_spring24_ch_marketing_reports_folderSPLIT1753476690206/prm_mdf_approved_request_by_partnerSPLIT1753476690206</report>
+                <report>prm_spring24_ch_marketing_reports_folderSPLIT1753476690206/prm_mdf_approved_request_by_partnerSPLIT1753476690206</report>
                 <showPercentage>false</showPercentage>
                 <showPicturesOnCharts>false</showPicturesOnCharts>
                 <showValues>true</showValues>
@@ -70,7 +70,7 @@
                     </groupingSorts>
                 </groupingSortProperties>
                 <legendPosition>Bottom</legendPosition>
-                <report>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_spring24_reportsSPLIT1753476690206/prm_spring24_ch_marketing_reports_folderSPLIT1753476690206/prm_submitted_claim_by_partnerSPLIT1753476690206</report>
+                <report>prm_spring24_ch_marketing_reports_folderSPLIT1753476690206/prm_submitted_claim_by_partnerSPLIT1753476690206</report>
                 <showPercentage>false</showPercentage>
                 <showPicturesOnCharts>false</showPicturesOnCharts>
                 <showValues>true</showValues>
@@ -113,7 +113,7 @@
                         <sortOrder>a</sortOrder>
                     </groupingSorts>
                 </groupingSortProperties>
-                <report>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_spring24_reportsSPLIT1753476690206/prm_spring24_ch_marketing_reports_folderSPLIT1753476690206/prm_total_marketing_budgetSPLIT1753476690206</report>
+                <report>prm_spring24_ch_marketing_reports_folderSPLIT1753476690206/prm_total_marketing_budgetSPLIT1753476690206</report>
                 <title>Total Partner Marketing Budget</title>
             </dashboardComponent>
             <rowIndex>0</rowIndex>
@@ -144,7 +144,7 @@
                     </groupingSorts>
                 </groupingSortProperties>
                 <legendPosition>Bottom</legendPosition>
-                <report>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_spring24_reportsSPLIT1753476690206/prm_spring24_ch_marketing_reports_folderSPLIT1753476690206/prm_approved_claim_by_partnerSPLIT1753476690206</report>
+                <report>prm_spring24_ch_marketing_reports_folderSPLIT1753476690206/prm_approved_claim_by_partnerSPLIT1753476690206</report>
                 <showPercentage>false</showPercentage>
                 <showPicturesOnCharts>false</showPicturesOnCharts>
                 <showValues>true</showValues>
@@ -181,7 +181,7 @@
                     </groupingSorts>
                 </groupingSortProperties>
                 <legendPosition>Bottom</legendPosition>
-                <report>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_spring24_reportsSPLIT1753476690206/prm_spring24_ch_marketing_reports_folderSPLIT1753476690206/prm_mdf_submitted_request_by_partnerSPLIT1753476690206</report>
+                <report>prm_spring24_ch_marketing_reports_folderSPLIT1753476690206/prm_mdf_submitted_request_by_partnerSPLIT1753476690206</report>
                 <showPercentage>false</showPercentage>
                 <showPicturesOnCharts>false</showPicturesOnCharts>
                 <showValues>true</showValues>

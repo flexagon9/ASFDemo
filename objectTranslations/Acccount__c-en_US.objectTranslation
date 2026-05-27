@@ -8,11 +8,6 @@
         <plural>true</plural>
         <value>Accounts</value>
     </caseValues>
-    <fields>
-        <help><!-- Test Help Text --></help>
-        <label><!-- Active --></label>
-        <name>Active__c</name>
-    </fields>
     <layouts>
         <layout>Acc Layout</layout>
         <sections>
@@ -24,18 +19,5 @@
             <section>FD Test</section>
         </sections>
     </layouts>
-    <recordTypes>
-        <description><!-- Global Innovation Ecosystem --></description>
-        <label><!-- Global Innovation Ecosystem --></label>
-        <name>Global_Ecosystem</name>
-    </recordTypes>
-    <recordTypes>
-        <label><!-- Individual seller --></label>
-        <name>seller</name>
-    </recordTypes>
-    <recordTypes>
-        <label><!-- seller2 --></label>
-        <name>seller2</name>
-    </recordTypes>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

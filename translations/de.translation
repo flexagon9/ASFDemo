@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customApplications>
+        <label><!-- DreamHouse --></label>
+        <name>DreamHouse</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- FlexDeploy (SFDC) --></label>
+        <name>FlexDeploy_SFDC</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- TestFDBMCHelix --></label>
+        <name>TestFDBMCHelix</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Trailblazer --></label>
+        <name>Trailblazer</name>
+    </customApplications>
     <customLabels>
         <label><!-- FD_About_Label --></label>
         <name>FD_About_Label</name>
@@ -16,6 +32,10 @@
         <label><!-- Test_Custom_Label --></label>
         <name>Test_Custom_Label</name>
     </customLabels>
+    <customPageWebLinks>
+        <label><!-- FD --></label>
+        <name>FD</name>
+    </customPageWebLinks>
     <customTabs>
         <label><!-- Configure Package XML --></label>
         <name>FlexDeploy</name>
@@ -28,6 +48,17 @@
         <label><!-- Heat Map (Mock) --></label>
         <name>Heat_Map_Mock</name>
     </customTabs>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <name>Screen_2</name>
+            </screens>
+            <screens>
+                <name>level1</name>
+            </screens>
+        </flows>
+        <fullName>test_flow</fullName>
+    </flowDefinitions>
     <quickActions>
         <label><!-- Guest Community Case --></label>
         <name>GuestCommunityCase</name>

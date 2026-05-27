@@ -8,38 +8,5 @@
         <plural>true</plural>
         <value>Rooms</value>
     </caseValues>
-    <fields>
-        <label><!-- Hotal --></label>
-        <name>Hotal__c</name>
-        <relationshipLabel><!-- Rooms --></relationshipLabel>
-    </fields>
-    <fields>
-        <label><!-- Occupancy --></label>
-        <name>Occupancy__c</name>
-        <picklistValues>
-            <masterLabel>1</masterLabel>
-            <translation><!-- 1 --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>2</masterLabel>
-            <translation><!-- 2 --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>3</masterLabel>
-            <translation><!-- 3 --></translation>
-        </picklistValues>
-    </fields>
-    <fields>
-        <label><!-- Tariff --></label>
-        <name>Tariff__c</name>
-    </fields>
-    <recordTypes>
-        <label><!-- Duplex --></label>
-        <name>Duplex</name>
-    </recordTypes>
-    <recordTypes>
-        <label><!-- Super --></label>
-        <name>Super</name>
-    </recordTypes>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

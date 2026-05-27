@@ -8,9 +8,5 @@
         <plural>true</plural>
         <value>Journeys</value>
     </caseValues>
-    <fields>
-        <label><!-- Journey Date --></label>
-        <name>Journey_Date__c</name>
-    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

@@ -20,7 +20,7 @@
                 <enableHover>false</enableHover>
                 <expandOthers>false</expandOthers>
                 <groupingSortProperties/>
-                <report>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_winter24_reportsSPLIT1753476690206/prm_winter24_ch_sales_reports_folderSPLIT1753476690206/prm_lead_conversionSPLIT1753476690206</report>
+                <report>prm_winter24_ch_sales_reports_folderSPLIT1753476690206/prm_lead_conversionSPLIT1753476690206</report>
                 <showPercentage>false</showPercentage>
                 <showPicturesOnCharts>false</showPicturesOnCharts>
                 <showValues>false</showValues>
@@ -44,7 +44,7 @@
                 <enableHover>false</enableHover>
                 <expandOthers>false</expandOthers>
                 <groupingSortProperties/>
-                <report>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_winter24_reportsSPLIT1753476690206/prm_winter24_ch_sales_reports_folderSPLIT1753476690206/prm_open_opportunity_by_stageSPLIT1753476690206</report>
+                <report>prm_winter24_ch_sales_reports_folderSPLIT1753476690206/prm_open_opportunity_by_stageSPLIT1753476690206</report>
                 <showPercentage>false</showPercentage>
                 <showPicturesOnCharts>false</showPicturesOnCharts>
                 <showValues>false</showValues>
@@ -68,7 +68,7 @@
                 <enableHover>false</enableHover>
                 <expandOthers>false</expandOthers>
                 <groupingSortProperties/>
-                <report>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_winter24_reportsSPLIT1753476690206/prm_winter24_ch_sales_reports_folderSPLIT1753476690206/prm_open_opportunity_by_partnerSPLIT1753476690206</report>
+                <report>prm_winter24_ch_sales_reports_folderSPLIT1753476690206/prm_open_opportunity_by_partnerSPLIT1753476690206</report>
                 <showPercentage>false</showPercentage>
                 <showPicturesOnCharts>false</showPicturesOnCharts>
                 <showValues>false</showValues>
@@ -125,7 +125,7 @@
                     <hideChatterPhotos>true</hideChatterPhotos>
                 </flexComponentProperties>
                 <groupingSortProperties/>
-                <report>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_winter24_reportsSPLIT1753476690206/prm_winter24_ch_sales_reports_folderSPLIT1753476690206/prm_opportunity_by_amountSPLIT1753476690206</report>
+                <report>prm_winter24_ch_sales_reports_folderSPLIT1753476690206/prm_opportunity_by_amountSPLIT1753476690206</report>
                 <title>Top Opportunities</title>
             </dashboardComponent>
             <rowIndex>8</rowIndex>
@@ -143,7 +143,7 @@
                 <enableHover>false</enableHover>
                 <expandOthers>false</expandOthers>
                 <groupingSortProperties/>
-                <report>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_winter24_reportsSPLIT1753476690206/prm_winter24_ch_sales_reports_folderSPLIT1753476690206/prm_revenue_closedSPLIT1753476690206</report>
+                <report>prm_winter24_ch_sales_reports_folderSPLIT1753476690206/prm_revenue_closedSPLIT1753476690206</report>
                 <showPercentage>false</showPercentage>
                 <showPicturesOnCharts>false</showPicturesOnCharts>
                 <showValues>false</showValues>

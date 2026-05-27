@@ -8,10 +8,5 @@
         <plural>true</plural>
         <value>CustomObject1</value>
     </caseValues>
-    <recordTypes>
-        <description><!-- Global Innovation Ecosystem --></description>
-        <label><!-- Global Innovation Ecosystem test --></label>
-        <name>Global_Ecosystem</name>
-    </recordTypes>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

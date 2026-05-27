@@ -8,13 +8,5 @@
         <plural>true</plural>
         <value>Samples</value>
     </caseValues>
-    <fields>
-        <label><!-- Sample ExternalId1 --></label>
-        <name>Sample_ExternalId1__c</name>
-    </fields>
-    <fields>
-        <label><!-- Sample text1 --></label>
-        <name>Sample_text1__c</name>
-    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

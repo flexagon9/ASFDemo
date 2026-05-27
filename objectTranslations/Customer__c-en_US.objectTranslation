@@ -8,25 +8,5 @@
         <plural>true</plural>
         <value>Customers</value>
     </caseValues>
-    <fieldSets>
-        <label><!-- xxxcxc --></label>
-        <name>xxxcxc</name>
-    </fieldSets>
-    <fields>
-        <label><!-- Customer_Externalid --></label>
-        <name>Customer_Externalid__c</name>
-    </fields>
-    <fields>
-        <label><!-- Email --></label>
-        <name>Email__c</name>
-    </fields>
-    <fields>
-        <label><!-- Phone No --></label>
-        <name>Phone_No__c</name>
-    </fields>
-    <recordTypes>
-        <label><!-- Test Record Label2 --></label>
-        <name>Test_Record_Label</name>
-    </recordTypes>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
