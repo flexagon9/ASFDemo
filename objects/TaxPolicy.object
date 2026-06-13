@@ -117,19 +117,24 @@
     <externalSharingModel>ReadWrite</externalSharingModel>
     <fields>
         <fullName>DefaultTaxTreatmentId</fullName>
+        <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
         <fullName>Description</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>Name</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>Status</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>TreatmentSelection</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

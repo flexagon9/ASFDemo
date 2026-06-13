@@ -117,28 +117,40 @@
     <externalSharingModel>ReadWrite</externalSharingModel>
     <fields>
         <fullName>Description</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>ExternalReference</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>MerchantCredentialId</fullName>
+        <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
         <fullName>SellerCode</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>Status</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TaxEngineAddress</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>TaxEngineName</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>TaxPrvdAccountIdentifier</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>Type</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

@@ -160,6 +160,11 @@
         <fullName>GoalType</fullName>
     </fields>
     <fields>
+        <fullName>OwnerId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>ParentRecordId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>

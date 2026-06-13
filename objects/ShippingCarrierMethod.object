@@ -146,6 +146,14 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>ProcessingTime</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ProcessingTimeUnit</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>ShippingAreaType</fullName>
         <trackHistory>false</trackHistory>
     </fields>

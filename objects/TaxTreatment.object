@@ -117,33 +117,42 @@
     <externalSharingModel>ReadWrite</externalSharingModel>
     <fields>
         <fullName>Description</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>LegalEntityId</fullName>
+        <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
         <fullName>Name</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>ProductCode</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>ProductId</fullName>
+        <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
         <fullName>Status</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>TaxCode</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>TaxEngineId</fullName>
+        <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
         <fullName>TaxPolicyId</fullName>
+        <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <sharingModel>ReadWrite</sharingModel>

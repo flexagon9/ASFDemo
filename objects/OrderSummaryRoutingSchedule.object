@@ -130,6 +130,10 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>OrderDeliveryGroupSummaryId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>OrderSummaryId</fullName>
         <type>MasterDetail</type>
     </fields>

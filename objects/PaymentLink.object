@@ -134,6 +134,9 @@
         <inlineHelpText>Set an expiration date and time based on the running user&apos;s time zone not your org&apos;s time zone</inlineHelpText>
     </fields>
     <fields>
+        <fullName>IsBusinessAccountPayment</fullName>
+    </fields>
+    <fields>
         <fullName>PaymentInitiationSource</fullName>
     </fields>
     <fields>

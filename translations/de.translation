@@ -49,6 +49,10 @@
         <name>Heat_Map_Mock</name>
     </customTabs>
     <flowDefinitions>
+        <flows/>
+        <fullName>sfdc_default_ReportExport_Protection_Flow</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
         <flows>
             <screens>
                 <name>Screen_2</name>

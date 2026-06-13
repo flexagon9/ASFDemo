@@ -117,22 +117,28 @@
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <fields>
         <fullName>Description</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>Name</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>ProductCode</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>ProductId</fullName>
+        <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
         <fullName>TaxCode</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>TaxTreatmentId</fullName>
+        <trackHistory>false</trackHistory>
         <type>MasterDetail</type>
     </fields>
     <sharingModel>ControlledByParent</sharingModel>
