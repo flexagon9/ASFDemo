@@ -4333,6 +4333,93 @@
         <enabled>false</enabled>
         <flow>test_flow</flow>
     </flowAccesses>
+    <layoutAssignments>
+        <layout>Acccount__c-Acc Layout</layout>
+        <recordType>Acccount__c.Global_Ecosystem</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Acccount__c-Acc Layout</layout>
+        <recordType>Acccount__c.seller</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Acccount__c-Acc Layout</layout>
+        <recordType>Acccount__c.seller2</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AccountBrand-Account Brand Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CampaignInfluence-Campaign Influence Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CspTrustedSite-Trusted URL Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Custom_Object1__c-Custom_Object1 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Custom_Object1__c-Custom_Object1 Layout</layout>
+        <recordType>Custom_Object1__c.Global_Ecosystem</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Dependency__c-Dependency Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FlexObject__c-FlexObject Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FlowRecord-Flow Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Hotal__c-Hotal Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Hotal__c-Hotal Layout</layout>
+        <recordType>Hotal__c.International</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Hotal__c-Hotal Layout</layout>
+        <recordType>Hotal__c.National</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Journey__c-Journey Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Quote-Quote Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>QuoteLineItem-Quote Line Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Room__c-Room Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Room__c-Room Layout</layout>
+        <recordType>Room__c.Duplex</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Room__c-Room Layout</layout>
+        <recordType>Room__c.Super</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Sample_Custom_MDT__mdt-Sample Custom MDT Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Sample_custom_metadata__mdt-Sample custom metadata Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Summary__c-Summary Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Summary__c-Summary Layout</layout>
+        <recordType>Summary__c.Illingworth_Proposal</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Topology__c-Topology Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>test__mdt-test Layout</layout>
+    </layoutAssignments>
     <pageAccesses>
         <apexPage>AnswersHome</apexPage>
         <enabled>false</enabled>

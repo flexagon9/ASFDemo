@@ -41,16 +41,5 @@
         <value><!-- Broker --></value>
     </caseValues>
     <gender><!-- Neuter --></gender>
-    <layouts>
-        <layout>Broker Layout</layout>
-        <sections>
-            <label><!-- Custom Links --></label>
-            <section>Custom Links</section>
-        </sections>
-        <sections>
-            <label><!-- Picture --></label>
-            <section>Picture</section>
-        </sections>
-    </layouts>
     <nameFieldLabel><!-- Broker Name --></nameFieldLabel>
 </CustomObjectTranslation>
