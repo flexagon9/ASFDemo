@@ -130,6 +130,12 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>BasketExternalReference</fullName>
+    </fields>
+    <fields>
+        <fullName>ChannelType</fullName>
+    </fields>
+    <fields>
         <fullName>InventoryReservationExtRef</fullName>
     </fields>
     <fields>

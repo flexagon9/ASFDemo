@@ -161,6 +161,10 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>QuoteLineItemCount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>Status</fullName>
         <trackHistory>false</trackHistory>
     </fields>
