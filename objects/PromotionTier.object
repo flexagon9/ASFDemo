@@ -142,5 +142,10 @@
         <fullName>Rank</fullName>
         <trackHistory>false</trackHistory>
     </fields>
+    <fields>
+        <fullName>TierLabel</fullName>
+        <inlineHelpText>The name buyers see when this promotion tier is applied to a cart.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
     <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>
