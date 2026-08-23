@@ -83,6 +83,19 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>CollaborationLockedAt</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CollaborationLockedById</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CollaborationStatus</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>FirstPymtGrandTotalAmount</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -132,6 +145,11 @@
     <fields>
         <fullName>IsSecondary</fullName>
         <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>LastOperationJobId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>LastRepricingDate</fullName>
