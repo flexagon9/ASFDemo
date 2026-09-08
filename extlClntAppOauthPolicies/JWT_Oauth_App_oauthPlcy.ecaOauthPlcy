@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ExtlClntAppOauthConfigurablePolicies xmlns="http://soap.sforce.com/2006/04/metadata">
-    <commaSeparatedProfile>System Administrator,FlexDeploy AdminUser</commaSeparatedProfile>
+    <commaSeparatedProfile>FlexDeploy AdminUser,System Administrator</commaSeparatedProfile>
     <externalClientApplication>JWT_Oauth_App</externalClientApplication>
     <ipRelaxationPolicyType>Enforce</ipRelaxationPolicyType>
     <isClientCredentialsFlowEnabled>false</isClientCredentialsFlowEnabled>
